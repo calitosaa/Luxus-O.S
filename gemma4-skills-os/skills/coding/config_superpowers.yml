@@ -1,0 +1,13 @@
+---
+source_repo: https://github.com/obra/superpowers
+source_file: .github/ISSUE_TEMPLATE/config.yml
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+blank_issues_enabled: false
+contact_links:
+  - name: Questions & Help
+    url: https://discord.gg/35wsABTejz
+    about: For usage questions, troubleshooting help, and general discussion, please visit our Discord instead of opening an issue.

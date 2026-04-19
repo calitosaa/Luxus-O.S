@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/meticha/material-3-expressive-catalog
+source_file: .github/CODEOWNERS
+license: Apache-2.0
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+* @cavin-macwan
