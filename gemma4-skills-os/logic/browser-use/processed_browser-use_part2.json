@@ -1,0 +1,4605 @@
+d": "6fd2fbb1-9f43-4c46-be42-569a892648e6",
+        "domain": "Shopping",
+        "subdomain": "General",
+        "confirmed_task": "Add a smartwatch to the cart that is compatible with an iPhone.",
+        "action_reprs": [
+            "[textbox]  Search Amazon -> TYPE: smartwatch",
+            "[button]  smartwatches -> CLICK",
+            "[i]   -> CLICK",
+            "[img]  Sponsored Ad - SKG V9C Smart Watch for Men Women, ... -> CLICK",
+            "[button]  Add to Cart -> CLICK"
+        ]
+    },
+    {
+        "website": "cabelas",
+        "id": "afb693cd-57cb-4468-9f7f-d965ee530913",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find the discount black insulated hunting boots for Men with average ratings over 3.5 stars",
+        "action_reprs": [
+            "[link]  Bargain Cave -> CLICK",
+            "[link]  Men's Shoes & Boots -> CLICK",
+            "[label]  Boots -> CLICK",
+            "[label]  Sale -> CLICK",
+            "[div]  Color -> CLICK",
+            "[label]  Black -> CLICK",
+            "[div]  Average Ratings -> CLICK",
+            "[label]  .Stars::before { -> CLICK"
+        ]
+    },
+    {
+        "website": "cabelas",
+        "id": "e9a5ab90-517c-4323-a343-6e10e6b9632f",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find the gift registry of Carla Cahill, when asked for password use Michael Cahill as name and cahillm@gmail.com as email.",
+        "action_reprs": [
+            "[link]  Gift Registry -> CLICK",
+            "[span]  Find a Registry -> CLICK",
+            "[textbox]  First Name -> TYPE: Carla",
+            "[textbox]  Last Name -> TYPE: Cahill",
+            "[link]  SEARCH -> CLICK",
+            "[span]  View -> CLICK",
+            "[link]  I don't have the password -> CLICK",
+            "[textbox]  Your Name -> TYPE: Michael Cahill",
+            "[textbox]  Your Email -> TYPE: cahillm@gmail.com",
+            "[link]  REQUEST PASSWORD -> CLICK"
+        ]
+    },
+    {
+        "website": "cabelas",
+        "id": "ee9e993b-0254-465d-bb04-072e01e5f498",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Browse the selection of fishing reels that are power assisted and are in stock.",
+        "action_reprs": [
+            "[link]  Fishing -> CLICK",
+            "[menuitem]  FISHING REELS -> CLICK",
+            "[link]  Power Assisted Reels (6) -> CLICK",
+            "[label]  In Stock -> CLICK"
+        ]
+    },
+    {
+        "website": "cabelas",
+        "id": "eebf3f55-1a4d-4cdf-81c1-2fa3002bed6d",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find the cheapest Keen branded new pair of women's hiking shoes in the color brown, number 9, available in Columbus, Ohio store, average rating must be above 4.",
+        "action_reprs": [
+            "[link]  Footwear -> CLICK",
+            "[menuitem]  Hiking Boots -> CLICK",
+            "[svg]   -> CLICK",
+            "[label]  Brown -> CLICK",
+            "[svg]   -> CLICK",
+            "[label]  9 -> CLICK",
+            "[label]  Available in Store -> CLICK",
+            "[label]  KEEN -> CLICK",
+            "[svg]   -> CLICK",
+            "[label]  .Stars::before { -> CLICK",
+            "[span]  Sort by: -> CLICK",
+            "[div]  Price (Low to High) -> CLICK"
+        ]
+    },
+    {
+        "website": "yelp",
+        "id": "f738b393-9234-4c07-8baf-20f05627d5ed",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Find the highest-reviewed landscaper in West Hollywood for the design of lawn, who gives fast responses, and make sure he has a license verified by Yelp.",
+        "action_reprs": [
+            "[link]  Home Services -> HOVER",
+            "[span]  Landscaping -> CLICK",
+            "[textbox]  Near -> TYPE: WEST HOLLYWOOD",
+            "[span]  West Hollywood -> CLICK",
+            "[radio]   Lawns or greenscapes -> CLICK",
+            "[button]  Fast-responding -> CLICK",
+            "[button]  Recommended -> CLICK",
+            "[span]  Most Reviewed -> CLICK",
+            "[button]  Verified License -> CLICK",
+            "[button]  Got it -> CLICK"
+        ]
+    },
+    {
+        "website": "yelp",
+        "id": "fd2e9403-3201-4bb7-a19d-f475960cf5be",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Browse Thai restaurants that offer delivery and have vegan options available.",
+        "action_reprs": [
+            "[textbox]  Find -> TYPE: thai restaurants",
+            "[span]  Thai Restaurants -> CLICK",
+            "[button]  Offers Delivery -> CLICK",
+            "[span]  1 -> CLICK",
+            "[button]  See all -> CLICK",
+            "[checkbox]   Vegan -> CLICK",
+            "[button]  Add -> CLICK"
+        ]
+    },
+    {
+        "website": "united",
+        "id": "4770e887-f523-4609-a989-ded8c8abad19",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find a round trip economy flight from Pune to New York in June and select the fully refundable.",
+        "action_reprs": [
+            "[combobox]  Enter your departing city, airport name, or airpor... -> TYPE: Pune",
+            "[button]  Pune, IN (PNQ) -> CLICK",
+            "[combobox]  Enter your destination city, airport name, or airp... -> TYPE: New York",
+            "[button]  New York, NY, US (NYC - All Airports) -> CLICK",
+            "[button]  Find flights -> CLICK",
+            "[button]  Roundtrip $2,984 Select fare for Economy (fully re... -> CLICK"
+        ]
+    },
+    {
+        "website": "ryanair",
+        "id": "6d87b507-14dd-4903-a131-fa089499ccb5",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find a flight From Dublin To Athens Greece for 1 Adult that leaves on April 1 and returns April 5th.",
+        "action_reprs": [
+            "[textbox]  To -> CLICK",
+            "[button]  Greece -> CLICK",
+            "[button]  Athens -> CLICK",
+            "[div]  Apr -> CLICK",
+            "[generic]  2 -> CLICK",
+            "[div]  May 2023 -> CLICK",
+            "[div]  Apr -> CLICK",
+            "[div]  Choose date -> CLICK",
+            "[generic]  5 -> CLICK",
+            "[button]  Search -> CLICK",
+            "[button]  Select -> CLICK",
+            "[button]  Select -> CLICK"
+        ]
+    },
+    {
+        "website": "ryanair",
+        "id": "7219145b-ada1-480e-a8ea-f4fe164ca84a",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Book a one way ticket from Faro to Bournemouth leaving on 30th April, with a value fare, for a passenger named Mr. Joe Bloggs. Don't select now and  only take 1 small bag onboard.",
+        "action_reprs": [
+            "[path]   -> CLICK",
+            "[textbox]  From -> TYPE: faro",
+            "[span]  Faro -> CLICK",
+            "[textbox]  To -> TYPE: bournemouth",
+            "[span]  Bournemouth -> CLICK",
+            "[generic]  30 -> CLICK",
+            "[div]   -> CLICK",
+            "[button]  Search -> CLICK",
+            "[button]  Select -> CLICK",
+            "[button]  Continue for $ 148 . 16 -> CLICK",
+            "[button]  Continue with Value fare -> CLICK",
+            "[button]  Log in later -> CLICK",
+            "[button]  - -> CLICK",
+            "[div]  Mr -> CLICK",
+            "[textbox]  First name -> TYPE: Joe",
+            "[textbox]  Last name -> TYPE: Bloggs",
+            "[button]  Continue -> CLICK",
+            "[button]  Continue -> CLICK",
+            "[button]  Okay, got it. -> CLICK",
+            "[img]  undefined -> CLICK",
+            "[button]  Continue without a seat -> CLICK",
+            "[div]  1 Small Bag only -> CLICK",
+            "[label]   -> CLICK",
+            "[button]  Continue -> CLICK",
+            "[button]  No thanks -> CLICK",
+            "[button]  Continue -> CLICK",
+            "[button]  Continue -> CLICK"
+        ]
+    },
+    {
+        "website": "eventbrite",
+        "id": "b5b56e9a-afef-4d1a-bd62-dddc058fdc81",
+        "domain": "Entertainment",
+        "subdomain": "Event",
+        "confirmed_task": "Search for an engineering open job in Madrid, Spain, if found apply with my details after picking office location, company success and career oppurtunity as applying reason. My name is James Smith and email is buckeye.foobar@gmail.com",
+        "action_reprs": [
+            "[link]  Careers -> CLICK",
+            "[link]  here -> CLICK",
+            "[checkbox]   Engineering (41 items) -> CLICK",
+            "[checkbox]   Spain (18 items) -> CLICK",
+            "[checkbox]   Madrid (2 items) -> CLICK",
+            "[link]  Title: IT Support Engineer -> CLICK",
+            "[textbox]  First Name (as per passport) (required) -> TYPE: James",
+            "[textbox]  Last Name (required) -> TYPE: Smith",
+            "[textbox]  Email (required) -> TYPE: buckeye.foobar@gmail.com",
+            "[checkbox]  Career opportunity Career opportunity -> CLICK",
+            "[checkbox]  Office location Office location -> CLICK",
+            "[checkbox]  Company success Company success -> CLICK",
+            "[button]  Apply -> CLICK"
+        ]
+    },
+    {
+        "website": "eventbrite",
+        "id": "cd8d723a-7a9f-4bd6-a8b9-75babb60835c",
+        "domain": "Entertainment",
+        "subdomain": "Event",
+        "confirmed_task": "Find information on how to get a ticket refund.",
+        "action_reprs": [
+            "[span]  Help -> HOVER",
+            "[div]  Visit the help center -> CLICK",
+            "[link]  Request a refund -> CLICK"
+        ]
+    },
+    {
+        "website": "uniqlo",
+        "id": "42657330-bfc5-425d-ae21-396a9ba1fb12",
+        "domain": "Shopping",
+        "subdomain": "Fashion",
+        "confirmed_task": "Find yellow t-shirts for women small size that are less than $20.",
+        "action_reprs": [
+            "[link]  WOMEN -> CLICK",
+            "[RootWebArea]  Women's, Men's & Kids' Clothing & Accessories | UN... -> CLICK",
+            "[searchbox]  Search by keyword -> TYPE: women t-shirts",
+            "[div]  WOMEN / Tops -> CLICK",
+            "[gridcell]  Size -> CLICK",
+            "[label]  S -> CLICK",
+            "[gridcell]  Color -> CLICK",
+            "[label]  YELLOW -> CLICK",
+            "[gridcell]  Price -> CLICK",
+            "[label]  $10-$20 -> CLICK"
+        ]
+    },
+    {
+        "website": "uniqlo",
+        "id": "7c28f4e3-3dcf-477b-98c3-087c4fc16655",
+        "domain": "Shopping",
+        "subdomain": "Fashion",
+        "confirmed_task": "Locate a store which is nearest to 10017 zip code.",
+        "action_reprs": [
+            "[link]  Store Locator -> CLICK",
+            "[searchbox]  Postal code, address, store name -> TYPE: 10017",
+            "[path]   -> CLICK",
+            "[button]  UNIQLO 5th Ave 0.7 miles WOMEN, MEN, KIDS, BABY Fl... -> CLICK"
+        ]
+    },
+    {
+        "website": "uniqlo",
+        "id": "7f94386a-d032-43cf-9dbe-2b64430c9c28",
+        "domain": "Shopping",
+        "subdomain": "Fashion",
+        "confirmed_task": "locate the store in IL",
+        "action_reprs": [
+            "[link]  Store Locator -> CLICK",
+            "[input]   -> CLICK",
+            "[option]  IL -> CLICK"
+        ]
+    },
+    {
+        "website": "uniqlo",
+        "id": "84d8a4df-0bba-45f9-b4c8-f5d455de451c",
+        "domain": "Shopping",
+        "subdomain": "Fashion",
+        "confirmed_task": "Add one baby one piece to cart.",
+        "action_reprs": [
+            "[link]  BABY -> CLICK",
+            "[link]  One-Pieces -> CLICK",
+            "[img]  Ribbed 1*1 Long-Sleeve One Piece Outfit -> CLICK",
+            "[button]  ADD TO CART -> HOVER"
+        ]
+    },
+    {
+        "website": "yellowpages",
+        "id": "4097c577-e637-4543-87a3-09b2f4734163",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Find a pedicure salon in New York and add two to favorites.",
+        "action_reprs": [
+            "[input]   -> TYPE: pedicure salon",
+            "[input]   -> TYPE: New York",
+            "[link]  New York, NY -> CLICK",
+            "[button]  Find -> CLICK",
+            "[link]  Beauty & Youth Village Spa -> CLICK",
+            "[use]   -> CLICK",
+            "[button]  Find -> CLICK",
+            "[link]  Fabio Doti Salon -> CLICK",
+            "[use]   -> CLICK"
+        ]
+    },
+    {
+        "website": "yellowpages",
+        "id": "40fbda9d-22c5-4aab-9798-3db50d981c5c",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Open the page to answer a question in the home improvement section.",
+        "action_reprs": [
+            "[link]  QUESTIONS & ANSWERS -> CLICK",
+            "[link]  Home Improvement Remodeling -> CLICK"
+        ]
+    },
+    {
+        "website": "yellowpages",
+        "id": "4baa4918-3312-4b9b-9506-333057d6856b",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Search for coupons and deals in New York.",
+        "action_reprs": [
+            "[link]  Coupons -> CLICK",
+            "[input]   -> TYPE: new york",
+            "[link]  New York, NY -> CLICK",
+            "[button]  Find -> CLICK"
+        ]
+    },
+    {
+        "website": "yellowpages",
+        "id": "62806bef-eeeb-4892-b4d5-6a8d2005c58d",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Browse the trending searches in Columbus.",
+        "action_reprs": [
+            "[link]  CITY PAGES -> CLICK",
+            "[link]  Columbus -> CLICK",
+            "[link]  Search for more -> CLICK"
+        ]
+    },
+    {
+        "website": "jetblue",
+        "id": "18a104dc-29e7-4777-9fee-1e023be1d686",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find ground operations jobs with JetBlue.",
+        "action_reprs": [
+            "[link]  CareersExternal Link should open in a new window o... -> CLICK",
+            "[link]  Ground Operations -> CLICK"
+        ]
+    },
+    {
+        "website": "jetblue",
+        "id": "1ee63f83-8b6a-4883-813f-63f589e6e52b",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Book two rooms in the cheapest 3-star hotel which provides free breakfast, and free airport transportation for three adults, and one child from April 22 to 25 in texas city, the hotel should provide amenities for kids.",
+        "action_reprs": [
+            "[span]  Stays -> CLICK",
+            "[button]  Unlock deals External Link should open in a new wi... -> CLICK",
+            "[div]  Search location -> TYPE: TEXAS CITY",
+            "[div]  Texas City, TX -> CLICK",
+            "[textbox]  Select a date range. -> CLICK",
+            "[img]  Right -> CLICK",
+            "[gridcell]  Choose Saturday, April 22nd 2023. It's available. -> CLICK",
+            "[gridcell]  Choose Tuesday, April 25th 2023. It's available. -> CLICK",
+            "[button]  1\u00a0Room, 2\u00a0Guests Click to edit rooms and guests -> CLICK",
+            "[path]   -> CLICK",
+            "[button]  sub 1 -> CLICK",
+            "[div]  open -> CLICK",
+            "[option]  6 -> CLICK",
+            "[button]  Update -> CLICK",
+            "[button]  Search -> CLICK",
+            "[button]  Search without signing in -> CLICK",
+            "[span]   -> CLICK",
+            "[span]   -> CLICK",
+            "[span]   -> CLICK",
+            "[span]   -> CLICK",
+            "[div]  Recommended -> CLICK",
+            "[option]  Price (Low to High) -> CLICK",
+            "[heading]  La Quinta Inn & Suites by Wyndham Houston Hobby Ai... -> CLICK",
+            "[button]  Book now -> CLICK"
+        ]
+    },
+    {
+        "website": "jetblue",
+        "id": "3c49d9c8-c3e4-402d-9a66-c34232975aa0",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find JetBlue press releases for the year 2020",
+        "action_reprs": [
+            "[link]  Press RoomExternal Link should open in a new windo... -> CLICK",
+            "[link]  View All Releases \uedbe -> CLICK",
+            "[combobox]  Select year: -> SELECT: 2020",
+            "[combobox]  Category: -> SELECT: Press Releases"
+        ]
+    },
+    {
+        "website": "menards",
+        "id": "24de7f7d-f3f0-41a6-a578-e35b513b46e5",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find Maytag electric dryers that are at least 7.3 cubic foot costing less than $1000 that are available in store at Montgomery, Illinois with zip code 60538.",
+        "action_reprs": [
+            "[button]  COLUMBUS, OH  -> CLICK",
+            "[path]   -> CLICK",
+            "[textbox]  Zip Code -> TYPE: 60538",
+            "[link]  Store Locator \u00a0  -> CLICK",
+            "[textbox]  Zip Code -> TYPE: 60538",
+            "[button]  Search By Zip Code -> CLICK",
+            "[button]  MAKE MY STORE -> CLICK",
+            "[textbox]  Search by SKU, Model # or Keyword -> TYPE: Magtag electric dryer",
+            "[button]  Maytag in Electric Dryers -> CLICK",
+            "[checkbox]  7.3 cubic foot (5) -> CLICK",
+            "[checkbox]  7.4 cubic foot (6) -> CLICK",
+            "[span]  Price -> CLICK",
+            "[img]  expand -> CLICK",
+            "[spinbutton]  Enter Minimum Price -> TYPE: 0",
+            "[spinbutton]  Enter Maximum Price -> TYPE: 1000",
+            "[button]  GO -> CLICK"
+        ]
+    },
+    {
+        "website": "menards",
+        "id": "3d7f4f43-cff8-45fa-8249-97a8369c2d1f",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Send a 50-dollar home sweet home gift to my friend John with the message Congrats on your new home, and add this card to your cart and checkout.",
+        "action_reprs": [
+            "[link]  Gifting  -> CLICK",
+            "[link]  Gift Cards -> CLICK",
+            "[div]  Send a physical card through the mail. -> CLICK",
+            "[textbox]  * Amount: -> TYPE: 50",
+            "[button]  VIEW ALL -> CLICK",
+            "[img]   -> CLICK",
+            "[textbox]  To: -> TYPE: John",
+            "[textbox]  From: -> TYPE: James",
+            "[textbox]  Message: 200 characters remaining -> TYPE: Congrats on your new home.",
+            "[button]  ADD TO CART -> CLICK",
+            "[button]  CHECKOUT NOW -> CLICK"
+        ]
+    },
+    {
+        "website": "menards",
+        "id": "40bf7303-ba39-44fe-b73f-ad3c9743c579",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find a 19-inch stainless steel kitchen sink with two equal bowls that could be shipped to my home and compare the top two cheapest.",
+        "action_reprs": [
+            "[button]  Departments  -> CLICK",
+            "[button]  Kitchen -> CLICK",
+            "[link]  Kitchen Sinks -> CLICK",
+            "[link]  Drop In Two Bowl -> CLICK",
+            "[checkbox]  Ship to Home Eligible (97) -> CLICK",
+            "[checkbox]  Stainless Steel (75) -> CLICK",
+            "[checkbox]  Equal Bowl (69) -> CLICK",
+            "[checkbox]  19 inch (7) -> CLICK",
+            "[button]  Sort By: Best Match  -> CLICK",
+            "[button]  Price Low to High -> CLICK",
+            "[generic]  Click to add item \"Tuscany\u00ae Baytown Drop-In 33\" St... -> CLICK",
+            "[generic]  Click to add item \"Dayton Drop-In 25\" Stainless St... -> CLICK",
+            "[button]  COMPARE -> CLICK"
+        ]
+    },
+    {
+        "website": "viator",
+        "id": "8e133f6c-155d-4ba4-89f5-16f569d6e918",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Find cheapest food tour in Paris which offers free cancellation",
+        "action_reprs": [
+            "[textbox]  Where to? -> TYPE: Paris",
+            "[button]  Paris France -> CLICK",
+            "[circle]   -> CLICK",
+            "[button]   -> CLICK",
+            "[div]  Food Tours -> CLICK",
+            "[label]  Free Cancellation -> CLICK",
+            "[span]  Featured -> CLICK",
+            "[span]  Price (Low to High) -> CLICK"
+        ]
+    },
+    {
+        "website": "viator",
+        "id": "9b6316ee-4cfb-490e-bf52-9ee6cdded08b",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Find ideas and recommendation for things to do in Cancun.",
+        "action_reprs": [
+            "[textbox]  Where to? -> TYPE: cancun",
+            "[circle]   -> CLICK",
+            "[span]  Trip Inspiration -> HOVER",
+            "[link]  Cancun -> CLICK"
+        ]
+    },
+    {
+        "website": "ebay",
+        "id": "37c09901-63d4-4194-8a96-1d87ca8c37ae",
+        "domain": "Shopping",
+        "subdomain": "General",
+        "confirmed_task": "Browse washing machines available for free local  pickup within 25 miles of zip code 90026.",
+        "action_reprs": [
+            "[combobox]  Search for anything -> TYPE: washing machine",
+            "[button]  Search -> CLICK",
+            "[textbox]  Zip code -> TYPE: 90026",
+            "[button]  Apply within filter -> CLICK",
+            "[input]   -> CLICK"
+        ]
+    },
+    {
+        "website": "cvs",
+        "id": "e92cd371-0bd2-4ac3-82e4-7fdaac46b626",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Add zyrtec to the cart for pickup at the nearest CVS to zip code 90028",
+        "action_reprs": [
+            "[combobox]  Search products and services -> TYPE: zyrtec",
+            "[button]  Search for zyrtec -> CLICK",
+            "[img]  Zyrtec 24 Hour Allergy Relief Tablets with 10 mg C... -> CLICK",
+            "[button]  Check More Stores -> CLICK",
+            "[textbox]  Enter zip code or location. Please enter a valid l... -> TYPE: 90028",
+            "[img]   -> CLICK",
+            "[generic]  6201 Hollywood Blvd., Suite 126 -> CLICK",
+            "[button]  In Stock at 6201 Hollywood Blvd., Suite 126. 0.2 m... -> CLICK",
+            "[use]   -> CLICK",
+            "[button]  Add Zyrtec 24 Hour Allergy Relief Tablets with 10 ... -> CLICK"
+        ]
+    },
+    {
+        "website": "cvs",
+        "id": "ff6ff6e5-e73c-4ba2-809e-59a1e269d68f",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find Hair Loss Evaluation and Treatment in 10018 and show directions.",
+        "action_reprs": [
+            "[button]  Health -> CLICK",
+            "[button]  load Health Services Menu -> CLICK",
+            "[link]  Skin, Hair & Nails -> CLICK",
+            "[button]  Hair Loss Evaluation & Treatment -> CLICK",
+            "[link]  Hair Loss Evaluation & Treatment -> CLICK",
+            "[textbox]  Tell us a location Enter a ZIP code or city & stat... -> TYPE: 10018",
+            "[button]  Find care -> CLICK",
+            "[img]   -> CLICK",
+            "[link]  Clinic details of 1440 BROADWAY -> CLICK"
+        ]
+    },
+    {
+        "website": "amazon",
+        "id": "862faed7-449c-4624-902b-6b512a977d0c",
+        "domain": "Shopping",
+        "subdomain": "General",
+        "confirmed_task": "Find the cheapest new surge protector with 6 to 8 outlets under 25 dollars with customer reviews above 4+, add 2 pieces to the cart.",
+        "action_reprs": [
+            "[textbox]  Search Amazon -> TYPE: surge protector",
+            "[button]  surge protector -> CLICK",
+            "[link]  Surge Protectors -> CLICK",
+            "[link]  6 to 8 Outlets -> CLICK",
+            "[link]  Under $25 -> CLICK",
+            "[region]  4 Stars & Up -> CLICK",
+            "[link]  New -> CLICK",
+            "[span]  Featured -> CLICK",
+            "[option]  Price: Low to High -> CLICK",
+            "[img]  Woods 41366 Surge Protector with Overload Safety F... -> CLICK",
+            "[span]  Qty: -> CLICK",
+            "[option]  2 -> CLICK",
+            "[button]  Add to Cart -> CLICK"
+        ]
+    },
+    {
+        "website": "amazon",
+        "id": "884a375b-e3f4-4f34-8e99-290f49141f9a",
+        "domain": "Shopping",
+        "subdomain": "General",
+        "confirmed_task": "Find a dog bed on Amazon that is machine-washable and has a diameter of at least 30 inches.",
+        "action_reprs": [
+            "[textbox]  Search Amazon -> TYPE: dog bed 30 inches",
+            "[button]  Go -> CLICK",
+            "[RootWebArea]  Amazon.com : dog bed 30 inches -> CLICK",
+            "[i]   -> CLICK",
+            "[img]  Sponsored Ad - Calming Dog Bed Cat Bed, Washable R... -> CLICK"
+        ]
+    },
+    {
+        "website": "delta",
+        "id": "93f3a9a1-2fd8-4457-b689-d70b3249b99b",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "check flight status with flight number 2819 on 18th of March.",
+        "action_reprs": [
+            "[tab]  FLIGHT STATUS -> CLICK",
+            "[button]  \ue908 Search by date required selected as 15 March 202... -> CLICK",
+            "[link]  18 March 2023, Saturday -> CLICK",
+            "[button]  done -> CLICK",
+            "[spinbutton]  Flight Number (Required) -> TYPE: 2819",
+            "[button]  \ue91a SUBMIT -> CLICK"
+        ]
+    },
+    {
+        "website": "delta",
+        "id": "be5bae8d-bebc-4474-9d28-1cc633be8d8d",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find a cheapest hotel in New Delhi for 3 days starting from April 24 and add 3 to list.",
+        "action_reprs": [
+            "[tab]  Travel Info -> CLICK",
+            "[link]  Shop Hotels -> CLICK",
+            "[button]  Going to -> TYPE: New Delhi",
+            "[button]  New Delhi Delhi, India -> CLICK",
+            "[button]  Check-out April 25, 2023 -> CLICK",
+            "[button]  Apr 26, 2023 -> CLICK",
+            "[button]  Done : (Save changes and close the date picker.) -> CLICK",
+            "[button]  Search -> CLICK",
+            "[combobox]  Sort by -> SELECT: Price: low to high",
+            "[svg]   -> CLICK",
+            "[svg]   -> CLICK",
+            "[svg]   -> CLICK"
+        ]
+    },
+    {
+        "website": "delta",
+        "id": "cf89b0ae-39ca-4451-80df-260d46c62f21",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find a hotel in Ohio From July 2nd to July 8th for 2 adults.",
+        "action_reprs": [
+            "[link]  SHOP HOTELS  -> CLICK",
+            "[button]  Going to -> CLICK",
+            "[textbox]  Going to -> TYPE: Ohio",
+            "[button]  Ohio United States -> CLICK",
+            "[button]  Check-in March 18, 2023 -> CLICK",
+            "[button]  Next month -> CLICK",
+            "[button]  Next month -> CLICK",
+            "[button]  Next month -> CLICK",
+            "[button]  Jul 2, 2023 -> CLICK",
+            "[button]  Jul 8, 2023 -> CLICK",
+            "[button]  Done : (Save changes and close the date picker.) -> CLICK",
+            "[button]  Search -> CLICK"
+        ]
+    },
+    {
+        "website": "qatarairways",
+        "id": "cd5d03cc-24a8-4284-ac43-b38579f416b1",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find the status of flights between Abidjan and Accra.",
+        "action_reprs": [
+            "[tab]  \ue90aFlight status -> CLICK",
+            "[textbox]  From / Flight number Autocomplete selection. Enter... -> TYPE: Abidjan",
+            "[strong]  Abidjan -> CLICK",
+            "[textbox]  To Autocomplete selection. Enter your place. -> TYPE: Accra",
+            "[strong]  Accra -> CLICK",
+            "[button]  Search flights -> CLICK"
+        ]
+    },
+    {
+        "website": "qatarairways",
+        "id": "e437082b-8383-4322-aa58-a6a683113970",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find a hotel in Las Vegas that will cost two people the least for a week starting from 10, April",
+        "action_reprs": [
+            "[button]  Book -> CLICK",
+            "[link]  Hotels -> CLICK",
+            "[searchbox]  Type your destination -> TYPE: Las Vegas",
+            "[option]  Las Vegas Nevada,\u00a0United States -> CLICK",
+            "[checkbox]  10 April 2023 -> CLICK",
+            "[gridcell]  16 April 2023 -> CLICK",
+            "[button]  Search -> CLICK",
+            "[button]  Sort by:Our Top Picks -> CLICK",
+            "[span]  Price (lowest first) -> CLICK"
+        ]
+    },
+    {
+        "website": "amazon",
+        "id": "d64cbfc6-7ace-4cad-9f0a-6643cd83de6e",
+        "domain": "Shopping",
+        "subdomain": "General",
+        "confirmed_task": "Find the cheapest full-sized Amazon basic comforter with 4+ average customer reviews and priced between 50 to 100 dollars, if red color availabe in the cheapest product then add one to the cart.",
+        "action_reprs": [
+            "[textbox]  Search Amazon -> TYPE: COMFORTER",
+            "[button]  Go -> CLICK",
+            "[i]   -> CLICK",
+            "[i]   -> CLICK",
+            "[region]  4 Stars & Up -> CLICK",
+            "[link]  $50 to $100 -> CLICK",
+            "[span]  Featured -> CLICK",
+            "[option]  Price: Low to High -> CLICK",
+            "[link]  Amazon Basics 7-Piece Lightweight Microfiber Bed-i... -> CLICK",
+            "[button]  Red Buffalo Plaid $57.81 In Stock. -> CLICK",
+            "[button]  Add to Cart -> CLICK"
+        ]
+    },
+    {
+        "website": "espn",
+        "id": "254a67f6-3e37-4f12-838d-2d9fb0cedbf0",
+        "domain": "Entertainment",
+        "subdomain": "Sports",
+        "confirmed_task": "Show me the stats of the Athletic Club from spanish Laliga",
+        "action_reprs": [
+            "[li]  Soccer -> CLICK",
+            "[link]  Teams \ue00d -> CLICK",
+            "[select]  UEFA Champions League -> SELECT: Spanish LaLiga",
+            "[link]  Stats -> CLICK"
+        ]
+    },
+    {
+        "website": "espn",
+        "id": "2a440d5f-1cc8-43de-86f5-ea181b0d12f8",
+        "domain": "Entertainment",
+        "subdomain": "Sports",
+        "confirmed_task": "Who were the NBA season leaders from the 2020-21 regular season?",
+        "action_reprs": [
+            "[link]  NBA -> CLICK",
+            "[link]  Stats \ue00d -> CLICK",
+            "[button]  Stats -> CLICK",
+            "[link]  Season Leaders -> CLICK",
+            "[select]  2022-23 Postseason -> SELECT: 2020-21 Regular Season"
+        ]
+    },
+    {
+        "website": "espn",
+        "id": "4b431888-9909-40b5-8351-be52905e4d5a",
+        "domain": "Entertainment",
+        "subdomain": "Sports",
+        "confirmed_task": "Find the Real Madrid team schedule of the UEFA Champions League championship.",
+        "action_reprs": [
+            "[button]  Open Search -> CLICK",
+            "[textbox]  Search -> TYPE: Real Madrid",
+            "[link]  Real Madrid LaLiga -> CLICK",
+            "[link]  Fixtures -> CLICK",
+            "[select]  All Competitions -> SELECT: UEFA Champions League"
+        ]
+    },
+    {
+        "website": "airbnb",
+        "id": "0b2f241e-8d1f-4f22-be2f-5722ceff23a3",
+        "domain": "Travel",
+        "subdomain": "Hotel",
+        "confirmed_task": "Find a treehouse in India with free cancellation and below $100 per night.",
+        "action_reprs": [
+            "[img]   -> CLICK",
+            "[button]  Location Anywhere -> CLICK",
+            "[textbox]  Where -> TYPE: India ",
+            "[div]  India -> CLICK",
+            "[span]   -> CLICK",
+            "[button]  Filters -> CLICK",
+            "[textbox]  max price $ -> CLICK",
+            "[textbox]  max price $ -> TYPE: 99",
+            "[link]  Show 1,000+ stays -> CLICK",
+            "[img]   -> CLICK"
+        ]
+    },
+    {
+        "website": "airbnb",
+        "id": "102c50a4-23f8-44ae-8300-43822b271dbf",
+        "domain": "Travel",
+        "subdomain": "Hotel",
+        "confirmed_task": "Add 3 places from OMG! below $500 to Wishlist and name it \"Togo\".",
+        "action_reprs": [
+            "[img]   -> CLICK",
+            "[button]  Filters -> CLICK",
+            "[textbox]  max price $ -> TYPE: 500",
+            "[link]  Show 684 stays -> CLICK",
+            "[path]   -> CLICK",
+            "[textbox]  Name -> TYPE: Togo",
+            "[button]  Create -> CLICK",
+            "[path]   -> CLICK",
+            "[div]  Togo -> CLICK",
+            "[path]   -> CLICK",
+            "[img]   -> CLICK"
+        ]
+    },
+    {
+        "website": "delta",
+        "id": "f84075a2-9d97-4964-9c80-70f5bee8a418",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find my trip with ticket number 3329456534543 along with my name John Green",
+        "action_reprs": [
+            "[tab]  MY TRIPS -> CLICK",
+            "[combobox]  Find Your Trip By -> CLICK",
+            "[option]  Ticket Number -> CLICK",
+            "[input]   -> TYPE: 3329456534543",
+            "[input]   -> TYPE: John",
+            "[input]   -> TYPE: Green",
+            "[button]  \ue91a SUBMIT -> CLICK"
+        ]
+    },
+    {
+        "website": "discogs",
+        "id": "29d6b448-a688-4c2f-8f6d-a13546d506d8",
+        "domain": "Entertainment",
+        "subdomain": "Music",
+        "confirmed_task": "Find the list of jazz albums released in 1890.",
+        "action_reprs": [
+            "[button]  Explore -> CLICK",
+            "[link]  Jazz -> CLICK",
+            "[link]  1890s -> CLICK"
+        ]
+    },
+    {
+        "website": "discogs",
+        "id": "370a037c-c397-4adb-ab7c-0c388f448f68",
+        "domain": "Entertainment",
+        "subdomain": "Music",
+        "confirmed_task": "Find vinyl records at the lowest price.",
+        "action_reprs": [
+            "[button]  Marketplace -> CLICK",
+            "[link]  Vinyl -> CLICK",
+            "[combobox]  Sort -> SELECT: Price Lowest"
+        ]
+    },
+    {
+        "website": "us.megabus",
+        "id": "2ce0a80e-a049-434d-8b99-8343d2a0b21d",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Show me the location of the Altavista bus stop.",
+        "action_reprs": [
+            "[button]  Explore\ue911 -> CLICK",
+            "[link]  Bus stops -> CLICK",
+            "[button]  Altavista, VA \ue911 -> CLICK",
+            "[button]  Altavista Commons (Walmart parking lot) -> CLICK"
+        ]
+    },
+    {
+        "website": "us.megabus",
+        "id": "2e2cb6d9-560c-4258-baed-82e0ed5b5dbc",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Find bus stop information at Abbotsford, WI.",
+        "action_reprs": [
+            "[button]  Explore\ue911 -> CLICK",
+            "[link]  Bus stops -> CLICK",
+            "[button]  Abbotsford, WI \ue911 -> CLICK",
+            "[button]  Super 39 Shell -> CLICK"
+        ]
+    },
+    {
+        "website": "marriott",
+        "id": "2ef470ab-b06a-4479-883f-78b4e3b94a04",
+        "domain": "Travel",
+        "subdomain": "Hotel",
+        "confirmed_task": "Find five star rated cultural tours in New York on May 7 with a max price of $75",
+        "action_reprs": [
+            "[button]  For Guests\ue91e -> CLICK",
+            "[link]  Activities \ue922 -> CLICK",
+            "[textbox]  Location-Search -> TYPE: New York",
+            "[link]  New York City New York, USA -> CLICK",
+            "[button]  Select Activities -> CLICK",
+            "[span]  Cultural Tours -> CLICK",
+            "[span]  Any -> CLICK",
+            "[li]   -> CLICK",
+            "[spinbutton]  Max Price -> TYPE: 75",
+            "[span]  mm/dd/yyyy-mm/dd/yyyy -> CLICK",
+            "[Abbr]  May 7, 2023 -> CLICK",
+            "[Abbr]  May 7, 2023 -> CLICK"
+        ]
+    },
+    {
+        "website": "marriott",
+        "id": "4d311ce8-c660-43dc-bde9-d06e85f6a12c",
+        "domain": "Travel",
+        "subdomain": "Hotel",
+        "confirmed_task": "Book a room for a business meeting from Apr 30 to May 1 with 7 people within 5 miles of New Delhi. The hotel must have a business center and offer high-speed internet, select the nearest hotel.",
+        "action_reprs": [
+            "[link]  Business Meetings \ue922 -> CLICK",
+            "[textbox]  Destination -> TYPE: new delhi",
+            "[menuitem]  New Delhi, Delhi, India -> CLICK",
+            "[textbox]  Start Date -> CLICK",
+            "[gridcell]  Sat, Apr 29, 2023 -> CLICK",
+            "[div]  30 -> CLICK",
+            "[label]  Purpose of your event -> CLICK",
+            "[li]  Business -> CLICK",
+            "[span]   -> CLICK",
+            "[textbox]  Guest rooms -> TYPE: 1",
+            "[textbox]  Event space -> TYPE: 7",
+            "[button]  Find -> CLICK",
+            "[link]  \ue602 All Filters -> CLICK",
+            "[heading]  Amenities \ue023 -> CLICK",
+            "[label]  Business center (11) -> CLICK",
+            "[label]  High-speed Internet (11) -> CLICK",
+            "[button]  APPLY -> CLICK",
+            "[generic]  Distance -> CLICK",
+            "[label]  0 - 5 Miles (2) -> CLICK",
+            "[button]  APPLY -> CLICK",
+            "[link]  ADD TO RFP -> CLICK",
+            "[link]  CREATE RFP -> CLICK"
+        ]
+    },
+    {
+        "website": "kbb",
+        "id": "efa705c1-f836-4704-b6c8-6e114a2eb865",
+        "domain": "Shopping",
+        "subdomain": "Auto",
+        "confirmed_task": "Get a service estimate on AC recharge of my 2022 Toyota Corrola, L Sedan 4D. My name is James Smith, email is buckeye.foobar@gmail.com, and phone number is 6157075521.",
+        "action_reprs": [
+            "[link]  Car Repair -> HOVER",
+            "[link]  Auto Repair Prices -> CLICK",
+            "[combobox]  Year -> SELECT: 2022",
+            "[combobox]  Make -> SELECT: Toyota",
+            "[combobox]  Model -> SELECT: Corolla",
+            "[combobox]  Style -> SELECT: L Sedan 4D",
+            "[button]  Select Vehicle -> CLICK",
+            "[button]  No thanks -> CLICK",
+            "[textbox]  Other Ways We Can Help -> TYPE: ac recharge",
+            "[button]  See Pricing -> CLICK",
+            "[button]  Get Service Estimates -> CLICK",
+            "[textbox]  Your Name * -> TYPE: James Smith",
+            "[textbox]  Email Address * -> TYPE: buckeye.foobar@gmail.com",
+            "[textbox]  Phone Number * -> TYPE: 6157075521",
+            "[button]  Get Estimates -> CLICK"
+        ]
+    },
+    {
+        "website": "united",
+        "id": "4aaf59c0-889a-406c-b0c2-454d7670e04f",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find the TSA Guidelines to travel with Children",
+        "action_reprs": [
+            "[tab]  TRAVEL INFO -> CLICK",
+            "[link]  Traveling with children -> CLICK",
+            "[link]  sit on a parent\u2019s lap -> CLICK",
+            "[link]  approved car seat -> CLICK",
+            "[heading]  All other kids -> CLICK"
+        ]
+    },
+    {
+        "website": "kohls",
+        "id": "8e1a344d-a27b-4613-8863-7afad0829b23",
+        "domain": "Shopping",
+        "subdomain": "Department",
+        "confirmed_task": "Find a cheapest washable blue rug under 2'x3' size.",
+        "action_reprs": [
+            "[link]  Shop by Category -> CLICK",
+            "[link]  For the Home -> HOVER",
+            "[link]  Rugs -> CLICK",
+            "[link]  Washable Rugs Washable Rugs -> CLICK",
+            "[span]  Color -> CLICK",
+            "[link]  Blue (237) -> CLICK",
+            "[span]  Size -> CLICK",
+            "[link]  Under 2'x3' (38) -> CLICK",
+            "[link]  Sort by: Featured -> CLICK",
+            "[link]  Price Low-High -> CLICK"
+        ]
+    },
+    {
+        "website": "enterprise",
+        "id": "f7b93dc1-2f19-419e-a6e0-a701008c17fa",
+        "domain": "Travel",
+        "subdomain": "Car rental",
+        "confirmed_task": "Find the booking with ticket 123456 under the name James Buck.",
+        "action_reprs": [
+            "[button]  View / Modify / Cancel Reservation -> CLICK",
+            "[textbox]  Confirmation Number (required) -> TYPE: 123456",
+            "[textbox]  First Name (required) -> CLICK",
+            "[textbox]  First Name (required) -> TYPE: James",
+            "[textbox]  Last Name (required) -> TYPE: Buck",
+            "[button]  Search -> CLICK"
+        ]
+    },
+    {
+        "website": "kayak",
+        "id": "67648411-9d11-4254-8973-7d8dfbca58e8",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "search four door SUVs from Avis while traveling from New Orleans, L, to New York that isn't more than $1000 in total price from Mar 25th to Apr 1st, pickup at 2PM.",
+        "action_reprs": [
+            "[link]  Search for cars -> CLICK",
+            "[textbox]  Pick-up location -> TYPE: new orleans",
+            "[span]  New Orleans, Louisiana, United States -> CLICK",
+            "[textbox]  Drop-off location -> TYPE: new york",
+            "[span]  New York, United States -> CLICK",
+            "[generic]  Saturday March 25th -> CLICK",
+            "[button]  Saturday March 25, 2023 -> CLICK",
+            "[generic]  Saturday April 1st -> CLICK",
+            "[button]  Saturday April 1, 2023 -> CLICK",
+            "[button]  Noon -> CLICK",
+            "[option]  2:00 pm -> CLICK",
+            "[svg]   -> CLICK",
+            "[div]   -> CLICK",
+            "[checkbox]  SUV -> CLICK",
+            "[svg]   -> CLICK",
+            "[div]   -> CLICK",
+            "[checkbox]  Avis -> CLICK",
+            "[button]  More filters -> CLICK",
+            "[checkbox]  4+ doors -> CLICK",
+            "[spinbutton]  Maximum price -> TYPE: 1000",
+            "[button]  Show results -> CLICK"
+        ]
+    },
+    {
+        "website": "kohls",
+        "id": "0c02c193-2aef-4817-92b4-56722edc6b57",
+        "domain": "Shopping",
+        "subdomain": "Department",
+        "confirmed_task": "I want to see the best seller gender neutral skirts",
+        "action_reprs": [
+            "[textbox]  Search by keyword or web id -> TYPE: skirt",
+            "[textbox]  Search by keyword or web id -> ENTER",
+            "[span]  Gender -> CLICK",
+            "[link]  Neutral (7) -> CLICK",
+            "[link]  Sort by: Featured -> CLICK",
+            "[link]  Best Sellers -> CLICK"
+        ]
+    },
+    {
+        "website": "viator",
+        "id": "298c854d-2987-498b-b43e-6a6452fb11c7",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Find unique experiences in London of maximum one hour duration which are rated four stars and above",
+        "action_reprs": [
+            "[textbox]  Where to? -> TYPE: London",
+            "[button]  London England -> CLICK",
+            "[circle]   -> CLICK",
+            "[link]  Unique Experiences -> CLICK",
+            "[label]  Up to 1 hour -> CLICK",
+            "[label]  star-4 -> CLICK"
+        ]
+    },
+    {
+        "website": "gamestop",
+        "id": "f9062def-8361-48df-849c-4d7dbc1e11d1",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "find trade in value for PS4 console",
+        "action_reprs": [
+            "[link]  repeat Trade-In -> CLICK",
+            "[p]  Consoles -> CLICK",
+            "[searchbox]  Find values for games and more -> CLICK",
+            "[searchbox]  Find values for games and more -> TYPE: PS4",
+            "[button]  SEARCH -> CLICK",
+            "[link]  Filter -> CLICK",
+            "[generic]  Refine by Category: Consoles & Hardware -> CLICK",
+            "[link]  PlayStation 4 -> CLICK",
+            "[button]  Done -> CLICK"
+        ]
+    },
+    {
+        "website": "apple",
+        "id": "3b6385ea-0cdc-4ed8-be93-dc90113d2255",
+        "domain": "Shopping",
+        "subdomain": "Digital",
+        "confirmed_task": "Find Apple Stores close to zip code 90028",
+        "action_reprs": [
+            "[link]  Store -> HOVER",
+            "[link]  Find a Store -> CLICK",
+            "[combobox]  Find a store -> TYPE: 90028",
+            "[option]  90028 Los Angeles, CA, United States -> CLICK"
+        ]
+    },
+    {
+        "website": "apple",
+        "id": "6c0a3b1e-6ce8-4955-9359-dd4378aacc82",
+        "domain": "Shopping",
+        "subdomain": "Digital",
+        "confirmed_task": "Find the price of HomePod mini",
+        "action_reprs": [
+            "[link]  Accessories -> CLICK",
+            "[img]   -> CLICK",
+            "[img]   -> CLICK"
+        ]
+    },
+    {
+        "website": "apple",
+        "id": "a10e6232-923d-4635-bdc8-c6d989380e45",
+        "domain": "Shopping",
+        "subdomain": "Digital",
+        "confirmed_task": "Add a blue iPad to your cart and select the option for free engraving with \"hello world\" with no other accessaries.",
+        "action_reprs": [
+            "[link]  iPad -> CLICK",
+            "[link]  Buy iPad 10.9-inch -> CLICK",
+            "[img]  Blue -> CLICK",
+            "[span]  for 12 -> CLICK",
+            "[div]  Every iPad can connect to Wi\u2011Fi, so you can stay c... -> CLICK",
+            "[radio]  Add engraving It won\u2019t impact returns or trade-in ... -> CLICK",
+            "[textbox]  First line -> TYPE: Hello World",
+            "[button]  Save -> CLICK",
+            "[span]  No Apple Pencil -> CLICK",
+            "[span]  No USB-C to Apple Pencil Adapter -> CLICK",
+            "[span]  No keyboard -> CLICK",
+            "[span]  No trade-in -> CLICK",
+            "[span]  Buy -> CLICK",
+            "[span]  No AppleCare+ -> CLICK",
+            "[button]  Add to Bag -> CLICK"
+        ]
+    },
+    {
+        "website": "apple",
+        "id": "ccee2694-0d3e-4d81-8d52-5cdf82a9b81f",
+        "domain": "Shopping",
+        "subdomain": "Digital",
+        "confirmed_task": "Locate the nearest apple store to zip code 60540 and check its opening time tomorrow.",
+        "action_reprs": [
+            "[link]  Store -> CLICK",
+            "[link]  Find one near you (opens in a new window) \uf301 -> CLICK",
+            "[combobox]  Find a store -> TYPE: 60540",
+            "[option]  60540 Naperville, IL, United States -> CLICK",
+            "[address]  120 West Jefferson Avenue -> CLICK"
+        ]
+    },
+    {
+        "website": "qatarairways",
+        "id": "4786982f-25f5-4bf8-bb91-522656489f63",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Reserve the cheapest hotel with 5 stars and free wifi located in downtown dc in Washington on June 5 for 4 adults in 2 rooms.",
+        "action_reprs": [
+            "[button]  Book -> CLICK",
+            "[link]  Hotels -> CLICK",
+            "[searchbox]  Please type your destination -> TYPE: washington",
+            "[option]  Washington District of Columbia,\u00a0United States -> CLICK",
+            "[span]  25 -> CLICK",
+            "[svg]   -> CLICK",
+            "[svg]   -> CLICK",
+            "[checkbox]  5 June 2023 -> CLICK",
+            "[div]  1 days -> CLICK",
+            "[button]  Search -> CLICK",
+            "[button]  2 adults \u00b7 0 children \u00b7 1 room -> CLICK",
+            "[svg]   -> CLICK",
+            "[svg]   -> CLICK",
+            "[svg]   -> CLICK",
+            "[button]  Done -> CLICK",
+            "[svg]   -> CLICK",
+            "[span]   -> CLICK",
+            "[svg]   -> CLICK",
+            "[span]   -> CLICK",
+            "[span]   -> CLICK",
+            "[link]  See availability -> CLICK",
+            "[button]  Reserve -> CLICK"
+        ]
+    },
+    {
+        "website": "instacart",
+        "id": "bbfed209-df70-434a-aece-5c5fc7a38f4f",
+        "domain": "Shopping",
+        "subdomain": "General",
+        "confirmed_task": "Find the push notification settings",
+        "action_reprs": [
+            "[svg]   -> CLICK",
+            "[link]  Your account settings -> CLICK",
+            "[link]  Notification settings -> CLICK"
+        ]
+    },
+    {
+        "website": "instacart",
+        "id": "d0ac6860-23f7-40c1-b30d-12269470d2c3",
+        "domain": "Shopping",
+        "subdomain": "General",
+        "confirmed_task": "check prices of organic strawberries with three different stores and add the one with lowest price to cart for 94105.",
+        "action_reprs": [
+            "[textbox]  Search -> CLICK",
+            "[textbox]  Search -> TYPE: organic strawberries",
+            "[span]  organic strawberries -> CLICK",
+            "[img]  Organic Strawberries -> CLICK",
+            "[span]  All stores -> CLICK",
+            "[textbox]  Search -> TYPE: organic strawberries",
+            "[span]  organic strawberries -> CLICK",
+            "[img]  Driscoll's Organic Strawberries -> CLICK",
+            "[span]  All stores -> CLICK",
+            "[textbox]  Search -> TYPE: organic strawberries",
+            "[span]  organic strawberries -> CLICK",
+            "[img]  Organic Strawberries -> CLICK",
+            "[span]  All stores -> CLICK",
+            "[textbox]  Search -> TYPE: organic strawberries",
+            "[span]  organic strawberries -> CLICK",
+            "[img]  Organic Strawberries -> CLICK",
+            "[img]   -> CLICK",
+            "[button]  Add to cart -> CLICK"
+        ]
+    },
+    {
+        "website": "jetblue",
+        "id": "c73b1674-9c61-46a3-84dd-8fad3622a035",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find the flight from New York to Miami from Mar 27 to Mar 31  that has the lowest core price in points.",
+        "action_reprs": [
+            "[textbox]  From -> TYPE: new york",
+            "[strong]  New York -> CLICK",
+            "[textbox]  To -> TYPE: miami",
+            "[strong]  Miami -> CLICK",
+            "[span]  27 -> CLICK",
+            "[textbox]  Return Press DOWN ARROW key to select available da... -> CLICK",
+            "[span]  31 -> CLICK",
+            "[span]  Search flights -> CLICK",
+            "[button]  Continue to flight results -> CLICK",
+            "[link]  Sort & Filter -> CLICK",
+            "[svg]   -> CLICK",
+            "[label]  Points -> CLICK",
+            "[link]  Sort & Filter -> CLICK",
+            "[button]  Default \u00a0 -> CLICK",
+            "[span]  Price by Core -> CLICK",
+            "[button]  Apply -> CLICK"
+        ]
+    },
+    {
+        "website": "nfl",
+        "id": "91843d71-05c3-4b17-9b8c-856f2390fe02",
+        "domain": "Entertainment",
+        "subdomain": "Sports",
+        "confirmed_task": "Find the year that Tom Brady had the most touchdowns in a single seasson.",
+        "action_reprs": [
+            "[link]  Players  -> CLICK",
+            "[link]  Tom Brady -> CLICK",
+            "[link]  STATS -> CLICK",
+            "[link]  CAREER -> CLICK",
+            "[columnheader]  TD -> CLICK"
+        ]
+    },
+    {
+        "website": "thetrainline",
+        "id": "d56df06a-8234-4f31-8737-e74fe9d5fa04",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Get the cheapest return tickets from Leeds to Sheffield leaving at 8:30 am on Mar 25, 2023 and returning at 23:00 pm on same day for 1 adult and 2 child.",
+        "action_reprs": [
+            "[combobox]  Departure station, none selected. Select a station... -> TYPE: Leeds",
+            "[span]  Leeds -> CLICK",
+            "[span]  Sheffield -> CLICK",
+            "[textbox]  Date use format: 24-Mar-23 -> CLICK",
+            "[link]  25 -> CLICK",
+            "[listbox]  hour -> SELECT: 08",
+            "[group]  RETURN -> CLICK",
+            "[link]  25 -> CLICK",
+            "[listbox]  hour -> SELECT: 23",
+            "[svg]   -> CLICK",
+            "[listbox]  select children -> SELECT: 2",
+            "[listbox]  select child age -> SELECT: 5-15",
+            "[button]  Done -> CLICK",
+            "[button]  Get cheapest tickets -> CLICK",
+            "[button]  OK, got it -> CLICK"
+        ]
+    },
+    {
+        "website": "thetrainline",
+        "id": "daec5481-187d-4e2f-9dae-a11892cdadf2",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Book a journey with return option on same day from Edinburg to Manchester on April 2nd and book the best possible option available.",
+        "action_reprs": [
+            "[combobox]  Departure station, London selected.  -> TYPE: edinburg",
+            "[span]  Edinburgh (Waverley) -> CLICK",
+            "[combobox]  Arrival station, Sheffield selected.  -> TYPE: manchester",
+            "[span]  Manchester -> CLICK",
+            "[radio]  Return -> CLICK",
+            "[textbox]  Date use format: 29-Mar-23 -> CLICK",
+            "[link]  2 -> CLICK",
+            "[textbox]  Date use format:  -> CLICK",
+            "[link]  2 -> CLICK",
+            "[listbox]  hour -> SELECT: 17",
+            "[button]  Get cheapest tickets -> CLICK",
+            "[span]  Continue -> CLICK"
+        ]
+    },
+    {
+        "website": "ryanair",
+        "id": "4f75897b-8df4-4f4c-88c3-72d440f6a4ee",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Show me all the destinations in Armenia, Austria, Belgium and Bulgaria in Alphabetical order",
+        "action_reprs": [
+            "[button]  Plan -> CLICK",
+            "[link]  Try Somewhere New -> CLICK",
+            "[link]  Destinations -> CLICK",
+            "[label]  Armenia -> CLICK",
+            "[label]  Austria -> CLICK",
+            "[label]  Belgium -> CLICK",
+            "[label]  Bulgaria -> CLICK",
+            "[div]  Popular -> CLICK",
+            "[div]  A - Z -> CLICK",
+            "[div]  Find destination -> CLICK"
+        ]
+    },
+    {
+        "website": "ryanair",
+        "id": "555dd7af-72ce-4455-b4d1-dd9b20ae7c5e",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Buy two 100-pound digital gift cards with a birthday card and message of Happy Birthday Love from Stewart Bloom, send  to Denise Bloom on email id denise.bloom@bbt.com and Debbie Wolowitz on email id debbie.wo@bbt.com.",
+        "action_reprs": [
+            "[img]  GIFT CARDS -> CLICK",
+            "[img]  Happy Birthday -> CLICK",
+            "[button]  EUR -> CLICK",
+            "[div]  GBP -> CLICK",
+            "[button]   -> CLICK",
+            "[div]  \u00a3 -> CLICK",
+            "[div]   -> CLICK",
+            "[textarea]   -> TYPE: Happy Birthday Love",
+            "[input]   -> TYPE: Stuart Bloom",
+            "[input]   -> TYPE: Denise",
+            "[input]   -> TYPE: Bloom",
+            "[input]   -> TYPE: denise.bloom@bbt.com",
+            "[input]   -> TYPE: Debbi",
+            "[input]   -> TYPE: Wolowitz",
+            "[input]   -> TYPE: debbi.wo@bbt.com",
+            "[div]   -> CLICK",
+            "[button]  Go to checkout -> CLICK"
+        ]
+    },
+    {
+        "website": "kohls",
+        "id": "aab91310-0100-4a40-98e9-720c53199bff",
+        "domain": "Shopping",
+        "subdomain": "Department",
+        "confirmed_task": "Find mens hiking shoes under $100 in size 10 that has biggest discount.",
+        "action_reprs": [
+            "[textbox]  Search by keyword or web id -> TYPE: mens hiking shoes",
+            "[input]   -> CLICK",
+            "[div]  Price -> CLICK",
+            "[link]  $10 to $25 (3) -> CLICK",
+            "[link]  $25 to $50 (18) -> CLICK",
+            "[link]  $50 to $100 (146) -> CLICK",
+            "[div]  Size -> CLICK",
+            "[link]  10 (131) -> CLICK",
+            "[link]  Sort by: Featured -> CLICK",
+            "[link]  Percent Off -> CLICK",
+            "[img]  Eddie Bauer Canyon Men's Waterproof Hiking Shoes -> CLICK"
+        ]
+    },
+    {
+        "website": "united",
+        "id": "74b456b6-0e62-429f-b13c-45861f2cdf82",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Search for a recent full-time job in United Airlines corporate in Gurugram,  India if a job in sales is available, then apply through email at jacksparrow@gmail.com.",
+        "action_reprs": [
+            "[link]  Careers  -> CLICK",
+            "[link]  Open Jobs -> CLICK",
+            "[span]   -> CLICK",
+            "[button]  Country -> CLICK",
+            "[span]   -> CLICK",
+            "[button]  State / Province -> CLICK",
+            "[span]   -> CLICK",
+            "[button]  City -> CLICK",
+            "[span]   -> CLICK",
+            "[button]  Hiring Type -> CLICK",
+            "[span]   -> CLICK",
+            "[combobox]  Sort by -> SELECT: Most recent",
+            "[span]  Analyst - Sales Programs -> CLICK",
+            "[button]  Apply Now -> CLICK",
+            "[textbox]  Email * is a required field. -> TYPE: jacksparrow@gmail.com",
+            "[button]  Continue -> CLICK"
+        ]
+    },
+    {
+        "website": "united",
+        "id": "7ec95f61-b8f4-4431-84d2-55d9f7cdd594",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "check flight status for a flight from united airlines leaving Belo Horizonte to Buenos Aires on April 9",
+        "action_reprs": [
+            "[tab]  TRAVEL INFO -> CLICK",
+            "[link]  Flight status -> CLICK",
+            "[generic]  Apr 7, 2023 -> CLICK",
+            "[option]  Apr 9, 2023 -> CLICK",
+            "[combobox]  Airline. Enter to change collapsed list. Selected ... -> CLICK",
+            "[option]  United Airlines (UA) -> CLICK",
+            "[combobox]  Enter your departing city, airport name, or airpor... -> TYPE: belo horizonte",
+            "[button]  Belo Horizonte, MG, BR (CNF - Tancredo Neves) -> CLICK",
+            "[combobox]  Enter your destination city, airport name, or airp... -> TYPE: buenos aires",
+            "[button]  Buenos Aires, AR (EZE - Ministro Pistarini) -> CLICK",
+            "[button]  Check status -> CLICK"
+        ]
+    },
+    {
+        "website": "united",
+        "id": "4e9d71b9-b936-41d0-b1f9-cbfc17f79f51",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Calculate the baggage fee for first class flight leaving Columbus CMH to New Orleans MSY on april 9",
+        "action_reprs": [
+            "[tab]  TRAVEL INFO -> CLICK",
+            "[link]  Baggage info -> CLICK",
+            "[link]  Baggage fee calculator -> CLICK",
+            "[combobox]  From -> TYPE: columbus",
+            "[button]  Columbus, OH, US (CMH) -> CLICK",
+            "[combobox]  To -> TYPE: new orleans",
+            "[button]  New Orleans, LA, US (MSY) -> CLICK",
+            "[textbox]  Depart date -> CLICK",
+            "[button]  Sunday, April 9, 2023 -> CLICK",
+            "[combobox]  CabinTravelers with Economy (first checked bag cha... -> SELECT: Business or First",
+            "[button]  View bag charges -> CLICK"
+        ]
+    },
+    {
+        "website": "united",
+        "id": "59bdd427-c34b-4b93-a8b8-0c3a49acdcfa",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Book a round-trip flight from Santa Fe, New Mexico to Phoenix, Arizona for 1 adult on August 13th and returning on August 28th.",
+        "action_reprs": [
+            "[combobox]  Enter your departing city, airport name, or airpor... -> TYPE: Santa Fe",
+            "[button]  Santa Fe, NM, US (SAF) -> CLICK",
+            "[combobox]  Enter your destination city, airport name, or airp... -> TYPE: Phoenix",
+            "[button]  Phoenix, AZ, US (PHX) -> CLICK",
+            "[textbox]  Depart -> CLICK",
+            "[button]  Move forward to switch to the next month. -> CLICK",
+            "[span]  13 -> CLICK",
+            "[span]  28 -> CLICK",
+            "[button]  Find flights -> CLICK",
+            "[button]  Roundtrip $681 United Economy (U) Select fare for ... -> CLICK",
+            "[div]  $681 -> CLICK"
+        ]
+    },
+    {
+        "website": "newegg",
+        "id": "227054d0-24f1-4f8a-9dcb-5146fac623f4",
+        "domain": "Shopping",
+        "subdomain": "Digital",
+        "confirmed_task": "Find the cheapest Samsung-made and larger than 11-inch screen Android tablet, in the price range of 200 to 300 dollars and add it to the cart.",
+        "action_reprs": [
+            "[link]  \ue92e Electronics \uf105 -> CLICK",
+            "[link]  Tablets -> CLICK",
+            "[img]  Samsung -> CLICK",
+            "[span]  11\" & Larger -> CLICK",
+            "[button]  APPLY -> CLICK",
+            "[span]  8.7\" -> CLICK",
+            "[button]  APPLY -> CLICK",
+            "[span]  $200 - $300 -> CLICK",
+            "[button]  APPLY -> CLICK",
+            "[combobox]  Featured Items \uf0d7 -> SELECT: Lowest Price",
+            "[button]  ADD TO CART \uf0da -> CLICK"
+        ]
+    },
+    {
+        "website": "ikea",
+        "id": "813e47ec-6304-42c5-82d4-1fc461247965",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find the cheapest set of stainless steel spoons, which are available in stock in San Diego, California.",
+        "action_reprs": [
+            "[link]  Products -> CLICK",
+            "[button]  Kitchenware & tableware -> CLICK",
+            "[link]  Flatware & cutlery -> CLICK",
+            "[span]  Columbus -> CLICK",
+            "[searchbox]  Search by ZIP code or city, state -> TYPE: san diego",
+            "[button]  Submit -> CLICK",
+            "[span]  Select store -> CLICK",
+            "[link]  Flatware -> CLICK",
+            "[button]  Show more filters modal -> CLICK",
+            "[button]  Sort Best match -> CLICK",
+            "[radio]  Price: low to high -> CLICK",
+            "[path]   -> CLICK",
+            "[span]   -> CLICK",
+            "[path]   -> CLICK",
+            "[span]   -> CLICK",
+            "[button]  Type -> CLICK",
+            "[span]   -> CLICK",
+            "[button]  Close -> CLICK"
+        ]
+    },
+    {
+        "website": "qatarairways",
+        "id": "31df4f0d-8852-4694-b6cf-5f337bd26d39",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Retrieve booking 1234567890 booked by Jason Smith",
+        "action_reprs": [
+            "[tab]  \ue90cMy Trips -> CLICK",
+            "[textbox]  booking reference -> TYPE: 1234567890",
+            "[textbox]  last name -> TYPE: Smith",
+            "[button]  Retrieve booking -> CLICK"
+        ]
+    },
+    {
+        "website": "qatarairways",
+        "id": "446e3135-8a53-455f-9471-9f6660f6a94d",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Book a best business class flight ticket from Colombo to New York with a two-day Qatar stopover for 2 adults and 1 child on June 24.",
+        "action_reprs": [
+            "[textbox]  From Autocomplete selection. Enter your place. -> TYPE: colombo",
+            "[strong]  Colombo -> CLICK",
+            "[textbox]  To 2180 results are available, use up and down arr... -> TYPE: new york",
+            "[strong]  New York -> CLICK",
+            "[textbox]  Depart date please enter date in the format dd spa... -> CLICK",
+            "[gridcell]  24 June 2023 -> CLICK",
+            "[textbox]  Passengers / Class -> CLICK",
+            "[button]  Decrease number of infant passengers -> CLICK",
+            "[button]  Increase number of child passengers -> CLICK",
+            "[span]  (Business/First) -> CLICK",
+            "[button]  Confirm -> CLICK",
+            "[button]  Show flights\ue99a -> CLICK",
+            "[heading]  LKR\u00a01,120,521 -> CLICK",
+            "[button]  Select fare -> CLICK",
+            "[heading]  LKR\u00a03,125,932 -> CLICK",
+            "[button]  Select fare -> CLICK"
+        ]
+    },
+    {
+        "website": "mbta",
+        "id": "059327ab-e26e-4af6-9063-f58c50ecd2d2",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Show me the schedule and maps for the orange line",
+        "action_reprs": [
+            "[link]   subway Subway Lines -> CLICK",
+            "[span]  Orange Line -> CLICK",
+            "[link]  Schedules & Maps -> CLICK"
+        ]
+    },
+    {
+        "website": "yellowpages",
+        "id": "d0d6b0ed-82e4-4ba7-9a9b-7b874dacf19c",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Show me the map of Cleveland's animal shelters.",
+        "action_reprs": [
+            "[link]  CITY PAGES -> CLICK",
+            "[link]  Cleveland -> CLICK",
+            "[img]   -> CLICK",
+            "[link]  Map View -> CLICK"
+        ]
+    },
+    {
+        "website": "yellowpages",
+        "id": "e9c7496f-bdea-4651-aeae-0f4d12d59d12",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Filter car accident lawyers in Stanford, CA, sort them by distane and find the phone number of the nearest one.",
+        "action_reprs": [
+            "[input]   -> TYPE: Stanford, CA",
+            "[input]   -> TYPE: car accident lawyers",
+            "[link]  car accident lawyers -> CLICK",
+            "[div]  Sort: -> CLICK",
+            "[a]  Distance -> CLICK",
+            "[div]  1. -> CLICK"
+        ]
+    },
+    {
+        "website": "yelp",
+        "id": "1b310ebc-d9f4-4eb9-b348-30b329207a36",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Find a dry cleaning shop with the highest rating and virtual consultation option for Ironing and stain treatment for a pair of suits and a few delicates in New York City.",
+        "action_reprs": [
+            "[link]  More -> HOVER",
+            "[span]  Dry Cleaning -> CLICK",
+            "[textbox]  Near -> TYPE: new york city",
+            "[span]  New York, NY -> CLICK",
+            "[button]  Virtual Consultations -> CLICK",
+            "[button]  Recommended -> CLICK",
+            "[span]  Highest Rated -> CLICK",
+            "[checkbox]   Ironing -> CLICK",
+            "[checkbox]   Suits -> CLICK",
+            "[checkbox]   Delicates -> CLICK"
+        ]
+    },
+    {
+        "website": "booking",
+        "id": "a83c14aa-1a0b-4aaf-a801-ac828d2e81ca",
+        "domain": "Travel",
+        "subdomain": "General",
+        "confirmed_task": "Find a 4 star rated Hotel in New York Timesquare for 2 adults.",
+        "action_reprs": [
+            "[textbox]  Where are you going? -> TYPE: Timesqure New York",
+            "[button]  Times Square, New York, NY, USA -> CLICK",
+            "[button]  1 adult \u00b7 0 children \u00b7 1 room -> CLICK",
+            "[svg]   -> CLICK",
+            "[button]  Done -> CLICK",
+            "[button]  Search -> CLICK",
+            "[span]   -> CLICK",
+            "[span]   -> CLICK",
+            "[link]  Renaissance New York Times Square Hotel Opens in n... -> CLICK"
+        ]
+    },
+    {
+        "website": "carnival",
+        "id": "a065d3cb-e588-437b-b2e5-38359e770014",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Find cruises to Hawaii departing from Los Angeles in January 2024 with a duration of 12 days.",
+        "action_reprs": [
+            "[button]  SAIL TO -> CLICK",
+            "[button]  Hawaii  -> CLICK",
+            "[button]  SAIL FROM -> CLICK",
+            "[button]  Los Angeles, CA  -> CLICK",
+            "[button]  DATES -> CLICK",
+            "[button]  January 2024  -> CLICK",
+            "[button]  DURATION -> CLICK",
+            "[button]  10+ Days  -> CLICK",
+            "[button]  SEARCH CRUISES -> CLICK"
+        ]
+    },
+    {
+        "website": "carnival",
+        "id": "bf159a0f-e6d7-46fa-beea-c231934fa7a9",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Find travel agents in Grand Junction, Colorado",
+        "action_reprs": [
+            "[button]  Search -> CLICK",
+            "[textbox]  Search the site -> TYPE: travel agent",
+            "[button]  Find -> CLICK",
+            "[link]  Find A Travel Agent | Carnival Cruise Line -> CLICK",
+            "[textbox]  City -> TYPE: Grand Junction",
+            "[combobox]  State -> SELECT: Colorado",
+            "[button]  Search -> CLICK"
+        ]
+    },
+    {
+        "website": "carnival",
+        "id": "bf94a193-a30b-45b7-a93e-4733ea6a7ed4",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Find Alaska Cruises from Seattle in September 2023 with a duration of 8 days for 4 people on a ship Carnival Luminosa.",
+        "action_reprs": [
+            "[button]  SAIL TO -> CLICK",
+            "[button]  Alaska  -> CLICK",
+            "[button]  SAIL FROM -> CLICK",
+            "[button]  Seattle, WA  -> CLICK",
+            "[span]  Dates -> CLICK",
+            "[button]  September 2023  -> CLICK",
+            "[button]  DURATION -> CLICK",
+            "[button]  6 - 9 Days  -> CLICK",
+            "[button]  SEARCH CRUISES -> CLICK",
+            "[button]  Number of Guests -> CLICK",
+            "[path]   -> CLICK",
+            "[path]   -> CLICK",
+            "[button]  Ships -> CLICK",
+            "[button]  Carnival Luminosa -> CLICK"
+        ]
+    },
+    {
+        "website": "ultimate-guitar",
+        "id": "1f84888a-bebf-45aa-b8e3-2d9383ff01d3",
+        "domain": "Entertainment",
+        "subdomain": "Music",
+        "confirmed_task": "Find highest rated chords for the song La Bomba",
+        "action_reprs": [
+            "[textbox]  Enter artist name or song title -> TYPE: La Bomba",
+            "[button]  SEARCH -> CLICK",
+            "[link]  Chords -> CLICK",
+            "[link]  High rated -> CLICK"
+        ]
+    },
+    {
+        "website": "resy",
+        "id": "e031c695-28e2-4507-949e-bbb65edf9f3d",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Find an article about a new restaurant and share it on Twitter",
+        "action_reprs": [
+            "[link]  New Openings -> CLICK",
+            "[a]   -> CLICK",
+            "[link]  \ue906 -> CLICK"
+        ]
+    },
+    {
+        "website": "resy",
+        "id": "e0ff7945-56b0-487a-920b-cbf954e6fb72",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Reserve a dinner table in the first restaurent in the results,  any time after 8 pm tomorrow for two in New York in any available Indian cuisine-serving restaurant.",
+        "action_reprs": [
+            "[div]  Columbus, OH -> CLICK",
+            "[button]  New York -> CLICK",
+            "[textbox]  Search restaurants, cuisines, etc. -> TYPE: indian",
+            "[b]  Indian -> CLICK",
+            "[button]  Today -> CLICK",
+            "[button]  April 12, 2023. -> CLICK",
+            "[button]  View more availability for BayLeaf Modern Indian C... -> CLICK",
+            "[button]  8:15 PM Table -> CLICK",
+            "[button]  Reserve Now -> CLICK",
+            "[button]  Done -> CLICK"
+        ]
+    },
+    {
+        "website": "resy",
+        "id": "ef23fbf3-f05e-41e2-b847-a27028f42470",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Show me \u201cpizza\u201d restaurants near Atlanta",
+        "action_reprs": [
+            "[svg]   -> CLICK",
+            "[button]  Atlanta -> CLICK",
+            "[textbox]  Search restaurants, cuisines, etc. -> TYPE: pizza",
+            "[textbox]  Search restaurants, cuisines, etc. -> ENTER"
+        ]
+    },
+    {
+        "website": "resy",
+        "id": "f4bad8a9-72c9-4237-83fa-5673a0e139e9",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Book a table for 2 at a restaurant that was featured on the latest Hit List",
+        "action_reprs": [
+            "[link]  The Hit List -> CLICK",
+            "[a]   -> CLICK",
+            "[link]  Book Now\ue90b -> CLICK",
+            "[button]  12:30 PM Outdoor Counter -> CLICK",
+            "[button]  Reserve Now -> CLICK"
+        ]
+    },
+    {
+        "website": "resy",
+        "id": "f4c21e9f-fbd7-4c45-a282-de06ae3b73c5",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Find a Thai restaurant and get notified when they have an open table between 5 to 7 PM",
+        "action_reprs": [
+            "[textbox]  Search restaurants, cuisines, etc. -> TYPE: thai",
+            "[heading]  Senyai Thai Kitchen -> CLICK",
+            "[button]  Notify for Dinner -> CLICK",
+            "[combobox]  Preferred end time -> SELECT: 7:00 PM",
+            "[button]  Confirm -> CLICK"
+        ]
+    },
+    {
+        "website": "enterprise",
+        "id": "22e33a38-902c-4f62-9e9a-822b2370b6d1",
+        "domain": "Travel",
+        "subdomain": "Car rental",
+        "confirmed_task": "Select the cheapest exotic car for two from Beverly Hills at 11 am on March 31 and return on the same day at 5 pm.",
+        "action_reprs": [
+            "[link]  Exotic Cars -> CLICK",
+            "[link]  Reserve Now -> CLICK",
+            "[link]  Beverly Hills -> CLICK",
+            "[button]  Selected Pick-Up Date 03/21/2023 -> CLICK",
+            "[button]  03/31/2023 -> CLICK",
+            "[combobox]  Pick-Up Time Selector -> SELECT: 11:00 AM",
+            "[button]  Date -> CLICK",
+            "[button]  Selected Pick-Up Date 03/31/2023 -> CLICK",
+            "[combobox]  Return Time Selector -> SELECT: 5:00 PM",
+            "[button]  Browse Vehicles -> CLICK",
+            "[checkbox]  2+ -> CLICK",
+            "[combobox]  SORT BY -> SELECT: Price: Low to High"
+        ]
+    },
+    {
+        "website": "enterprise",
+        "id": "2cb6558b-3dd7-4acd-a495-a4d3b96369ad",
+        "domain": "Travel",
+        "subdomain": "Car rental",
+        "confirmed_task": "Browse a list of convertible cars for sale under 20000.",
+        "action_reprs": [
+            "[button]  Car Sales -> CLICK",
+            "[link]  Shop Vehicles Under $20,000 Link opens in a new wi... -> CLICK",
+            "[button]  Body Type \uf0d7 -> CLICK",
+            "[path]   -> CLICK"
+        ]
+    },
+    {
+        "website": "cvs",
+        "id": "0fc202d2-4c12-48ca-b04b-b667aac49156",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Browse benadryl items for Allergy Treatments in Liquid form.",
+        "action_reprs": [
+            "[combobox]  Search products and services -> TYPE: benadryl",
+            "[button]  Search for benadryl -> CLICK",
+            "[img]   -> CLICK",
+            "[div]   -> CLICK",
+            "[button]  Form -> CLICK",
+            "[div]   -> CLICK"
+        ]
+    },
+    {
+        "website": "qatarairways",
+        "id": "73960473-941b-4e09-8eb1-f059b85c2dba",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Show me the list of one-way flights today (April 17) from Chicago to Paris.",
+        "action_reprs": [
+            "[textbox]  From Autocomplete selection. Enter your place. -> TYPE: Chicago",
+            "[menuitem]  Chicago United States of America ORD OHare Interna... -> CLICK",
+            "[textbox]  To Autocomplete selection. Enter your place. -> TYPE: Paris",
+            "[menuitem]  Paris France CDG Charles De Gaulle Airport -> CLICK",
+            "[option]  One way -> CLICK",
+            "[gridcell]  17 April 2023 -> CLICK",
+            "[button]  Continue -> CLICK",
+            "[button]  Show flights\ue99a -> CLICK"
+        ]
+    },
+    {
+        "website": "qatarairways",
+        "id": "7f1f085b-5765-40f8-86c7-8df6e8b68053",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find information about baggage allowance for business class.",
+        "action_reprs": [
+            "[button]  Experience -> CLICK",
+            "[link]  Baggage allowance -> CLICK",
+            "[link]  Business Class -> CLICK"
+        ]
+    },
+    {
+        "website": "bookdepository",
+        "id": "690eedad-706c-4c48-a803-45b4f1c069bb",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Browse bestsellers under $20 and available in hardback.",
+        "action_reprs": [
+            "[link]  Bestsellers -> CLICK",
+            "[select]  All -> SELECT: Under US$20",
+            "[select]  All -> SELECT: Hardback",
+            "[button]  Refine results -> CLICK"
+        ]
+    },
+    {
+        "website": "bookdepository",
+        "id": "712d9d7f-d7ee-4554-affa-133449231ae4",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find the latest medical audiobook on complementary medicine for under 20 dollars and add the top book to the cart.",
+        "action_reprs": [
+            "[link]  Shop by category\u2228 -> HOVER",
+            "[link]  Medical -> CLICK",
+            "[link]  Complementary Medicine -> CLICK",
+            "[select]  All -> SELECT: Audio (376)",
+            "[select]  All -> SELECT: Under US$20",
+            "[button]  Refine results -> CLICK",
+            "[button]  Add to basket -> CLICK"
+        ]
+    },
+    {
+        "website": "bookdepository",
+        "id": "8e3c7ad0-f138-490e-918e-42bcce9f55a9",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Add a harry potter book to my wishlist.",
+        "action_reprs": [
+            "[textbox]  Search for books by keyword / title / author / ISB... -> TYPE: Harry Potter",
+            "[button]  Search -> CLICK",
+            "[link]  Harry Potter and the Cursed Child - Parts I & II -> CLICK",
+            "[link]  Add to wishlist -> CLICK",
+            "[button]  Add -> CLICK"
+        ]
+    },
+    {
+        "website": "bookdepository",
+        "id": "a2b159c8-86d0-4b76-9244-f19cc41d5ad8",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Add a Medical book related to Diseases & Disorders to basket.",
+        "action_reprs": [
+            "[link]  Shop by category\u2228 -> CLICK",
+            "[link]  Shop by category\u2228 -> CLICK",
+            "[link]  Medical -> CLICK",
+            "[link]  Diseases & Disorders -> CLICK",
+            "[button]  Add to basket -> CLICK"
+        ]
+    },
+    {
+        "website": "kbb",
+        "id": "4af615be-4472-4357-8737-5286b06b385d",
+        "domain": "Shopping",
+        "subdomain": "Auto",
+        "confirmed_task": "Browse listings for a used 2006 Honda Civic.",
+        "action_reprs": [
+            "[link]  Price New/Used -> CLICK",
+            "[combobox]  Year -> SELECT: 2006",
+            "[combobox]  Make -> SELECT: Honda",
+            "[combobox]  Model -> SELECT: Civic",
+            "[button]  Next -> CLICK",
+            "[link]  See Cars for Sale -> CLICK"
+        ]
+    },
+    {
+        "website": "bookdepository",
+        "id": "31a74ae0-4b8a-407b-8f3d-a094a6966254",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Show books of Dr Seuss with price range of $20 to $40 and add 2 to basket.",
+        "action_reprs": [
+            "[link]  Shop by category\u2228 -> CLICK",
+            "[link]  Dr. Seuss -> CLICK",
+            "[select]  All -> SELECT: US$20 to US$40",
+            "[button]  Refine results -> CLICK",
+            "[button]  Add to basket -> CLICK",
+            "[button]  Close -> CLICK",
+            "[button]  Add to basket -> CLICK"
+        ]
+    },
+    {
+        "website": "bookdepository",
+        "id": "4f14fb44-31d8-49f3-b5fb-95826175bcb8",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "search new books from Jk Rowling available for kids within the age from 3 to 5 that are below $20",
+        "action_reprs": [
+            "[textbox]  Search for books by keyword / title / author / ISB... -> TYPE: Jk rowling",
+            "[link]  Jk rowling -> CLICK",
+            "[select]  Most popular -> SELECT: Publication date, new to old",
+            "[div]  Age range -> CLICK",
+            "[select]  All -> SELECT: Ages 3-5 (31)",
+            "[select]  All -> SELECT: Under US$20",
+            "[button]  Refine results -> CLICK"
+        ]
+    },
+    {
+        "website": "aa",
+        "id": "0c7a69f9-989d-4899-a3fe-94c952859007",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find flights from Chicago to London on 20 April and return on 23 April.",
+        "action_reprs": [
+            "[textbox]  From -> TYPE: Chicago",
+            "[a]  CHI - Chicago, IL -> CLICK",
+            "[textbox]  To -> TYPE: London",
+            "[a]  LON - London, United Kingdom -> CLICK",
+            "[button]  \udbf8\udc3a View Calendar: To navigate the calendar, use the... -> CLICK",
+            "[link]  20 -> CLICK",
+            "[button]  \udbf8\udc3a View Calendar: To navigate the calendar, use the... -> CLICK",
+            "[link]  23 -> CLICK",
+            "[button]  Search -> CLICK"
+        ]
+    },
+    {
+        "website": "aa",
+        "id": "0f63c624-6097-473e-ad19-59bc139836d1",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Search for developer jobs in Dallas, Texas, and review details of the latest job then create an 8-day alert after signing in.",
+        "action_reprs": [
+            "[link]  We're hiring! Join our team , Opens another site i... -> CLICK",
+            "[button]  Careers  -> CLICK",
+            "[link]  View All Jobs -> CLICK",
+            "[textbox]  Search by Keyword -> TYPE: developer",
+            "[textbox]  Search by Location -> TYPE: dallas",
+            "[button]  Search Jobs -> CLICK",
+            "[link]  Developer/ Senior Developer, IT -> CLICK",
+            "[spinbutton]  Select how often (in days) to receive an alert: -> TYPE: 8",
+            "[button]  \u2709 Create Alert -> CLICK"
+        ]
+    },
+    {
+        "website": "aa",
+        "id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Book a first class vacation travel for 2 adults from San Francisco to New york leavind on april 9 and returning on april 19",
+        "action_reprs": [
+            "[span]  Vacation packages -> CLICK",
+            "[textbox]  From -> TYPE: san francisco",
+            "[a]  SFO - San Francisco International, CA -> CLICK",
+            "[textbox]  To -> TYPE: new york",
+            "[a]  NYC - New York, NY -> CLICK",
+            "[combobox]  Number of passengers -> SELECT: 2",
+            "[textbox]  Depart (date format mm/dd/yyyy) -> CLICK",
+            "[button]  \udbf8\udc3a View Calendar: To navigate the calendar, use the... -> CLICK",
+            "[link]  9 -> CLICK",
+            "[button]  \udbf8\udc3a View Calendar: To navigate the calendar, use the... -> CLICK",
+            "[link]  19 -> CLICK",
+            "[combobox]  Fare preference -> SELECT: First",
+            "[button]  Search , Opens another site in a new window that m... -> CLICK"
+        ]
+    },
+    {
+        "website": "aa",
+        "id": "26fff471-7083-46e4-945e-d1b167157a0d",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Check refund status for John Davis for ticket no. 1234567890123",
+        "action_reprs": [
+            "[link]  Receipts and refunds -> CLICK",
+            "[link]  Check the status of a refund  -> CLICK",
+            "[textbox]  Ticket number  -> CLICK",
+            "[textbox]  Ticket number  -> TYPE: 1234567890123",
+            "[textbox]  First name  -> CLICK",
+            "[textbox]  First name  -> TYPE: John",
+            "[textbox]  Last name  -> CLICK",
+            "[textbox]  Last name  -> TYPE: Davis",
+            "[button]  Search -> CLICK"
+        ]
+    },
+    {
+        "website": "aa",
+        "id": "4947d606-626e-4da3-a595-bfedacbed3ec",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Request ticket receipt for ticket no. 1234567890123 and last name Davis",
+        "action_reprs": [
+            "[link]  Receipts and refunds -> CLICK",
+            "[link]  Receipts for tickets and fees  -> CLICK",
+            "[textbox]  Ticket number -> CLICK",
+            "[textbox]  Ticket number -> TYPE: 1234567890123",
+            "[textbox]  Last name -> CLICK",
+            "[textbox]  Last name -> TYPE: Davis",
+            "[button]  Find your receipt -> CLICK"
+        ]
+    },
+    {
+        "website": "ign",
+        "id": "701bc7ed-4b55-4fd2-b333-128e55c0a4c2",
+        "domain": "Entertainment",
+        "subdomain": "Game",
+        "confirmed_task": "Find an upcoming game which is releasing in August 2023 for PS5.",
+        "action_reprs": [
+            "[button]  Toggle Sidebar -> CLICK",
+            "[button]  Discover -> CLICK",
+            "[link]  Upcoming Games -> CLICK",
+            "[combobox]  Platform -> SELECT: PS5",
+            "[tab]  AUG '23 -> CLICK",
+            "[div]  The Texas Chain Saw Massacre -> CLICK"
+        ]
+    },
+    {
+        "website": "ign",
+        "id": "763deda0-f51c-4520-b102-5277f702e8bd",
+        "domain": "Entertainment",
+        "subdomain": "Game",
+        "confirmed_task": "Find the initial release date for Guardians of the Galaxy Vol. 3 the movie.",
+        "action_reprs": [
+            "[button]  Search -> CLICK",
+            "[searchbox]  Search -> TYPE: Guardians of the Galaxy",
+            "[tab]  MOVIES -> CLICK",
+            "[div]  Guardians of the Galaxy Vol. 3 -> CLICK"
+        ]
+    },
+    {
+        "website": "carnival",
+        "id": "0dc0190c-57cc-4c0f-b939-c0617102166e",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Add to favorites a cruise from San Francisco to the Panama Canal departing Oct 2024",
+        "action_reprs": [
+            "[span]  Sail To -> CLICK",
+            "[button]  Panama Canal  -> CLICK",
+            "[span]  Sail From -> CLICK",
+            "[button]  San Francisco, CA  -> CLICK",
+            "[span]  Dates -> CLICK",
+            "[button]  October 2024  -> CLICK",
+            "[button]  SEARCH CRUISES -> CLICK",
+            "[path]   -> CLICK"
+        ]
+    },
+    {
+        "website": "carnival",
+        "id": "329d9ee8-de96-40c2-aa19-2dcf8e86b724",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Get me info about planning a wedding cruise",
+        "action_reprs": [
+            "[link]  Weddings & Occasions -> CLICK",
+            "[heading]  DOWNLOAD DIGITAL BROCHURE -> CLICK"
+        ]
+    },
+    {
+        "website": "carnival",
+        "id": "3b74d9cc-ba1b-441d-a1a2-a05cea62a800",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Browse the trending daily deals.",
+        "action_reprs": [
+            "[link]  Today's Deals -> CLICK",
+            "[link]  Trending (2) -> CLICK"
+        ]
+    },
+    {
+        "website": "carnival",
+        "id": "4008118a-68a1-4a9f-968c-8b92a979dff7",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Show me the breakfast options on the Carnival Breeze ship.",
+        "action_reprs": [
+            "[button]  Explore -> HOVER",
+            "[link]  Dining -> CLICK",
+            "[span]  EXPLORE DINING -> CLICK",
+            "[radio]  Filter group Ship: Carnival Breeze -> CLICK",
+            "[radio]  Filter group Meal Time: Breakfast -> CLICK"
+        ]
+    },
+    {
+        "website": "rottentomatoes",
+        "id": "f86b0a14-ed91-491d-85be-b0af0b849353",
+        "domain": "Entertainment",
+        "subdomain": "Movie",
+        "confirmed_task": "Browse movies in theaters that are certified fresh and sorty by highest audience score.",
+        "action_reprs": [
+            "[link]  MOVIES -> CLICK",
+            "[svg]   -> CLICK",
+            "[div]   -> CLICK",
+            "[button]  APPLY -> CLICK",
+            "[svg]   -> CLICK",
+            "[div]   -> CLICK"
+        ]
+    },
+    {
+        "website": "marriott",
+        "id": "e48f848d-62b8-441e-aafb-c76aeb2c4f84",
+        "domain": "Travel",
+        "subdomain": "Hotel",
+        "confirmed_task": "Look for an internship role for a university graduated in the  in Germany, and apply to the job posted in last 7 days.",
+        "action_reprs": [
+            "[button]  Our Company\ue91e -> CLICK",
+            "[link]  Careers \ue922 -> CLICK",
+            "[link]  Students & Grads -> CLICK",
+            "[link]  INTERNSHIP PROGRAMS -> CLICK",
+            "[link]  HOTEL INTERNSHIPS INTERNATIONAL -> CLICK",
+            "[button]  Locations -> CLICK",
+            "[button]  Germany -> CLICK",
+            "[button]  Posting Dates -> CLICK",
+            "[button]  Less than 7 days -> CLICK",
+            "[span]  Voyage Program, European Union Member States -> CLICK",
+            "[button]  APPLY NOW -> CLICK"
+        ]
+    },
+    {
+        "website": "soundcloud",
+        "id": "d4f9c67f-00c5-41ed-bde1-c704b92647f7",
+        "domain": "Entertainment",
+        "subdomain": "Music",
+        "confirmed_task": "Compare Pro Plans with other plans available.",
+        "action_reprs": [
+            "[link]  Try Next Pro -> CLICK",
+            "[button]  Compare plans -> CLICK"
+        ]
+    },
+    {
+        "website": "soundcloud",
+        "id": "efe9051b-d626-443c-b8c8-e7844a0acd29",
+        "domain": "Entertainment",
+        "subdomain": "Music",
+        "confirmed_task": "Find popular tracks from the rock band Nirvana.",
+        "action_reprs": [
+            "[searchbox]  Search -> TYPE: Nirvana",
+            "[link]  Search for \u201cNirvana\u201d -> CLICK",
+            "[link]  Nirvana -> CLICK",
+            "[link]  Popular tracks -> CLICK"
+        ]
+    },
+    {
+        "website": "parking",
+        "id": "aa1a4414-f141-42b8-9e8b-28d5bd1eeef2",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Find parking near Venice Beach that allows mobile coupons.",
+        "action_reprs": [
+            "[combobox]  \uf002\u00a0 Enter an Address or Venue to find parking -> TYPE: Venice Beach",
+            "[em]  Venice -> CLICK",
+            "[strong]  Filters -> CLICK",
+            "[checkbox]  \uf145Accepts Mobile Coupons -> CLICK"
+        ]
+    },
+    {
+        "website": "parking",
+        "id": "b1fa9bb3-6e2c-485b-90f1-2a54510bf358",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Find parking near Disneyland that has EV charging.",
+        "action_reprs": [
+            "[span]  Enter an Address or Venue to find parking -> TYPE: Disneyland",
+            "[combobox]  \uf002\u00a0 Enter an Address or Venue to find parking -> ENTER",
+            "[strong]  Filters -> CLICK",
+            "[checkbox]  \uf0e7EV Charging -> CLICK",
+            "[link]  View Details (P) SPHERE ON DEMAND - CITY OF ANAHEI... -> CLICK"
+        ]
+    },
+    {
+        "website": "parking",
+        "id": "b9f5dd60-690d-4f32-9e69-3db9d346f020",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Find out what payment methods are available for monthly parking.",
+        "action_reprs": [
+            "[link]  SUPPORT -> CLICK",
+            "[heading]  What forms of payment do you accept for monthly pa... -> CLICK"
+        ]
+    },
+    {
+        "website": "parking",
+        "id": "cdb6b70d-6083-49b5-908c-a6c0f711c175",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Find parking spaces near Warner Theatre in Washington DC.",
+        "action_reprs": [
+            "[link]  CITIES -> CLICK",
+            "[heading]  WASHINGTON DC -> CLICK",
+            "[link]  Theaters -> CLICK",
+            "[link]  Warner Theatre Theaters -> CLICK",
+            "[link]  SEE OPTIONS -> CLICK",
+            "[heading]  The Portals Parking -> CLICK"
+        ]
+    },
+    {
+        "website": "parking",
+        "id": "fbefeb82-f3e6-4db4-acc6-a68b1d519ba7",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Add a parking button code for my company Boston Legal located near Boston Navy Yard, and the button should be 160x400 pixels, and the parking spot should be within 15 miles of my address.",
+        "action_reprs": [
+            "[link]  ADD PARKING TO YOUR WEBSITE -> CLICK",
+            "[textbox]  STEP 1: Enter Your Company Name -> TYPE: BOSTON LEGAL",
+            "[combobox]  STEP 2:Enter an address to search and select a loc... -> TYPE: BOSTON NAVY YARD",
+            "[em]  Navy -> CLICK",
+            "[span]  300 pixels x 150 pixels -> CLICK",
+            "[span]  160 pixels x 400 pixels -> CLICK",
+            "[span]  Default -> CLICK",
+            "[li]  .15 miles -> CLICK",
+            "[link]  Get My Code -> CLICK"
+        ]
+    },
+    {
+        "website": "ryanair",
+        "id": "725c38e7-7987-40b3-8f19-8450f8277f06",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find the cheapest event to attend in Athens, Greece on April 2nd",
+        "action_reprs": [
+            "[div]  Events & Activities -> CLICK",
+            "[input]   -> CLICK",
+            "[button]  Greece -> CLICK",
+            "[button]  Athens -> CLICK",
+            "[button]  Go! -> CLICK",
+            "[div]  Sort by -> CLICK",
+            "[div]  Lowest price -> CLICK",
+            "[div]  All dates -> CLICK",
+            "[span]  2 -> CLICK",
+            "[span]  2 -> CLICK",
+            "[generic]  Athens Piraeus and Glyfada Hop on Hop off Tour -> CLICK"
+        ]
+    },
+    {
+        "website": "ryanair",
+        "id": "767faaa6-220e-4e6c-ac1d-39b1501c69cf",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Hire a large car with air conditioning for a small group to pick up from Berlin on May 15, 11:30 am, and drop off at the exact location on May 16, 11 am, book with full protection and payment with a credit card.",
+        "action_reprs": [
+            "[div]  Car Hire -> CLICK",
+            "[textbox]  I need a car in -> TYPE: berlin",
+            "[button]  Berlin Berlin Federal State, Germany (City) -> CLICK",
+            "[div]   -> CLICK",
+            "[generic]  15 -> CLICK",
+            "[generic]  16 -> CLICK",
+            "[button]  11:30 -> CLICK",
+            "[button]  11:00 -> CLICK",
+            "[button]  Let's go -> CLICK",
+            "[link]  Large cars 5\u00a0Seats 3 Large bags -> CLICK",
+            "[ins]   -> CLICK",
+            "[ins]   -> CLICK",
+            "[ins]   -> CLICK",
+            "[link]  Show all 10 cars -> CLICK",
+            "[link]  Opel Insignia\u00a0or Similar , View deal -> CLICK",
+            "[radio]  Radio yes -> CLICK",
+            "[link]  Go to book -> CLICK"
+        ]
+    },
+    {
+        "website": "instacart",
+        "id": "844f8d77-e12e-4d68-8c4c-9146bd5b1530",
+        "domain": "Shopping",
+        "subdomain": "General",
+        "confirmed_task": "Open gift list for beauty products.",
+        "action_reprs": [
+            "[path]   -> CLICK",
+            "[button]  More ways to shop -> CLICK",
+            "[link]  Send gifts -> CLICK",
+            "[span]  Beauty -> CLICK"
+        ]
+    },
+    {
+        "website": "instacart",
+        "id": "8f6374b0-36f1-478e-a282-a61849c8174f",
+        "domain": "Shopping",
+        "subdomain": "General",
+        "confirmed_task": "Add eleven produce items from Aldi, including 1 pack of blueberry, 6 bananas, 1 grape tomato, 1 roma tomato, 1 cilantro, to my cart and have it delivered tomorrow between 10am and 1pm to the default address.",
+        "action_reprs": [
+            "[img]   -> CLICK",
+            "[link]  Produce -> CLICK",
+            "[link]  Fresh Fruits -> CLICK",
+            "[span]  Add -> CLICK",
+            "[span]  Add -> CLICK",
+            "[path]   -> CLICK",
+            "[link]  Fresh Vegetables -> CLICK",
+            "[span]  Add -> CLICK",
+            "[span]  Add -> CLICK",
+            "[link]  Herbs -> CLICK",
+            "[div]  Add -> CLICK",
+            "[button]  View Cart. Items in cart: 5 -> CLICK",
+            "[button]  View Cart. Items in cart: 5 -> CLICK",
+            "[div]  Go to checkout -> CLICK",
+            "[div]   -> CLICK",
+            "[button]  Confirm address -> CLICK",
+            "[p]  Choose 3-hour window -> CLICK",
+            "[div]  10am - 1pm -> CLICK",
+            "[button]  Save -> CLICK"
+        ]
+    },
+    {
+        "website": "instacart",
+        "id": "945ac29d-8e65-4e14-8bab-21742ac92a47",
+        "domain": "Shopping",
+        "subdomain": "General",
+        "confirmed_task": "Find the cheapest  bananas at Kroger",
+        "action_reprs": [
+            "[img]   -> CLICK",
+            "[textbox]  Search Kroger... -> TYPE: bananas",
+            "[span]  bananas -> CLICK",
+            "[span]  Best match -> CLICK",
+            "[option]  Price: lowest first -> CLICK"
+        ]
+    },
+    {
+        "website": "instacart",
+        "id": "96fb7e5d-08b1-4def-a6f8-6ee81055d944",
+        "domain": "Shopping",
+        "subdomain": "General",
+        "confirmed_task": "Search for Gingerbread cakes recipe and add ingredients to cart.",
+        "action_reprs": [
+            "[textbox]  Search -> TYPE: Gingerbread cakes",
+            "[link]  gingerbread cakes -> CLICK",
+            "[button]  Recipes -> CLICK",
+            "[img]   -> CLICK",
+            "[button]  Add 3 items to cart -> CLICK"
+        ]
+    },
+    {
+        "website": "yelp",
+        "id": "f408cdf3-06c8-459c-ba08-71bd471341a0",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Find places that serve burgers in 44012 zip code and sort the results by highest rated",
+        "action_reprs": [
+            "[textbox]  Find -> CLICK",
+            "[textbox]  Find -> TYPE: Burgers",
+            "[span]  Burgers -> CLICK",
+            "[textbox]  Near -> CLICK",
+            "[textbox]  Near -> TYPE: 44012",
+            "[button]  Search -> CLICK",
+            "[button]  Recommended -> CLICK",
+            "[span]  Highest Rated -> CLICK"
+        ]
+    },
+    {
+        "website": "sports.yahoo",
+        "id": "96c35c7a-a0d6-42c3-9814-eb2698c802a4",
+        "domain": "Entertainment",
+        "subdomain": "Sports",
+        "confirmed_task": "Open the news page with the UFC schedule.",
+        "action_reprs": [
+            "[link]  MMA . -> HOVER",
+            "[link]  UFC Schedule . -> CLICK"
+        ]
+    },
+    {
+        "website": "sports.yahoo",
+        "id": "9a462751-758e-42bd-967d-373c13b90382",
+        "domain": "Entertainment",
+        "subdomain": "Sports",
+        "confirmed_task": "Find the current injuries of Phoenix Suns players.",
+        "action_reprs": [
+            "[link]  NBA . -> HOVER",
+            "[div]  Phoenix -> CLICK",
+            "[link]  Injuries -> CLICK"
+        ]
+    },
+    {
+        "website": "sports.yahoo",
+        "id": "9b03e9a1-39bb-48d5-a33a-a2b05a6eb379",
+        "domain": "Entertainment",
+        "subdomain": "Sports",
+        "confirmed_task": "Search for upcoming MLB games taking place on Sunday, 3/19.",
+        "action_reprs": [
+            "[link]  MLB . -> CLICK",
+            "[link]  Scores/Schedules -> CLICK",
+            "[link]  Next day -> CLICK",
+            "[link]  Next day -> CLICK"
+        ]
+    },
+    {
+        "website": "sports.yahoo",
+        "id": "9f57055d-c269-47d7-99be-3525d725439e",
+        "domain": "Entertainment",
+        "subdomain": "Sports",
+        "confirmed_task": "Find the NBA team with the best odds to win the NBA title.",
+        "action_reprs": [
+            "[link]  NBA . -> HOVER",
+            "[link]  Odds . -> CLICK",
+            "[button]  Futures -> CLICK"
+        ]
+    },
+    {
+        "website": "ikea",
+        "id": "6b4aa5a9-79c5-49a3-9cc6-ead02159a3dd",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find a Queen size memory foam mattress with lowest price.",
+        "action_reprs": [
+            "[button]  Menu -> CLICK",
+            "[button]  Products -> CLICK",
+            "[button]  Beds & mattresses -> CLICK",
+            "[link]  Mattresses -> CLICK",
+            "[img]  Foam and memory foam mattresses -> CLICK",
+            "[button]  Show sorting options modal -> CLICK",
+            "[span]  Price: low to high -> CLICK",
+            "[button]  Show filter modal size -> CLICK",
+            "[span]   -> CLICK",
+            "[img]   -> CLICK"
+        ]
+    },
+    {
+        "website": "ikea",
+        "id": "6ca55141-9ba6-4ed7-8c07-77df6c24029d",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find the lowest-priced gray-colored round-shaped mirror in stock in Atlanta, Georgia, with a maximum price of 20 dollars.",
+        "action_reprs": [
+            "[combobox]  Search by product -> TYPE: mirror",
+            "[button]  Search -> CLICK",
+            "[span]  Columbus -> CLICK",
+            "[searchbox]  Search by ZIP code or city, state -> TYPE: atlanta georgia",
+            "[button]  Submit -> CLICK",
+            "[span]  Select store -> CLICK",
+            "[button]  Show more filters modal -> CLICK",
+            "[button]  Sort Best match -> CLICK",
+            "[radio]  Price: low to high -> CLICK",
+            "[button]  Sort -> CLICK",
+            "[button]  Shape -> CLICK",
+            "[span]   -> CLICK",
+            "[button]  Shape -> CLICK",
+            "[span]   -> CLICK",
+            "[button]  Price -> CLICK",
+            "[span]   -> CLICK",
+            "[button]  Close -> CLICK"
+        ]
+    },
+    {
+        "website": "underarmour",
+        "id": "6e98e331-c80b-4316-b332-af76c4cb2440",
+        "domain": "Shopping",
+        "subdomain": "Fashion",
+        "confirmed_task": "Search for women's golf polos in m size, priced between 50 to 75 dollars, and save the lowest priced among results.",
+        "action_reprs": [
+            "[menuitem]  Women -> HOVER",
+            "[menuitem]  Golf -> CLICK",
+            "[div]  Product Category -> CLICK",
+            "[link]  Clothing -> CLICK",
+            "[div]  Product Type -> CLICK",
+            "[link]  Polos -> CLICK",
+            "[div]  Size -> CLICK",
+            "[link]  M -> CLICK",
+            "[span]  Now Trending -> CLICK",
+            "[li]  Price (Low - High) -> CLICK",
+            "[button]  Add to Wish List -> CLICK"
+        ]
+    },
+    {
+        "website": "tvguide",
+        "id": "6f4e562e-91f9-401d-8730-af947985b821",
+        "domain": "Entertainment",
+        "subdomain": "Movie",
+        "confirmed_task": "Add 3 most rated to watch tv shows or movies on Amazon Prime to watchlist.",
+        "action_reprs": [
+            "[link]  What to Watch on Amazon Prime -> CLICK",
+            "[button]  Filter -> CLICK",
+            "[button]  Highest Rated -> CLICK",
+            "[button]  View Results -> CLICK",
+            "[span]  Watchlist -> CLICK",
+            "[span]  Watchlist -> CLICK",
+            "[span]  Watchlist -> CLICK"
+        ]
+    },
+    {
+        "website": "tvguide",
+        "id": "789b7d2d-fb01-453c-b933-383965e6123c",
+        "domain": "Entertainment",
+        "subdomain": "Movie",
+        "confirmed_task": "Find cast and crew of Titanic and add to watchlist",
+        "action_reprs": [
+            "[textbox]  Search TV Shows and Movies... -> TYPE: Titanic",
+            "[div]  Titanic -> CLICK",
+            "[link]  Cast & Crew -> CLICK",
+            "[span]  Watchlist -> CLICK"
+        ]
+    },
+    {
+        "website": "enterprise",
+        "id": "d5054276-2223-44f3-b2ed-4944bae4d2b1",
+        "domain": "Travel",
+        "subdomain": "Car rental",
+        "confirmed_task": "Find a Hotel in Boston zip code 02199 and make a pick-up reservation in a suv with gps for 2 people on March 27 11 am and return on March 29, 1 pm.",
+        "action_reprs": [
+            "[button]  Locations -> CLICK",
+            "[link]  United States Car Rental Locations -> CLICK",
+            "[searchbox]  Location (required) * Required Field -> TYPE: 02199",
+            "[span]  02199 -> CLICK",
+            "[button]  Continue -> CLICK",
+            "[button]  All Location Details -> CLICK",
+            "[button]  Selected Pick-Up Date 03/23/2023 -> CLICK",
+            "[button]  03/27/2023 -> CLICK",
+            "[combobox]  Pick-Up Time Selector -> SELECT: 11:00 AM",
+            "[button]  Date -> CLICK",
+            "[button]  03/29/2023 -> CLICK",
+            "[combobox]  Return Time Selector -> SELECT: 1:00 PM",
+            "[button]  Browse Vehicles -> CLICK",
+            "[checkbox]  SUVs -> CLICK",
+            "[checkbox]  2+ -> CLICK",
+            "[button]  Select Nissan Kicks Vehicle -> CLICK",
+            "[button]  Add -> CLICK",
+            "[button]  Continue to Review -> CLICK"
+        ]
+    },
+    {
+        "website": "viator",
+        "id": "8308d10f-3904-473a-a186-c6b8f939f018",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Find the longest private sightseeing trip of India in the month of June",
+        "action_reprs": [
+            "[textbox]  Where to? -> TYPE: India",
+            "[button]  India Asia -> CLICK",
+            "[button]  Next -> CLICK",
+            "[path]   -> CLICK",
+            "[gridcell]  Thu Jun 01 2023 -> CLICK",
+            "[gridcell]  Fri Jun 30 2023 -> CLICK",
+            "[button]  Apply -> CLICK",
+            "[circle]   -> CLICK",
+            "[button]   -> CLICK",
+            "[div]  Sightseeing Tours -> CLICK",
+            "[label]  Private Tour -> CLICK",
+            "[span]  Featured -> CLICK",
+            "[span]  Duration (Long to Short) -> CLICK"
+        ]
+    },
+    {
+        "website": "ikea",
+        "id": "479bdc82-ec52-447b-a577-fa2bcdc3886f",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Show offers on home essentials under $20 and add the first 3 items to favorites.",
+        "action_reprs": [
+            "[link]  Deals -> CLICK",
+            "[link]  Home Essentials Under $20 -> CLICK",
+            "[button]  Save to favorites, KUDDARNA, Chair pad, outdoor -> CLICK",
+            "[button]  Save to favorites, GULLBERGS\u00d6, Cushion cover, in/o... -> CLICK",
+            "[button]  Save to favorites, FEJAN, Chair, outdoor -> CLICK"
+        ]
+    },
+    {
+        "website": "ikea",
+        "id": "577ac962-aefc-46c5-9050-a6069bf2a8fb",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find spare parts with part number 105307 and add 2 of them to cart.",
+        "action_reprs": [
+            "[button]  Menu -> CLICK",
+            "[link]  Customer Service -> CLICK",
+            "[div]  Need an extra part? -> CLICK",
+            "[link]  Read more -> CLICK",
+            "[span]  Order spare parts -> CLICK",
+            "[input]   -> TYPE: 105307",
+            "[button]  105307 -> CLICK",
+            "[combobox]  Change quantity -> SELECT: 2",
+            "[span]  Add to cart -> CLICK"
+        ]
+    },
+    {
+        "website": "ikea",
+        "id": "60383804-a8e5-4e50-8715-da391d76617d",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Browse candle holder red decor products.",
+        "action_reprs": [
+            "[link]  Marketplace -> CLICK",
+            "[link]  Shop by Color -> CLICK",
+            "[link]  Shop red -> CLICK",
+            "[button]  Show filter modal Category -> CLICK",
+            "[span]   -> CLICK"
+        ]
+    },
+    {
+        "website": "ikea",
+        "id": "618dbd1f-16e6-442e-ba3b-364c6dbda810",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Go to limited-time offers and choose the cheapest outdoor dining table, add to the cart, and checkout as a guest and select Ikea West Chester store for pick-up.",
+        "action_reprs": [
+            "[link]  Deals -> CLICK",
+            "[link]  Limited Time Offers -> CLICK",
+            "[button]  Show filter modal Category -> CLICK",
+            "[button]  Furniture 356 -> CLICK",
+            "[button]  + 11 more -> CLICK",
+            "[button]  Furniture sets 138 -> CLICK",
+            "[button]  Outdoor dining sets 46 -> CLICK",
+            "[button]  Add to bag, T\u00c4RN\u00d6, Table+2 chairs, outdoor -> CLICK",
+            "[link]  Shopping bag, 1 items -> CLICK",
+            "[span]  Continue to checkout -> CLICK",
+            "[span]  Guest checkout -> CLICK",
+            "[span]  Select a store -> CLICK",
+            "[span]  IKEA West Chester -> CLICK",
+            "[button]  Close -> CLICK"
+        ]
+    },
+    {
+        "website": "seatgeek",
+        "id": "e93fe82b-c3ed-4661-92f6-ea0abb1b2b63",
+        "domain": "Entertainment",
+        "subdomain": "Event",
+        "confirmed_task": "Browse the page to find classic rock concert tickets.",
+        "action_reprs": [
+            "[link]  Music -> HOVER",
+            "[a]  Genres -> HOVER",
+            "[link]  Classic Rock -> CLICK"
+        ]
+    },
+    {
+        "website": "seatgeek",
+        "id": "fbaa5c83-11ed-40d8-b5e6-d4ddb9a1cbde",
+        "domain": "Entertainment",
+        "subdomain": "Event",
+        "confirmed_task": "Search for comedy shows taking place in Chicago, IL and expand the results once.",
+        "action_reprs": [
+            "[button]  Change Location -> CLICK",
+            "[searchbox]  Search by city... -> TYPE: Chicago",
+            "[option]  Chicago, IL -> CLICK",
+            "[button]  See next Categories -> CLICK",
+            "[img]  Comedy -> CLICK",
+            "[span]  View more -> CLICK"
+        ]
+    },
+    {
+        "website": "aa",
+        "id": "c175fe34-143b-4a87-a462-e8e9d69d0b95",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Check flight status from London to New York City for next day.",
+        "action_reprs": [
+            "[link]  Flight status -> CLICK",
+            "[textbox]  From , required. -> TYPE: London",
+            "[a]  LON - London, United Kingdom -> CLICK",
+            "[textbox]  To , required. -> TYPE: New York",
+            "[a]  NYC - New York, NY -> CLICK",
+            "[combobox]  Date -> SELECT: Friday, April 7",
+            "[button]  Search -> CLICK",
+            "[link]  Check status\u00a0\u00bb for flight, 6930 of American Airlin... -> CLICK"
+        ]
+    },
+    {
+        "website": "aa",
+        "id": "f804150b-c2e9-40ca-b71f-d0d0d95e0c46",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find the cheapest hotel in New York City for 2 adults from Apr7 to Apr 8.",
+        "action_reprs": [
+            "[link]  Hotel , Opens another site in a new window that ma... -> CLICK",
+            "[searchbox]  Type your destination -> TYPE: New York City",
+            "[option]  New York\u00a0(New York City) New York State,\u00a0United St... -> CLICK",
+            "[checkbox]  7 April 2023 -> CLICK",
+            "[checkbox]  8 April 2023 -> CLICK",
+            "[button]  Search -> CLICK",
+            "[menuitem]  Price (lowest first) -> CLICK",
+            "[link]  Millennium Hilton New York One UN Plaza -> CLICK"
+        ]
+    },
+    {
+        "website": "ryanair",
+        "id": "edf748d4-07cd-4f0b-aad3-01baebbd557b",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Book the cheapest available hotel for a three night stay from 1st June in Jakarta. The guest is named Joe Bloggs with the email address of buckeye.foobar@gmail.com and phone number of 11111111111. Billing address is in New York, zip code 10001\n.",
+        "action_reprs": [
+            "[button]  hotels -> CLICK",
+            "[div]  Destination or property -> TYPE: jakarta",
+            "[hp-input-button]  Destination or property -> TYPE: jakarta",
+            "[div]  Jakarta, Special Capital Region of Jakarta -> CLICK",
+            "[div]  Choose date -> CLICK",
+            "[div]  Jun -> CLICK",
+            "[generic]  1 -> CLICK",
+            "[generic]  4 -> CLICK",
+            "[button]  Search -> CLICK",
+            "[button]  Yes, I agree -> CLICK",
+            "[span]  Lowest price -> CLICK",
+            "[button]  Choose room -> CLICK",
+            "[button]  Book now -> CLICK",
+            "[textbox]  First name -> TYPE: Joe",
+            "[textbox]  Surname -> TYPE: Bloggs",
+            "[textbox]  Email address -> TYPE: buckeye.foobar@gmail.com",
+            "[textbox]  Confirm email address -> TYPE: buckeye.foobar@gmail.com",
+            "[input]   -> TYPE: 1111111111111111",
+            "[textbox]  Address 1 -> TYPE: the home of joe bloggs",
+            "[textbox]  City -> TYPE: new york",
+            "[textbox]  Postcode/ZIP code -> TYPE: 10001",
+            "[combobox]  State -> TYPE: new york",
+            "[textbox]  Card number -> TYPE: 1234",
+            "[combobox]  Card type -> SELECT: MasterCard",
+            "[combobox]  Month -> SELECT: 01",
+            "[combobox]  Year -> SELECT: 2023",
+            "[textbox]  CVV -> TYPE: 123",
+            "[textbox]  Cardholder's name -> TYPE: joe bloggs",
+            "[svg]   -> CLICK"
+        ]
+    },
+    {
+        "website": "amtrak",
+        "id": "41cd71cb-cae5-41c8-abe8-67e42fabd4a5",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Find the details of Grand National Parks tour.",
+        "action_reprs": [
+            "[button]  DEALS -> CLICK",
+            "[link]  VACATIONS & RAIL TOURS Train vacation packages thr... -> CLICK",
+            "[img]   -> CLICK",
+            "[link]  Close -> CLICK",
+            "[button]  Itinerary -> CLICK",
+            "[button]  Details -> CLICK"
+        ]
+    },
+    {
+        "website": "amtrak",
+        "id": "4498c83b-029f-4f1e-af81-722de20160e2",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Find a train with the shortest trip from New York, NY to Washington DC on June 1 in first class and add the ticket to the cart,  preferably in the morning .",
+        "action_reprs": [
+            "[textbox]  From -> TYPE: new york",
+            "[option]  New York, NY - Moynihan Train Hall at Penn Sta. (N... -> CLICK",
+            "[textbox]  To -> TYPE: washington",
+            "[option]  Washington, DC - Union Station (WAS) -> CLICK",
+            "[div]  Depart Date -> CLICK",
+            "[button]  Next month -> CLICK",
+            "[gridcell]  Thursday, June 1, 2023 -> CLICK",
+            "[button]  Done -> CLICK",
+            "[button]  FIND TRAINS -> CLICK",
+            "[span]  Sort/Filter -> CLICK",
+            "[checkbox]  filter trains by Time of Day:6a-12p -> CLICK",
+            "[mat-pseudo-checkbox]   -> CLICK",
+            "[button]  Close -> CLICK",
+            "[button]  First from $722 -> CLICK",
+            "[button]  ADD TO CART -> CLICK"
+        ]
+    },
+    {
+        "website": "nps.gov",
+        "id": "bef473f1-82a1-4359-a2c0-59b6dc2f6abb",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Find a park in Alaska that is also a National Heritage Area.",
+        "action_reprs": [
+            "[button]  Find a Park by State -> CLICK",
+            "[link]  Alaska -> CLICK",
+            "[link]  1 National Heritage Area \u00bb -> CLICK",
+            "[link]  Kenai Mountains-Turnagain Arm National Heritage Ar... -> CLICK"
+        ]
+    },
+    {
+        "website": "nps.gov",
+        "id": "c2a17420-ceb4-4324-ae8f-60cf845a144b",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Open Canyon de Chelly schedule calendar.",
+        "action_reprs": [
+            "[link]  FIND A PARK -> CLICK",
+            "[combobox]  Park Name -> TYPE: Canyon de Chelly",
+            "[option]  Canyon de Chelly National Monument -> CLICK",
+            "[link]   CALENDAR  -> CLICK"
+        ]
+    },
+    {
+        "website": "nps.gov",
+        "id": "f863168b-1d7e-4f51-9681-79891abc4b45",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Find a park in the National Park System that has a Junior Ranger Program for kids.",
+        "action_reprs": [
+            "[link]  FIND A PARK -> CLICK",
+            "[link]  Search by Activity or Topic -> CLICK",
+            "[button]  Activity -> CLICK",
+            "[input]   -> CLICK",
+            "[button]  Search -> CLICK"
+        ]
+    },
+    {
+        "website": "nyc",
+        "id": "196cde81-b001-47ec-b7c3-a77869e36deb",
+        "domain": "Entertainment",
+        "subdomain": "Event",
+        "confirmed_task": "check bookstores available in Chelsea area",
+        "action_reprs": [
+            "[link]  shopping. -> CLICK",
+            "[li]  Neighborhood -> CLICK",
+            "[link]  Chelsea -> CLICK",
+            "[link]  Bookstore (3) -> CLICK"
+        ]
+    },
+    {
+        "website": "nyc",
+        "id": "1a807a1c-d3b2-425e-9684-2a9e79846676",
+        "domain": "Entertainment",
+        "subdomain": "Event",
+        "confirmed_task": "search for restaurant that offers African Cuisine in east village under $30",
+        "action_reprs": [
+            "[link]  restaurants. -> CLICK",
+            "[li]  Cuisine -> CLICK",
+            "[link]  African -> CLICK",
+            "[link]  East Village (2) -> CLICK",
+            "[link]  $16 To $30 (2) -> CLICK"
+        ]
+    },
+    {
+        "website": "nyc",
+        "id": "1cc13b4e-d3d3-480f-a2fe-f18e83159d93",
+        "domain": "Entertainment",
+        "subdomain": "Event",
+        "confirmed_task": "with a $200 budget check available in central parkto check in on 24th to 27th march  for 2 adult and a toddler less than a year old.",
+        "action_reprs": [
+            "[link]  hotels. -> CLICK",
+            "[textbox]   Check In \uf073 -> CLICK",
+            "[link]  24 -> CLICK",
+            "[textbox]   Sun Mar 26 \uf073 -> CLICK",
+            "[link]  27 -> CLICK",
+            "[combobox]   \uf0d7 -> SELECT: 1 Room",
+            "[combobox]   \uf0d7 -> SELECT: 2 Adults",
+            "[combobox]   \uf0d7 -> SELECT: 1 Child",
+            "[select]  Age -> SELECT: 0",
+            "[link]  Search Hotels -> CLICK",
+            "[radio]   $100 to $200 -> CLICK",
+            "[radio]   New York (and vicinity) -> CLICK",
+            "[radio]   Central Park -> CLICK"
+        ]
+    },
+    {
+        "website": "kayak",
+        "id": "26d3a803-b0aa-4a2c-bd31-3fe97a63388c",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find vacation packages to Hawaii.",
+        "action_reprs": [
+            "[link]  Search for packages -> CLICK",
+            "[link]  Hawaii Vacations -> CLICK",
+            "[button]  Search packages -> CLICK"
+        ]
+    },
+    {
+        "website": "kayak",
+        "id": "38fe67f7-14af-4259-8309-aa350abdc395",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Search for the cheapest two rooms near Kashi Vishwanath Temple in India for three adults and a 7-year-old kid from June 6 to 10 in any 3-star and up air-conditioned family hotel with a review score of at least 8, free internet.",
+        "action_reprs": [
+            "[link]  Search for hotels -> CLICK",
+            "[textbox]  Enter a city, hotel, airport, address or landmark -> TYPE: kashi vishwanath temple",
+            "[span]  Kashi Vishwanath Temple, Varanasi, Uttar Pradesh, ... -> CLICK",
+            "[path]   -> CLICK",
+            "[div]  6 -> CLICK",
+            "[div]  10 -> CLICK",
+            "[button]  Increment -> CLICK",
+            "[button]  Increment -> CLICK",
+            "[button]  Increment -> CLICK",
+            "[span]  0 -> TYPE: 7",
+            "[tab]  7 -> CLICK",
+            "[path]   -> CLICK",
+            "[div]  8+ -> CLICK",
+            "[div]  3 -> CLICK",
+            "[checkbox]  Free internet -> CLICK",
+            "[button]  Style -> CLICK",
+            "[checkbox]  Family -> CLICK",
+            "[button]  Amenities -> CLICK",
+            "[checkbox]  Air-conditioned -> CLICK",
+            "[div]  Distance -> CLICK",
+            "[tab]  Price (low to high) -> CLICK"
+        ]
+    },
+    {
+        "website": "flightaware",
+        "id": "0991035b-6acb-4dca-aaef-5384a0739781",
+        "domain": "Travel",
+        "subdomain": "Other",
+        "confirmed_task": "Find careers at the company on the Product Management team",
+        "action_reprs": [
+            "[link]  Company -> CLICK",
+            "[link]  Career Opportunities -> CLICK",
+            "[select]  All teams -> SELECT: Product Management"
+        ]
+    },
+    {
+        "website": "store.steampowered",
+        "id": "05238c0f-514f-4af2-bc4c-f7521d649825",
+        "domain": "Entertainment",
+        "subdomain": "Game",
+        "confirmed_task": "Find Dota 2 game and add all DLC to cart.",
+        "action_reprs": [
+            "[textbox]  search -> CLICK",
+            "[textbox]  search -> TYPE: Dota 2",
+            "[link]  Dota 2 Free -> CLICK",
+            "[link]  Add all DLC to Cart -> HOVER"
+        ]
+    },
+    {
+        "website": "jetblue",
+        "id": "5c52af02-ccc7-491a-bea7-05de278bf7da",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find the cheapest flight from any New York airport to Aruba for 1 person using TrueBlue points which leaves on May 1 and returns on May 5",
+        "action_reprs": [
+            "[textbox]  From -> TYPE: New York",
+            "[option]  New York City area (NYC) -> CLICK",
+            "[textbox]  To -> TYPE: Aruba",
+            "[option]  Aruba (AUA) -> CLICK",
+            "[span]  1 -> CLICK",
+            "[button]  return Friday, May 5, 2023 -> CLICK",
+            "[span]   -> CLICK",
+            "[span]  Search flights -> CLICK",
+            "[link]  Sort & Filter -> CLICK",
+            "[button]  Default \u00a0 -> CLICK",
+            "[span]  Price (low to high) -> CLICK",
+            "[button]  Apply -> CLICK"
+        ]
+    },
+    {
+        "website": "qatarairways",
+        "id": "ff82e848-f29e-477b-a286-c807cbd0d8fa",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Search for a job in customer services in Qatar Airways, find any job available in India, view the details and save the job.",
+        "action_reprs": [
+            "[link]  Careers This link will take you away from the Qata... -> CLICK",
+            "[span]  64 -> CLICK",
+            "[textbox]  Location -> TYPE: india",
+            "[link]  Mumbai - BOM, India - IN 2 jobs -> CLICK",
+            "[button]  Search -> CLICK",
+            "[span]   -> CLICK",
+            "[span]  Customer Experience- Customer Services Agent (Cont... -> CLICK",
+            "[checkbox]  Save Customer Experience- Customer Services Agent ... -> CLICK"
+        ]
+    },
+    {
+        "website": "discogs",
+        "id": "ec472065-2913-40df-bbbf-ee95bc76485a",
+        "domain": "Entertainment",
+        "subdomain": "Music",
+        "confirmed_task": "Create a new list named New that includes thr\nee albums, one each from the genres pop, rock and electronic.",
+        "action_reprs": [
+            "[button]  Explore -> CLICK",
+            "[link]  Rock -> CLICK",
+            "[img]  David Bowie -> CLICK",
+            "[link]  David Bowie -> CLICK",
+            "[button]  Add to List -> CLICK",
+            "[radio]  New List -> CLICK",
+            "[textbox]  Title -> TYPE: New",
+            "[button]  Save -> CLICK",
+            "[button]  Explore -> CLICK",
+            "[link]  Electronic -> CLICK",
+            "[img]  Madonna -> CLICK",
+            "[link]  Like A Virgin -> CLICK",
+            "[button]  Add to List -> CLICK",
+            "[combobox]  List -> SELECT: New",
+            "[button]  Save -> CLICK",
+            "[button]  Explore -> CLICK",
+            "[link]  Explore All -> CLICK",
+            "[link]  3,682,991 Pop -> CLICK",
+            "[img]  Phil Collins - No Jacket Required -> CLICK",
+            "[button]  Add to List -> CLICK",
+            "[combobox]  List -> SELECT: New",
+            "[button]  Save -> CLICK",
+            "[button]  Explore -> CLICK",
+            "[link]  List Explorer -> CLICK",
+            "[link]  Manage My Lists -> CLICK",
+            "[link]  New -> CLICK"
+        ]
+    },
+    {
+        "website": "newegg",
+        "id": "effb9df8-3b3f-4349-8033-f79ba1587a4d",
+        "domain": "Shopping",
+        "subdomain": "Digital",
+        "confirmed_task": "Find a projector which accepts crypto currency as payment.",
+        "action_reprs": [
+            "[searchbox]  Search Site -> TYPE: projectors",
+            "[button]  \uf002 -> CLICK",
+            "[label]  ON -> CLICK"
+        ]
+    },
+    {
+        "website": "rei",
+        "id": "8aae9804-0765-4e14-ab71-4dc13ada32f7",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find camping tents that can fit 6 people and sort the results by price from low to high.",
+        "action_reprs": [
+            "[button]  Camp & Hike -> CLICK",
+            "[link]  Camping Tents -> CLICK",
+            "[link]  add filter: 6-person(24) -> CLICK",
+            "[combobox]  Sort By -> SELECT: Price: Low - High"
+        ]
+    },
+    {
+        "website": "rei",
+        "id": "932c0ec6-d500-495a-a7a7-0f632acbf6a5",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Browse camping stoves that have an auto ignition feature.",
+        "action_reprs": [
+            "[button]  Camp & Hike -> HOVER",
+            "[link]  Stoves, Grills & Fuel -> CLICK",
+            "[link]  add filter: Auto Ignition(30) -> CLICK"
+        ]
+    },
+    {
+        "website": "rei",
+        "id": "ad0369b6-cfd5-4555-bb4f-d84a942be555",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Order the cheapest climbing shoes in today's deals.",
+        "action_reprs": [
+            "[button]  Deals -> HOVER",
+            "[link]  Explore Deals -> CLICK",
+            "[link]  Climbing -> CLICK",
+            "[combobox]  Sort By -> SELECT: Price: Low - High",
+            "[img]  Black Diamond Zone Climbing Shoes 0 -> CLICK",
+            "[button]  Add to cart\u2014$46.73 -> CLICK",
+            "[link]  Cart & Checkout -> CLICK",
+            "[link]  Proceed to checkout -> CLICK"
+        ]
+    },
+    {
+        "website": "cvs",
+        "id": "0f9dd411-f3ab-494e-8a3a-5dc9a908f4ee",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Locate the cvs pharmacy nearest to zip code 45201 that provides hair loss evaluation and treatment.",
+        "action_reprs": [
+            "[link]  Schedule a women's health exam -> CLICK",
+            "[link]  Explore all MinuteClinic health services -> CLICK",
+            "[p]  Skin, Hair & Nails -> CLICK",
+            "[span]  In-Person Care -> CLICK",
+            "[button]  Hair Loss Evaluation & Treatment -> CLICK",
+            "[link]  Hair Loss Evaluation & Treatment -> CLICK",
+            "[textbox]  Tell us a location Enter a ZIP code or city & stat... -> TYPE: 45201",
+            "[button]  Find care -> CLICK"
+        ]
+    },
+    {
+        "website": "newegg",
+        "id": "e84111f2-5193-421e-877a-9af8418b558a",
+        "domain": "Shopping",
+        "subdomain": "Digital",
+        "confirmed_task": "Find a gaming desktop with an rtx4000 GPU, available in stock.",
+        "action_reprs": [
+            "[link]  \ue92f Computer Systems \uf105 -> HOVER",
+            "[link]  Gaming Desktops -> CLICK",
+            "[span]  NVIDIA GeForce RTX 4000 -> CLICK",
+            "[label]  ON -> CLICK"
+        ]
+    },
+    {
+        "website": "qatarairways",
+        "id": "8d0eda4b-7a6e-45a4-bd8c-59fd3da58676",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find a one-way flight ticket from Addis Ababa to Accra on April 14 and book the cheaper economy ticket.",
+        "action_reprs": [
+            "[textbox]  From Autocomplete selection. Enter your place. -> TYPE: addis ababa",
+            "[strong]  Addis Ababa -> CLICK",
+            "[textbox]  To Autocomplete selection. Enter your place. -> TYPE: accra",
+            "[strong]  Accra -> CLICK",
+            "[option]  One way -> CLICK",
+            "[gridcell]  14 April 2023 -> CLICK",
+            "[button]  Continue -> CLICK",
+            "[button]  Show flights\ue99a -> CLICK",
+            "[heading]  ETB\u00a055,042 -> CLICK"
+        ]
+    },
+    {
+        "website": "amtrak",
+        "id": "2089ee5c-1ccd-495e-9a80-f62e129554ed",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "What are the deals in California",
+        "action_reprs": [
+            "[button]  DEALS -> CLICK",
+            "[link]  DEALS & PROMOTIONS Amtrak travel deals, promotions... -> CLICK",
+            "[label]  All Regions -> CLICK",
+            "[generic]  California -> CLICK"
+        ]
+    },
+    {
+        "website": "amtrak",
+        "id": "240952bd-853b-4653-a358-49c2784cf568",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Find a train scheduled between Chicago to Los Angeles for the next day, and if a southwest chief train is available, then print the route details.",
+        "action_reprs": [
+            "[link]  SCHEDULES -> CLICK",
+            "[input]   -> TYPE: chicago",
+            "[option]  Chicago, IL - Union Station (CHI) -> CLICK",
+            "[input]   -> TYPE: los angeles",
+            "[option]  Los Angeles, CA - Union Station (LAX) -> CLICK",
+            "[textbox]  Type a date, or use enter to open, escape to close... -> CLICK",
+            "[gridcell]  Saturday, March 25, 2023 -> CLICK",
+            "[button]  Find Schedules -> CLICK",
+            "[img]   -> CLICK",
+            "[span]   -> CLICK",
+            "[button]  Close -> CLICK",
+            "[img]   -> CLICK",
+            "[div]  Print Selected Train -> CLICK"
+        ]
+    },
+    {
+        "website": "amazon",
+        "id": "581da9fe-4d75-42a7-b138-9b287a153575",
+        "domain": "Shopping",
+        "subdomain": "General",
+        "confirmed_task": "Find a pair of mens running shoes in black, size 7 extra wide, 4+ stars and under $50 and add them to my cart",
+        "action_reprs": [
+            "[textbox]  Search Amazon -> TYPE: mens black running shoes",
+            "[button]  Go -> CLICK",
+            "[region]  4 Stars & Up -> CLICK",
+            "[link]  Under Armour Men's Charged Assert 9 Running Shoe -> CLICK",
+            "[button]  7 X-Wide -> CLICK",
+            "[button]  Add to Cart -> CLICK"
+        ]
+    },
+    {
+        "website": "amazon",
+        "id": "5f2c3149-1820-4632-bfdb-3cf4615de2cc",
+        "domain": "Shopping",
+        "subdomain": "General",
+        "confirmed_task": "Browse dog food for puppies that is rated at least 4 stars and sort the results by price from low to high.",
+        "action_reprs": [
+            "[textbox]  Search Amazon -> TYPE: dog food",
+            "[button]  dog food -> CLICK",
+            "[i]   -> CLICK",
+            "[region]  4 Stars & Up -> CLICK",
+            "[span]  Sort by: -> CLICK",
+            "[option]  Price: Low to High -> CLICK"
+        ]
+    },
+    {
+        "website": "ign",
+        "id": "851998b2-fda2-4bd4-a822-f1871a9fde12",
+        "domain": "Entertainment",
+        "subdomain": "Game",
+        "confirmed_task": "Browse the list of action figure items available for pre order.",
+        "action_reprs": [
+            "[button]  Toggle Sidebar -> CLICK",
+            "[link]  Store -> CLICK",
+            "[link]  Pre-Orders -> CLICK",
+            "[link]  Action Figures (1) -> CLICK"
+        ]
+    },
+    {
+        "website": "mbta",
+        "id": "644b7bed-b5fb-4090-b04f-a669d41ac93a",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Find the schedule of the East Boston ferry, check connections, and fares  and download the pdf schedule.",
+        "action_reprs": [
+            "[button]  Transit \uf0d7 -> CLICK",
+            "[link]  Ferry -> CLICK",
+            "[span]  East Boston Ferry -> CLICK",
+            "[link]  Schedule & Maps -> CLICK",
+            "[button]  Connections \uf107 -> CLICK",
+            "[button]  Fares \uf107 -> CLICK",
+            "[link]  East Boston ferry schedule PDF -> CLICK"
+        ]
+    },
+    {
+        "website": "mbta",
+        "id": "8f41d9db-29fd-4c1b-9cbd-0f74fecdf520",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Show information about careers with MBTA and signup for customer service job alerts. Name: James Smith. Email: abc@abc.com",
+        "action_reprs": [
+            "[link]  Careers -> CLICK",
+            "[link]  Sign up for job posting alerts -> CLICK",
+            "[span]   -> CLICK",
+            "[button]  Subscribe -> CLICK",
+            "[textbox]  First Name -> TYPE: James",
+            "[textbox]  Last Name -> TYPE: Smith",
+            "[textbox]  Email Address -> TYPE: abc@abc.com",
+            "[button]  Submit -> HOVER"
+        ]
+    },
+    {
+        "website": "mbta",
+        "id": "9223ed29-5abb-4f4d-8108-1c3a584a7017",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Find information about reduced bus fares.",
+        "action_reprs": [
+            "[button]  Fares \uf0d7 -> CLICK",
+            "[link]  Bus Fares -> CLICK",
+            "[link]  Learn more about reduced fares -> CLICK"
+        ]
+    },
+    {
+        "website": "menards",
+        "id": "9e44c63b-2c7a-445c-b9c4-6580f4271268",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Track the status of a rebate for Monty Lue, house number 4847, zip code 10019",
+        "action_reprs": [
+            "[link]  Rebate Center -> CLICK",
+            "[link]  Track your rebates -> CLICK",
+            "[textbox]   * Required Fields First Initial * Required Fields... -> TYPE: Monty",
+            "[textbox]   * Required Fields Last Name * Required Fields Las... -> TYPE: Lue",
+            "[textbox]   * Required Fields House Number -> TYPE: 4847",
+            "[textbox]   * Required Fields ZIP Code * Required Fields Zip -> TYPE: 10019",
+            "[button]  Search -> CLICK"
+        ]
+    },
+    {
+        "website": "gamestop",
+        "id": "716ed90e-a138-452e-b5b5-167911871fda",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "find Playstation gift card of $10.",
+        "action_reprs": [
+            "[searchbox]  Search games, consoles & more -> TYPE: playstation gift card $10",
+            "[button]  Search -> CLICK",
+            "[img]   -> CLICK"
+        ]
+    },
+    {
+        "website": "gamestop",
+        "id": "7685e8ad-3989-4316-85dd-746fac2956be",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Look for a recently posted part-time Job in Gamestop stores in Fresno, California, and apply.",
+        "action_reprs": [
+            "[link]  Careers -> CLICK",
+            "[link]  View Jobs Stores -> CLICK",
+            "[button]  State / Province -> CLICK",
+            "[span]   -> CLICK",
+            "[button]  City -> CLICK",
+            "[searchbox]  City -> TYPE: fre",
+            "[span]   -> CLICK",
+            "[button]  Hiring Type -> CLICK",
+            "[span]   -> CLICK",
+            "[combobox]  Sort by -> SELECT: Most recent",
+            "[link]  Apply Now for Guest Advisor (Store 5459) Job ID is... -> CLICK"
+        ]
+    },
+    {
+        "website": "exploretock",
+        "id": "1efdcd9d-ebc6-4bb7-8823-e54dfe25f409",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "book a reservation for three guest on April 5th, 5pm in Alinea restaurant, Chicago, IL",
+        "action_reprs": [
+            "[button]  Search -> CLICK",
+            "[textbox]  Search -> TYPE: Alinea",
+            "[span]  Chicago, IL - Lincoln Park -> CLICK",
+            "[i]   -> CLICK",
+            "[i]   -> CLICK",
+            "[button]  Go to next month -> CLICK",
+            "[button]  2023-04-05 -> CLICK",
+            "[combobox]  Desired reservation time -> SELECT: 5:00 PM",
+            "[link]  Search within Alinea (opens a dialog) -> CLICK"
+        ]
+    },
+    {
+        "website": "exploretock",
+        "id": "61fa0552-66ac-4572-95f2-800537cfee7b",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "check restaurant with delivery service available 6pm on Mar 25th in Detroit, MI.",
+        "action_reprs": [
+            "[combobox]  Reservation type -> SELECT: Delivery",
+            "[svg]   -> CLICK",
+            "[searchbox]  Find a location -> TYPE: detroit",
+            "[span]  MI, USA -> CLICK",
+            "[svg]   -> CLICK",
+            "[button]  25 -> CLICK",
+            "[combobox]  Time -> SELECT: 6:00 PM",
+            "[svg]   -> CLICK"
+        ]
+    },
+    {
+        "website": "exploretock",
+        "id": "6e565708-43e2-492b-9f1d-25d51387dcf7",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Find pizza serving restaurants for pick up in Chicago, sufficient for 10 people on March 30, 8:15 PM from a joint which also offers dining package.",
+        "action_reprs": [
+            "[svg]   -> CLICK",
+            "[span]  Pickup -> CLICK",
+            "[button]  Change location -> CLICK",
+            "[svg]   -> CLICK",
+            "[searchbox]  Find a location -> TYPE: CHICAGO",
+            "[span]  Chicago -> CLICK",
+            "[span]  Mar 18 -> CLICK",
+            "[button]  30th March (Thursday) -> CLICK",
+            "[combobox]  Time -> SELECT: 8:15 PM",
+            "[combobox]  Size -> SELECT: 10 guests",
+            "[button]  Update search -> CLICK",
+            "[button]  Edit cuisine type filter -> CLICK",
+            "[checkbox]  Pizza -> CLICK",
+            "[button]  Submit -> CLICK",
+            "[button]  Open additional search filters -> CLICK",
+            "[span]  Dining package -> CLICK",
+            "[button]  Update search -> CLICK"
+        ]
+    },
+    {
+        "website": "travelzoo",
+        "id": "aeace1e7-0460-4f4e-99fb-2a8c867b97ef",
+        "domain": "Travel",
+        "subdomain": "General",
+        "confirmed_task": "Show me the highest rated Last-Minute Flights & Car Rentals",
+        "action_reprs": [
+            "[link]  Last-Minute Deals -> CLICK",
+            "[heading]  Last-Minute Flights & Car Rentals -> CLICK",
+            "[button]  Filter -> CLICK",
+            "[button]  Highest Rated -> CLICK",
+            "[button]  DONE -> CLICK"
+        ]
+    },
+    {
+        "website": "travelzoo",
+        "id": "afa1f70c-c0ff-4e4d-a5c2-0c0d292ee066",
+        "domain": "Travel",
+        "subdomain": "General",
+        "confirmed_task": "find cruise deals to Europe this summer that includes airfare and are all-inclusive.",
+        "action_reprs": [
+            "[link]  Cruises -> CLICK",
+            "[textbox]  Where? -> CLICK",
+            "[div]  Europe -> CLICK",
+            "[textbox]  When? -> CLICK",
+            "[li]  Summer -> CLICK",
+            "[button]  SEARCH DEALS -> CLICK",
+            "[button]  Filter -> CLICK",
+            "[button]  Airfare Included -> CLICK",
+            "[button]  All-inclusive -> CLICK",
+            "[button]  DONE -> CLICK"
+        ]
+    },
+    {
+        "website": "travelzoo",
+        "id": "b770af80-75f0-470c-8797-1466d90c35ce",
+        "domain": "Travel",
+        "subdomain": "General",
+        "confirmed_task": "Get the cheapest last-minute pet-friendly road trip hotel deal in May for a single person with a pet and book.",
+        "action_reprs": [
+            "[textbox]  What type of deals? -> CLICK",
+            "[div]  Hotels -> CLICK",
+            "[div]  Anywhere -> CLICK",
+            "[textbox]  When? -> CLICK",
+            "[tab]  Select a Month -> CLICK",
+            "[li]  May -> CLICK",
+            "[combobox]  How many guests? -> SELECT: 1 Guest",
+            "[button]  SEARCH DEALS -> CLICK",
+            "[button]  Filter -> CLICK",
+            "[button]  Pet-Friendly -> CLICK",
+            "[button]  Road Trips -> CLICK",
+            "[button]  Last-Minute -> CLICK",
+            "[button]  $ Price: Low to High -> CLICK",
+            "[button]  DONE -> CLICK",
+            "[heading]  $139 Vermont: Cozy Kimpton in the heart of Manches... -> CLICK",
+            "[button]  CHECK DATES -> CLICK",
+            "[link]  $189 -> CLICK",
+            "[link]  $259 -> CLICK",
+            "[button]  CONTINUE -> CLICK",
+            "[heading]  $207 -> CLICK"
+        ]
+    },
+    {
+        "website": "agoda",
+        "id": "7a698566-2a8f-4d9d-9da9-17288b66917f",
+        "domain": "Travel",
+        "subdomain": "General",
+        "confirmed_task": "Find hotels in Tokyo for two adults and one child, with a budget of $500 per night for 2 nights starting on May 5th.",
+        "action_reprs": [
+            "[combobox]  Enter a destination or property -> TYPE: Tokyo",
+            "[generic]  Japan -> CLICK",
+            "[div]  5 -> CLICK",
+            "[div]  7 -> CLICK",
+            "[img]  Add -> CLICK",
+            "[span]  SEARCH -> CLICK",
+            "[span]  SEARCH -> CLICK",
+            "[textbox]  Maximum price filter -> TYPE: 500"
+        ]
+    },
+    {
+        "website": "agoda",
+        "id": "8c5ccffa-b88e-4928-9394-6d46cfd36e59",
+        "domain": "Travel",
+        "subdomain": "General",
+        "confirmed_task": "What are today's Limited Time Offers deals?",
+        "action_reprs": [
+            "[link]  Coupons & Deals -> CLICK",
+            "[checkbox]  Limited Time Offers (5) -> CLICK"
+        ]
+    },
+    {
+        "website": "agoda",
+        "id": "9a5aa299-e77d-44ca-ab0f-f6fd83e3fde1",
+        "domain": "Travel",
+        "subdomain": "General",
+        "confirmed_task": "Find the cheapest and highest-rated hotel in the Navi Mumbai area of Mumbai, India, on April 12 for just one day.",
+        "action_reprs": [
+            "[combobox]  Enter a destination or property -> TYPE: mumbai",
+            "[span]  Mumbai -> CLICK",
+            "[span]  12 -> CLICK",
+            "[i]   -> CLICK",
+            "[i]   -> CLICK",
+            "[span]  SEARCH -> CLICK",
+            "[tab]  Lowest price first -> CLICK",
+            "[checkbox]  list-filter-item-label-0 -> CLICK",
+            "[checkbox]  list-filter-item-label-1 -> CLICK",
+            "[checkbox]  list-filter-item-label-0 -> CLICK"
+        ]
+    },
+    {
+        "website": "amazon",
+        "id": "dc636898-246e-4b08-9978-6a6dc1b20320",
+        "domain": "Shopping",
+        "subdomain": "General",
+        "confirmed_task": "Show mattresses available with Amazon Basics and Follow the store.",
+        "action_reprs": [
+            "[link]  Amazon Basics -> CLICK",
+            "[link]  BEDROOM -> CLICK",
+            "[link]  Mattress & Mattress Toppers -> CLICK",
+            "[button]  Follow Amazon Basics -> CLICK"
+        ]
+    },
+    {
+        "website": "store.steampowered",
+        "id": "11344944-81ef-4fde-82b7-7e9724fc96f1",
+        "domain": "Entertainment",
+        "subdomain": "Game",
+        "confirmed_task": "Browse the list of discussion forums for games I own.",
+        "action_reprs": [
+            "[link]  COMMUNITY -> HOVER",
+            "[link]  DISCUSSIONS -> CLICK",
+            "[link]  Game Forums -> CLICK",
+            "[div]  Most Popular (this week) -> CLICK",
+            "[div]  My Games -> CLICK"
+        ]
+    },
+    {
+        "website": "store.steampowered",
+        "id": "2159d768-6657-40af-b336-ad5726fec1e2",
+        "domain": "Entertainment",
+        "subdomain": "Game",
+        "confirmed_task": "Add to my wishlist the top rated JRPG game.",
+        "action_reprs": [
+            "[link]  Categories -> CLICK",
+            "[link]  JRPG -> CLICK",
+            "[generic]  TOP RATED -> CLICK",
+            "[generic]  Persona 4 Golden PERSONA 4 GOLDEN JRPGGreat Soundt... -> HOVER",
+            "[svg]   -> CLICK"
+        ]
+    },
+    {
+        "website": "united",
+        "id": "0fb36232-0d2a-4115-9012-99dbaad25a5e",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find one-way flights from New York to Toronto.",
+        "action_reprs": [
+            "[span]   -> CLICK",
+            "[combobox]  Enter your departing city, airport name, or airpor... -> TYPE: New York",
+            "[button]  New York, NY, US (NYC - All Airports) -> CLICK",
+            "[combobox]  Enter your destination city, airport name, or airp... -> TYPE: Toronto",
+            "[button]  Toronto, ON, CA (YYZ) -> CLICK",
+            "[button]  Find flights -> CLICK"
+        ]
+    },
+    {
+        "website": "kbb",
+        "id": "93d0190f-ff39-4b69-82fc-58cddac42006",
+        "domain": "Shopping",
+        "subdomain": "Auto",
+        "confirmed_task": "Find the safety rating for 2012 Honda Civic",
+        "action_reprs": [
+            "[link]  Price New/Used -> CLICK",
+            "[combobox]  Year -> SELECT: 2012",
+            "[generic]  Your Opinion Counts! -> CLICK",
+            "[img]  Close -> CLICK",
+            "[combobox]  Make -> SELECT: Honda",
+            "[combobox]  Model -> SELECT: Civic",
+            "[button]  Next -> CLICK",
+            "[div]  Safety -> CLICK"
+        ]
+    },
+    {
+        "website": "kbb",
+        "id": "988ff1b8-c9e8-44af-a729-33f0e99c9dbf",
+        "domain": "Shopping",
+        "subdomain": "Auto",
+        "confirmed_task": "Show cars with AWD with maximum budget of $50,000.",
+        "action_reprs": [
+            "[link]  Cars for Sale -> HOVER",
+            "[link]  Cars for Sale -> CLICK",
+            "[span]  AWD/4WD -> CLICK",
+            "[textbox]  Max Price -> TYPE: 50000"
+        ]
+    },
+    {
+        "website": "kbb",
+        "id": "9dfba9af-d79e-4a75-83b4-0f85ab04c2e6",
+        "domain": "Shopping",
+        "subdomain": "Auto",
+        "confirmed_task": "Get a price quote for new Kia Carnival for 11101.",
+        "action_reprs": [
+            "[link]  Cars for Sale -> HOVER",
+            "[link]  Free Dealer Price Quote -> CLICK",
+            "[select]  Make -> SELECT: Kia",
+            "[select]  Model -> SELECT: Carnival",
+            "[textbox]  ZIP -> TYPE: 11101",
+            "[button]  Find Dealers -> CLICK",
+            "[button]  Get My Free Quotes -> HOVER"
+        ]
+    },
+    {
+        "website": "cvs",
+        "id": "cd8f1f63-f6c3-4b1b-9ec9-3b13b9f0386c",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Read the 1 star reviews of DayQuil Severe Cough Liquicaps.",
+        "action_reprs": [
+            "[combobox]  Search products and services -> TYPE: dayquil",
+            "[button]  Submit search -> CLICK",
+            "[div]  Vicks DayQuil SEVERE Cough, Cold & Flu Relief, 24 ... -> CLICK",
+            "[img]   -> CLICK",
+            "[div]  1 star -> CLICK"
+        ]
+    },
+    {
+        "website": "cvs",
+        "id": "d29e8a14-ee66-4330-b282-09cb1955aad0",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Browse the weekly ad in List View.",
+        "action_reprs": [
+            "[button]  Savings & Memberships -> CLICK",
+            "[link]  Weekly Ad -> CLICK",
+            "[tab]  List View -> CLICK"
+        ]
+    },
+    {
+        "website": "cvs",
+        "id": "e638beb6-059f-40ea-8653-929221e997db",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find a comprehensive health screening for women in 10003.",
+        "action_reprs": [
+            "[span]  Schedule a women's health exam -> CLICK",
+            "[link]  Comprehensive health screening Available in-person -> CLICK",
+            "[textbox]  Tell us a location Enter a ZIP code or city & stat... -> CLICK",
+            "[textbox]  Tell us a location Enter a ZIP code or city & stat... -> TYPE: 10003",
+            "[button]  Find care -> CLICK",
+            "[div]  Clinic details -> CLICK"
+        ]
+    },
+    {
+        "website": "newegg",
+        "id": "92cfe78f-0385-4ef6-b829-ae34291e766f",
+        "domain": "Shopping",
+        "subdomain": "Digital",
+        "confirmed_task": "Find an LED TV below $1000.",
+        "action_reprs": [
+            "[generic]  Site Menu -> CLICK",
+            "[link]  TV & Home Theater \uf105 -> CLICK",
+            "[div]  TV & Accessories -> CLICK",
+            "[link]  LED TV -> CLICK",
+            "[dt]  Price -> CLICK",
+            "[textbox]  price to -> TYPE: 1000",
+            "[button]  APPLY -> CLICK",
+            "[img]  Samsung 65\" Class Q80B Series QLED 4K Smart TV (QN... -> CLICK"
+        ]
+    },
+    {
+        "website": "newegg",
+        "id": "74e653f0-aeea-4f01-8d80-c5846fae0c1c",
+        "domain": "Shopping",
+        "subdomain": "Digital",
+        "confirmed_task": "Show the Recommended Gaming PCs for someone who plays Fortnite, Overwatch and GTA V at 4k",
+        "action_reprs": [
+            "[generic]  Site Menu -> CLICK",
+            "[link]  icon of Gaming PC Finder Gaming PC Finder -> CLICK",
+            "[div]  Remove -> CLICK",
+            "[div]  Remove -> CLICK",
+            "[p]  Remove -> CLICK",
+            "[button]  4K -> CLICK",
+            "[button]  VIEW RESULTS -> CLICK"
+        ]
+    },
+    {
+        "website": "store.steampowered",
+        "id": "29f639c1-20da-46a6-b9c5-bbec77ac3c03",
+        "domain": "Entertainment",
+        "subdomain": "Game",
+        "confirmed_task": "Open community discussions for Dota 2 game and open latest topic.",
+        "action_reprs": [
+            "[link]  COMMUNITY -> HOVER",
+            "[link]  DISCUSSIONS -> CLICK",
+            "[link]  Game Forums -> CLICK",
+            "[textbox]  Search by game -> TYPE: Dota 2",
+            "[div]  Dota 2 -> CLICK",
+            "[a]   -> CLICK"
+        ]
+    },
+    {
+        "website": "store.steampowered",
+        "id": "3236b068-8eaf-4a39-913f-b71884a35c39",
+        "domain": "Entertainment",
+        "subdomain": "Game",
+        "confirmed_task": "Show me the most played games sorted by daily player count.",
+        "action_reprs": [
+            "[link]  New & Noteworthy -> CLICK",
+            "[link]  Most Played -> CLICK",
+            "[generic]  By Current Players -> CLICK",
+            "[div]  By Daily Players -> CLICK"
+        ]
+    },
+    {
+        "website": "store.steampowered",
+        "id": "3bb1c925-71ef-4713-a139-a3be65f8a7a5",
+        "domain": "Entertainment",
+        "subdomain": "Game",
+        "confirmed_task": "Show reviews for Fallout 4 and mark the first one as helpful.",
+        "action_reprs": [
+            "[textbox]  search -> TYPE: Fallout 4",
+            "[link]  Fallout 4 $19.99 -> CLICK",
+            "[select]  1900 -> SELECT: 1995",
+            "[link]  View Page -> CLICK",
+            "[link]   Yes -> CLICK"
+        ]
+    },
+    {
+        "website": "store.steampowered",
+        "id": "3c9442f9-5542-4395-918a-6551dbba3e3a",
+        "domain": "Entertainment",
+        "subdomain": "Game",
+        "confirmed_task": "Show Massively Multiplayer games which can be played on VR.",
+        "action_reprs": [
+            "[link]  Massively Multiplayer -> CLICK",
+            "[generic]  VR -> CLICK",
+            "[button]  Show more -> CLICK"
+        ]
+    },
+    {
+        "website": "store.steampowered",
+        "id": "3d83f3de-58f2-4aba-9b02-4a230d35a4ef",
+        "domain": "Entertainment",
+        "subdomain": "Game",
+        "confirmed_task": "Find the highest rated adventure game available for early access.",
+        "action_reprs": [
+            "[link]  Categories -> HOVER",
+            "[link]  Early Access -> CLICK",
+            "[div]  Narrow By -> CLICK",
+            "[link]  Adventure -> CLICK",
+            "[generic]  TOP RATED -> CLICK",
+            "[link]  SATISFACTORY -> CLICK"
+        ]
+    },
+    {
+        "website": "expedia",
+        "id": "5ea9ec16-845e-4a99-8848-fd96e8bad254",
+        "domain": "Travel",
+        "subdomain": "General",
+        "confirmed_task": "Find flights from Los Angeles to Miami for two people departing on July 1st and returning on July 7th.",
+        "action_reprs": [
+            "[tab]  Flights -> CLICK",
+            "[button]  Leaving from -> TYPE: Los Angeles, CA",
+            "[button]  Los Angeles (LAX - Los Angeles Intl.) California, ... -> CLICK",
+            "[button]  Going to -> TYPE: Miami, FL",
+            "[textbox]  Going to -> TYPE: Miami, FL",
+            "[button]  Miami (MIA - Miami Intl.) Florida, United States -> CLICK",
+            "[button]  1 traveler -> CLICK",
+            "[img]  Increase adults -> CLICK",
+            "[button]  Departing April 11, 2023 -> CLICK",
+            "[button]  Next month -> CLICK",
+            "[button]  Next month -> CLICK",
+            "[button]  Jul 1, 2023 -> CLICK",
+            "[button]  Jul 7, 2023 -> CLICK",
+            "[button]  Done : (Save changes and close the date picker.) -> CLICK",
+            "[button]  Search -> CLICK"
+        ]
+    },
+    {
+        "website": "delta",
+        "id": "e4cf5835-4726-4a84-bc8f-5023e95ddec9",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "search for SkyMiles domestic Award Deals from Philadelphia to Atlanta.",
+        "action_reprs": [
+            "[tab]  SkyMiles -> CLICK",
+            "[link]  SkyMiles Award Deals -> CLICK",
+            "[combobox]  Origin -> CLICK",
+            "[option]  PHL Philadelphia, PA -> CLICK",
+            "[combobox]  Destination -> CLICK",
+            "[option]  ATL Atlanta, GA -> CLICK",
+            "[button]  Filters -> CLICK",
+            "[combobox]  Select Region Type -> CLICK",
+            "[option]  Domestic & North America -> CLICK",
+            "[button]  FILTER SUBMIT -> CLICK"
+        ]
+    },
+    {
+        "website": "delta",
+        "id": "e783cb30-26d8-45b8-b3d3-04570566bd32",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Check Flight status on 21 April for flight number DL145.",
+        "action_reprs": [
+            "[tab]  FLIGHT STATUS -> CLICK",
+            "[span]  Mon, Apr 10 -> CLICK",
+            "[link]  21 April 2023, Friday -> CLICK",
+            "[button]  done -> CLICK",
+            "[spinbutton]  Flight Number (Required) -> CLICK",
+            "[spinbutton]  Flight Number (Required) -> TYPE: DL145",
+            "[button]  \ue91a SUBMIT -> CLICK"
+        ]
+    },
+    {
+        "website": "delta",
+        "id": "e92a2c89-3310-434b-9543-a0d896881bb9",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find premium car in Brooklyn for a day.",
+        "action_reprs": [
+            "[tab]  Travel Info -> CLICK",
+            "[link]  Rent A Car -> CLICK",
+            "[button]  Pick-up -> TYPE: Brooklyn",
+            "[button]  Brooklyn New York, United States -> CLICK",
+            "[button]  Search -> CLICK",
+            "[input]   -> CLICK",
+            "[input]   -> CLICK",
+            "[button]  Reserve -> HOVER"
+        ]
+    },
+    {
+        "website": "expedia",
+        "id": "56cfe20a-f008-48d3-b683-002ce7790616",
+        "domain": "Travel",
+        "subdomain": "General",
+        "confirmed_task": "Find cheapest luxury car rental in New York for two with pickup from JFK airport at 9am, April 3 and drop off at JFK on 6pm, April 6",
+        "action_reprs": [
+            "[tab]  Cars -> CLICK",
+            "[button]  Pick-up -> CLICK",
+            "[textbox]  Pick-up -> TYPE: jfk",
+            "[button]  New York (JFK - John F. Kennedy Intl.) New York, U... -> CLICK",
+            "[button]  Same as pick-up -> CLICK",
+            "[textbox]  Same as pick-up -> TYPE: jfk",
+            "[button]  New York (JFK - John F. Kennedy Intl.) New York, U... -> CLICK",
+            "[button]  Pick-up date April 5, 2023 -> CLICK",
+            "[button]  Apr 3, 2023 -> CLICK",
+            "[button]  Apr 6, 2023 -> CLICK",
+            "[button]  Done : (Save changes and close the date picker.) -> CLICK",
+            "[combobox]  Pick-up time -> SELECT: 9:00 am",
+            "[combobox]  Drop-off time -> SELECT: 6:00 pm",
+            "[button]  Search -> CLICK",
+            "[input]   -> CLICK",
+            "[input]   -> CLICK",
+            "[combobox]  Sort by -> SELECT: Total Price"
+        ]
+    },
+    {
+        "website": "marriott",
+        "id": "c9740663-a6aa-4aee-919a-330a9f2b3091",
+        "domain": "Travel",
+        "subdomain": "Hotel",
+        "confirmed_task": "Find highest rated room for one adult in Los Angeles, CA between May 7 to May 14 which offers senior discount, free breakfast, is pet friendly and has a pool",
+        "action_reprs": [
+            "[textbox]  \ue900DESTINATION WHERE CAN WE TAKE YOU?SEARCH FROM CUR... -> TYPE: Los Angeles",
+            "[span]  , CA, USA -> CLICK",
+            "[button]  \ue9571 NIGHT Sat, Apr 08 - Sun, Apr 09 -> CLICK",
+            "[span]  7 -> CLICK",
+            "[span]  14 -> CLICK",
+            "[button]  Done -> CLICK",
+            "[button]  Lowest Regular Rate\ue932 -> CLICK",
+            "[label]  Senior Discount -> CLICK",
+            "[button]  Find Hotels -> CLICK",
+            "[combobox]  Sort by: -> CLICK",
+            "[option]  Guest Rating -> CLICK",
+            "[link]  Pets welcome (118) -> CLICK",
+            "[link]  Free breakfast (57) -> CLICK",
+            "[link]  Pool (56) -> CLICK"
+        ]
+    },
+    {
+        "website": "ryanair",
+        "id": "2742f638-cf66-4c72-a6a6-69f2a12bc269",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Search for a flight on May 9 and return on May 16 from Tel Aviv to Venice with plus type fare option.",
+        "action_reprs": [
+            "[textbox]  From -> TYPE: TEL AVIV",
+            "[span]  Tel Aviv -> CLICK",
+            "[textbox]  To -> TYPE: VENICE",
+            "[span]  Venice Treviso -> CLICK",
+            "[div]  May -> CLICK",
+            "[generic]  9 -> CLICK",
+            "[generic]  16 -> CLICK",
+            "[button]  Search -> CLICK",
+            "[button]  Select -> CLICK",
+            "[button]  Select -> CLICK",
+            "[heading]  $ 49 . 50 more -> CLICK"
+        ]
+    },
+    {
+        "website": "ryanair",
+        "id": "3e50b35f-7af9-4835-a741-158c2d941722",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find the cheapest room for Athens, Attica, Greece 1 Apr 2023 - 3 Apr 2023, 2 nights, 1 Room, 1 Adult",
+        "action_reprs": [
+            "[div]  hotels -> CLICK",
+            "[textbox]  Destination or property -> TYPE: Athens, Attica, Greeece",
+            "[div]  , Greece -> CLICK",
+            "[div]  Choose date -> CLICK",
+            "[generic]  1 -> CLICK",
+            "[div]  Choose date -> CLICK",
+            "[generic]  3 -> CLICK",
+            "[button]  Search -> CLICK",
+            "[button]  Yes, I agree -> CLICK",
+            "[span]  Lowest price -> CLICK",
+            "[button]  Choose room -> CLICK"
+        ]
+    },
+    {
+        "website": "cabelas",
+        "id": "9f76268f-9a4e-4eab-ab2c-262d2fe7bdee",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Browse crossbows on sale with limited stock.",
+        "action_reprs": [
+            "[link]  Hunting -> CLICK",
+            "[menuitem]  Crossbows and Accessories -> CLICK",
+            "[label]  Limited Stock -> CLICK",
+            "[label]  Sale -> CLICK",
+            "[label]  Crossbows -> CLICK"
+        ]
+    },
+    {
+        "website": "cabelas",
+        "id": "a4397261-95a5-4d57-a531-6082b2af8ac3",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find a black sleeping pad that is under $40.",
+        "action_reprs": [
+            "[textbox]  Search -> TYPE: black sleeping bag",
+            "[button]  Search -> CLICK",
+            "[textbox]  Upper Bound -> TYPE: 40",
+            "[textbox]  Lower Bound -> TYPE: 0",
+            "[button]  GO -> CLICK"
+        ]
+    },
+    {
+        "website": "new.mta.info",
+        "id": "92ba0696-bc54-41c9-8ddf-1a2f44420c6f",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Plan an accessible trip from empire state building to little Caribbean with least walking",
+        "action_reprs": [
+            "[searchbox]  From -> CLICK",
+            "[searchbox]  From -> TYPE: empire state building",
+            "[listitem]  Empire State Building, West 34th Street, New York,... -> CLICK",
+            "[searchbox]  To -> CLICK",
+            "[searchbox]  To -> TYPE: little caribbean",
+            "[listitem]  Little Caribbean, Brooklyn, NY, USA -> CLICK",
+            "[button]  Open Travel Preferences modal. -> CLICK",
+            "[combobox]  Minimize my -> SELECT: Walking",
+            "[button]  Done button - Press enter key to submit travel pre... -> CLICK",
+            "[label]  Accessible Trip -> CLICK",
+            "[link]  Plan my Trip - Press enter key to submit the form ... -> CLICK"
+        ]
+    },
+    {
+        "website": "travelzoo",
+        "id": "4a9a05f8-6c23-46c5-bb38-eec63a477475",
+        "domain": "Travel",
+        "subdomain": "General",
+        "confirmed_task": "Find adults only, airfare included vacations in Mexico during the month of May",
+        "action_reprs": [
+            "[textbox]  What type of deals? -> CLICK",
+            "[div]  Vacations -> CLICK",
+            "[textbox]  Where? -> TYPE: mexico",
+            "[div]  Mexico -> CLICK",
+            "[textbox]  When? -> CLICK",
+            "[tab]  Select a Month -> CLICK",
+            "[li]  May -> CLICK",
+            "[button]  Filter -> CLICK",
+            "[button]  Adults-Only -> CLICK",
+            "[button]  Airfare Included -> CLICK",
+            "[button]  DONE -> CLICK"
+        ]
+    },
+    {
+        "website": "travelzoo",
+        "id": "4e44e7b6-3d2a-4ca2-870a-edc9e9751d5d",
+        "domain": "Travel",
+        "subdomain": "General",
+        "confirmed_task": "Find the cheapest last minute cruise deal",
+        "action_reprs": [
+            "[link]  Last-Minute Deals -> CLICK",
+            "[heading]  Last-Minute Cruise Deals -> CLICK",
+            "[button]  Filter -> CLICK",
+            "[button]  $ Price: Low to High -> CLICK",
+            "[button]  DONE -> CLICK"
+        ]
+    },
+    {
+        "website": "amtrak",
+        "id": "06ed65ba-d2d3-4114-a67f-4622ec357aa3",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Find the empire builder route in West US part of heartland and check the Minnesota stop.",
+        "action_reprs": [
+            "[button]  DESTINATIONS -> CLICK",
+            "[polygon]   -> CLICK",
+            "[button]  Heartland -> CLICK",
+            "[link]  The page with details for The Heart of America wil... -> CLICK",
+            "[button]  Minn.-St. Paul -> CLICK"
+        ]
+    },
+    {
+        "website": "amtrak",
+        "id": "0b70e49b-2759-4276-ad4f-471e405544b9",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "View all conductor trainee job openings in Amtrak New York and apply to the latest job.",
+        "action_reprs": [
+            "[link]  Careers -> CLICK",
+            "[textbox]  Search by Keyword -> TYPE: Conductor",
+            "[textbox]  Search by Location -> TYPE: New Yok",
+            "[button]  To make this website accessible to screen reader, ... -> CLICK",
+            "[button]  To make this website accessible to screen reader, ... -> CLICK",
+            "[link]  To make this website accessible to screen reader, ... -> CLICK",
+            "[link]  To make this website accessible to screen reader, ... -> CLICK"
+        ]
+    },
+    {
+        "website": "amtrak",
+        "id": "1d9c6a43-eeb3-40ec-8617-d09a68fb0fb3",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Show me routes from NYP to WAS on May 15th.",
+        "action_reprs": [
+            "[textbox]  From -> CLICK",
+            "[option]  New York, NY - Moynihan Train Hall (NYP) -> CLICK",
+            "[textbox]  To -> TYPE: was",
+            "[option]  Washington, DC - Union Station (WAS) -> CLICK",
+            "[textbox]  Depart Date -> CLICK",
+            "[gridcell]  Monday, May 15, 2023 -> CLICK",
+            "[button]  FIND TRAINS -> CLICK"
+        ]
+    },
+    {
+        "website": "mbta",
+        "id": "14be9a2b-5559-423b-8362-4dccf306992e",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Find rail for Oyster Bay, Provincetown.",
+        "action_reprs": [
+            "[link]   commuter rail Commuter Rail -> CLICK",
+            "[combobox]  Search for a line -> TYPE: Oyster Bay",
+            "[span]  Oyster -> CLICK",
+            "[link]  Go to route -> CLICK"
+        ]
+    },
+    {
+        "website": "mbta",
+        "id": "408cc1bd-0a76-4bad-b5f4-11db4405047f",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Plan a trip from Boston Logan Airport to North Station.",
+        "action_reprs": [
+            "[tab]  Trip Planner -> CLICK",
+            "[combobox]  From -> TYPE: Boston Logan Airport",
+            "[option]  Boston Logan Int'l Airport, 1 Harborside Dr, East ... -> CLICK",
+            "[combobox]  To\u00a0 -> TYPE: North Station",
+            "[link]   T orange line green line D green line E commuter ... -> CLICK",
+            "[button]  Get trip suggestions -> CLICK"
+        ]
+    },
+    {
+        "website": "mbta",
+        "id": "41ff100f-582a-422e-b387-3abd9008cee4",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Open red line subway schedule.",
+        "action_reprs": [
+            "[button]  Transit \uf0d7 -> CLICK",
+            "[link]  Subway -> CLICK",
+            "[span]  Red Line -> CLICK"
+        ]
+    },
+    {
+        "website": "mbta",
+        "id": "4ff347e6-e911-4af5-8151-7805a9e91b28",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Show current alerts for red line subway.",
+        "action_reprs": [
+            "[tab]  Alerts -> CLICK",
+            "[link]   red line  -> CLICK",
+            "[link]  Current Alerts -> CLICK"
+        ]
+    },
+    {
+        "website": "mbta",
+        "id": "504c0c6b-7e78-4bfa-ae3f-00f8e59c3693",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Find a parking lot in Gloucester and book a ride from there to North Plymouth on April 28, 2:30 pm, view the map to understand the route better.",
+        "action_reprs": [
+            "[button]  Transit \uf0d7 -> CLICK",
+            "[link]  Parking -> CLICK",
+            "[link]  Find Parking Lots -> CLICK",
+            "[button]  Stations G\u2013K \uf107 -> CLICK",
+            "[link]  Gloucester -> CLICK",
+            "[link]  Plan a trip from this station -> CLICK",
+            "[combobox]  To\u00a0 -> TYPE: NORTH PLYMOUTH",
+            "[em]  Plymouth -> CLICK",
+            "[button]  Depart at 8:20 AM, 4/10/23 \uf107 -> CLICK",
+            "[LabelText]  Monday, April 10, 2023, click or press the enter o... -> CLICK",
+            "[gridcell]  Friday, April 28, 2023 -> CLICK",
+            "[combobox]  Hour -> TYPE: 2",
+            "[combobox]  Minute -> TYPE: 30",
+            "[combobox]  AM or PM -> SELECT: PM",
+            "[button]  Get trip suggestions -> CLICK",
+            "[button]  Show map and trip details \uf107 -> CLICK"
+        ]
+    },
+    {
+        "website": "marriott",
+        "id": "8e4dbb21-de6c-4b9a-8bd1-97fc6b1fe3c0",
+        "domain": "Travel",
+        "subdomain": "Hotel",
+        "confirmed_task": "Find a wedding venue in Venice Beach California  in June for 100 guests.",
+        "action_reprs": [
+            "[button]  Find & Reserve -> CLICK",
+            "[link]  Book Meetings & Events -> CLICK",
+            "[heading]  Weddings -> CLICK",
+            "[label]  Purpose of your event -> CLICK",
+            "[li]  Wedding -> CLICK",
+            "[textbox]  Destination -> TYPE: Venice Beach",
+            "[menuitem]  Venice Beach, Los Angeles, CA, USA -> CLICK",
+            "[textbox]  Event space -> TYPE: 100",
+            "[textbox]  Start Date -> CLICK",
+            "[button]  \ue023 -> CLICK",
+            "[button]  \ue023 -> CLICK",
+            "[button]  \ue023 -> CLICK",
+            "[gridcell]  Sun, Jun 4, 2023 -> CLICK",
+            "[div]  Start Date -> CLICK",
+            "[button]  Find -> CLICK",
+            "[heading]  Le M\u00e9ridien Delfina Santa Monica -> CLICK"
+        ]
+    },
+    {
+        "website": "marriott",
+        "id": "8eef04e2-3d51-4a0e-84f2-db017a69050b",
+        "domain": "Travel",
+        "subdomain": "Hotel",
+        "confirmed_task": "Get the Promo Code for Spring Break Savings and packages.",
+        "action_reprs": [
+            "[button]  Special Offers -> CLICK",
+            "[link]  Deals -> CLICK",
+            "[heading]  Spring Break Savings & Packages -> CLICK",
+            "[li]  Promotional Code: ZJL -> CLICK"
+        ]
+    },
+    {
+        "website": "marriott",
+        "id": "acc13b3d-0585-4cbe-a2b1-30c6e25517fa",
+        "domain": "Travel",
+        "subdomain": "Hotel",
+        "confirmed_task": "Shop for a Four Points by Sheraton gift card of value 150 dollars with Marriott deluxe box and add it to the cart in the name of Clara from James with a happy Christmas message and checkout.",
+        "action_reprs": [
+            "[button]  For Guests\ue91e -> CLICK",
+            "[link]  Gift Cards \ue922 -> CLICK",
+            "[link]  Browse Gift Cards  -> CLICK",
+            "[button]  Our Brands -> CLICK",
+            "[img]  Travel Reinvented. -> CLICK",
+            "[textbox]  *Amount -> TYPE: 150",
+            "[span]  Marriott Deluxe Box -> CLICK",
+            "[textbox]  To -> TYPE: Clara",
+            "[textbox]  From -> TYPE: James",
+            "[textbox]  Message Line 1 -> TYPE: Happy Christmas",
+            "[button]  Add to Cart -> CLICK",
+            "[button]  Proceed to Checkout -> CLICK"
+        ]
+    },
+    {
+        "website": "eventbrite",
+        "id": "63388e25-a4a3-416d-bc9b-bb915fbca977",
+        "domain": "Entertainment",
+        "subdomain": "Event",
+        "confirmed_task": "Find popular free online fashion class events occurring this weekend in English, find details of the top result event,  save the event  and follow the organizer of this event.",
+        "action_reprs": [
+            "[button]  This weekend -> CLICK",
+            "[link]  See more -> CLICK",
+            "[label]   -> CLICK",
+            "[label]   -> CLICK",
+            "[button]  View more -> CLICK",
+            "[label]   -> CLICK",
+            "[label]   -> CLICK",
+            "[label]   -> CLICK",
+            "[svg]   -> CLICK",
+            "[div]  RawElegant.Life -> CLICK",
+            "[div]  Envy Yourself With Beauty Makeup MasterClass -> CLICK",
+            "[button]  Follow -> CLICK"
+        ]
+    },
+    {
+        "website": "eventbrite",
+        "id": "6b54b029-bff8-49a7-acca-c57163f14279",
+        "domain": "Entertainment",
+        "subdomain": "Event",
+        "confirmed_task": "Find music events in Los Angeles today",
+        "action_reprs": [
+            "[div]  Search for events -> CLICK",
+            "[textbox]  Search events -> TYPE: music",
+            "[combobox]  autocomplete -> TYPE: los angeles ",
+            "[div]  Los Angeles -> CLICK",
+            "[path]   -> CLICK",
+            "[svg]   -> CLICK",
+            "[button]  Today -> CLICK"
+        ]
+    },
+    {
+        "website": "yelp",
+        "id": "ea8737b0-0ff4-4476-b97d-5677d4f526dc",
+        "domain": "Travel",
+        "subdomain": "Restaurant",
+        "confirmed_task": "Find the highest-rated locksmith in San Francisco for a key extraction from a vehicle.",
+        "action_reprs": [
+            "[link]  Home Services -> HOVER",
+            "[span]  Locksmiths -> CLICK",
+            "[textbox]  Near -> TYPE: SAN FRANSISCO",
+            "[span]  San Francisco, CA -> CLICK",
+            "[button]  All -> CLICK",
+            "[radio]   Key extraction -> CLICK",
+            "[radio]   Vehicle -> CLICK",
+            "[generic]  2 filters Key extraction \u2022 Vehicle Clear all Cance... -> CLICK",
+            "[button]  Recommended -> CLICK",
+            "[span]  Highest Rated -> CLICK"
+        ]
+    },
+    {
+        "website": "thetrainline",
+        "id": "09660a8d-b01d-4e93-9dd2-0b4af256bc80",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Change the language to UK English and the currency to Euros",
+        "action_reprs": [
+            "[svg]   -> CLICK",
+            "[combobox]  Language -> SELECT: \ud83c\uddec\ud83c\udde7 English (UK)",
+            "[svg]   -> CLICK",
+            "[combobox]  Currency -> SELECT: Euro (EUR/\u20ac)"
+        ]
+    },
+    {
+        "website": "thetrainline",
+        "id": "3110612f-63fe-4a7a-98d0-29c806d6a34f",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Find the Trains in Spain guide that will help you learn about Renfe fare types",
+        "action_reprs": [
+            "[img]  header.burgerMenu.title -> CLICK",
+            "[menuitem]  European trains -> CLICK",
+            "[menuitem]  Spain train tickets -> CLICK",
+            "[link]  Renfe fare types -> CLICK"
+        ]
+    },
+    {
+        "website": "thetrainline",
+        "id": "35646414-520b-4de0-90e0-5dfeafd850a3",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Book a lowest priced ticket from Bristal airport to London Paddington on April 8 after 2 pm, seating must be forward facing window side with power socket.",
+        "action_reprs": [
+            "[combobox]  Departure station, none selected. Select a station... -> TYPE: BRISTOL",
+            "[span]  Bristol Airport (By Bus) -> CLICK",
+            "[combobox]  Arrival station, none selected. Select a station. -> TYPE: LONDON",
+            "[span]  London Paddington -> CLICK",
+            "[textbox]  Date use format: 25-Mar-23 -> CLICK",
+            "[link]  8 -> CLICK",
+            "[listbox]  hour -> SELECT: 14",
+            "[listbox]  minutes -> SELECT: 00",
+            "[button]  Get cheapest tickets -> CLICK",
+            "[span]  Continue -> CLICK",
+            "[listbox]  Direction -> SELECT: Forward facing",
+            "[listbox]  Position -> SELECT: Window",
+            "[div]   -> CLICK",
+            "[span]  Continue -> CLICK"
+        ]
+    },
+    {
+        "website": "thetrainline",
+        "id": "44dcda68-082c-455a-a409-7091470cc006",
+        "domain": "Travel",
+        "subdomain": "Ground",
+        "confirmed_task": "Find tickets from Edinburgh Waverly to Glagsgow Central on May 18, leaving nearest 3PM for 1 adult with a Veterans Railcard",
+        "action_reprs": [
+            "[combobox]  Departure station, none selected. Select a station... -> CLICK",
+            "[combobox]  Departure station, none selected. Select a station... -> TYPE: Edinburgh",
+            "[span]  Edinburgh (Waverley) -> CLICK",
+            "[combobox]  Arrival station, none selected. Select a station. -> CLICK",
+            "[combobox]  Arrival station, none selected. Select a station. -> TYPE: Glasgow",
+            "[span]  Glasgow Central -> CLICK",
+            "[textbox]  Date use format: 17-Mar-23 -> CLICK",
+            "[path]   -> CLICK",
+            "[link]  18 -> CLICK",
+            "[listbox]  hour -> SELECT: 15",
+            "[svg]   -> CLICK",
+            "[button]  Add railcard -> CLICK",
+            "[listbox]  Select railcard 01 -> SELECT: Veterans Railcard",
+            "[button]  Done -> CLICK",
+            "[button]  Get cheapest tickets -> CLICK"
+        ]
+    },
+    {
+        "website": "tvguide",
+        "id": "c9215395-70cd-4da5-af99-9ba36cde858a",
+        "domain": "Entertainment",
+        "subdomain": "Movie",
+        "confirmed_task": "Find the trailer for a new winter  show from HBO.",
+        "action_reprs": [
+            "[link]  Recommendations -> CLICK",
+            "[link]  Recommendations -> HOVER",
+            "[menuitem]  Winter Preview: New Shows Worth Watching -> CLICK",
+            "[link]  Trailer -> CLICK"
+        ]
+    },
+    {
+        "website": "tvguide",
+        "id": "d0ce3db1-720b-4333-a487-2bdc8fd74a80",
+        "domain": "Entertainment",
+        "subdomain": "Movie",
+        "confirmed_task": "Show episodes of Alien Worlds and check where to watch Episode 4 of Season 1.",
+        "action_reprs": [
+            "[textbox]  Search TV Shows and Movies... -> TYPE: Alien Worlds",
+            "[div]  Alien Worlds -> CLICK",
+            "[link]  Seasons & Episodes -> CLICK",
+            "[span]  Where to Watch -> CLICK"
+        ]
+    },
+    {
+        "website": "uniqlo",
+        "id": "f8089c50-e80c-4532-82a1-96009f485c57",
+        "domain": "Shopping",
+        "subdomain": "Fashion",
+        "confirmed_task": "Find a Women's t-shirt for $40-$60 and add it to Wishlist, stop at the Login screen.",
+        "action_reprs": [
+            "[link]  WOMEN -> CLICK",
+            "[tab]  Tops -> CLICK",
+            "[link]  T-Shirts -> CLICK",
+            "[gridcell]  Price -> CLICK",
+            "[label]  $40-$60 -> CLICK",
+            "[svg]   -> CLICK",
+            "[svg]   -> CLICK",
+            "[button]  LOG IN -> CLICK"
+        ]
+    },
+    {
+        "website": "united",
+        "id": "0b16b42c-dea7-4079-a2a8-79eb23447193",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find popular deals to USA national parks in the southeast region of Biscayne national park, and add to the cart the fully refundable economy flight from New York to Miami with a departure date of May 13 and a return date of May 18.",
+        "action_reprs": [
+            "[tab]  DEALS -> CLICK",
+            "[link]  Flights to national parks -> CLICK",
+            "[heading]  Southeast Region -> CLICK",
+            "[link]  Within sight of downtown Miami, yet worlds away, B... -> CLICK",
+            "[link]  Fly to Miami (MIA) -> CLICK",
+            "[button]  New York/Newark (EWR) Miami (MIA) Roundtrip|Econom... -> CLICK",
+            "[textbox]  Departure -> CLICK",
+            "[gridcell]  Saturday, May 13, 2023 -> CLICK",
+            "[gridcell]  Thursday, May 18, 2023 -> CLICK",
+            "[button]  Search flights -> CLICK",
+            "[span]  Refundable fares -> CLICK",
+            "[radio]  Show refundable fares from $258 -> CLICK",
+            "[div]  Select flight -> CLICK",
+            "[div]  Add to cart -> CLICK"
+        ]
+    },
+    {
+        "website": "gamestop",
+        "id": "8a6f2641-9896-4657-b447-56927420e8c4",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find the cheapest educational trade-in Nintendo switch game rated for everyone, and print the details.",
+        "action_reprs": [
+            "[link]  repeat Trade-In -> CLICK",
+            "[p]  Video Games -> CLICK",
+            "[link]  Filter -> CLICK",
+            "[generic]  Refine by Category: Nintendo Switch -> CLICK",
+            "[checkbox]  Everyone Everyone -> CLICK",
+            "[button]  Genre -> CLICK",
+            "[checkbox]  Educational Educational -> CLICK",
+            "[button]  Done -> CLICK",
+            "[button]  Best Matches -> CLICK",
+            "[link]  Price Low To High -> CLICK",
+            "[link]  Comic Coloring Book - Nintendo Switch -> CLICK",
+            "[link]  PRINT -> CLICK"
+        ]
+    },
+    {
+        "website": "agoda",
+        "id": "e3486ac5-6d1e-476f-b389-2e6df37f94bd",
+        "domain": "Travel",
+        "subdomain": "General",
+        "confirmed_task": "Search a cheapest homestay with balcony in Bali, Indoneshia from April 1 to 4 for 2 adults and 4 children aged 3, 5, 8, and 12 years, respectively, double beds prefered, including breakfast.",
+        "action_reprs": [
+            "[combobox]  Enter a destination or property -> TYPE: bali",
+            "[generic]  Indonesia -> CLICK",
+            "[gridcell]  Sat Apr 01 2023 -> CLICK",
+            "[button]  4 -> CLICK",
+            "[img]  Add -> CLICK",
+            "[img]  Add -> CLICK",
+            "[combobox]  Age of Child 1(Child's age (years)) -> SELECT: 3",
+            "[img]  Add -> CLICK",
+            "[combobox]  Age of Child 2(Child's age (years)) -> SELECT: 5",
+            "[img]  Add -> CLICK",
+            "[combobox]  Age of Child 3(Child's age (years)) -> SELECT: 8",
+            "[img]  Add -> CLICK",
+            "[combobox]  Age of Child 4(Child's age (years)) -> SELECT: 12",
+            "[span]  SEARCH -> CLICK",
+            "[span]  SEARCH -> CLICK",
+            "[checkbox]  list-filter-item-label-4 -> CLICK",
+            "[checkbox]  list-filter-item-label-12 -> CLICK",
+            "[checkbox]  list-filter-item-label-3 -> CLICK",
+            "[checkbox]  list-filter-item-label-0 -> CLICK",
+            "[tab]  Lowest price first -> CLICK"
+        ]
+    },
+    {
+        "website": "agoda",
+        "id": "fbe9f625-7b47-4e13-a2f5-6823195d7438",
+        "domain": "Travel",
+        "subdomain": "General",
+        "confirmed_task": "find a cheapest direct flight From mumbai to new delhi, India, on june 1 and return travel on june 8.",
+        "action_reprs": [
+            "[tab]  Flights -> CLICK",
+            "[generic]  Round-trip -> CLICK",
+            "[combobox]  Flying from -> TYPE: MUMBAI",
+            "[option]  Airport Chhatrapati Shivaji Maharaj International ... -> CLICK",
+            "[combobox]  Flying to -> TYPE: NEW DELHI",
+            "[option]  Airport Indira Gandhi International Airport -> CLICK",
+            "[button]  Next Month -> CLICK",
+            "[use]   -> CLICK",
+            "[div]  1 -> CLICK",
+            "[span]  8 -> CLICK",
+            "[span]  SEARCH FLIGHTS -> CLICK",
+            "[span]  Direct -> CLICK"
+        ]
+    },
+    {
+        "website": "sports.yahoo",
+        "id": "0692908b-4bf4-48ac-b41a-37c59ea5ba1d",
+        "domain": "Entertainment",
+        "subdomain": "Sports",
+        "confirmed_task": "find the score of the latest nfl game played by the las vegas raiders.",
+        "action_reprs": [
+            "[combobox]  Search query -> TYPE: las vegas raiders",
+            "[img]  Las Vegas -> CLICK",
+            "[div]  Final -> CLICK"
+        ]
+    },
+    {
+        "website": "united",
+        "id": "90a0f029-c1af-4dd7-8ccd-c4c2a74e8731",
+        "domain": "Travel",
+        "subdomain": "Airlines",
+        "confirmed_task": "Find a basic economy flight + hotel for an award travel from las vegas to san francisco leaving and returning on any date on april for 1 traveler and one room",
+        "action_reprs": [
+            "[tab]  BOOK -> CLICK",
+            "[link]  Award travel -> CLICK",
+            "[span]  Flight + hotel -> CLICK",
+            "[label]  Basic Economy -> CLICK",
+            "[combobox]  Enter your departing city, airport name, or airpor... -> TYPE: las vegas",
+            "[span]  Las Vegas, NV -> CLICK",
+            "[combobox]  Enter your destination city, airport name, or airp... -> TYPE: san francisco",
+            "[span]  San Francisco, CA -> CLICK",
+            "[textbox]  Departure -> CLICK",
+            "[button]  Tuesday, April 11, 2023 -> CLICK",
+            "[button]  Friday, April 14, 2023 -> CLICK",
+            "[button]  1 Traveler -> CLICK",
+            "[textbox]  1 Adults, 18 to 64 years old, 1 of 8 passengers se... -> TYPE: 1",
+            "[combobox]  undefined Selected 1 room -> CLICK",
+            "[option]  1 room -> CLICK",
+            "[button]  Find trips -> CLICK"
+        ]
+    },
+    {
+        "website": "koa",
+        "id": "b2dd00ff-3f09-46bf-a043-7b996f3815da",
+        "domain": "Travel",
+        "subdomain": "Hotel",
+        "confirmed_task": "Search for holiday campground in Alaska.",
+        "action_reprs": [
+            "[link]  CAMPING AT KOA \uf0d7 -> CLICK",
+            "[link]  KOA HOLIDAY CAMPGROUNDS \uf0da -> CLICK",
+            "[button]  Alaska -> CLICK",
+            "[link]  Homer / Baycrest KOA Holiday\ue250 -> CLICK"
+        ]
+    },
+    {
+        "website": "koa",
+        "id": "b4872f0e-9d9e-4259-8b1e-844509b85712",
+        "domain": "Travel",
+        "subdomain": "Hotel",
+        "confirmed_task": "Find all campgrounds located in California.",
+        "action_reprs": [
+            "[link]  FIND A CAMPGROUND \uf0d7 -> CLICK",
+            "[link]  FIND BY STATE/PROVINCE \uf0da -> CLICK",
+            "[link]  California -> CLICK"
+        ]
+    },
+    {
+        "website": "koa",
+        "id": "b7e501a4-5dee-406e-b6ba-00eed783df0c",
+        "domain": "Travel",
+        "subdomain": "Hotel",
+        "confirmed_task": "Find a KOA campground in California that has RV sites.",
+        "action_reprs": [
+            "[link]  Filters  -> CLICK",
+            "[checkbox]  RV Site -> CLICK",
+            "[textbox]  WHERE DO YOU WANT TO GO? -> TYPE: California",
+            "[button]  FIND A KOA -> CLICK"
+        ]
+    },
+    {
+        "website": "koa",
+        "id": "c7b0d1bc-2a0c-4060-92dd-cd4b8721b625",
+        "domain": "Travel",
+        "subdomain": "Hotel",
+        "confirmed_task": "Search for KOA near Lansing, Michigan for June 7, 2023 to June 12, 2023.",
+        "action_reprs": [
+            "[textbox]  WHERE DO YOU WANT TO GO? -> TYPE: Lansing",
+            "[list]  KOA Logo Icon Auburn Hills / Holly KOA Holly, MI K... -> CLICK",
+            "[textbox]  CHECK IN -> CLICK",
+            "[link]  \uf054 Next -> CLICK",
+            "[link]  \uf054 Next -> CLICK",
+            "[link]  7 -> CLICK",
+            "[textbox]  CHECK OUT -> CLICK",
+            "[link]  12 -> CLICK",
+            "[button]  FIND A KOA -> CLICK"
+        ]
+    },
+    {
+        "website": "koa",
+        "id": "d3ca5294-89aa-4028-8776-be08edc63783",
+        "domain": "Travel",
+        "subdomain": "Hotel",
+        "confirmed_task": "Find a campground in Phoenix with wi-fi to check in today.",
+        "action_reprs": [
+            "[textbox]  WHERE DO YOU WANT TO GO? -> TYPE: Phoenix",
+            "[textbox]  CHECK IN -> CLICK",
+            "[link]  9 -> CLICK",
+            "[link]  Filters  -> CLICK",
+            "[checkbox]  Wi-Fi -> CLICK",
+            "[button]  FIND A KOA -> CLICK"
+        ]
+    },
+    {
+        "website": "kohls",
+        "id": "06309af8-9ca0-41c4-8acc-1e4e5db2f344",
+        "domain": "Shopping",
+        "subdomain": "Department",
+        "confirmed_task": "Show the most popular Women's Athletic Shoes.",
+        "action_reprs": [
+            "[span]  Shop by Category -> CLICK",
+            "[link]  Women -> HOVER",
+            "[link]  Shoes & Sandals -> CLICK",
+            "[link]  Athletic Shoes & Sneakers Athletic Shoes & Sneaker... -> CLICK",
+            "[link]  Sort by: Featured -> CLICK",
+            "[link]  Best Sellers -> CLICK"
+        ]
+    },
+    {
+        "website": "nyc",
+        "id": "f5d4d405-9714-47a5-a66a-49a899b16b97",
+        "domain": "Entertainment",
+        "subdomain": "Event",
+        "confirmed_task": "check all available tickets within $100 to $200 for the New York Knicks first game on April2 nd.",
+        "action_reprs": [
+            "[link]  sports. -> CLICK",
+            "[textbox]  Search by Name -> TYPE: New york knicks",
+            "[p]  New York Knicks -> CLICK",
+            "[link]  View Tickets -> CLICK",
+            "[span]  (0) -> CLICK",
+            "[textbox]  Max Price -> TYPE: 200",
+            "[textbox]  Min Price -> TYPE: 100",
+            "[button]  Done -> CLICK"
+        ]
+    },
+    {
+        "website": "eventbrite",
+        "id": "ddee9314-5a29-4258-b11b-b6432ec719f1",
+        "domain": "Entertainment",
+        "subdomain": "Event",
+        "confirmed_task": "Search for all free virtual  business start-up events happening tomorrow in Las Vegas and follow the organizer with most followers.",
+        "action_reprs": [
+            "[link]  Business -> CLICK",
+            "[svg]   -> CLICK",
+            "[combobox]  autocomplete -> TYPE: LAS VEGAS",
+            "[div]  Las Vegas -> CLICK",
+            "[svg]   -> CLICK",
+            "[div]  Tomorrow -> CLICK",
+            "[p]  Startups & Small Business -> CLICK",
+            "[div]  #virtual -> CLICK",
+            "[label]   -> CLICK",
+            "[div]  How to Make Six-Figures as a Consultant or Coach -... -> CLICK",
+            "[button]  Following -> CLICK"
+        ]
+    },
+    {
+        "website": "eventbrite",
+        "id": "e9300d50-11fa-4f98-8c39-424630668ab9",
+        "domain": "Entertainment",
+        "subdomain": "Event",
+        "confirmed_task": "What are the popular online Health events for tomorr\now?",
+        "action_reprs": [
+            "[link]  Health -> CLICK",
+            "[heading]  Most popular events -> CLICK",
+            "[p]  Search for online events -> CLICK",
+            "[label]   -> CLICK"
+        ]
+    },
+    {
+        "website": "ikea",
+        "id": "1d0dcb84-da65-4830-ba60-cc2b09a52a13",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find plastic bathroom baskets that are gray from low to high prices near zip code 60173.",
+        "action_reprs": [
+            "[link]  Products -> CLICK",
+            "[button]  Bathroom -> CLICK",
+            "[link]  Bathroom storage -> CLICK",
+            "[searchbox]  Search by ZIP code or city, state -> TYPE: 60173",
+            "[button]  Submit -> CLICK",
+            "[span]  Select store -> CLICK",
+            "[textbox]  Enter zip code to save preferred delivery location... -> TYPE: 60173",
+            "[span]  Update ZIP code -> CLICK",
+            "[span]  See all bathroom boxes & baskets -> CLICK",
+            "[button]  Show filter modal Color -> CLICK",
+            "[checkbox]  Gray 12 products -> CLICK",
+            "[button]  Show filter modal Material -> CLICK",
+            "[span]   -> CLICK",
+            "[span]  Plastic -> CLICK",
+            "[button]  Show sorting options modal -> CLICK",
+            "[radio]  Price: low to high -> CLICK"
+        ]
+    },
+    {
+        "website": "ikea",
+        "id": "2d4b44c7-d11a-41c1-8be7-af4ae80b7a8c",
+        "domain": "Shopping",
+        "subdomain": "Speciality",
+        "confirmed_task": "Find a store near 11231 zip code.",
+        "action_reprs": [
+            "[span]  Columbus -> CLICK",
+            "[searchbox]  Search by ZIP code or city, state -> TYPE: 11231",
+            "[button]  Submit -> CLICK",
+            "[button]  Set Brooklyn as my store and close modal -> CLICK"
+        ]
+    },
+    {
+        "website": "carmax",
+        "id": "957878ba-cb47-40d1-bf37-23039b2dff27",
+        "domain": "Shopping",
+        "subdomain": "Auto",
+        "confirmed_task": "find a CarMax in Michigan, 49107 and book an appointment for a car repair on April 7th..",
+        "action_reprs": [
+            "[button]  Open helpful links menu -> CLICK",
+            "[link]  Service & Repairs -> CLICK",
+            "[link]  FIND A SHOP NEAR YOU -> CLICK",
+            "[link]  Find a Shop -> CLICK",
+            "[li]  43065 -> TYPE: 49107",
+            "[textbox]  Zip Code -> TYPE: 49107",
+            "[div]  49107 - Buchanan, MI -> CLICK",
+            "[button]  Request Appointment -> CLICK",
+            "[gridcell]  Fri Apr 07 2023 -> CLICK"
+        ]
+    },
+    {
+        "website": "carmax",
+        "id": "9e3d2edb-6535-4180-9050-ade88dbf798e",
+        "domain": "Shopping",
+        "subdomain": "Auto",
+        "confirmed_task": "Find a Chevrolet with lowest mileage in zip 08817 with shipping charges of 99 dollars or less, with a price between 20k to 30k.",
+        "action_reprs": [
+            "[span]  Columbus Easton -> CLICK",
+            "[searchbox]  Enter ZIP or State -> TYPE: 08817",
+            "[button]  Search for CarMax stores. -> CLICK",
+            "[button]  set store -> CLICK",
+            "[link]  Shop -> CLICK",
+            "[link]  SHOP ALL CARS -> CLICK",
+            "[div]  Best match -> CLICK",
+            "[label]  Lowest mileage -> CLICK",
+            "[button]  Back to all categories -> CLICK",
+            "[heading]  Distance & Shipping -> CLICK",
+            "[button]  Any -> CLICK",
+            "[menuitem]  $99 or less -> CLICK",
+            "[path]   -> CLICK",
+            "[button]  Make -> CLICK",
+            "[listitem]  Chevrolet (101) Chevrolet (101) -> CLICK",
+            "[button]  Back to all categories -> CLICK",
+            "[button]  Price -> CLICK",
+            "[button]  $10,000 -> CLICK",
+            "[menuitem]  $20,000 -> CLICK",
+            "[button]  $56,000 + -> CLICK",
+            "[menuitem]  $30,000 -> CLICK",
+            "[button]  Back to all categories -> CLICK",
+            "[generic]  select car -> CLICK"
+        ]
+    },
+    {
+        "website": "sports.yahoo",
+        "id": "0c577209-47dc-4645-8d10-0b659663a969",
+        "domain": "Entertainment",
+        "subdomain": "Sports",
+        "confirmed_task": "find the score of the latest nba game played by the phoenix suns.",
+        "action_reprs": [
+            "[combobox]  Search query -> TYPE: phoenix suns",
+            "[link]  Phoenix Phoenix NBA -> CLICK",
+            "[span]  Final -> CLICK"
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+---
+source_repo: https://github.com/browser-use/browser-use
+source_file: tests/agent_tasks/browser_use_pip.yaml
+license: MIT
+category: logic/browser-use
+imported_at: 2026-04-19
+---
+
+name: Find pip install command for browser-use
+task: Find the pip installation command for the browser-use repo
+judge_context:
+  - The output must include the command ('pip install browser-use') 
+max_steps: 10
