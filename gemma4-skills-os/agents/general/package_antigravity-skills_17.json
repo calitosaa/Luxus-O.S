@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: docs/integrations/jetski-gemini-loader/package.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"type": "module"}

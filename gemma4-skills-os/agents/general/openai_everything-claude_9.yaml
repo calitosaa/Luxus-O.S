@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/affaan-m/everything-claude-code
+source_file: .agents/skills/api-design/agents/openai.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+interface:
+  display_name: "API Design"
+  short_description: "REST API design patterns and best practices"
+  brand_color: "#F97316"
+  default_prompt: "Design REST API: resources, status codes, pagination"
+policy:
+  allow_implicit_invocation: true

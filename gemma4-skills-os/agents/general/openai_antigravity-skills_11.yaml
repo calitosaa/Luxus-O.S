@@ -1,0 +1,12 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/macos-spm-app-packaging/agents/openai.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+interface:
+  display_name: "macOS SwiftPM Packaging"
+  short_description: "Package SwiftPM macOS apps"
+  default_prompt: "Use $macos-spm-app-packaging to scaffold or package a SwiftPM-based macOS app without Xcode."

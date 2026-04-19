@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/affaan-m/everything-claude-code
+source_file: .agents/skills/investor-materials/agents/openai.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+interface:
+  display_name: "Investor Materials"
+  short_description: "Create decks, memos, and financial materials from one source of truth"
+  brand_color: "#7C3AED"
+  default_prompt: "Draft investor materials that stay numerically consistent across assets"
+policy:
+  allow_implicit_invocation: true

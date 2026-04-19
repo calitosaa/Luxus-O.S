@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/affaan-m/everything-claude-code
+source_file: .agents/skills/bun-runtime/agents/openai.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+interface:
+  display_name: "Bun Runtime"
+  short_description: "Bun as runtime, package manager, bundler, and test runner"
+  brand_color: "#FBF0DF"
+  default_prompt: "Use Bun for scripts, install, or run"
+policy:
+  allow_implicit_invocation: true

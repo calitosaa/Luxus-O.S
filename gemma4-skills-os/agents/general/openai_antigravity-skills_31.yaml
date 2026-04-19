@@ -1,0 +1,12 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: skills/project-skill-audit/agents/openai.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+interface:
+  display_name: "Project Skill Audit"
+  short_description: "Audit project sessions and skill coverage"
+  default_prompt: "Use $project-skill-audit to analyze this project and recommend new skills or updates to existing ones."

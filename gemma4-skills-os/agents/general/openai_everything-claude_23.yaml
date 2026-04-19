@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/affaan-m/everything-claude-code
+source_file: .agents/skills/strategic-compact/agents/openai.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+interface:
+  display_name: "Strategic Compact"
+  short_description: "Context management via strategic compaction"
+  brand_color: "#14B8A6"
+  default_prompt: "Suggest task boundary compaction for context management"
+policy:
+  allow_implicit_invocation: true

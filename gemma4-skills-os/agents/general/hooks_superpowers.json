@@ -1,0 +1,24 @@
+---
+source_repo: https://github.com/obra/superpowers
+source_file: hooks/hooks.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/run-hook.cmd\" session-start",
+            "async": false
+          }
+        ]
+      }
+    ]
+  }
+}

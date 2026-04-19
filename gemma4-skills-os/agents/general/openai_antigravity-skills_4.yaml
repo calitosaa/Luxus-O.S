@@ -1,0 +1,12 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/react-component-performance/agents/openai.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+interface:
+  display_name: "React Component Performance"
+  short_description: "Profile and fix React render issues"
+  default_prompt: "Use $react-component-performance to analyze and improve this React component's rendering performance."

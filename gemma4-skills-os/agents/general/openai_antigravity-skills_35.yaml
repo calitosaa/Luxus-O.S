@@ -1,0 +1,12 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: skills/ios-debugger-agent/agents/openai.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+interface:
+  display_name: "iOS Debugger Agent"
+  short_description: "Debug iOS apps on Simulator"
+  default_prompt: "Use $ios-debugger-agent to build, launch, and inspect the current iOS app on the booted simulator."

@@ -1,0 +1,14 @@
+---
+source_repo: https://github.com/obra/superpowers
+source_file: package.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "name": "superpowers",
+  "version": "5.0.7",
+  "type": "module",
+  "main": ".opencode/plugins/superpowers.js"
+}

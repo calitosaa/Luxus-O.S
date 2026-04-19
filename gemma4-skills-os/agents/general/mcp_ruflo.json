@@ -1,0 +1,21 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: .claude/mcp.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "mcpServers": {
+    "flow-nexus": {
+      "command": "node",
+      "args": ["/workspaces/flow-cloud/mcp/flow-nexus-sse/mcp-server-supabase.js"],
+      "env": {
+        "SUPABASE_URL": "${SUPABASE_URL}",
+        "SUPABASE_ANON_KEY": "${SUPABASE_ANON_KEY}",
+        "NODE_NO_WARNINGS": "1"
+      }
+    }
+  }
+}

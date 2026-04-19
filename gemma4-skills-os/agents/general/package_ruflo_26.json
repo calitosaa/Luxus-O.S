@@ -1,0 +1,37 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v3/@claude-flow/performance/package.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "name": "@claude-flow/performance",
+  "version": "3.0.0-alpha.6",
+  "type": "module",
+  "description": "Performance module - benchmarking, Flash Attention validation, optimization",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./benchmarks/*": "./benchmarks/*.js"
+  },
+  "scripts": {
+    "bench": "vitest bench",
+    "bench:attention": "vitest bench benchmarks/attention/",
+    "bench:startup": "vitest bench benchmarks/startup/",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ruvector/attention": "latest",
+    "@ruvector/sona": "latest"
+  },
+  "devDependencies": {
+    "vitest": "^4.0.16"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "v3alpha"
+  }
+}

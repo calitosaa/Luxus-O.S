@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/affaan-m/everything-claude-code
+source_file: .agents/skills/x-api/agents/openai.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+interface:
+  display_name: "X API"
+  short_description: "X/Twitter API integration for posting, threads, and analytics"
+  brand_color: "#000000"
+  default_prompt: "Use X API to post tweets, threads, or retrieve timeline and search data"
+policy:
+  allow_implicit_invocation: true

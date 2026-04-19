@@ -1,0 +1,18 @@
+---
+source_repo: https://github.com/obra/superpowers
+source_file: tests/brainstorm-server/package.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "name": "brainstorm-server-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node server.test.js"
+  },
+  "dependencies": {
+    "ws": "^8.19.0"
+  }
+}

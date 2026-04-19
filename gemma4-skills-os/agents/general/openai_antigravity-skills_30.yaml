@@ -1,0 +1,12 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: skills/orchestrate-batch-refactor/agents/openai.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+interface:
+  display_name: "Batch Refactor Orchestrator"
+  short_description: "Plan and parallelize large refactors safely."
+  default_prompt: "Use $orchestrate-batch-refactor to analyze target scope, plan parallel workstreams, and execute multi-agent refactors safely."

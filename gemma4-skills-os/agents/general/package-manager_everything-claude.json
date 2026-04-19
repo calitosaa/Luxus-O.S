@@ -1,0 +1,12 @@
+---
+source_repo: https://github.com/affaan-m/everything-claude-code
+source_file: .claude/package-manager.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "packageManager": "bun",
+  "setAt": "2026-01-23T02:09:58.819Z"
+}
