@@ -1,0 +1,52 @@
+---
+source_repo: https://github.com/meticha/material-3-expressive-catalog
+source_file: app/src/main/java/com/cavin/material3expressivecatalog/components/largefab/LargeFabVariant1.kt
+license: Apache-2.0
+category: skills/design
+imported_at: 2026-04-19
+---
+
+/*
+ * Designed and developed by MetichaHQ
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package com.cavin.material3expressivecatalog.components.largefab
+
+import androidx.compose.foundation.layout.size
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
+import androidx.compose.material3.FloatingActionButtonDefaults
+import androidx.compose.material3.Icon
+import androidx.compose.material3.LargeExtendedFloatingActionButton
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import com.cavin.material3expressivecatalog.ui.screens.ContentScreen
+
+@Composable
+fun LargeFabVariant1() {
+    ContentScreen {
+        LargeExtendedFloatingActionButton(
+            onClick = { /* do something */ },
+            icon = {
+                Icon(
+                    Icons.Filled.Add,
+                    "Localized description",
+                    modifier = Modifier.size(FloatingActionButtonDefaults.LargeIconSize),
+                )
+            },
+            text = { Text(text = "Large Extended FAB") },
+        )
+    }
+}

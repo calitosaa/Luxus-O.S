@@ -1,0 +1,105 @@
+---
+source_repo: https://github.com/beercss/beercss
+source_file: src/home/fieldsets.vue
+license: MIT
+category: skills/design
+imported_at: 2026-04-19
+---
+
+<template lang="pug">
+#fieldsets
+  .large-space
+  h4
+    span Fieldsets
+    button.chip.circle(@click="domain.showSamples(data, '#fieldsets fieldset', 'Fieldsets', null, null)")
+      i code
+  .space
+  .grid
+    .s12.m6.l6
+      fieldset
+        legend Select one or more
+        nav
+          label.checkbox
+            input(type="checkbox")
+            span Item 1
+          label.checkbox
+            input(type="checkbox")
+            span Item 2
+          label.checkbox
+            input(type="checkbox")
+            span Item 3
+      fieldset
+        legend Select one or more
+        nav.vertical
+          label.checkbox
+            input(type="checkbox")
+            span Item 1
+          label.checkbox
+            input(type="checkbox")
+            span Item 2
+          label.checkbox
+            input(type="checkbox")
+            span Item 3
+    .s12.m6.l6
+      fieldset
+        legend Select one or more
+        nav
+          label.radio
+            input(type="radio")
+            span Item 1
+          label.radio
+            input(type="radio")
+            span Item 2
+          label.radio
+            input(type="radio")
+            span Item 3
+      fieldset
+        legend Select one or more
+        nav.vertical
+          label.radio
+            input(type="radio")
+            span Item 1
+          label.radio
+            input(type="radio")
+            span Item 2
+          label.radio
+            input(type="radio")
+            span Item 3
+    .s12.m6.l6
+      fieldset
+        legend Fill all fields
+        .field.border.label 
+          input(aria-hidden="true")
+          label Input
+        .field.border.label 
+          select(aria-hidden="true")
+            option Item 1
+            option Item 2
+            option Item 3
+          label Select
+        .field.border.label 
+          textarea(aria-hidden="true")
+          label Textarea
+          output Helper text
+    .s12.m6.l6
+      fieldset
+        legend Fill all fields
+        .row
+          .max
+            .field.border.label.max
+              input(aria-hidden="true")
+              label Input
+          .max
+            .field.border.label 
+              select(aria-hidden="true")
+                option Item 1
+                option Item 2
+                option Item 3
+              label Select
+</template>
+
+<script setup lang="ts">
+import domain from "./domain";
+import data from "./data";
+</script>
+  
