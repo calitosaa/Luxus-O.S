@@ -1,0 +1,17 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[33816]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+List the US presidents in chronological order.
+
+## Asistente
+The presidents of the United States in chronological order are George Washington (1789-1797), John Adams (1797-1801), Thomas Jefferson (1801-1809), James Madison (1809-1817), James Monroe (1817-1825), John Quincy Adams (1825-1829), Andrew Jackson (1829-1837), Martin Van Buren (1837-1841), William Henry Harrison (1841), John Tyler (1841-1845), James K. Polk (1845-1849), Zachary Taylor (1849-1850), Millard Fillmore (1850-1853), Franklin Pierce (1853-1857), James Buchanan (1857-1861), Abraham Lincoln (1861-1865), Andrew Johnson (1865-1869), Ulysses S. Grant (1869-1877), Rutherford B. Hayes (1877-1881), James A. Garfield (1881), Chester A. Arthur (1881-1885), Grover Cleveland (1885-1889, 1893-1897), Benjamin Harrison (1889-1893), William McKinley (1897-1901), Theodore Roosevelt (1901-1909), William Howard Taft (1909-1913), Woodrow Wilson (1913-1921), Warren G. Harding (1921-1923), Calvin Coolidge (1923-1929), Herbert Hoover (1929-1933), Franklin D. Roosevelt (1933-1945), Harry Truman (1945-1953), Dwight Eisenhower (1953-1961), John F. Kennedy (1961-1963), Lyndon B. Johnson (1963-1969), Richard Nixon (1969-1974), Gerald Ford (1974-1977), Jimmy Carter (1977-1981), Ronald Reagan (1981-1989), George H. W. Bush (1989-1993), Bill Clinton (1993-2001), George W. Bush (2001-2009), Barack Obama (2009-2017), and Donald Trump (2017-present).
