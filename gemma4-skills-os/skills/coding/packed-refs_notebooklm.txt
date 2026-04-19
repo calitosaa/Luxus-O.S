@@ -1,0 +1,10 @@
+---
+source_repo: https://github.com/teng-lin/notebooklm-py
+source_file: .git/packed-refs
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+# pack-refs with: peeled fully-peeled sorted 
+d6cef809dee4f03794e89bd089dd426b34a67345 refs/remotes/origin/main
