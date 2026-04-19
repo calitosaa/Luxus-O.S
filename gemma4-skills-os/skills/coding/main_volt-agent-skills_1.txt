@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/VoltAgent/awesome-agent-skills
+source_file: .git/logs/refs/heads/main
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+0000000000000000000000000000000000000000 13b4fa8146516f7657ed68176c403236b0fbcd37 Claude <noreply@anthropic.com> 1776599472 +0000	clone: from https://github.com/VoltAgent/awesome-agent-skills
