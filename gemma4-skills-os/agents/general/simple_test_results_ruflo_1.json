@@ -1,0 +1,33 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/benchmark/archive/old-files/simple_test_results.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "test_time": 1750181142.5221543,
+  "tests": [
+    {
+      "name": "version",
+      "success": true,
+      "duration": 4.023334503173828
+    },
+    {
+      "name": "sparc_list",
+      "success": true,
+      "duration": 4.023334503173828
+    },
+    {
+      "name": "sparc_coder",
+      "success": true,
+      "duration": 4.023334503173828
+    },
+    {
+      "name": "swarm",
+      "success": true,
+      "duration": 4.023334503173828
+    }
+  ]
+}

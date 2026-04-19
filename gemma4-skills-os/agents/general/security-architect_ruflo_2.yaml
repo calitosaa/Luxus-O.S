@@ -1,0 +1,18 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v3/@claude-flow/guidance/agents/security-architect.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+# security-architect agent configuration
+type: security-architect
+version: "3.0.0"
+capabilities:
+  - threat-modeling
+  - vulnerability-analysis
+  - security-review
+optimizations:
+  - pattern-matching
+createdAt: "2026-02-02T03:50:06.001Z"

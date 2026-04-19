@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1754482753.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250806-121912", "task": "give me a more detailed reason why I'm wrong and a dummy.  ", "timestamp": "2025-08-06T12:19:13Z", "commit": "4f2957aeb169e65c771850c875ce414dfa45cf0b", "github_release": "true"}
