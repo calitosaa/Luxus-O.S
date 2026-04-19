@@ -1,0 +1,22 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/hello-world-extension/contributes/themes.json
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+[
+  {
+    "id": "ocean-breeze",
+    "name": "Ocean Breeze",
+    "file": "themes/ocean-breeze.css",
+    "cover": "assets/ocean-breeze-cover.svg"
+  },
+  {
+    "id": "sunset-glow",
+    "name": "Sunset Glow",
+    "file": "themes/sunset-glow.css",
+    "cover": "assets/sunset-glow-cover.svg"
+  }
+]

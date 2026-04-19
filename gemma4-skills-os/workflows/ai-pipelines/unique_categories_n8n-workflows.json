@@ -1,0 +1,26 @@
+---
+source_repo: https://github.com/Zie619/n8n-workflows
+source_file: context/unique_categories.json
+license: MIT
+category: workflows/ai-pipelines
+imported_at: 2026-04-19
+---
+
+[
+  "AI Agent Development",
+  "Business Process Automation",
+  "CRM & Sales",
+  "Cloud Storage & File Management",
+  "Communication & Messaging",
+  "Creative Content & Video Automation",
+  "Creative Design Automation",
+  "Data Processing & Analysis",
+  "E-commerce & Retail",
+  "Financial & Accounting",
+  "Marketing & Advertising Automation",
+  "Project Management",
+  "Social Media Management",
+  "Technical Infrastructure & DevOps",
+  "Uncategorized",
+  "Web Scraping & Data Extraction"
+]
