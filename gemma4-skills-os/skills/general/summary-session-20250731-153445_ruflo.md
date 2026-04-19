@@ -1,0 +1,49 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/summary-session-20250731-153445.md
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# Session Summary - 2025-07-31 15:34:46
+
+## Checkpoints Created
+1753906298.json
+1753906353.json
+1753906370.json
+task-1753913133.json
+task-1753913281.json
+task-1753913468.json
+
+## Files Modified
+.claude-flow/metrics/performance.json
+.claude-flow/metrics/system-metrics.json
+.claude-flow/metrics/task-metrics.json
+.claude/checkpoints/summary-session-20250731-143729.md
+.claude/checkpoints/summary-session-20250731-145845.md
+.claude/checkpoints/summary-session-20250731-150532.md
+ISSUE_ALPHA_80.md
+bin/claude-flow
+claude-flow-wiki
+package-lock.json
+package.json
+
+## Recent Commits
+48b228d 🔖 Checkpoint: Edit example-file.js
+48eb1e3 🔖 Checkpoint: Edit example-file.js
+e216f8e 🔖 Checkpoint: Edit demo.txt
+093611a 🔧 Fix SQLite preparation errors in hive-mind spawn
+
+## Rollback Instructions
+To rollback to a specific checkpoint:
+```bash
+# List all checkpoints
+git tag -l 'checkpoint-*' | sort -r
+
+# Rollback to a checkpoint
+git checkout checkpoint-YYYYMMDD-HHMMSS
+
+# Or reset to a checkpoint (destructive)
+git reset --hard checkpoint-YYYYMMDD-HHMMSS
+```
