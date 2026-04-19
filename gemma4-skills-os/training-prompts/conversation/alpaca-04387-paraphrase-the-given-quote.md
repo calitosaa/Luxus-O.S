@@ -1,0 +1,20 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[4387]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+Paraphrase the given quote.
+
+Contexto/Input:
+“Life isn't about waiting for the storm to pass, it's about learning to dance in the rain.” —Anonymous
+
+## Asistente
+Rather than simply enduring an unpleasant phase in life, it's better to adjust and find a way to enjoy the situation. This is the way to make the best of the situation even during challenging moments.

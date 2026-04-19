@@ -1,0 +1,19 @@
+---
+source_repo: https://github.com/openai/openai-cookbook
+source_file: examples/partners/agentic_governance_guide/requirements.txt
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+# Core OpenAI packages
+openai
+openai-agents
+openai-guardrails[benchmark]
+
+# Environment and async utilities
+python-dotenv
+nest_asyncio
+
+# Data validation
+pydantic

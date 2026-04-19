@@ -1,0 +1,13 @@
+---
+source_repo: https://github.com/anthropics/anthropic-cookbook
+source_file: tool_use/requirements.txt
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+anthropic>=0.18.0
+python-dotenv>=1.0.0
+ipykernel>=6.29.0  # For Jupyter in VSCode
+rich>=13.0.0
+pandas>=2.0.0

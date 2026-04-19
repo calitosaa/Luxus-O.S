@@ -1,0 +1,20 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[30979]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+Generate a paragraph, expanding on the following statement:
+
+Contexto/Input:
+The digital age offers many solutions to traditional problems.
+
+## Asistente
+The digital age has changed how many traditional problems in our world are being addressed. It has ushered in new opportunities, new forms of communication, and new ways to solve problems. It has allowed for businesses to expand their reach, for governments to be more accessible, and for people to share ideas and collaborate more easily than ever before. In many cases, it has made things easier, more efficient and even more accessible for those on the receiving end. By utilizing these new technologies, many organizations have stopped relying solely on manual labor and instead raised operational efficiency by using automated solutions. This approach has allowed businesses, governments, and people all over the world to move forward and make great strides in solving old and new problems.

@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/PrefectHQ/fastmcp
+source_file: .claude/settings.json
+license: Apache-2.0
+category: conectores-mcp/general
+imported_at: 2026-04-19
+---
+
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/session-init.sh",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}

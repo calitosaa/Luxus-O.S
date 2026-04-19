@@ -1,0 +1,41 @@
+---
+source_repo: https://github.com/PrefectHQ/fastmcp
+source_file: examples/auth/discord_oauth/README.md
+license: Apache-2.0
+category: logic/mcp-protocol
+imported_at: 2026-04-19
+---
+
+# Discord OAuth Example
+
+Demonstrates FastMCP server protection with Discord OAuth.
+
+## Setup
+
+1. Create a Discord OAuth App:
+   - Go to https://discord.com/developers/applications
+   - Click "New Application" and give it a name
+   - Go to OAuth2 in the left sidebar
+   - Add a Redirect URL: `http://127.0.0.1:8000/auth/callback`
+   - Copy the Client ID and Client Secret
+
+2. Set environment variables:
+
+   ```bash
+   export FASTMCP_SERVER_AUTH_DISCORD_CLIENT_ID="your-client-id"
+   export FASTMCP_SERVER_AUTH_DISCORD_CLIENT_SECRET="your-client-secret"
+   ```
+
+3. Run the server:
+
+   ```bash
+   python server.py
+   ```
+
+4. In another terminal, run the client:
+
+   ```bash
+   python client.py
+   ```
+
+The client will open your browser for Discord authentication.

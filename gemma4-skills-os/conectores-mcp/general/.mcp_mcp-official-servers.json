@@ -1,0 +1,16 @@
+---
+source_repo: https://github.com/modelcontextprotocol/servers
+source_file: .mcp.json
+license: MIT
+category: conectores-mcp/general
+imported_at: 2026-04-19
+---
+
+{
+  "mcpServers": {
+    "mcp-docs": {
+      "type": "http",
+      "url": "https://modelcontextprotocol.io/mcp"
+    }
+  }
+}

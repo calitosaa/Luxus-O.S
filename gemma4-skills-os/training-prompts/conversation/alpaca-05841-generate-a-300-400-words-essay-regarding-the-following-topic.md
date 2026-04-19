@@ -1,0 +1,26 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[5841]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+Generate a 300-400 words essay regarding the following topic:
+
+Contexto/Input:
+The impact of the internet on communication
+
+## Asistente
+The internet has profoundly impacted communication in many ways. Perhaps most widely felt is the increased speed at which people can share information. With the addition of applications like email, text, chat, and video, people can now share knowledge with the click of a button. Such immediacy means that more information is being shared at faster rates, which is beneficial for businesses, educational institutions, and the individual. 
+
+Another tremendous effect of the internet is its ability to bring people together and enable them to form relationships. In the past, if someone wanted to build a relationship with someone else, their only option was to meet in person. However, thanks to the internet, people have access to unlimited communication options, so they can build relationships with people from all over the world. Furthermore, the internet has opened up the possibility of connecting people who would not normally have the chance to communicate face-to-face. Finally, access to the internet has increased drastically over time, resulting in even more opportunities for connection. 
+
+The widespread availability of information is another tremendous impact of the internet. With the vast amount of data that exists on the internet, it is now much easier for people to access information on any subject. This capability is particularly beneficial for students, as digital libraries and online databases are the greatest sources of information. As digital libraries become more popular, college courses are also switching to an online format to keep up with the modern digital age.
+
+Overall, it is clear that the internet has significantly impacted the way people communicate with one another. Its vast array of applications and resources make it an invaluable asset in the modern digital age.  By speeding up the sharing of information, connecting people worldwide, and providing access to information, the internet has become a ubiquitous tool for communication.  Its uppermost importance is undeniable when considering the many ways it influences our day-to-day lives.

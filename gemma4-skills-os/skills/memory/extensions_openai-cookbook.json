@@ -1,0 +1,13 @@
+---
+source_repo: https://github.com/openai/openai-cookbook
+source_file: examples/chatgpt/rag-quickstart/azure/.vscode/extensions.json
+license: MIT
+category: skills/memory
+imported_at: 2026-04-19
+---
+
+{
+    "recommendations": [
+        "ms-azuretools.vscode-azurefunctions"
+    ]
+}

@@ -1,0 +1,26 @@
+---
+source_repo: https://github.com/PrefectHQ/fastmcp
+source_file: examples/testing_demo/pyproject.toml
+license: Apache-2.0
+category: conectores-mcp/general
+imported_at: 2026-04-19
+---
+
+[project]
+name = "testing-demo"
+version = "0.1.0"
+description = "FastMCP testing example demonstrating pytest-asyncio patterns"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.0.0",
+    "pytest>=9.0.3",
+    "pytest-asyncio>=1.2.0",
+    "dirty-equals>=0.9.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
+python_files = ["test_*.py"]

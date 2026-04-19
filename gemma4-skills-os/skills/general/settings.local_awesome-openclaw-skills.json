@@ -1,0 +1,16 @@
+---
+source_repo: https://github.com/VoltAgent/awesome-openclaw-skills
+source_file: .claude/settings.local.json
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/necatiozmen/Documents/awesome-clawdbot-skills/**)",
+      "Bash(python3 /tmp/categorize.py)"
+    ]
+  }
+}

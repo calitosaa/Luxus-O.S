@@ -1,0 +1,17 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[42315]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+What is the best type of business to start in 2021?
+
+## Asistente
+Some of the best business types to start in 2021 are remote service businesses, e-commerce businesses, software businesses, and consulting businesses. Remote service businesses can offer services that can be done anywhere, making them a great option for entrepreneurs. E-commerce companies leverage online platforms to sell their goods, making them a great option for entrepreneurs looking to reach a wide audience. Software businesses have the potential to scale quickly and can help to provide powerful solutions to companies and organizations. Lastly, consulting businesses can capitalise on the growing demand for expert advice, making them a great option for entrepreneurs.

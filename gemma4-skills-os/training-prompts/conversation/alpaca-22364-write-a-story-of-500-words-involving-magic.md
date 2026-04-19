@@ -1,0 +1,25 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[22364]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+Write a story of 500 words involving magic.
+
+## Asistente
+Once upon a time, in a magical kingdom far away, there lived a young girl named Eliza who was filled with a sense of wondrous adventure. Eliza loved to explore and could often be found playing in the forest, searching for secret passageways or magical creatures among the trees.
+
+One day, while out exploring in the forest, Eliza stumbled upon an old, abandoned tower. After mustering up all of her courage, she opened the door and peered inside. What she found was astonishing- a room filled with trinkets, books, and artifacts that nearly took her breath away. Sitting atop of a shelf was an old, dusty book adorned with mysterious symbols. When Eliza opened the book, she was astonished to discover that it was full of ancient spells and charms.
+
+Utterly mesmerized, Eliza was determined to learn the secrets of magic and attempted to red the book. To her amazement, Eliza found she could understand the book's instructions and began practicing the spells and charms it contained. Soon, Eliza's room was filled with the smell of burning herbs and strange magical artifacts that seemed to whisper secrets to her.
+
+As Eliza became more confident in her magic, she used it to help others in her village. In time, her magic was so powerful that it seemed as if miracles would happen whenever Eliza spoke a spell. Despite her newfound power, Eliza never used her gifts for evil or selfish purposes and her heart was always filled with love and compassion. 
+
+Though she faced her fair share of danger and adventure, Eliza always managed to make it through thanks to the strength of her magic. Eliza's tale is a reminder to us all that true power comes not from magic, but from the heart.

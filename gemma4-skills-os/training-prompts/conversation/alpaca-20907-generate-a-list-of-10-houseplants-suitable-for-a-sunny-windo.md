@@ -1,0 +1,26 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[20907]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+Generate a list of 10 houseplants suitable for a sunny window.
+
+## Asistente
+1. Aloe Vera 
+2. Bird's Nest Fern 
+3. Pothos 
+4. Ivy 
+5. Spider Plant 
+6. Prayer Plant 
+7. Silver Squill 
+8. Kalanchoe 
+9. Lemon Balm 
+10. Snake Plant

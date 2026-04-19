@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/anthropics/anthropic-cookbook
+source_file: claude_agent_sdk/chief_of_staff_agent/financial_data/burn_rate.csv
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+Month,Burn_Rate,Headcount,Revenue,Net_Burn
+2024-01,450000,45,180000,270000
+2024-02,475000,47,195000,280000
+2024-03,490000,49,210000,280000
+2024-04,500000,50,240000,260000
+2024-05,510000,51,265000,245000
+2024-06,525000,53,290000,235000
