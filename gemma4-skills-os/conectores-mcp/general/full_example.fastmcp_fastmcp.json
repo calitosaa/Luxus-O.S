@@ -1,0 +1,35 @@
+---
+source_repo: https://github.com/PrefectHQ/fastmcp
+source_file: examples/fastmcp_config/full_example.fastmcp.json
+license: Apache-2.0
+category: conectores-mcp/general
+imported_at: 2026-04-19
+---
+
+{
+  "$schema": "https://gofastmcp.com/public/schemas/fastmcp.json/v1.json",
+  "source": {
+    "path": "server.py",
+    "entrypoint": "mcp"
+  },
+  "environment": {
+    "python": "3.12",
+    "dependencies": ["requests>=2.31.0", "httpx"],
+    "requirements": null,
+    "project": null,
+    "editable": null
+  },
+  "deployment": {
+    "transport": "http",
+    "host": "127.0.0.1",
+    "port": 8000,
+    "path": "/mcp/",
+    "log_level": "INFO",
+    "env": {
+      "DEBUG": "false",
+      "API_TIMEOUT": "30"
+    },
+    "cwd": null,
+    "args": null
+  }
+}

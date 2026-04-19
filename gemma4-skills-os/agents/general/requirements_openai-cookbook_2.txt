@@ -1,0 +1,24 @@
+---
+source_repo: https://github.com/openai/openai-cookbook
+source_file: examples/agents_sdk/multi-agent-portfolio-collaboration/requirements.txt
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+openai
+openai-agents
+fredapi
+yfinance
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+cvxpy
+arch
+mpmath
+tabulate
+requests
+pydantic
+logging

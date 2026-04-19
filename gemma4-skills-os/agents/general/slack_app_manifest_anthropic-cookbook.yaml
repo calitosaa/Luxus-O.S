@@ -1,0 +1,31 @@
+---
+source_repo: https://github.com/anthropics/anthropic-cookbook
+source_file: managed_agents/example_data/slack_data_bot/slack_app_manifest.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+display_information:
+  name: databot-cookbook
+  description: Data analyst agent. Mention with a CSV to get a report.
+features:
+  bot_user:
+    display_name: databot
+    always_online: true
+oauth_config:
+  scopes:
+    bot:
+      - app_mentions:read
+      - chat:write
+      - files:read
+      - files:write
+      - channels:history
+settings:
+  event_subscriptions:
+    bot_events:
+      - app_mention
+      - message.channels
+  interactivity:
+    is_enabled: true
+  socket_mode_enabled: true

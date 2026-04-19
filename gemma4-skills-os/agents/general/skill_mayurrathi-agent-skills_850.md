@@ -1,0 +1,26 @@
+---
+source_repo: https://github.com/mayurrathi/awesome-agent-skills
+source_file: skills/ai-agent-bundle/SKILL.md
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+---
+name: Ai Agent Bundle
+description: Bundle of 90+ granular skills for LangGraph, CrewAI, Agent Memory, AI Ethics, and autonomous agent patterns.
+version: 1.0.0
+---
+
+# 9.1.1 Ai Agent Bundle
+
+This bundle provides access to specialized AI development workflows.
+
+## Sub-Skills Included
+These skills are located in `./sub-skills/`:
+- **Frameworks**: `langgraph`, `crewai`, `haystack`, `semantic-kernel`
+- **Patterns**: `agent-orchestration`, `autonomous-agents`, `multi-agent-systems`
+- **Components**: `agent-memory`, `agent-tool-builder`, `prompt-engineering`
+
+## Usage
+Reference any sub-skill by navigating to `./sub-skills/[skill-name]/SKILL.md`.

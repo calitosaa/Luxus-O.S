@@ -1,0 +1,13 @@
+---
+source_repo: https://github.com/anthropics/anthropic-cookbook
+source_file: managed_agents/example_data/gate/policy.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+---
+auto_approve_under: 50
+manager_approve_under: 500
+always_escalate_categories: [travel, legal]
+require_receipt_over: 25
