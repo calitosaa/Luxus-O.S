@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: src/renderer/pages/conversation/Messages/messages.css
+license: MIT
+category: skills/design
+imported_at: 2026-04-19
+---
+
+/* Mobile typography tuning: conversation readability */
+@media (max-width: 767px) {
+  /* Message body */
+  .message-item .markdown-shadow-body {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+
+  .message-item .markdown-shadow-body p,
+  .message-item .markdown-shadow-body li,
+  .message-item .markdown-shadow-body blockquote {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+}

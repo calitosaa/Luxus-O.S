@@ -1,0 +1,27 @@
+---
+source_repo: https://github.com/beercss/beercss
+source_file: src/cdn/helpers/opacities.css
+license: MIT
+category: skills/design
+imported_at: 2026-04-19
+---
+
+.no-opacity {
+  opacity: 0 !important;
+}
+
+.small-opacity {
+  opacity: 0.25 !important;
+}
+
+.medium-opacity {
+  opacity: 0.5 !important;
+}
+
+.large-opacity {
+  opacity: 0.75 !important;
+}
+
+.opacity {
+  opacity: 1 !important;
+}

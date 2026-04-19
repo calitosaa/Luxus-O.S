@@ -1,0 +1,44 @@
+---
+source_repo: https://github.com/beercss/beercss
+source_file: src/cdn/helpers/ripples.css
+license: MIT
+category: skills/design
+imported_at: 2026-04-19
+---
+
+[class*=ripple]:is(:hover, :focus-visible)::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: currentColor;
+  opacity: 0.1;
+  border-radius: inherit;
+}
+
+.ripple {
+  --_duration: 600ms;
+}
+
+.fast-ripple {
+  --_duration: 200ms;
+}
+
+.slow-ripple {
+  --_duration: 1800ms;
+}
+
+.ripple-js {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.ripple-js > div {
+  position: absolute;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.3;
+  transform: scale(0);
+  animation: to-ripple var(--_duration) linear;
+}

@@ -1,0 +1,10 @@
+---
+source_repo: https://github.com/ComposioHQ/awesome-claude-skills
+source_file: mcp-builder/scripts/requirements.txt
+license: Apache-2.0
+category: skills/design
+imported_at: 2026-04-19
+---
+
+anthropic>=0.39.0
+mcp>=1.1.0

@@ -1,0 +1,20 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v3/@claude-flow/guidance/wasm-pkg/package.json
+license: MIT
+category: skills/design
+imported_at: 2026-04-19
+---
+
+{
+  "name": "guidance-kernel",
+  "description": "Rust WASM kernel for @claude-flow/guidance — deterministic policy engine",
+  "version": "0.1.0",
+  "files": [
+    "guidance_kernel_bg.wasm",
+    "guidance_kernel.js",
+    "guidance_kernel.d.ts"
+  ],
+  "main": "guidance_kernel.js",
+  "types": "guidance_kernel.d.ts"
+}

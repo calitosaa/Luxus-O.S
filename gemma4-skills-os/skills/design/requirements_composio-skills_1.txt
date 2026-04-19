@@ -1,0 +1,12 @@
+---
+source_repo: https://github.com/ComposioHQ/awesome-claude-skills
+source_file: slack-gif-creator/requirements.txt
+license: Apache-2.0
+category: skills/design
+imported_at: 2026-04-19
+---
+
+pillow>=10.0.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
+numpy>=1.24.0
