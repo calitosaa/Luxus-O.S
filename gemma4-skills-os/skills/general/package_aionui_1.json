@@ -1,0 +1,21 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: src/process/resources/skills/story-roleplay/scripts/package.json
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+{
+  "name": "story-roleplay-parser",
+  "version": "1.0.0",
+  "description": "Parser tools for character cards and world info",
+  "main": "parse-character-card.js",
+  "scripts": {
+    "parse": "node parse-character-card.js"
+  },
+  "dependencies": {
+    "png-chunk-text": "1.0.0",
+    "png-chunks-extract": "1.0.0"
+  }
+}

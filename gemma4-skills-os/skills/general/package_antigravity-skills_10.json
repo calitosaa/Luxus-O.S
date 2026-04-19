@@ -1,0 +1,34 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills/skills/playwright-skill/package.json
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+{
+  "name": "playwright-skill",
+  "version": "4.1.0",
+  "description": "General-purpose browser automation with Playwright for Claude Code with auto-detection and smart test management",
+  "author": "lackeyjb",
+  "main": "run.js",
+  "scripts": {
+    "setup": "npm install && npx playwright install chromium",
+    "install-all-browsers": "npx playwright install chromium firefox webkit"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "browser-testing",
+    "web-automation",
+    "claude-skill",
+    "general-purpose"
+  ],
+  "dependencies": {
+    "playwright": "^1.57.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT"
+}
