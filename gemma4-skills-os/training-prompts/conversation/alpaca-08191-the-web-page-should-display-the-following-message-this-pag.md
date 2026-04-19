@@ -1,0 +1,24 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[8191]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+The web page should display the following message, "This page is under construction. Please check back soon." Construct the HTML code to display the message.
+
+## Asistente
+<html>
+<head>
+    <title>Under Maintenance</title>
+</head>
+<body>
+    <h1>This page is under construction. Please check back soon.</h1>
+</body>
+</html>
