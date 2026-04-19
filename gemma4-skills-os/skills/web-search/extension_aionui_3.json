@@ -1,0 +1,20 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/e2e-full-extension/i18n/ru-RU/extension.json
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+{
+  "displayName": "Расширение E2E Full Test",
+  "description": "Комплексное тестовое расширение, покрывающее все типы вкладок для E2E-тестирования",
+  "settingsTabs": {
+    "e2e-settings": {
+      "name": "Настройки E2E"
+    },
+    "e2e-before-about": {
+      "name": "E2E О приложении"
+    }
+  }
+}

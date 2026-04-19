@@ -1,0 +1,17 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/star-office-extension/i18n/ja-JP/extension.json
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+{
+  "displayName": "Star Office 拡張",
+  "description": "すべてのエージェントのアクティビティを可視化するStar Officeスタイルのタブ。",
+  "settingsTabs": {
+    "star-office": { "name": "Star Office" },
+    "aionui-home": { "name": "AionUI ホーム" },
+    "aionui-issues": { "name": "AionUI 課題" }
+  }
+}

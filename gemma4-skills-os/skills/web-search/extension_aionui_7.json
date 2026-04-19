@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/hello-world-extension/i18n/en-US/extension.json
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+{
+  "displayName": "Hello World Extension",
+  "description": "A complete demo extension showcasing all AionUI extension capabilities",
+  "settingsTabs": {
+    "hello-settings": { "name": "Hello Config" }
+  }
+}
