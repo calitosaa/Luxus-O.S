@@ -1,0 +1,17 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[21333]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+Think of a way to reduce global poverty
+
+## Asistente
+A possible solution to reducing global poverty is to invest in the education of people living in disadvantaged areas, and provide job training and other resources that can help create economic growth. Additionally, providing access to basic needs such as food, water, and healthcare can counteract many of the effects of poverty. Governments and other organizations could also support businesses and industry in poverty-stricken regions, which could create new job opportunities for those living there.
