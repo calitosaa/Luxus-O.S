@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/benchmark/.claude/checkpoints/task-1754488581.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250806-135620", "task": "update @benchmark-system.md  ", "timestamp": "2025-08-06T13:56:21Z", "commit": "c6ec84863564d10da9a6638e26de6c668e44b199", "github_release": "true"}

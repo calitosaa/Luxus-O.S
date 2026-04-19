@@ -1,0 +1,26 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v3/@claude-flow/guidance/wasm-kernel/.cargo/config.toml
+license: MIT
+category: skills/design
+imported_at: 2026-04-19
+---
+
+# WASM SIMD Configuration
+#
+# Enables WASM SIMD128 instructions for vectorized operations.
+# Node.js 16+ supports WASM SIMD. Falls back gracefully on older runtimes.
+#
+# To build with SIMD (default for this project):
+#   wasm-pack build --target nodejs --release
+#
+# To build without SIMD (maximum compatibility):
+#   RUSTFLAGS="" wasm-pack build --target nodejs --release
+#
+# SIMD benefits:
+# - regex crate uses SIMD for string scanning (Aho-Corasick, memchr)
+# - sha2 crate can use SIMD for SHA-256 compression
+# - Overall 1.5-3x speedup on regex-heavy workloads
+
+[target.wasm32-unknown-unknown]
+rustflags = ["-C", "target-feature=+simd128"]

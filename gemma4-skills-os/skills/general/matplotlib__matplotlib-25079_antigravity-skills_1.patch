@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-01-24-17/swebench-patches/matplotlib__matplotlib-25079.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+--- a/lib/matplotlib/colorbar.py
++++ b/lib/matplotlib/colorbar.py
+@@ -511,6 +511,9 @@ class Colorbar:
+ 
+     def _draw_all(self):
+         """
+         Calculate any free parameters based on the current cmap and norm,
+         and do all the drawing.
+         """
++        # Bail out early if the norm doesn't have proper limits yet.
++        if not self.norm.scaled():
++            return
+         """
+         Calculate any free parameters based on the current cmap and norm,
+         and do all the drawing.

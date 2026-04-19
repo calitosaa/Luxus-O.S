@@ -1,0 +1,25 @@
+---
+source_repo: https://github.com/thedotmack/claude-mem
+source_file: plugin/.claude-plugin/plugin.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "name": "claude-mem",
+  "version": "12.2.0",
+  "description": "Persistent memory system for Claude Code - seamlessly preserve context across sessions",
+  "author": {
+    "name": "Alex Newman"
+  },
+  "repository": "https://github.com/thedotmack/claude-mem",
+  "license": "AGPL-3.0",
+  "keywords": [
+    "memory",
+    "context",
+    "persistence",
+    "hooks",
+    "mcp"
+  ]
+}

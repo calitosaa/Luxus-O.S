@@ -1,0 +1,28 @@
+---
+source_repo: https://github.com/affaan-m/everything-claude-code
+source_file: .github/release.yml
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+changelog:
+  categories:
+    - title: Core Harness
+      labels:
+        - enhancement
+        - feature
+    - title: Reliability & Bug Fixes
+      labels:
+        - bug
+        - fix
+    - title: Docs & Guides
+      labels:
+        - docs
+    - title: Tooling & CI
+      labels:
+        - ci
+        - chore
+  exclude:
+    labels:
+      - skip-changelog

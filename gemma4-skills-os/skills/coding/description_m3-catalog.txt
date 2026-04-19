@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/meticha/material-3-expressive-catalog
+source_file: .git/description
+license: Apache-2.0
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+Unnamed repository; edit this file 'description' to name the repository.

@@ -1,0 +1,25 @@
+---
+source_repo: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+source_file: .claude/skills/ui-styling/scripts/requirements.txt
+license: MIT
+category: skills/design
+imported_at: 2026-04-19
+---
+
+# UI Styling Skill Dependencies
+# Python 3.10+ required
+
+# No Python package dependencies - uses only standard library
+
+# Testing dependencies (dev)
+pytest>=8.0.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+
+# Note: This skill works with shadcn/ui and Tailwind CSS
+# Requires Node.js and package managers:
+#   - Node.js 18+: https://nodejs.org/
+#   - npm (comes with Node.js)
+#
+# shadcn/ui CLI is installed per-project:
+#   npx shadcn-ui@latest init

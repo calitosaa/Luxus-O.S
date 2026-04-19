@@ -1,0 +1,14 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: src/renderer/services/i18n/locales/tr-TR/fileSelection.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "selectFile": "Dosya Seç",
+  "selectDirectory": "Klasör Seç",
+  "pleaseSelectFile": "Lütfen bir dosya seçin",
+  "pleaseSelectDirectory": "Lütfen bir klasör seçin"
+}

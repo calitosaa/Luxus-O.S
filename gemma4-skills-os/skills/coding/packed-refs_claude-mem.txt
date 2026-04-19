@@ -1,0 +1,10 @@
+---
+source_repo: https://github.com/thedotmack/claude-mem
+source_file: .git/packed-refs
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+# pack-refs with: peeled fully-peeled sorted 
+beea7899b93c9fe00116e8e42c3129b59fac565f refs/remotes/origin/main

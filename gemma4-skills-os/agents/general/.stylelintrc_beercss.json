@@ -1,0 +1,35 @@
+---
+source_repo: https://github.com/beercss/beercss
+source_file: .stylelintrc.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "plugins": [
+		"@stylistic/stylelint-plugin"
+	],
+  "extends": [
+    "stylelint-config-standard-scss"
+  ],
+  "rules": {
+    "alpha-value-notation": "number",
+    "font-family-no-missing-generic-family-keyword": null,
+    "import-notation": "string",
+    "no-descending-specificity": null,
+    "no-duplicate-selectors": null,
+    "selector-attribute-quotes": "never",
+    "custom-property-pattern": null,
+    "@stylistic/color-hex-case": "upper",
+    "@stylistic/number-leading-zero": "always"
+  },
+  "overrides": [
+    {
+      "files": ["src/app.css"],
+      "rules": {
+        "no-empty-source": null
+      }
+    }
+  ]
+}

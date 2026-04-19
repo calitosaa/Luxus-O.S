@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1754484538.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250806-124857", "task": "still getting errors. @ruvnet ➜ /workspaces/claude-code-flow (alpha-88) $ swarm-benchmark real hiv", "timestamp": "2025-08-06T12:48:58Z", "commit": "cd3482c4bbe0e699fa852b4880eebfafd77bbcf5", "github_release": "true"}

@@ -1,0 +1,16 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/e2e-full-extension/i18n/tr-TR/extension.json
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+{
+  "displayName": "E2E Tam Test Eklentisi",
+  "description": "E2E testi için tüm katkı türlerini kapsayan kapsamlı bir test eklentisi",
+  "settingsTabs": {
+    "e2e-settings": { "name": "E2E Ayarlar" },
+    "e2e-before-about": { "name": "E2E Hakkında Önce" }
+  }
+}

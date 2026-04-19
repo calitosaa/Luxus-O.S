@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1756474922.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250829-134201", "task": "try the seraphina chat ", "timestamp": "2025-08-29T13:42:02Z", "commit": "b53765c51b64f767f6ef2c4d51131be534e04328", "github_release": "true"}

@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1754583520.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250807-161839", "task": "🧠 HIVE MIND COLLECTIVE INTELLIGENCE SYSTEM ══════════════════", "timestamp": "2025-08-07T16:18:40Z", "commit": "7b8e183072981c738d97f06eed15cfb5507894a3", "github_release": "true"}

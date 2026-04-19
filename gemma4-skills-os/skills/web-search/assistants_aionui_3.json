@@ -1,0 +1,17 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/hello-world-extension/contributes/assistants.json
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+[
+  {
+    "id": "hello-assistant",
+    "name": "Hello World Assistant",
+    "description": "A friendly demo assistant from the Hello World extension",
+    "presetAgentType": "ext-buddy",
+    "contextFile": "assistants/hello-assistant-context.md"
+  }
+]

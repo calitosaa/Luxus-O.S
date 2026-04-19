@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/affaan-m/everything-claude-code
+source_file: .agents/skills/verification-loop/agents/openai.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+interface:
+  display_name: "Verification Loop"
+  short_description: "Build, test, lint, typecheck verification"
+  brand_color: "#10B981"
+  default_prompt: "Run verification: build, test, lint, typecheck, security"
+policy:
+  allow_implicit_invocation: true

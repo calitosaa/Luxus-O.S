@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/VoltAgent/awesome-agent-skills
+source_file: .git/shallow
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+13b4fa8146516f7657ed68176c403236b0fbcd37

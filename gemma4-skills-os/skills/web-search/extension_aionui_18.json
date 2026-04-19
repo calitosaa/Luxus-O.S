@@ -1,0 +1,17 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/star-office-extension/i18n/ko-KR/extension.json
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+{
+  "displayName": "Star Office 확장",
+  "description": "모든 에이전트의 활동을 시각화하는 Star Office 스타일 탭입니다.",
+  "settingsTabs": {
+    "star-office": { "name": "Star Office" },
+    "aionui-home": { "name": "AionUI 홈" },
+    "aionui-issues": { "name": "AionUI 이슈" }
+  }
+}

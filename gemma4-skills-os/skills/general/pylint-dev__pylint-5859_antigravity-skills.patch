@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/pylint-dev__pylint-5859.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# pylint-dev__pylint-5859
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+--- a/pylint/checkers/misc.py
++++ b/pylint/checkers/misc.py
+@@ -94,7 +94,7 @@ class EncodingChecker(BaseChecker):
+ 
+     def open(self):
+         super().open()
+-        notes = "|".join(self.config.notes)
++        notes = "|".join(map(re.escape, self.config.notes))
+         if self.config.notes_rgx:
+             regex_string = rf"#\s*({notes}|{self.config.notes_rgx})\b"
+         else:

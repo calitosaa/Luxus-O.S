@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/affaan-m/everything-claude-code
+source_file: .claude/enterprise/controls.md
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# Enterprise Controls
+
+This is a starter governance file for enterprise ECC deployments.
+
+## Baseline
+
+- Repository: https://github.com/affaan-m/everything-claude-code
+- Recommended profile: full
+- Keep install manifests, audit allowlists, and Codex baselines under review.
+
+## Approval Expectations
+
+- Security-sensitive workflow changes require explicit reviewer acknowledgement.
+- Audit suppressions must include a reason and the narrowest viable matcher.
+- Generated skills should be reviewed before broad rollout to teams.

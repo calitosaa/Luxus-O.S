@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: skills/leiloeiro-avaliacao/scripts/requirements.txt
+license: MIT
+category: skills/design
+imported_at: 2026-04-19
+---
+
+# Sem dependencias externas (stdlib only)

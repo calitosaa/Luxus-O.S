@@ -1,0 +1,12 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills/skills/whatsapp-cloud-api/assets/boilerplate/python/requirements.txt
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+flask>=3.0.0
+httpx>=0.27.0
+python-dotenv>=1.0.0
+gunicorn>=22.0.0

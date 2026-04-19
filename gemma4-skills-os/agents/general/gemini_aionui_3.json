@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: src/renderer/services/i18n/locales/zh-TW/gemini.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "mode": {
+    "autoGemini3Desc": "讓 Gemini CLI 決定最佳模型: gemini-3-pro, gemini-3-flash",
+    "autoGemini25Desc": "讓 Gemini CLI 決定最佳模型: gemini-2.5-pro, gemini-2.5-flash",
+    "manualDesc": "手動選擇模型"
+  }
+}

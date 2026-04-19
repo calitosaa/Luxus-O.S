@@ -1,0 +1,12 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills/skills/ai-studio-image/scripts/requirements.txt
+license: MIT
+category: skills/design
+imported_at: 2026-04-19
+---
+
+# Requer Python 3.10+
+google-genai>=1.0.0
+Pillow>=10.0.0
+python-dotenv>=1.0.0

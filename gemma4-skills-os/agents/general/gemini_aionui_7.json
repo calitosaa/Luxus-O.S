@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: src/renderer/services/i18n/locales/tr-TR/gemini.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "mode": {
+    "autoGemini3Desc": "Gemini CLI'nın görev için en iyi modele karar vermesine izin ver: gemini-3-pro, gemini-3-flash",
+    "autoGemini25Desc": "Gemini CLI'nın görev için en iyi modele karar vermesine izin ver: gemini-2.5-pro, gemini-2.5-flash",
+    "manualDesc": "Manuel olarak bir model seç"
+  }
+}

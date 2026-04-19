@@ -1,0 +1,12 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: skills/swiftui-liquid-glass/agents/openai.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+interface:
+  display_name: "SwiftUI Liquid Glass"
+  short_description: "Build SwiftUI Liquid Glass features"
+  default_prompt: "Use $swiftui-liquid-glass to implement or review a SwiftUI feature using Liquid Glass APIs."

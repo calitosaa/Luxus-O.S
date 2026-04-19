@@ -1,0 +1,16 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/e2e-full-extension/i18n/en-US/extension.json
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+{
+  "displayName": "E2E Full Test Extension",
+  "description": "A comprehensive test extension covering all contribute types for E2E testing",
+  "settingsTabs": {
+    "e2e-settings": { "name": "E2E Settings" },
+    "e2e-before-about": { "name": "E2E Before About" }
+  }
+}

@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/browser-use/browser-use
+source_file: tests/agent_tasks/amazon_laptop.yaml
+license: MIT
+category: logic/browser-use
+imported_at: 2026-04-19
+---
+
+name: Amazon Laptop Search
+task: Go to amazon.com, search for 'laptop', and return the first result
+judge_context:
+  - The agent must navigate to amazon.com
+  - The agent must search for 'laptop'
+  - The agent must return name of the first laptop 
+max_steps: 10

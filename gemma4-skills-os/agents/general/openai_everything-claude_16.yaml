@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/affaan-m/everything-claude-code
+source_file: .agents/skills/claude-api/agents/openai.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+interface:
+  display_name: "Claude API"
+  short_description: "Anthropic Claude API patterns and SDKs"
+  brand_color: "#D97706"
+  default_prompt: "Build applications with the Claude API using Messages, tool use, streaming, and Agent SDK"
+policy:
+  allow_implicit_invocation: true

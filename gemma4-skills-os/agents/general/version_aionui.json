@@ -1,0 +1,12 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: mobile/versions/version.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "version": "0.1.0",
+  "buildNumber": 16
+}

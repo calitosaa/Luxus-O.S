@@ -1,0 +1,17 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/star-office-extension/i18n/tr-TR/extension.json
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+{
+  "displayName": "Star Office Eklentisi",
+  "description": "Tüm ajanların aktivitelerini görselleştiren Star Office tarzı sekme.",
+  "settingsTabs": {
+    "star-office": { "name": "Star Office" },
+    "aionui-home": { "name": "AionUI Ana Sayfa" },
+    "aionui-issues": { "name": "AionUI Sorunlar" }
+  }
+}

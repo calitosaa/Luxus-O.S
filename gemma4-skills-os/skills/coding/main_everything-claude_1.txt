@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/affaan-m/everything-claude-code
+source_file: .git/logs/refs/heads/main
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+0000000000000000000000000000000000000000 1a50145d39c0fa415311da62e7a018edd4e6d976 Claude <noreply@anthropic.com> 1776599533 +0000	clone: from https://github.com/affaan-m/everything-claude-code

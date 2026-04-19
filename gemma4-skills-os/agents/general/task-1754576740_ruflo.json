@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1754576740.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250807-142539", "task": "i want to see the entire 📋 Executing: command ", "timestamp": "2025-08-07T14:25:40Z", "commit": "e5aaa47f6769b49cfaf35517614634a6937796b5", "github_release": "true"}

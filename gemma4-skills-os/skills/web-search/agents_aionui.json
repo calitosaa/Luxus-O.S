@@ -1,0 +1,18 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/hello-world-extension/i18n/en-US/agents.json
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+{
+  "coder": {
+    "name": "Hello Coder",
+    "description": "A coding agent that helps with code generation and review"
+  },
+  "researcher": {
+    "name": "Hello Researcher",
+    "description": "A research agent for analysis and summarization"
+  }
+}

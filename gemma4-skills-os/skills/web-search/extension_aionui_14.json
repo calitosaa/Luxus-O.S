@@ -1,0 +1,17 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/star-office-extension/i18n/en-US/extension.json
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+{
+  "displayName": "Star Office Extension",
+  "description": "Star Office style activity visualization tab for all agents.",
+  "settingsTabs": {
+    "star-office": { "name": "Star Office" },
+    "aionui-home": { "name": "AionUI Home" },
+    "aionui-issues": { "name": "AionUI Issues" }
+  }
+}

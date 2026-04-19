@@ -1,0 +1,18 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: skills/notebooklm/requirements.txt
+license: MIT
+category: skills/design
+imported_at: 2026-04-19
+---
+
+# NotebookLM Skill Dependencies
+# These will be installed in the skill's local .venv
+
+# Core browser automation with anti-detection
+# Note: After installation, run: patchright install chrome
+# (Chrome is required, not Chromium, for cross-platform reliability)
+patchright==1.55.2
+
+# Environment management
+python-dotenv==1.0.0

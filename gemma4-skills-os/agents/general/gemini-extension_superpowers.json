@@ -1,0 +1,14 @@
+---
+source_repo: https://github.com/obra/superpowers
+source_file: gemini-extension.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "name": "superpowers",
+  "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
+  "version": "5.0.7",
+  "contextFileName": "GEMINI.md"
+}

@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1754443284.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250806-012123", "task": "# ⚡️ SPARC Orchestrator - Task Execution  ## 🎯 Your Mission Build exactly what the user reque", "timestamp": "2025-08-06T01:21:24Z", "commit": "a4d98634d151100c89d77960b869cae8970c9a96", "github_release": "true"}

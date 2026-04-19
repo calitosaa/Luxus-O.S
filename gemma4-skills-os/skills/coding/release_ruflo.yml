@@ -1,0 +1,24 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: ruflo/src/ruvocal/.github/release.yml
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+changelog:
+  exclude:
+    labels:
+      - huggingchat
+      - CI/CD
+      - documentation
+  categories:
+    - title: Features
+      labels:
+        - enhancement
+    - title: Bugfixes
+      labels:
+        - bug
+    - title: Other changes
+      labels:
+        - "*"

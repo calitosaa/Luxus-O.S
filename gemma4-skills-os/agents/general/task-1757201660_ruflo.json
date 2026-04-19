@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1757201660.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250906-233419", "task": "don't build it tell how i can create a neural power statyion management system? spawn a research swa", "timestamp": "2025-09-06T23:34:20Z", "commit": "007d4c08f27789f0222c839af5b0069b0d53831c", "github_release": "true"}

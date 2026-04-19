@@ -1,0 +1,27 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills/skills/shopify-development/scripts/requirements.txt
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+# Shopify Skill Dependencies
+# Python 3.10+ required
+
+# No Python package dependencies - uses only standard library
+
+# Testing dependencies (dev)
+pytest>=8.0.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+
+# Note: This script requires the Shopify CLI tool
+# Install Shopify CLI:
+#   npm install -g @shopify/cli @shopify/theme
+#   or via Homebrew (macOS):
+#   brew tap shopify/shopify
+#   brew install shopify-cli
+#
+# Authenticate with:
+#   shopify auth login

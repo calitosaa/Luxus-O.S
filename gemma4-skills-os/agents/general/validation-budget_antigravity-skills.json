@@ -1,0 +1,11 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: tools/config/validation-budget.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "maxWarnings": 135
+}

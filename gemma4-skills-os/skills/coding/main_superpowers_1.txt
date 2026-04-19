@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/obra/superpowers
+source_file: .git/logs/refs/heads/main
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+0000000000000000000000000000000000000000 b55764852ac78870e65c6565fb585b6cd8b3c5c9 Claude <noreply@anthropic.com> 1776599505 +0000	clone: from https://github.com/obra/superpowers

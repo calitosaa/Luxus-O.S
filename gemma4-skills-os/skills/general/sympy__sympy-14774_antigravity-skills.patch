@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/sympy__sympy-14774.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# sympy__sympy-14774
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+--- a/sympy/printing/latex.py
++++ b/sympy/printing/latex.py
+@@ -740,7 +740,7 @@ class LatexPrinter(Printer):
+             inv_trig_style = self._settings['inv_trig_style']
+             # If the function is an inverse trig function, handle the style
+             inv_trig_table = [
+-                "asin", "acos", "atan", "acot"
++                "asin", "acos", "atan", "acsc", "asec", "acot"
+             ]
+ 
+             if name in inv_trig_table:

@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/1754318017.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"branch": "checkpoint/pre-edit-20250804-143337", "file": "/tmp/mle-star-update.md", "timestamp": "2025-08-04T14:33:37Z", "type": "pre-edit", "original_branch": "alpha-85"}

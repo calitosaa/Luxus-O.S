@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/thedotmack/claude-mem
+source_file: .claude/scheduled_tasks.lock
+license: MIT
+category: agents/automation
+imported_at: 2026-04-19
+---
+
+{"sessionId":"6a00de6e-282e-4cd8-98ec-b5afb73c468d","pid":50072,"acquiredAt":1775678989779}

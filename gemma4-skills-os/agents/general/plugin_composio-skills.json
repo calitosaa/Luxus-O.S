@@ -1,0 +1,16 @@
+---
+source_repo: https://github.com/ComposioHQ/awesome-claude-skills
+source_file: connect-apps-plugin/.claude-plugin/plugin.json
+license: Apache-2.0
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "name": "connect-apps",
+  "description": "Manage auth and connect to 500+ apps using Composio. Perform real actions from Claude Code - send emails, create issues, post messages, and more.",
+  "author": {
+    "name": "Composio",
+    "email": "support@composio.dev"
+  }
+}

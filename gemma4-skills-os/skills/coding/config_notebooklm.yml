@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/teng-lin/notebooklm-py
+source_file: .github/ISSUE_TEMPLATE/config.yml
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+blank_issues_enabled: false

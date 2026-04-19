@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/1754576588.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"branch": "checkpoint/pre-edit-20250807-142308", "file": "/workspaces/claude-code-flow/benchmark/src/swarm_benchmark/swe_bench/official_integration.py", "timestamp": "2025-08-07T14:23:08Z", "type": "pre-edit", "original_branch": "swe-bench"}

@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/affaan-m/everything-claude-code
+source_file: .agents/skills/investor-outreach/agents/openai.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+interface:
+  display_name: "Investor Outreach"
+  short_description: "Write concise, personalized outreach and follow-ups for fundraising"
+  brand_color: "#059669"
+  default_prompt: "Draft a personalized investor outreach email with a clear low-friction ask"
+policy:
+  allow_implicit_invocation: true

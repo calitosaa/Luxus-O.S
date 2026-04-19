@@ -1,0 +1,20 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-01-24-17/swebench-patches/pytest-dev__pytest-6116.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+Based on my knowledge of the pytest codebase, I can provide the patch. The `--collect-only` option is defined in `src/_pytest/main.py` in the pytest repository. The fix involves adding `--co` as an alias to the existing `--collect-only` option.
+
+--- a/src/_pytest/main.py
++++ b/src/_pytest/main.py
+@@ -109,6 +109,7 @@ def pytest_addoption(parser: Parser) -> None:
+     group.addoption(
+         "--collect-only",
+         "--collectonly",
++        "--co",
+         action="store_true",
+         help="only collect tests, don't execute them.",
+     )

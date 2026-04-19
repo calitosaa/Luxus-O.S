@@ -1,0 +1,30 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: ruflo/src/nginx/static/manifest.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "name": "RuFlo",
+  "short_name": "RuFlo",
+  "description": "Enterprise AI Agent Orchestration Platform",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#00d4ff",
+  "background_color": "#0a0a1a",
+  "icons": [
+    {
+      "src": "/chatui/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/chatui/favicon-dark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "monochrome"
+    }
+  ]
+}

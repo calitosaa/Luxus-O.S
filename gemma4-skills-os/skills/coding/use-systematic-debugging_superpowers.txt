@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/obra/superpowers
+source_file: tests/explicit-skill-requests/prompts/use-systematic-debugging.txt
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+use systematic-debugging to figure out what's wrong

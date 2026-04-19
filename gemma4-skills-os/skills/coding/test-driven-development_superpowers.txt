@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/obra/superpowers
+source_file: tests/skill-triggering/prompts/test-driven-development.txt
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+I need to add a new feature to validate email addresses. It should:
+- Check that there's an @ symbol
+- Check that there's at least one character before the @
+- Check that there's a dot in the domain part
+- Return true/false
+
+Can you implement this?

@@ -1,0 +1,24 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/e2e-full-extension/contributes/settings-tabs.json
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+[
+  {
+    "id": "e2e-settings",
+    "name": "E2E Settings",
+    "entryPoint": "settings/e2e-settings.html",
+    "position": { "anchor": "tools", "placement": "after" },
+    "order": 10
+  },
+  {
+    "id": "e2e-before-about",
+    "name": "E2E Before About",
+    "entryPoint": "settings/e2e-settings.html",
+    "position": { "anchor": "about", "placement": "before" },
+    "order": 10
+  }
+]

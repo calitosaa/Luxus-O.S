@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1755013667.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250812-154745", "task": "how does the verify work? is it actually doing anything useful? ", "timestamp": "2025-08-12T15:47:47Z", "commit": "76cff89760032cceabc6254a5861313dc46eec16", "github_release": "true"}

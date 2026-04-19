@@ -1,0 +1,176 @@
+ways search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "writer",
+    "path": "skills/libreoffice/writer",
+    "category": "document-processing",
+    "name": "writer",
+    "description": "Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer.",
+    "risk": "safe",
+    "source": "personal",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "writing-plans",
+    "path": "skills/writing-plans",
+    "category": "uncategorized",
+    "name": "writing-plans",
+    "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "writing-skills",
+    "path": "skills/writing-skills",
+    "category": "meta",
+    "name": "writing-skills",
+    "description": "Use when creating, updating, or improving agent skills.",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "x-article-publisher-skill",
+    "path": "skills/x-article-publisher-skill",
+    "category": "uncategorized",
+    "name": "x-article-publisher-skill",
+    "description": "Publish articles to X/Twitter",
+    "risk": "safe",
+    "source": "https://github.com/wshuyi/x-article-publisher-skill",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "x-twitter-scraper",
+    "path": "skills/x-twitter-scraper",
+    "category": "data",
+    "name": "x-twitter-scraper",
+    "description": "X (Twitter) data platform skill \u2014 tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction tools, MCP server.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-02-28"
+  },
+  {
+    "id": "xlsx-official",
+    "path": "skills/xlsx-official",
+    "category": "uncategorized",
+    "name": "xlsx-official",
+    "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, ....",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "xss-html-injection",
+    "path": "skills/xss-html-injection",
+    "category": "uncategorized",
+    "name": "xss-html-injection",
+    "description": "This skill should be used when the user asks to \"test for XSS vulnerabilities\", \"perform cross-site scripting attacks\", \"identify HTML injection flaws\", \"exploit client-side injection...",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "yara-authoring",
+    "path": "skills/yara-authoring",
+    "category": "uncategorized",
+    "name": "yara-authoring",
+    "description": "Yara Authoring",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "youtube-automation",
+    "path": "skills/youtube-automation",
+    "category": "uncategorized",
+    "name": "youtube-automation",
+    "description": "Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "youtube-summarizer",
+    "path": "skills/youtube-summarizer",
+    "category": "content",
+    "name": "youtube-summarizer",
+    "description": "Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "zapier-make-patterns",
+    "path": "skills/zapier-make-patterns",
+    "category": "uncategorized",
+    "name": "zapier-make-patterns",
+    "description": "No-code automation democratizes workflow building. Zapier and Make (formerly Integromat) let non-developers automate business processes without writing code. But no-code doesn't mean no-complexity ...",
+    "risk": "unknown",
+    "source": "vibeship-spawner-skills (Apache 2.0)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "zendesk-automation",
+    "path": "skills/zendesk-automation",
+    "category": "uncategorized",
+    "name": "zendesk-automation",
+    "description": "Automate Zendesk tasks via Rube MCP (Composio): tickets, users, organizations, replies. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "zeroize-audit",
+    "path": "skills/zeroize-audit",
+    "category": "uncategorized",
+    "name": "zeroize-audit",
+    "description": "Detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and control-flow verification. Use for auditing C/C++/Rust code handling secrets, keys, passwords, or other sensitive data.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "zod-validation-expert",
+    "path": "skills/zod-validation-expert",
+    "category": "uncategorized",
+    "name": "zod-validation-expert",
+    "description": "Expert in Zod \u2014 TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js, and tRPC.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-05"
+  },
+  {
+    "id": "zoho-crm-automation",
+    "path": "skills/zoho-crm-automation",
+    "category": "uncategorized",
+    "name": "zoho-crm-automation",
+    "description": "Automate Zoho CRM tasks via Rube MCP (Composio): create/update records, search contacts, manage leads, and convert leads. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "zoom-automation",
+    "path": "skills/zoom-automation",
+    "category": "uncategorized",
+    "name": "zoom-automation",
+    "description": "Automate Zoom meeting creation, management, recordings, webinars, and participant tracking via Rube MCP (Composio). Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "zustand-store-ts",
+    "path": "skills/zustand-store-ts",
+    "category": "uncategorized",
+    "name": "zustand-store-ts",
+    "description": "Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creating global stores, or implementing reacti...",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  }
+]

@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1754486851.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250806-132730", "task": "swarm works, but hive-mind non-interactive still opens interactive mode when running ./claude-flow h", "timestamp": "2025-08-06T13:27:31Z", "commit": "2c98d7b2982ccc38d532426eacbdd742daad4208", "github_release": "true"}

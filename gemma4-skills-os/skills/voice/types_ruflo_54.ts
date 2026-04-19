@@ -1,0 +1,34 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: ruflo/src/ruvocal/src/lib/server/textGeneration/types.ts
+license: MIT
+category: skills/voice
+imported_at: 2026-04-19
+---
+
+import type { ProcessedModel } from "../models";
+import type { Endpoint } from "../endpoints/endpoints";
+import type { Conversation } from "$lib/types/Conversation";
+import type { Message } from "$lib/types/Message";
+import type { Assistant } from "$lib/types/Assistant";
+
+export interface TextGenerationContext {
+	model: ProcessedModel;
+	endpoint: Endpoint;
+	conv: Conversation;
+	messages: Message[];
+	assistant?: Pick<Assistant, "dynamicPrompt" | "generateSettings">;
+	promptedAt: Date;
+	ip: string;
+	username?: string;
+	/** Force-enable multimodal handling for endpoints that support it */
+	forceMultimodal?: boolean;
+	/** Force-enable tool calling even if model does not advertise support */
+	forceTools?: boolean;
+	/** Inference provider preference: "auto", "fastest", "cheapest", or a specific provider name */
+	provider?: string;
+	locals: App.Locals | undefined;
+	abortController: AbortController;
+	/** Autopilot mode — auto-continue tool calls up to 30 iterations */
+	autopilot?: boolean;
+}

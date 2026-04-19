@@ -1,0 +1,97 @@
+---
+source_repo: https://github.com/beercss/beercss
+source_file: src/uber/home.vue
+license: MIT
+category: skills/design
+imported_at: 2026-04-19
+---
+
+<template lang="pug">
+div
+  .fixed.top.left.right.bottom
+    img.responsive(alt="", :src="'/map.webp'", fetchpriority="high")
+  .fixed.bottom.right.margin.m.l
+    button.circle.white.black-text.wave.dark
+      i add
+    .space
+    button.circle.white.black-text.wave.dark
+      i remove
+  .large-space
+  article.no-padding.large-margin.medium-width.m.l.page.left.active.medium-elevate
+    .large-padding.black.white-text
+      p.bold From {{ data.from }}
+      p.bold To {{ data.to }}
+      h5.page.left.active(v-show="!data.from && !data.to") Where are you?
+      h5.page.left.active(v-show="data.from && !data.to") Where are you going?
+      h5.page.left.active(v-show="data.from && data.to") Confirm that ride?
+      nav.right-align
+        button.transparent.large.white-text(@click="clean()")
+          span Cancel
+        button.large(
+          v-show="data.to",
+          @click="clean()"
+        )
+          i time_to_leave
+          span Confirm
+    .large-padding
+      .field.prefix.round.white.black-text
+        i search
+        input(:placeholder="data.from ? 'Destination' : 'Departure'", @click="go()")
+      ul.list
+        li(@click="go()")
+          button.circle.small.no-wave
+            i gps_fixed
+          .max
+            h6.no-margin {{ data.street }}
+            .link Your current location
+        li
+          hr
+        li(@click="go()")
+          button.circle.small.no-wave
+            i home
+          .max
+            h6.no-margin Home
+            div {{ data.street }}
+  .overlay
+  dialog.bottom.active.s.no-padding
+    .padding.black.white-text
+      p.bold(v-show="data.from") From {{ data.from }}
+      p.bold(v-show="data.to") To {{ data.to }}
+      h5.page.left.active(v-show="!data.from && !data.to") Where are you?
+      h5.page.left.active(v-show="data.from && !data.to") Where are you going?
+      h5.page.left.active(v-show="data.from && data.to") Confirm that ride?
+      nav.right-align(v-show="data.from || data.to")
+        button.transparent.large.white-text(@click="clean()")
+          span Cancel
+        button.large(v-show="data.to", @click="clean()")
+          i time_to_leave
+          span Confirm
+    .large-padding
+      .field.prefix.round.white.black-text
+        i search
+        input(:placeholder="data.from ? 'Destination' : 'Departure'", @click="go()")
+      .row(@click="go()")
+        button.circle.small.no-wave
+          i gps_fixed
+        .max
+          h6.no-margin {{ data.street }}
+          .link Your current location
+</template>
+<script setup lang="ts">
+import data from "./data";
+
+const go = () => {
+  if (!data.value.from) {
+    data.value.from = data.value.street;
+    data.value.to = "";
+    return;
+  }
+  data.value.from = data.value.street;
+  data.value.to = data.value.street;
+};
+
+const clean = () => {
+  data.value.to = "";
+  data.value.from = "";
+};
+</script>

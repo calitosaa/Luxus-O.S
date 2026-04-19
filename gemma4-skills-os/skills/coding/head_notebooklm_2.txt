@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/teng-lin/notebooklm-py
+source_file: .git/logs/HEAD
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+0000000000000000000000000000000000000000 d6cef809dee4f03794e89bd089dd426b34a67345 Claude <noreply@anthropic.com> 1776599563 +0000	clone: from https://github.com/teng-lin/notebooklm-py

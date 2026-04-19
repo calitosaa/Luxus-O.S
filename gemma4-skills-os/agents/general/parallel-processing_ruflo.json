@@ -1,0 +1,34 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/cache/parallel-processing.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "tasks": {
+    "maxConcurrent": 10,
+    "queueSize": 100,
+    "priorityLevels": 4
+  },
+  "fileOps": {
+    "readConcurrency": 20,
+    "writeConcurrency": 10,
+    "usePipelining": true
+  },
+  "network": {
+    "maxSockets": 50,
+    "keepAlive": true,
+    "timeout": 30000
+  },
+  "workers": {
+    "enabled": true,
+    "count": 4,
+    "taskTypes": [
+      "neural_training",
+      "data_processing",
+      "analysis"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-00-23-56/humaneval-results.json
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+{
+  "benchmark": "HumanEval",
+  "version": "1.0",
+  "timestamp": "2026-01-05T00:24:04.904083",
+  "total_problems": 164,
+  "status": "INFRASTRUCTURE_READY",
+  "note": "Benchmark infrastructure created. Run with --execute to run actual tests.",
+  "sample_problems": [
+    "HumanEval/0",
+    "HumanEval/1",
+    "HumanEval/2",
+    "HumanEval/3",
+    "HumanEval/4"
+  ]
+}

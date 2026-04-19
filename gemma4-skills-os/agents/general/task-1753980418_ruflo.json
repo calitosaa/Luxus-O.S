@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1753980418.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "checkpoint": "task-20250731-164657",
+  "task": "{{user_prompt}} ",
+  "timestamp": "2025-07-31T16:46:58Z",
+  "commit": "0180cd1076586d8ecfc8edd929fcf9378782a197",
+  "github_release": "true"
+}

@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1757526313.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250910-174512", "task": "can i update the help to be more aligned with the current version. @ruvnet ➜ /workspaces/claude-co", "timestamp": "2025-09-10T17:45:13Z", "commit": "4e9e2967458b9d41fe7fb1353040b6fc281bec40", "github_release": "true"}

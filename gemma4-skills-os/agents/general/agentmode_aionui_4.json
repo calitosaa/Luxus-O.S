@@ -1,0 +1,27 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: src/renderer/services/i18n/locales/ru-RU/agentMode.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "plan": "Режим планирования",
+  "default": "По умолчанию",
+  "acceptEdits": "Принимать изменения",
+  "autoEdit": "Автоизменение",
+  "auto_edit": "Автоизменение",
+  "yolo": "Авто (YOLO)",
+  "yoloNoSandbox": "Полный автомат (без песочницы)",
+  "auto": "Автоматически",
+  "dontAsk": "Не спрашивать",
+  "bypass": "Обход (YOLO)",
+  "bypassPermissions": "Авто (YOLO)",
+  "smart": "Умный",
+  "build": "Режим сборки",
+  "permission": "Разрешение",
+  "switchMode": "Сменить режим",
+  "switchSuccess": "Режим успешно сменён",
+  "switchFailed": "Не удалось сменить режим"
+}

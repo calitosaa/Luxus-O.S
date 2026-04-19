@@ -1,0 +1,20 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/docs/experimental/verification_results.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "verified_zeros": [],
+  "statistics": {},
+  "patterns": {
+    "status": "insufficient_data"
+  },
+  "verification_parameters": {
+    "precision": 100,
+    "parallel_workers": 8,
+    "total_zeros_found": 0
+  }
+}

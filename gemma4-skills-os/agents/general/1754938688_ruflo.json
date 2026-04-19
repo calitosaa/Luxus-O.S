@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/1754938688.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"branch": "checkpoint/pre-edit-20250811-185808", "file": "/workspaces/claude-code-flow/examples/yoga-integration-example.js", "timestamp": "2025-08-11T18:58:08Z", "type": "pre-edit", "original_branch": "alpha-89"}

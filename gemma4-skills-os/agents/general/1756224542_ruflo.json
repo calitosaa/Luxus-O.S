@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/src/cli/simple-commands/init/.claude/checkpoints/1756224542.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"branch": "checkpoint/pre-edit-20250826-160902", "file": "/workspaces/claude-code-flow/src/cli/simple-commands/init/index.js", "timestamp": "2025-08-26T16:09:02Z", "type": "pre-edit", "original_branch": "alpha93"}

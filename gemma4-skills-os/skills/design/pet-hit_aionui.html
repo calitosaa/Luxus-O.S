@@ -1,0 +1,44 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: src/renderer/pet/pet-hit.html
+license: MIT
+category: skills/design
+imported_at: 2026-04-19
+---
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: transparent;
+      }
+      #hit {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+        cursor: grab;
+        background: transparent;
+      }
+      #hit.dragging {
+        cursor: grabbing;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="hit"></div>
+    <script type="module" src="./petHitRenderer.ts"></script>
+  </body>
+</html>

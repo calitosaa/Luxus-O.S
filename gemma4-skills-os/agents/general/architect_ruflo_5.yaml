@@ -1,0 +1,19 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v3/@claude-flow/browser/agents/architect.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+# architect agent configuration
+type: architect
+version: "3.0.0"
+capabilities:
+  - system-design
+  - api-design
+  - documentation
+optimizations:
+  - context-caching
+  - memory-persistence
+createdAt: "2026-01-20T21:21:36.421Z"

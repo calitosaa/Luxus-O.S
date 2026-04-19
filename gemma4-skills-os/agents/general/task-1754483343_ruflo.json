@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1754483343.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250806-122902", "task": "i want  non-interactive to be the default, i don't want any interactive options for claude-flow ", "timestamp": "2025-08-06T12:29:03Z", "commit": "cb1f7666d788e7dfe0fd762c633271f094d7aa64", "github_release": "true"}

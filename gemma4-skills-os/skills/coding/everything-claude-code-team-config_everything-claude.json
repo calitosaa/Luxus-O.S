@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/affaan-m/everything-claude-code
+source_file: .claude/team/everything-claude-code-team-config.json
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+{
+  "version": "1.0",
+  "generatedBy": "ecc-tools",
+  "profile": "full",
+  "sharedSkills": [
+    ".claude/skills/everything-claude-code/SKILL.md",
+    ".agents/skills/everything-claude-code/SKILL.md"
+  ],
+  "commandFiles": [
+    ".claude/commands/database-migration.md",
+    ".claude/commands/feature-development.md",
+    ".claude/commands/add-language-rules.md"
+  ],
+  "updatedAt": "2026-03-20T12:07:36.496Z"
+}

@@ -1,0 +1,27 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/cache/memory-optimization.json
+license: MIT
+category: skills/memory
+imported_at: 2026-04-19
+---
+
+{
+  "connectionPool": {
+    "min": 2,
+    "max": 10,
+    "idleTimeout": 30000
+  },
+  "writeBatch": {
+    "size": 50,
+    "flushInterval": 1000
+  },
+  "readCache": {
+    "maxSize": 1000,
+    "ttl": 60000
+  },
+  "compression": {
+    "enabled": true,
+    "threshold": 1024
+  }
+}

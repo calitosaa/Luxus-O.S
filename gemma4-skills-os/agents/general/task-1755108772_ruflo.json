@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1755108772.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250813-201252", "task": "geh davaon aus, dass jede art dokumentation und kommentare nicht korrekt ist in dem projekt. scanne ", "timestamp": "2025-08-13T18:12:52Z", "commit": "02e1db0fa77a89114bafdc73ce5ca4f738d86983", "github_release": "true"}

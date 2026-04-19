@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1755119692.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250813-211451", "task": "update the wiki. https://github.com/ruvnet/claude-flow.wiki.git ", "timestamp": "2025-08-13T21:14:52Z", "commit": "31a22962406aab3fd4efe876961cc99c7bc9ecaf", "github_release": "true"}

@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/msitarzewski/agency-agents
+source_file: .git/refs/heads/main
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+783f6a72bfd7f3135700ac273c619d92821b419a

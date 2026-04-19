@@ -1,0 +1,11 @@
+---
+source_repo: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+source_file: .claude/skills/ui-styling/scripts/tests/requirements.txt
+license: MIT
+category: skills/design
+imported_at: 2026-04-19
+---
+
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.1

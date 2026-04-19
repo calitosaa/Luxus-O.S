@@ -1,0 +1,20 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.audit-ci.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "moderate": true,
+  "high": true,
+  "critical": true,
+  "allowlist": [],
+  "report": {
+    "type": "json",
+    "path": "security-audit.json"
+  },
+  "skip-dev": false,
+  "package-manager": "npm"
+}

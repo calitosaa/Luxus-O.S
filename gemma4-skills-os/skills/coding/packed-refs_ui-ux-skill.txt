@@ -1,0 +1,10 @@
+---
+source_repo: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+source_file: .git/packed-refs
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+# pack-refs with: peeled fully-peeled sorted 
+b7e3af80f6e331f6fb456667b82b12cade7c9d35 refs/remotes/origin/main

@@ -1,0 +1,21 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/src/consciousness-symphony/package.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "name": "consciousness-symphony",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

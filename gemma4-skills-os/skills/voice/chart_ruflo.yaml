@@ -1,0 +1,13 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: ruflo/src/ruvocal/chart/Chart.yaml
+license: MIT
+category: skills/voice
+imported_at: 2026-04-19
+---
+
+apiVersion: v2
+name: chat-ui
+version: 0.0.1-latest
+type: application
+icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg

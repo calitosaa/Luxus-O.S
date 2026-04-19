@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ComposioHQ/awesome-claude-skills
+source_file: .git/logs/refs/remotes/origin/HEAD
+license: Apache-2.0
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+0000000000000000000000000000000000000000 27904475d1270d8395acf07691966267d5abda2d Claude <noreply@anthropic.com> 1776599566 +0000	clone: from https://github.com/ComposioHQ/awesome-claude-skills

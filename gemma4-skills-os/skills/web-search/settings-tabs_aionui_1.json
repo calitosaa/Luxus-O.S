@@ -1,0 +1,18 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/hello-world-extension/contributes/settings-tabs.json
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+[
+  {
+    "id": "hello-settings",
+    "name": "Hello Config",
+    "entryPoint": "settings/hello-settings.html",
+    "icon": "assets/sunset-glow-cover.svg",
+    "position": { "anchor": "display", "placement": "after" },
+    "order": 80
+  }
+]

@@ -1,0 +1,19 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/sympy__sympy-15609.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# sympy__sympy-15609
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+--- a/sympy/printing/latex.py
++++ b/sympy/printing/latex.py
+@@ -1438,7 +1438,7 @@ def _print_MatrixElement(self, expr):
+-        return self.parenthesize(expr.parent, PRECEDENCE["Atom"], strict=True) \
+-            + '_{%s, %s}' % (expr.i, expr.j)
++        return self.parenthesize(expr.parent, PRECEDENCE["Atom"], strict=True) \
++            + '_{%s, %s}' % (self._print(expr.i), self._print(expr.j))

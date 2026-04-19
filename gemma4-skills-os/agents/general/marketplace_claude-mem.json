@@ -1,0 +1,26 @@
+---
+source_repo: https://github.com/thedotmack/claude-mem
+source_file: .claude-plugin/marketplace.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "name": "thedotmack",
+  "owner": {
+    "name": "Alex Newman"
+  },
+  "metadata": {
+    "description": "Plugins by Alex Newman (thedotmack)",
+    "homepage": "https://github.com/thedotmack/claude-mem"
+  },
+  "plugins": [
+    {
+      "name": "claude-mem",
+      "version": "12.2.0",
+      "source": "./plugin",
+      "description": "Persistent memory system for Claude Code - context compression across sessions"
+    }
+  ]
+}

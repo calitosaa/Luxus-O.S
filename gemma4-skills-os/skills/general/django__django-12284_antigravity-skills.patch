@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/django__django-12284.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# django__django-12284
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -763,7 +763,7 @@ class Field(RegisterLookupMixin):
+         if self.choices is not None:
+             # Avoid circular imports
+             from django.db.models.functions import Cast
+-            if not hasattr(cls, 'get_%s_display' % self.name):
++            if 'get_%s_display' % self.name not in cls.__dict__:
+                 setattr(
+                     cls,
+                     'get_%s_display' % self.name,

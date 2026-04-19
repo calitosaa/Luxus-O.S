@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/matplotlib__matplotlib-23314.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# matplotlib__matplotlib-23314
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+--- a/lib/mpl_toolkits/mplot3d/axes3d.py
++++ b/lib/mpl_toolkits/mplot3d/axes3d.py
+@@ -41,6 +41,8 @@ class Axes3D(Axes):
+     """
+ 
+     def draw(self, renderer):
++        if not self.get_visible():
++            return
+         self._unstale_viewLim()
+ 
+         # draw the background patch

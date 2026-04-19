@@ -1,0 +1,12 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: skills/swift-concurrency-expert/agents/openai.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+interface:
+  display_name: "Swift Concurrency Expert"
+  short_description: "Review and fix Swift concurrency"
+  default_prompt: "Use $swift-concurrency-expert to review this Swift code for concurrency issues and fix the relevant diagnostics."

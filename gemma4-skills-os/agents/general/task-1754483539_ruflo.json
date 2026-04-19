@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1754483539.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250806-123218", "task": "i want to use the actual claude-flow swarm, hive-mind and sparc commands with --non-interactive, nev", "timestamp": "2025-08-06T12:32:19Z", "commit": "2fce914fe0dba646353d8108e4658d4b6cc27811", "github_release": "true"}

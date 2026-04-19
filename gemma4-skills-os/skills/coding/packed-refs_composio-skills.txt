@@ -1,0 +1,10 @@
+---
+source_repo: https://github.com/ComposioHQ/awesome-claude-skills
+source_file: .git/packed-refs
+license: Apache-2.0
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+# pack-refs with: peeled fully-peeled sorted 
+27904475d1270d8395acf07691966267d5abda2d refs/remotes/origin/master

@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/e2e-full-extension/i18n/ja-JP/settings.json
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+{
+  "tab": {
+    "e2e-settings": "E2E 設定",
+    "e2e-before-about": "E2E 情報の前"
+  },
+  "page": {
+    "title": "E2E 拡張設定",
+    "endpoint": "テストエンドポイント",
+    "timeout": "リクエストタイムアウト (ミリ秒)",
+    "mode": "テストモード",
+    "mode-mock": "モック",
+    "mode-live": "ライブ",
+    "info": "これは E2E フルテスト拡張によって提供されるデモ設定ページです。"
+  }
+}

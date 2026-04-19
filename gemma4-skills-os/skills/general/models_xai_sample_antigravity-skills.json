@@ -1,0 +1,31 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/last30days/fixtures/models_xai_sample.json
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "grok-4-latest",
+      "object": "model",
+      "created": 1704067200,
+      "owned_by": "xai"
+    },
+    {
+      "id": "grok-4",
+      "object": "model",
+      "created": 1701388800,
+      "owned_by": "xai"
+    },
+    {
+      "id": "grok-3",
+      "object": "model",
+      "created": 1698710400,
+      "owned_by": "xai"
+    }
+  ]
+}

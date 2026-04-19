@@ -1,0 +1,44 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/config.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "version": "1.0",
+  "sparc": {
+    "enabled": true,
+    "modes": [
+      "orchestrator",
+      "coder",
+      "researcher",
+      "tdd",
+      "architect",
+      "reviewer",
+      "debugger",
+      "tester",
+      "analyzer",
+      "optimizer",
+      "documenter",
+      "designer",
+      "innovator",
+      "swarm-coordinator",
+      "memory-manager",
+      "batch-executor",
+      "workflow-manager"
+    ]
+  },
+  "swarm": {
+    "enabled": true,
+    "strategies": [
+      "research",
+      "development",
+      "analysis",
+      "testing",
+      "optimization",
+      "maintenance"
+    ]
+  }
+}

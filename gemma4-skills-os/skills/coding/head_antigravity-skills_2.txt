@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: .git/logs/HEAD
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+0000000000000000000000000000000000000000 99f4722632f1891e6b01d32d87b66e80b7ce0d07 Claude <noreply@anthropic.com> 1776599479 +0000	clone: from https://github.com/sickn33/antigravity-awesome-skills

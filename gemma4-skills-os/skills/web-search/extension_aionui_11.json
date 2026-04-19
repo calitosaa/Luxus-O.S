@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/hello-world-extension/i18n/ko-KR/extension.json
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+{
+  "displayName": "Hello World 확장",
+  "description": "AionUI의 모든 확장 기능을 보여주는 완전한 데모 확장",
+  "settingsTabs": {
+    "hello-settings": { "name": "Hello 설정" }
+  }
+}

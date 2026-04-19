@@ -1,0 +1,16 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/hello-world-extension/i18n/ru-RU/themes.json
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+{
+  "ocean": {
+    "name": "Океанский бриз"
+  },
+  "sunset": {
+    "name": "Закатное сияние"
+  }
+}

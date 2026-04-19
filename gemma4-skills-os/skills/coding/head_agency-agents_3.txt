@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/msitarzewski/agency-agents
+source_file: .git/logs/refs/remotes/origin/HEAD
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+0000000000000000000000000000000000000000 783f6a72bfd7f3135700ac273c619d92821b419a Claude <noreply@anthropic.com> 1776599572 +0000	clone: from https://github.com/msitarzewski/agency-agents

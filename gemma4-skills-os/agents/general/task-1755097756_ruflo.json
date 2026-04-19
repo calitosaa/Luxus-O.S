@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1755097756.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250813-150915", "task": "update changelog.md ", "timestamp": "2025-08-13T15:09:16Z", "commit": "23868db753c41fa1b1b53b0373241158f1b4a70c", "github_release": "true"}

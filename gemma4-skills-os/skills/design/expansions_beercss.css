@@ -1,0 +1,25 @@
+---
+source_repo: https://github.com/beercss/beercss
+source_file: src/cdn/elements/expansions.css
+license: MIT
+category: skills/design
+imported_at: 2026-04-19
+---
+
+summary {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary > * {
+  pointer-events: none;
+  margin: 0;
+}
+
+li > details > summary + .list {
+  margin: 0 !important;
+}

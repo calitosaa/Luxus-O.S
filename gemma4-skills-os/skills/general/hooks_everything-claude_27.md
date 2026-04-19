@@ -1,0 +1,38 @@
+---
+source_repo: https://github.com/affaan-m/everything-claude-code
+source_file: docs/tr/rules/common/hooks.md
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# Hooks Sistemi
+
+## Hook Tipleri
+
+- **PreToolUse**: Tool yürütmeden önce (validasyon, parametre değişikliği)
+- **PostToolUse**: Tool yürütmeden sonra (auto-format, kontroller)
+- **Stop**: Session bittiğinde (final doğrulama)
+
+## Auto-Accept İzinleri
+
+Dikkatli kullan:
+- Güvenilir, iyi tanımlanmış planlar için etkinleştir
+- Keşifsel çalışmalar için devre dışı bırak
+- Asla dangerously-skip-permissions flag'i kullanma
+- Bunun yerine `~/.claude.json` içinde `allowedTools` yapılandır
+
+## TodoWrite En İyi Uygulamalar
+
+TodoWrite tool'unu şunlar için kullan:
+- Çok adımlı görevlerdeki ilerlemeyi takip et
+- Talimatların anlaşıldığını doğrula
+- Gerçek zamanlı yönlendirmeyi etkinleştir
+- Detaylı implementasyon adımlarını göster
+
+Todo listesi şunları ortaya çıkarır:
+- Sıra dışı adımlar
+- Eksik öğeler
+- Fazladan gereksiz öğeler
+- Yanlış detay düzeyi
+- Yanlış yorumlanmış gereksinimler

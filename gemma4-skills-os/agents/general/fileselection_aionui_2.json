@@ -1,0 +1,14 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: src/renderer/services/i18n/locales/uk-UA/fileSelection.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "selectFile": "Вибрати файл",
+  "selectDirectory": "Вибрати директорію",
+  "pleaseSelectFile": "Будь ласка, виберіть файл",
+  "pleaseSelectDirectory": "Будь ласка, виберіть директорію"
+}

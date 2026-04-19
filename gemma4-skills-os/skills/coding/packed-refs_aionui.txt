@@ -1,0 +1,10 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: .git/packed-refs
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+# pack-refs with: peeled fully-peeled sorted 
+45d26f9d8db55208ff91c3b8767436df66ac3f73 refs/remotes/origin/main

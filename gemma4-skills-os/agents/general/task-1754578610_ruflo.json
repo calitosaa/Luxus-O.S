@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/benchmark/.claude/checkpoints/task-1754578610.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250807-145649", "task": "i think the issue is the benchmark doesn't include intructions where to create and how confirm the c", "timestamp": "2025-08-07T14:56:50Z", "commit": "95f0bd1a112d54376b1f8b6b0b73db7458e52754", "github_release": "true"}

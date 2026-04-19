@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1754938396.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250811-185314", "task": "how does the yoga.wasm work in this projecT? @ruvnet ➜ /workspaces/claude-code-flow (alpha-89) $ l", "timestamp": "2025-08-11T18:53:16Z", "commit": "fb1c7c24ac0fd769e158560785297f2b9c9e0484", "github_release": "true"}

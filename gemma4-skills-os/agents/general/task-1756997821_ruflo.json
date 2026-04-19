@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1756997821.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250904-145700", "task": "fix:  └ /workspaces/claude-code-flow/.claude/agents/MIGRATION_SUMMARY.md: Missing required "name" ", "timestamp": "2025-09-04T14:57:01Z", "commit": "f82480251dc02f9caf06039875c75529f68048dd", "github_release": "true"}

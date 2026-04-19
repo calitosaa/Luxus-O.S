@@ -1,0 +1,27 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-bundle-architecture-design/.claude-plugin/plugin.json
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+{
+  "name": "antigravity-bundle-architecture-design",
+  "version": "10.4.0",
+  "description": "Editorial \"Architecture & Design\" bundle for Claude Code from Antigravity Awesome Skills.",
+  "author": {
+    "name": "sickn33 and contributors",
+    "url": "https://github.com/sickn33/antigravity-awesome-skills"
+  },
+  "homepage": "https://github.com/sickn33/antigravity-awesome-skills",
+  "repository": "https://github.com/sickn33/antigravity-awesome-skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "bundle",
+    "architecture-design",
+    "antigravity-awesome-skills"
+  ]
+}

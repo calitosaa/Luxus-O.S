@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/meticha/material-3-expressive-catalog
+source_file: .git/shallow
+license: Apache-2.0
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+d9c1ffc15fc46bd4340d9bedd92a12ec6fd01aae

@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1755020389.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250812-173948", "task": "update issue ", "timestamp": "2025-08-12T17:39:49Z", "commit": "42a5f5f6e7591d790db8b0617bbe21e3545dbf96", "github_release": "true"}

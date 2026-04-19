@@ -1,0 +1,13 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills/skills/shadcn/agents/openai.yml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+interface:
+  display_name: "shadcn/ui"
+  short_description: "Manages shadcn/ui components — adding, searching, fixing, debugging, styling, and composing UI."
+  icon_small: "./assets/shadcn-small.png"
+  icon_large: "./assets/shadcn.png"

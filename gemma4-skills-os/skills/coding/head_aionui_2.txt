@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: .git/logs/HEAD
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+0000000000000000000000000000000000000000 45d26f9d8db55208ff91c3b8767436df66ac3f73 Claude <noreply@anthropic.com> 1776599524 +0000	clone: from https://github.com/iOfficeAI/AionUi

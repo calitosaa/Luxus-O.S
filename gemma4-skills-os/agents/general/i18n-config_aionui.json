@@ -1,0 +1,35 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: src/common/config/i18n-config.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "referenceLanguage": "en-US",
+  "fallbackLanguage": "en-US",
+  "supportedLanguages": ["zh-CN", "en-US", "ja-JP", "zh-TW", "ko-KR", "tr-TR", "ru-RU", "uk-UA"],
+  "modules": [
+    "common",
+    "agentMode",
+    "update",
+    "login",
+    "fileSelection",
+    "preview",
+    "conversation",
+    "settings",
+    "messages",
+    "mcp",
+    "acp",
+    "codex",
+    "tools",
+    "gemini",
+    "cron",
+    "starOffice",
+    "guid",
+    "agent",
+    "team",
+    "pet"
+  ]
+}
