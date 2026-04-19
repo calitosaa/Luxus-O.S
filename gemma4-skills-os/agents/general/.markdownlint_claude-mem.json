@@ -1,0 +1,11 @@
+---
+source_repo: https://github.com/thedotmack/claude-mem
+source_file: .markdownlint.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "MD013": false
+}

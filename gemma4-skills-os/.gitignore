@@ -1,0 +1,6 @@
+# Raw cloned repos — not part of the dataset
+source-repos/
+
+# Python cache
+__pycache__/
+*.pyc
