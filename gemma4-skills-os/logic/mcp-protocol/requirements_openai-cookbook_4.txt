@@ -1,0 +1,14 @@
+---
+source_repo: https://github.com/openai/openai-cookbook
+source_file: examples/mcp/building-a-supply-chain-copilot-with-agent-sdk-and-databricks-mcp/requirements.txt
+license: MIT
+category: logic/mcp-protocol
+imported_at: 2026-04-19
+---
+
+fastapi==0.115.13
+uvicorn==0.34.3
+pydantic==2.11.7
+databricks-sdk==0.57.0
+httpx==0.28.1
+openai-agents==0.0.19

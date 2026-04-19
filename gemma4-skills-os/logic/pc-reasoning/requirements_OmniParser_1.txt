@@ -1,0 +1,10 @@
+---
+source_repo: https://github.com/microsoft/OmniParser
+source_file: omnitool/omnibox/vm/win11setup/setupscripts/server/requirements.txt
+license: MIT
+category: logic/pc-reasoning
+imported_at: 2026-04-19
+---
+
+flask
+PyAutoGUI

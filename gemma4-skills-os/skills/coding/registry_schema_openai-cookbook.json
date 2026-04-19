@@ -1,0 +1,56 @@
+---
+source_repo: https://github.com/openai/openai-cookbook
+source_file: .github/registry_schema.json
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "path": {
+        "type": "string"
+      },
+      "slug": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "redirects": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "authors": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "date": {
+        "type": "string",
+        "format": "date"
+      },
+      "archived": {
+        "type": "boolean"
+      }
+    },
+    "required": ["title", "path", "slug", "tags", "authors"],
+    "additionalProperties": false
+  }
+}

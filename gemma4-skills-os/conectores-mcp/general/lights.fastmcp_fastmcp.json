@@ -1,0 +1,17 @@
+---
+source_repo: https://github.com/PrefectHQ/fastmcp
+source_file: examples/smart_home/lights.fastmcp.json
+license: Apache-2.0
+category: conectores-mcp/general
+imported_at: 2026-04-19
+---
+
+{
+  "$schema": "https://gofastmcp.com/public/schemas/fastmcp.json/v1.json",
+  "entrypoint": "src/smart_home/lights/server.py",
+  "environment": {
+    "dependencies": [
+      "smart_home@git+https://github.com/PrefectHQ/fastmcp.git#subdirectory=examples/smart_home"
+    ]
+  }
+}
