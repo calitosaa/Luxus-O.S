@@ -1,0 +1,17 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[9132]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+How is data collected for machine learning?
+
+## Asistente
+Data for machine learning can be collected in various ways. It can be collected from existing databases or it can be manually collected and organized. Data can also be collected by scraping the web and other online sources, such as social media and online forums. Additionally, data can be collected through crowdsourcing, surveys, direct observations, and interviews.
