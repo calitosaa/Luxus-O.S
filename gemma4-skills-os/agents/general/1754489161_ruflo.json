@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/1754489161.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"branch": "checkpoint/pre-edit-20250806-140600", "file": "/workspaces/claude-code-flow/user-service/docker-compose.yml", "timestamp": "2025-08-06T14:06:01Z", "type": "pre-edit", "original_branch": "alpha-88"}

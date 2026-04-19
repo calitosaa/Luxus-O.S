@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/1754571244.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"tag": "checkpoint-20250807-125404", "file": "/workspaces/claude-code-flow/examples/litellm/docker-compose.basic.yml", "timestamp": "2025-08-07T12:54:04Z", "type": "post-edit", "branch": "alpha-88", "diff_summary": " .claude-flow/metrics/performance.json     |  2 +-  .claude-flow/metrics/task-metrics.json    |  6 +++---  .claude/checkpoints/task-1754571217.json  |  1 +  examples/litellm/docker-compose.basic.yml | 22 ++++++++++++++++++++++  4 files changed, 27 insertions(+), 4 deletions(-) "}
