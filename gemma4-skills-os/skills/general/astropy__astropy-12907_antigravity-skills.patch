@@ -1,0 +1,31 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/astropy__astropy-12907.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# astropy__astropy-12907
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+Based on the architect's analysis, I need to generate a patch for the astropy repository's `separable.py` file. The issue is in the `_cstack` function where it uses `np.eye(right.n_inputs)` instead of recursively computing the separability matrix for nested CompoundModels.
+
+Let me generate the patch based on the analysis:
+
+```
+--- a/astropy/modeling/separable.py
++++ b/astropy/modeling/separable.py
+@@ -242,7 +242,11 @@ def _cstack(left, right):
+         cright = _coord_matrix(right, 'right', noutp)
+     else:
+         cright = np.zeros((noutp, right.n_inputs))
+-        cright[-right.n_outputs:, -right.n_inputs:] = np.eye(right.n_inputs)
++        if isinstance(right, CompoundModel):
++            cright[-right.n_outputs:, -right.n_inputs:] = _separable(right)
++        else:
++            cright[-right.n_outputs:, -right.n_inputs:] = np.eye(right.n_inputs)
++
+     return np.vstack([cleft, cright])
+```
