@@ -1,0 +1,11 @@
+---
+source_repo: https://github.com/obra/superpowers
+source_file: tests/explicit-skill-requests/prompts/action-oriented.txt
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+The plan is done. docs/superpowers/plans/auth-system.md has everything.
+
+Do subagent-driven development on this - start with Task 1, dispatch a subagent, then we'll review.
