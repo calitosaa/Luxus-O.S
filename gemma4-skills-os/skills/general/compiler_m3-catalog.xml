@@ -1,0 +1,14 @@
+---
+source_repo: https://github.com/meticha/material-3-expressive-catalog
+source_file: .idea/compiler.xml
+license: Apache-2.0
+category: skills/general
+imported_at: 2026-04-19
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="21" />
+  </component>
+</project>

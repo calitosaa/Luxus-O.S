@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/django__django-13964.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# django__django-13964
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+--- a/django/db/models/base.py
++++ b/django/db/models/base.py
+@@ -933,7 +933,7 @@ class Model(AltersData, metaclass=ModelBase):
+             # If the related field isn't cached, then an instance hasn't been
+             # assigned and there's no need to worry about this check.
+             if field.is_cached(self):
+-                if getattr(self, field.attname) is None:
++                if getattr(self, field.attname) in field.empty_values:
+                     obj = getattr(self, field.name)
+                     if obj and obj.pk is not None:
+                         setattr(self, field.attname, obj.pk)

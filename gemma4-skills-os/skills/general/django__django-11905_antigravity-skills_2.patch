@@ -1,0 +1,24 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-01-24-17/swebench-patches/django__django-11905.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+Based on the issue and the hints provided, I can generate the correct patch. The issue requests adding validation to prevent using `__isnull` lookup with non-boolean values.
+
+--- a/django/db/models/lookups.py
++++ b/django/db/models/lookups.py
+@@ -461,6 +461,11 @@ class IsNull(BuiltinLookup):
+     prepare_rhs = False
+ 
+     def as_sql(self, compiler, connection):
++        if not isinstance(self.rhs, bool):
++            raise ValueError(
++                'The QuerySet value for an isnull lookup must be True or '
++                'False.'
++            )
+         sql, params = compiler.compile(self.lhs)
+         if self.rhs:
+             return "%s IS NULL" % sql, params

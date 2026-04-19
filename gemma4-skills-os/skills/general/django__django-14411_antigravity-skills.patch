@@ -1,0 +1,24 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/django__django-14411.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# django__django-14411
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+--- a/django/contrib/auth/forms.py
++++ b/django/contrib/auth/forms.py
+@@ -48,6 +48,9 @@ class ReadOnlyPasswordHashWidget(forms.Widget):
+         })
+         return context
+ 
++    def id_for_label(self, id_, index=None):
++        return None
++
+ 
+ class ReadOnlyPasswordHashField(forms.Field):
+     widget = ReadOnlyPasswordHashWidget

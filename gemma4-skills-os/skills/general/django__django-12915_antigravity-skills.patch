@@ -1,0 +1,26 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/django__django-12915.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# django__django-12915
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+--- a/django/contrib/staticfiles/handlers.py
++++ b/django/contrib/staticfiles/handlers.py
+@@ -43,6 +43,11 @@ class StaticFilesHandlerMixin:
+             return self.serve(request)
+         return super().get_response(request)
+ 
++    async def get_response_async(self, request):
++        if self._should_handle(request.path):
++            return self.serve(request)
++        return await super().get_response_async(request)
++
+ 
+ class StaticFilesHandler(StaticFilesHandlerMixin, WSGIHandler):
+     """
