@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[9778]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+Write a short story about a hospital nurse
+
+## Asistente
+Maggie had been a hospital nurse for over five years. Every day, she worked tirelessly to treat her patients with the utmost care and dedication. Her priority was always to make sure that they felt comfortable and were safe under her watchful eye. 
+
+One morning, she was assigned to care for a patient who had been admitted after experiencing a traumatic accident. He was in poor condition, weak and barely conscious. As Maggie worked her way through her long list of responsibilities for the day, she found herself visiting the man's room a few extra times, just to make sure he was still breathing.
+
+As the days progressed, Maggie noticed a subtle change in the man's condition. He was getting stronger, and the sparkle had returned to his eyes. She knew he was fighting and she admired his persistence in the face of such hardship. 
+
+On the morning of his release, Maggie made sure to visit him one last time. The man thanked her for her care and thanked her for helping him find his strength again. Maggie watched as he walked away and she couldn't help but smile with pride. She knew that now, more than ever, her job was truly worthwhile.
