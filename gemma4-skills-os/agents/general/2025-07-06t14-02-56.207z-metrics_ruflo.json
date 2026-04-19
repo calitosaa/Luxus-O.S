@@ -1,0 +1,25 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/sessions/2025-07-06T14-02-56.207Z-metrics.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "performance": {
+    "duration_ms": 5,
+    "operations_per_minute": "0.0",
+    "tokens_saved": 0,
+    "efficiency_score": "NaN"
+  },
+  "learning": {
+    "patterns_improved": 0,
+    "average_improvement": "NaN",
+    "confidence_average": "NaN"
+  },
+  "agents": {
+    "total_spawned": 0,
+    "by_type": {}
+  }
+}
