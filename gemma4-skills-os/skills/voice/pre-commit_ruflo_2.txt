@@ -1,0 +1,10 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: ruflo/src/ruvocal/.husky/pre-commit
+license: MIT
+category: skills/voice
+imported_at: 2026-04-19
+---
+
+set -e
+npx lint-staged --config ./.husky/lint-stage-config.js

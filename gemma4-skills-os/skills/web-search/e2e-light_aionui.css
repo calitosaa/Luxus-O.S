@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/iOfficeAI/AionUi
+source_file: examples/e2e-full-extension/themes/e2e-light.css
+license: MIT
+category: skills/web-search
+imported_at: 2026-04-19
+---
+
+/* E2E Light Theme - for testing only */
+:root {
+  --e2e-bg: #f5f5f5;
+  --e2e-surface: #ffffff;
+  --e2e-primary: #3498db;
+  --e2e-text: #333;
+}

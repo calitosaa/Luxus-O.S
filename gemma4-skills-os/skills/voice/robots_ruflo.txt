@@ -1,0 +1,18 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: ruflo/src/ruvocal/static/robots.txt
+license: MIT
+category: skills/voice
+imported_at: 2026-04-19
+---
+
+User-agent: *
+Allow: /
+Allow: /r/
+Disallow: /conversation/
+Disallow: /api/
+Disallow: /login
+Disallow: /logout
+
+# Sitemap
+# Sitemap: https://huggingface.co/chat/sitemap.xml
