@@ -1,0 +1,17 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/tsconfig.cjs.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "./dist-cjs",
+    "verbatimModuleSyntax": false
+  }
+}

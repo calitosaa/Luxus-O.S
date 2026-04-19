@@ -1,0 +1,30 @@
+---
+source_repo: https://github.com/thedotmack/claude-mem
+source_file: install/vercel.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/", "destination": "/install.sh" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)\\.sh",
+      "headers": [
+        { "key": "Content-Type", "value": "text/plain; charset=utf-8" },
+        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=60" }
+      ]
+    },
+    {
+      "source": "/(.*)\\.js",
+      "headers": [
+        { "key": "Content-Type", "value": "application/javascript; charset=utf-8" },
+        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=60" }
+      ]
+    }
+  ]
+}
