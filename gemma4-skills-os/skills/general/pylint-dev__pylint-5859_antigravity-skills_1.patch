@@ -1,0 +1,21 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-01-24-17/swebench-patches/pylint-dev__pylint-5859.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+Based on my knowledge of the pylint codebase and the issue description, I can provide the fix. The bug is in `pylint/checkers/misc.py` where the `--notes` option values are being joined into a regex pattern using `|` without properly escaping special regex characters like `?`. The fix is to use `re.escape()` on each note tag before joining them.
+
+--- a/pylint/checkers/misc.py
++++ b/pylint/checkers/misc.py
+@@ -97,7 +97,7 @@ class EncodingChecker(BaseChecker):
+     def open(self):
+         super().open()
+ 
+-        notes = "|".join(self.config.notes)
++        notes = "|".join(map(re.escape, self.config.notes))
+         if self.config.notes_rgx:
+             regex_string = rf"#\s*({notes}|{self.config.notes_rgx})\b"
+         else:

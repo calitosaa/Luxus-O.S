@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/meticha/material-3-expressive-catalog
+source_file: .idea/dictionaries/project.xml
+license: Apache-2.0
+category: skills/general
+imported_at: 2026-04-19
+---
+
+<component name="ProjectDictionaryState">
+  <dictionary name="project">
+    <words>
+      <w>composables</w>
+    </words>
+  </dictionary>
+</component>

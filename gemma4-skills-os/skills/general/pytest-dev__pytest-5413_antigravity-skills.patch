@@ -1,0 +1,28 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/pytest-dev__pytest-5413.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# pytest-dev__pytest-5413
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+Based on the architect's analysis and the issue description, I need to generate a patch for the pytest codebase. The fix is to remove the `__str__` method from the `ExceptionInfo` class in `src/_pytest/_code/code.py`. Based on the architect's information that the method is at lines 537-542, here's the patch:
+
+```
+--- a/src/_pytest/_code/code.py
++++ b/src/_pytest/_code/code.py
+@@ -534,9 +534,6 @@ class ExceptionInfo:
+             raise TypeError("cannot set __traceback__ to a new value")
+         self._excinfo = (type(self.value), self.value, tb)
+ 
+-    def __str__(self):
+-        return self.getrepr(showlocals=False, style="short", chain=False)
+-
+     def __repr__(self):
+         if self._excinfo is None:
+             return "<ExceptionInfo for raises contextmanager>"
+```

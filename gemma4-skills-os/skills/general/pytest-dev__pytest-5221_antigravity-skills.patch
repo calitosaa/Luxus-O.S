@@ -1,0 +1,26 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/pytest-dev__pytest-5221.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# pytest-dev__pytest-5221
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+Based on the architect's analysis and my knowledge of the pytest codebase, here is the patch:
+
+```
+--- a/src/_pytest/python.py
++++ b/src/_pytest/python.py
+@@ -1318,6 +1318,7 @@ def showfixtures(config):
+             if verbose <= 0 and argname.startswith("_"):
+                 continue
+             tw.write(argname, green=True)
++            tw.write(" -- scope: %s" % fixturedef.scope)
+             tw.write(" -- %s" % bestrel, yellow=True)
+             tw.line()
+             if fixturedef.doc:
+```

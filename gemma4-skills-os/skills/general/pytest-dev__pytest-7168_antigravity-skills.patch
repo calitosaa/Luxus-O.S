@@ -1,0 +1,22 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/pytest-dev__pytest-7168.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# pytest-dev__pytest-7168
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+--- a/src/_pytest/_io/saferepr.py
++++ b/src/_pytest/_io/saferepr.py
+@@ -20,7 +20,7 @@ def _format_repr_exception(exc: BaseException, obj: object) -> str:
+         exc_info = "unknown"
+     return (
+         "<[{} raised in repr()] {} object at 0x{:x}>".format(
+-            exc_info, obj.__class__.__name__, id(obj)
++            exc_info, type(obj).__name__, id(obj)
+         )
+     )

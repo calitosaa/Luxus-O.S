@@ -1,0 +1,25 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/pytest-dev__pytest-11143.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# pytest-dev__pytest-11143
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+--- a/src/_pytest/assertion/rewrite.py
++++ b/src/_pytest/assertion/rewrite.py
+@@ -757,7 +757,9 @@ class AssertionRewriter(ast.NodeVisitor):
+         return not isinstance(node.value, ast.Constant)
+ 
+     def is_rewrite_disabled(self, docstring: str) -> bool:
+-        return "PYTEST_DONT_REWRITE" in docstring
++        if isinstance(docstring, str):
++            return "PYTEST_DONT_REWRITE" in docstring
++        return False
+ 
+     def variable(self) -> str:
+         name = "@py_assert" + str(self.variable_counter)

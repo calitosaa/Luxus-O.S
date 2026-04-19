@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/obra/superpowers
+source_file: tests/explicit-skill-requests/prompts/please-use-brainstorming.txt
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+please use the brainstorming skill to help me think through this feature
