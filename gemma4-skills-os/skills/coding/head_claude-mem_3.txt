@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/thedotmack/claude-mem
+source_file: .git/logs/refs/remotes/origin/HEAD
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+0000000000000000000000000000000000000000 beea7899b93c9fe00116e8e42c3129b59fac565f Claude <noreply@anthropic.com> 1776599552 +0000	clone: from https://github.com/thedotmack/claude-mem

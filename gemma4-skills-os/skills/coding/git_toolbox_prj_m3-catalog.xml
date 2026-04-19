@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/meticha/material-3-expressive-catalog
+source_file: .idea/git_toolbox_prj.xml
+license: Apache-2.0
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GitToolBoxProjectSettings">
+    <option name="commitMessageIssueKeyValidationOverride">
+      <BoolValueOverride>
+        <option name="enabled" value="true" />
+      </BoolValueOverride>
+    </option>
+    <option name="commitMessageValidationEnabledOverride">
+      <BoolValueOverride>
+        <option name="enabled" value="true" />
+      </BoolValueOverride>
+    </option>
+  </component>
+</project>
