@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/obra/superpowers
+source_file: tests/explicit-skill-requests/prompts/subagent-driven-development-please.txt
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+subagent-driven-development, please
