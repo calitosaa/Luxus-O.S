@@ -1,0 +1,17 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[39898]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+How can I beat procrastination?
+
+## Asistente
+One of the best ways to beat procrastination is to focus on the present moment and break tasks down into small chunks. Try to set realistic and achievable goals and assign yourself specific start and finish times for tasks. Set yourself rewards for completing tasks and take regular breaks to recharge your batteries. Remove any distractions from your workplace and prioritize tasks so that you are taking on the most important ones first. Finally, make sure to celebrate small successes, as this will help to give you a sense of satisfaction and motivation.
