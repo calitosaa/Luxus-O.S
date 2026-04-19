@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1755023932.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250812-183851", "task": "Hello, test stream output ", "timestamp": "2025-08-12T18:38:52Z", "commit": "e254d500fad1f9fc9207c9e6263eea411d110289", "github_release": "true"}

@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/benchmark/.claude/checkpoints/task-1754576488.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250807-142127", "task": "use the correct format: @ruvnet ➜ /workspaces/claude-code-flow (swe-bench) $ ./claude-flow hive-mi", "timestamp": "2025-08-07T14:21:28Z", "commit": "1d6e51006eb5ddfa90b62e79d931a272b6f09b48", "github_release": "true"}

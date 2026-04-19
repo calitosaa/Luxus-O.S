@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1754576978.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250807-142936", "task": "also the command looks truncated.  📋 Executing: ./claude-flow hive-mind spawn "Fix GitHub issue a", "timestamp": "2025-08-07T14:29:38Z", "commit": "2a76373a016997bb936ba18f2ee85a8a9aae4c2a", "github_release": "true"}

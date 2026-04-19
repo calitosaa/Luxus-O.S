@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1758232030.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250918-214709", "task": "i just switced back to alpha 110 branch, these files are correct.  ./bin/claude-flow --version   v2.", "timestamp": "2025-09-18T21:47:10Z", "commit": "c9c55d96420586dfeebbcb9154241531cac547dc", "github_release": "true"}

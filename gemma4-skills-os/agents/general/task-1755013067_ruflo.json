@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1755013067.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250812-153745", "task": "whats the difference? @ruvnet ➜ /workspaces/claude-code-flow (alpha-89) $ ./claude-flow  truth --r", "timestamp": "2025-08-12T15:37:47Z", "commit": "8d192bd14cd5c5b193127bc0853d13eb66232fb8", "github_release": "true"}

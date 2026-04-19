@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1758224829.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250918-194708", "task": "can @ruvnet ➜ /workspaces/claude-code-flow (alpha103) $ ./bin/claude-flow neural init ❌ Error: U", "timestamp": "2025-09-18T19:47:09Z", "commit": "020e672cab2992f0d58c7ffbc52b2f1dd333312a", "github_release": "true"}

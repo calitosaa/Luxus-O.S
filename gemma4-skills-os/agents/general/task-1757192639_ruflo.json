@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1757192639.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250906-210358", "task": "use the sub folder in the workspace to test ", "timestamp": "2025-09-06T21:03:59Z", "commit": "974d90344ac6802a4ec1a68dc1134f2d236e3761", "github_release": "true"}

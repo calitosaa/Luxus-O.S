@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1758227961.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250918-203920", "task": "run @agent-safla-neural and confirm it works with the memory and neural components and update the wi", "timestamp": "2025-09-18T20:39:21Z", "commit": "74d86e2e8fda22aad634fdd07d1070831c34c0ac", "github_release": "true"}

@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1756231253.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250826-180052", "task": "add flow-nexus to the mcps that get generated and include in the init along with existing claude-flo", "timestamp": "2025-08-26T18:00:53Z", "commit": "a56de7514cb53cfbb4cd71eb832213db6521c4a1", "github_release": "true"}

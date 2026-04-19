@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1755118725.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250813-205844", "task": "You are orchestrating a Claude Flow Swarm with advanced MCP tool coordination.  🎯 OBJECTIVE: tesT", "timestamp": "2025-08-13T20:58:45Z", "commit": "ffe55b5c2e27431db36970d5dc2fd130e50f8fdb", "github_release": "true"}

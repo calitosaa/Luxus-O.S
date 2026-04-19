@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/benchmark/.claude/checkpoints/task-1754576142.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250807-141541", "task": "fix and run it, @ruvnet ➜ /workspaces/claude-code-flow (swe-bench) $ swarm-bench swe-bench officia", "timestamp": "2025-08-07T14:15:42Z", "commit": "8f2e30423631fabe30345cd585d55d04ecc86129", "github_release": "true"}

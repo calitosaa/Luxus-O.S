@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1758222361.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250918-190559", "task": "fix "description: Goal-Oriented Action Planning (GOAP) specialist that dynamically creates intellige", "timestamp": "2025-09-18T19:06:01Z", "commit": "42feeab69365a37cebb024a1803225da31aecda0", "github_release": "true"}

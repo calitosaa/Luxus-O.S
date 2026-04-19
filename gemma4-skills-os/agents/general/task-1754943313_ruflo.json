@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1754943313.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250811-201512", "task": "review and create issue based on: 🔍 CLAUDE-FLOW SYSTEM ANALYSIS    🚨 CRITICAL FLAWS IDENTIFIED", "timestamp": "2025-08-11T20:15:13Z", "commit": "caf90a73ddef37555c82acb8b0ff2bf0b93416dc", "github_release": "true"}

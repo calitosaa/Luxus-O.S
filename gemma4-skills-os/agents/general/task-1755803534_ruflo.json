@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1755803534.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250821-191212", "task": "update changelog and create alpoha 91 issue ", "timestamp": "2025-08-21T19:12:14Z", "commit": "1552c726a2df70b305445ac9b00abda9248b3f9a", "github_release": "true"}

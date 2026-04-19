@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1757526463.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250910-174742", "task": "can i include a brief mention of the Flow-Nexus system registration, login and basic usage. no more ", "timestamp": "2025-09-10T17:47:43Z", "commit": "360b283b5f764862be2101654c4c145f3b4c6f13", "github_release": "true"}

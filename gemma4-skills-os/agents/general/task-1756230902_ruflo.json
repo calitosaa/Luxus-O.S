@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1756230902.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250826-175501", "task": "test the mcp npx flow-nexus@latest mcp start ", "timestamp": "2025-08-26T17:55:02Z", "commit": "c1263073e610a3dfe5fb8af95a87a4aae64e3ead", "github_release": "true"}

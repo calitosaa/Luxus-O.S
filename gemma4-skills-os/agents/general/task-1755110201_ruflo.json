@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1755110201.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250813-203640", "task": " git config --global user.email "eric.vogt1993@gmail.com" ", "timestamp": "2025-08-13T18:36:41Z", "commit": "02e1db0fa77a89114bafdc73ce5ca4f738d86983", "github_release": "true"}

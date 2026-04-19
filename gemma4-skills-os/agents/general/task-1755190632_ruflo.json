@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1755190632.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250814-165710", "task": "/automation:smart-agents  ", "timestamp": "2025-08-14T16:57:12Z", "commit": "6b3aedc5bd13dc659278795a0e5001acef54d767", "github_release": "true"}

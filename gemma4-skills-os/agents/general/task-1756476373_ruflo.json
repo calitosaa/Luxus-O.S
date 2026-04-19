@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/task-1756476373.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"checkpoint": "task-20250829-140612", "task": "does the seraphina mcp chat tool work? ", "timestamp": "2025-08-29T14:06:13Z", "commit": "4805c4d9ca9f248b9767483573441e8bd97846d9", "github_release": "true"}
