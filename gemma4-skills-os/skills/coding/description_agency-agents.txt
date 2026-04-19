@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/msitarzewski/agency-agents
+source_file: .git/description
+license: MIT
+category: skills/coding
+imported_at: 2026-04-19
+---
+
+Unnamed repository; edit this file 'description' to name the repository.
