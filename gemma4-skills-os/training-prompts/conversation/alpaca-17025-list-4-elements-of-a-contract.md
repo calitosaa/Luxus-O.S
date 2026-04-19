@@ -1,0 +1,17 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[17025]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+List 4 elements of a contract.
+
+## Asistente
+The four elements of a contract are offer, acceptance, consideration, and intent. Offer refers to the proposal for the agreement made by one party. Acceptance is the agreement to the offer by both parties. Consideration is the value of the contract given by each party, such as money or services. Lastly, intent is the clear intention of all parties involved to be legally bound by the agreement.
