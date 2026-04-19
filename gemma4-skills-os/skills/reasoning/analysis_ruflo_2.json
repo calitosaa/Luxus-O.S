@@ -1,0 +1,20 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/examples/calc-app/analysis.json
+license: MIT
+category: skills/reasoning
+imported_at: 2026-04-19
+---
+
+{
+  "taskName": "Analyze Requirements and Plan Implementation",
+  "objective": "Analyze the requirements and create a plan for: create a simple calculator with basic operations in ./examples/calc-app",
+  "analysis": {
+    "requirements": [],
+    "components": [],
+    "technologies": [],
+    "architecture": "Modular monolithic architecture"
+  },
+  "recommendations": [],
+  "executionPlan": []
+}

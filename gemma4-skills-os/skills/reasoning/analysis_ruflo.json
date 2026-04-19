@@ -1,0 +1,20 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/examples/md-convert/analysis.json
+license: MIT
+category: skills/reasoning
+imported_at: 2026-04-19
+---
+
+{
+  "taskName": "Analyze Requirements and Plan Implementation",
+  "objective": "Analyze the requirements and create a plan for: build a markdown to HTML converter in ./examples/md-convert",
+  "analysis": {
+    "requirements": [],
+    "components": [],
+    "technologies": [],
+    "architecture": "Modular monolithic architecture"
+  },
+  "recommendations": [],
+  "executionPlan": []
+}

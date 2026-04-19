@@ -1,0 +1,22 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: ruflo/src/ruvocal/.prettierignore
+license: MIT
+category: skills/voice
+imported_at: 2026-04-19
+---
+
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+/chart
+.env
+.env.*
+!.env.example
+
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
