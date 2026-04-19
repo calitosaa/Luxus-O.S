@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: apps/web-app/public/robots.txt
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+User-agent: *
+Allow: /
+Disallow:
+# Keep fallback for single-page app routes
+Allow: /404.html
+
+Sitemap: ./sitemap.xml
