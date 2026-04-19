@@ -1,0 +1,27 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[4993]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+Automatically generate a story given the following premise and context.
+
+Contexto/Input:
+Premise: In the distant future, a mad scientist creates a device that allows people to travel back in time.
+Context: The protagonist, John, is an undercover government agent tasked with uncovering the truth about the scientist's invention.
+
+## Asistente
+John had been an undercover government agent for a few years. His mission this time was to uncover the truth about a mad scientist's invention, a mysterious device that could travel back in time.
+
+He followed the scientist to his hidden laboratory and managed to sneak in without being seen. To his surprise, he found the scientist was trying to prove that time travel was not just possible, but also reliable and controllable. John had to find out how the scientist was planning to use the device, and if it was for a greater purpose.
+
+John pretended to be a visitor and approached the scientist. He asked if he could try out the time device, to which the scientist agreed. John stepped onto the device and traveled back in time. What he saw there horrified him. The scientist was actually trying to alter the future for his own gain. 
+
+John knew he had to act fast if he was going to save the future. He quickly reported back to his superiors and the scientist was stopped before he could do any harm. Thanks to John's actions, the future was saved.
