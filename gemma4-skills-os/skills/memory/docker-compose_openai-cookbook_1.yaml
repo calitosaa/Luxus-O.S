@@ -1,0 +1,16 @@
+---
+source_repo: https://github.com/openai/openai-cookbook
+source_file: examples/vector_databases/qdrant/docker-compose.yaml
+license: MIT
+category: skills/memory
+imported_at: 2026-04-19
+---
+
+version: '3.4'
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.3.0
+    restart: on-failure
+    ports:
+      - "6333:6333"
+      - "6334:6334"

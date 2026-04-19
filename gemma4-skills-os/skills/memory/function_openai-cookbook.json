@@ -1,0 +1,27 @@
+---
+source_repo: https://github.com/openai/openai-cookbook
+source_file: examples/chatgpt/rag-quickstart/azure/vector_similarity_search/function.json
+license: MIT
+category: skills/memory
+imported_at: 2026-04-19
+---
+
+{
+    "scriptFile": "__init__.py",
+    "bindings": [
+      {
+        "authLevel": "Anonymous",
+        "type": "httpTrigger",
+        "direction": "in",
+        "name": "req",
+        "methods": [
+          "post"
+        ]
+      },
+      {
+        "type": "http",
+        "direction": "out",
+        "name": "$return"
+      }
+    ]
+  }

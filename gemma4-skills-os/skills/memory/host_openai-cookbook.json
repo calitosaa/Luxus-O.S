@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/openai/openai-cookbook
+source_file: examples/chatgpt/rag-quickstart/azure/host.json
+license: MIT
+category: skills/memory
+imported_at: 2026-04-19
+---
+
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  },
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "[4.*, 5.0.0)"
+  }
+}
