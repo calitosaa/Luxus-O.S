@@ -1,0 +1,22 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/django__django-15498.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# django__django-15498
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+--- a/django/views/static.py
++++ b/django/views/static.py
+@@ -75,6 +75,8 @@ def was_modified_since(header=None, mtime=0, size=0):
+     """
+     try:
++        if header is None or len(header) == 0:
++            raise ValueError("Empty or missing header")
+         matches = re.match(
+             r"^([^;]+)(; length=([0-9]+))?$",
+             header,

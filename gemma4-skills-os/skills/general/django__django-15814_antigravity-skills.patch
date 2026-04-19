@@ -1,0 +1,22 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/django__django-15814.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# django__django-15814
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -742,6 +742,7 @@ class Query(BaseExpression):
+                     if from_parent:
+                         field_model = from_parent
+                 column = field.get_col(alias, output_field=field)
++                cur_model = cur_model._meta.concrete_model
+                 opts = cur_model._meta
+                 columns.append(column)
+                 select_idx = len(select_list)

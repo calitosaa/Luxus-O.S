@@ -1,0 +1,21 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/django__django-15320.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# django__django-15320
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+--- a/django/db/models/expressions.py
++++ b/django/db/models/expressions.py
+@@ -1110,6 +1110,7 @@ class Subquery(BaseExpression, Combinable):
+     def __init__(self, queryset, output_field=None, **extra):
+         # Allow the usage of both QuerySet and sql.Query objects.
+         self.query = getattr(queryset, 'query', queryset).clone()
++        self.query.subquery = True
+         self.extra = extra
+         super().__init__(output_field)
