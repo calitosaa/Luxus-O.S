@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/1755018198.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"branch": "checkpoint/pre-edit-20250812-170318", "file": "/workspaces/claude-code-flow/src/cli/simple-commands/training-pipeline.js", "timestamp": "2025-08-12T17:03:18Z", "type": "pre-edit", "original_branch": "alpha-89"}
