@@ -1,0 +1,46 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/summary-session-20250902-190126.md
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# Session Summary - 2025-09-02 19:01:26
+
+## Checkpoints Created
+task-1756839595.json
+
+## Files Modified
+.claude-flow/metrics/performance.json
+.claude-flow/metrics/system-metrics.json
+.claude-flow/metrics/task-metrics.json
+claude-flow-wiki
+
+## Recent Commits
+1edb5870 🔖 Checkpoint: Edit /workspaces/claude-code-flow/src/ui/console/index.html
+231b4a99 🔖 Checkpoint: Edit /workspaces/claude-code-flow/src/ui/console/js/swarm-integration.js
+826e6d88 🔖 Checkpoint: Edit /workspaces/claude-code-flow/src/ui/console/index.html
+c2ce9f5e 🔖 Checkpoint: Edit /workspaces/claude-code-flow/src/ui/console/index.html
+e076f685 🔖 Checkpoint: Edit /workspaces/claude-code-flow/src/ui/console/styles/swarm-visualizer.css
+7dd0c9b4 🔖 Checkpoint: Edit /workspaces/claude-code-flow/src/api/auth-service.ts
+b2fde9f3 🔖 Checkpoint: Edit /workspaces/claude-code-flow/src/ui/console/js/real-time-dashboard.js
+0c92c208 🔖 Checkpoint: Edit /workspaces/claude-code-flow/src/ui/console/js/swarm-visualizer.js
+08eb85af 🔖 Checkpoint: Edit /workspaces/claude-code-flow/src/api/database-service.ts
+25a9fd9f 🔖 Checkpoint: Edit /workspaces/claude-code-flow/src/api/database-schema.sql
+
+## GitHub Releases Created
+No GitHub releases
+
+## Rollback Instructions
+To rollback to a specific checkpoint:
+```bash
+# List all checkpoints
+git tag -l checkpoint-* | sort -r
+
+# List GitHub releases
+gh release list
+
+# Rollback to a checkpoint
+git checkout checkpoint-YYYYMMDD-HHMMSS
+```
