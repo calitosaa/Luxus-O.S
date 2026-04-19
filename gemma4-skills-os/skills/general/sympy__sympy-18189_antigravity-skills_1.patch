@@ -1,0 +1,21 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-01-24-17/swebench-patches/sympy__sympy-18189.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+Based on the issue description and the provided hint, I can generate the patch directly. The issue is clear: when `diophantine` calls itself recursively, it doesn't pass the `permute` parameter, causing incomplete results when `syms` order differs from `var`.
+
+--- a/sympy/solvers/diophantine.py
++++ b/sympy/solvers/diophantine.py
+@@ -182,7 +182,7 @@ def diophantine(eq, param=symbols("t", integer=True), syms=None,
+             if syms != var:
+                 dict_sym_index = dict(zip(syms, range(len(syms))))
+                 return {tuple([t[dict_sym_index[i]] for i in var])
+-                            for t in diophantine(eq, param)}
++                            for t in diophantine(eq, param, permute=permute)}
+         n, d = eq.as_numer_denom()
+         if n.is_number:
+             return set()

@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/meticha/material-3-expressive-catalog
+source_file: version.txt
+license: Apache-2.0
+category: skills/general
+imported_at: 2026-04-19
+---
+
+1.1.2

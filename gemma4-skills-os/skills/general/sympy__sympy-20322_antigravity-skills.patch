@@ -1,0 +1,31 @@
+---
+source_repo: https://github.com/sickn33/antigravity-awesome-skills
+source_file: plugins/antigravity-awesome-skills-claude/skills/loki-mode/benchmarks/results/2026-01-05-10-37-54/swebench-loki-patches/sympy__sympy-20322.patch
+license: MIT
+category: skills/general
+imported_at: 2026-04-19
+---
+
+# sympy__sympy-20322
+# Loki Mode Multi-Agent Patch
+# Attempts: 1
+
+--- a/sympy/simplify/radsimp.py
++++ b/sympy/simplify/radsimp.py
+@@ -1071,7 +1071,15 @@ def fraction(expr, exact=False):
+     numer, denom = [], []
+ 
+     for term in Mul.make_args(expr):
+-        if term.is_commutative and (term.is_Pow or isinstance(term, exp)):
++        # Handle nested unevaluated Mul expressions by recursively extracting args
++        if term.is_Mul:
++            n, d = fraction(term, exact=exact)
++            numer.append(n)
++            if d is not S.One:
++                denom.append(d)
++            continue
++
++        if term.is_commutative and (term.is_Pow or isinstance(term, exp)):
+             b, ex = term.as_base_exp()
+             if ex.is_negative:
+                 if ex is S.NegativeOne:
