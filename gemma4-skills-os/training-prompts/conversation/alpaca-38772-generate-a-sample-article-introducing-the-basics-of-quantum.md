@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[38772]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+Generate a sample article introducing the basics of quantum computation.
+
+## Asistente
+In this article, we will discuss the basics of quantum computation and how it is used to solve complex problems that are difficult for traditional computers. The quantum computation uses the laws of quantum mechanics to process information, which allows it to achieve remarkable performance that can't be matched by classical computers. At the core of quantum computation are qubits, which are quantum systems such as particles or atomic nuclei that can be in a state of superposition. By exploiting the properties of quantum mechanics, qubits can represent information in a way that is far more powerful than classical bits.
+
+Quantum computation also uses algorithms that are tailored to make use of the processing capabilities of the qubits. These algorithms can process large amounts of data rapidly, discovering patterns and trends that are virtually impossible to detect using traditional computers. This makes quantum computation well-suited for tackling complex problems in a variety of fields, including healthcare, cybersecurity, artificial intelligence, and even financial services.
+
+The applications of quantum computation extend beyond the research laboratory, however. Scientists and engineers have already developed a number of short-term applications that are being used in real-world scenarios today. These include cryptography, drug discovery, and remote sensing. As the technology matures, the possibilities for quantum computation applications will only expand further.
+
+As the field of quantum computation continues to advance, it is certain to bring about revolutionary advances in science and technology. By understanding the basics of quantum computation, scientists and engineers can jump-start the development of new applications and solutions that can revolutionize our society.
