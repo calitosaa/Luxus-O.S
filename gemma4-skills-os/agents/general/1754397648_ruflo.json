@@ -1,0 +1,9 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/checkpoints/1754397648.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{"branch": "checkpoint/pre-edit-20250805-124048", "file": "/workspaces/claude-code-flow/test-stream-chaining-workflow.json", "timestamp": "2025-08-05T12:40:48Z", "type": "pre-edit", "original_branch": "alpha-85"}
