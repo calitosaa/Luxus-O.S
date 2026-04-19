@@ -1,0 +1,15 @@
+---
+source_repo: https://github.com/thedotmack/claude-mem
+source_file: bunfig.toml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+[test]
+# Force each test file into its own worker process.
+# Prevents mock.module() calls (which are permanent within a worker)
+# from leaking across test files in parallel runs.
+# Note: smol=true increases test startup time by spawning one Bun process per file.
+# See: https://github.com/thedotmack/claude-mem/issues/1299
+smol = true

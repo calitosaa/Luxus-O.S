@@ -1,0 +1,20 @@
+---
+source_repo: https://github.com/beercss/beercss
+source_file: firebase.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "hosting": {
+    "public": "dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+---
+source_repo: https://github.com/affaan-m/everything-claude-code
+source_file: skills/continuous-learning-v2/config.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "version": "2.1",
+  "observer": {
+    "enabled": false,
+    "run_interval_minutes": 5,
+    "min_observations_to_analyze": 20
+  }
+}

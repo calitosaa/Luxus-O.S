@@ -1,0 +1,41 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v2/.claude/cache/agent-pool.json
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+{
+  "agents": {
+    "coordinator": {
+      "min": 1,
+      "max": 3
+    },
+    "coder": {
+      "min": 2,
+      "max": 5
+    },
+    "researcher": {
+      "min": 1,
+      "max": 3
+    },
+    "analyst": {
+      "min": 1,
+      "max": 2
+    },
+    "tester": {
+      "min": 1,
+      "max": 2
+    }
+  },
+  "lifecycle": {
+    "idleTimeout": 300000,
+    "healthCheck": 30000,
+    "recycleAfter": 100
+  },
+  "resources": {
+    "maxMemoryPerAgent": 134217728,
+    "maxCpuPercent": 10
+  }
+}

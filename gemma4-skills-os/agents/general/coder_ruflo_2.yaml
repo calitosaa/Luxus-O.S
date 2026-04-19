@@ -1,0 +1,19 @@
+---
+source_repo: https://github.com/ruvnet/ruflo
+source_file: v3/@claude-flow/guidance/agents/coder.yaml
+license: MIT
+category: agents/general
+imported_at: 2026-04-19
+---
+
+# coder agent configuration
+type: coder
+version: "3.0.0"
+capabilities:
+  - code-generation
+  - refactoring
+  - debugging
+optimizations:
+  - flash-attention
+  - token-reduction
+createdAt: "2026-02-02T03:50:06.001Z"
