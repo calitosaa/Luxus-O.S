@@ -1,0 +1,11 @@
+---
+source_repo: https://github.com/ComposioHQ/awesome-claude-skills
+source_file: document-skills/docx/scripts/templates/people.xml
+license: Apache-2.0
+category: skills/files
+imported_at: 2026-04-19
+---
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w15:people xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml">
+</w15:people>
