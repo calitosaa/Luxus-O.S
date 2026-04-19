@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[43104]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+Write a poem with four lines and the given words.
+
+Contexto/Input:
+universe, star
+
+## Asistente
+The star in the sky shines so bright,
+Illuminating the night sky on its path of flight.
+The universe is infinite, so vast and wide,
+We can only explore a fraction of its might.
