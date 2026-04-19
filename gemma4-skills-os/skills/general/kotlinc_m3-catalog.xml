@@ -1,0 +1,17 @@
+---
+source_repo: https://github.com/meticha/material-3-expressive-catalog
+source_file: .idea/kotlinc.xml
+license: Apache-2.0
+category: skills/general
+imported_at: 2026-04-19
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Kotlin2JsCompilerArguments">
+    <option name="moduleKind" value="plain" />
+  </component>
+  <component name="Kotlin2JvmCompilerArguments">
+    <option name="jvmTarget" value="1.8" />
+  </component>
+</project>
