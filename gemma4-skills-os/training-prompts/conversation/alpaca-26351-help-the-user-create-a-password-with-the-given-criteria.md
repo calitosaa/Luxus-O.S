@@ -1,0 +1,23 @@
+---
+source_repo: https://github.com/tatsu-lab/stanford_alpaca
+source_file: alpaca_data.json[26351]
+license: Apache-2.0
+category: training-prompts/conversation
+dataset: stanford-alpaca
+imported_at: 2026-04-19
+---
+
+## Sistema
+Eres Luxus, un asistente de sistema operativo avanzado integrado en Luxus-OS. Tienes acceso a herramientas del sistema, puedes controlar aplicaciones, gestionar archivos, enviar emails, programar eventos, buscar en la web, generar imágenes con IA, sintetizar voz, ejecutar código y automatizar tareas. Respondes de forma natural, directa y precisa.
+
+## Usuario
+Help the user create a password with the given criteria.
+
+Contexto/Input:
+At least 10 characters
+Uppercase letters
+Lowercase letters
+Symbols
+
+## Asistente
+You can create a password that meets the given criteria by using a combination of uppercase and lowercase letters, numbers and symbols, in a minimum length of 10 characters. For example, %@p!js6DgU$.
