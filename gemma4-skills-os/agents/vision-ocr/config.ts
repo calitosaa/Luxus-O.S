@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Vision-OCR', version: '1.0.0', skills: ['text-detection','character-recognition','layout-analysis'] };

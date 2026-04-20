@@ -1,0 +1,1 @@
+﻿export const config = { name: 'ArXiv-API', version: '1.0.0', type: 'mcp-provider' };

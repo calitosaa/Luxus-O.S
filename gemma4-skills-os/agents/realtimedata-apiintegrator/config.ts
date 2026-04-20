@@ -1,0 +1,1 @@
+﻿export const config = { name: 'RealTimeData-APIIntegrator', version: '1.0.0', skills: ['api-calling','data-transformation','rate-limiting'] };

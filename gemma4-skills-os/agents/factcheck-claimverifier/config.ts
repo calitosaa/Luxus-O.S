@@ -1,0 +1,1 @@
+﻿export const config = { name: 'FactCheck-ClaimVerifier', version: '1.0.0', skills: ['claim-extraction','source-evaluation','evidence-ranking'] };

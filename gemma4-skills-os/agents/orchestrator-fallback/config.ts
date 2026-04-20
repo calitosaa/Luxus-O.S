@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Orchestrator-Fallback', version: '1.0.0', skills: ['error-classification','recovery-strategy','graceful-degradation'] };

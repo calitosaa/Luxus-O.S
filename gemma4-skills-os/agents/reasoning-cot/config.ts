@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Reasoning-CoT', version: '1.0.0', skills: ['chain-of-thought','step-verification','logic-check'] };

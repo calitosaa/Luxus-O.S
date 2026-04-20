@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Reasoning-Planner', version: '1.0.0', skills: ['goal-decomposition','task-sequencing','constraint-handling'] };

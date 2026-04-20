@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Spanish-LanguageExpert', version: '1.0.0', skills: ['grammar-analysis','idiom-handling','regional-adaptation'] };

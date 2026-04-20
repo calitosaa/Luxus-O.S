@@ -1,0 +1,1 @@
+﻿export const config = { name: 'RealTimeData-WebSearch', version: '1.0.0', skills: ['query-formulation','result-parsing','freshness-check'] };

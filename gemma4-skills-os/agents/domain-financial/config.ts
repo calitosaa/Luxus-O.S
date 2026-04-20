@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Domain-Financial', version: '1.0.0', skills: ['financial-analysis','risk-assessment','portfolio-management'] };

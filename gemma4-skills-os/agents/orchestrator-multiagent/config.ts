@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Orchestrator-MultiAgent', version: '1.0.0', skills: ['agent-communication','consensus-building','conflict-resolution'] };

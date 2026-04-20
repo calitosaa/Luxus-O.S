@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Spanish-CodeSwitcher', version: '1.0.0', skills: ['language-detection','bilingual-response','register-matching'] };

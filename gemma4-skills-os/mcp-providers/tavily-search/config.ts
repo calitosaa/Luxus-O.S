@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Tavily-Search', version: '1.0.0', type: 'mcp-provider' };

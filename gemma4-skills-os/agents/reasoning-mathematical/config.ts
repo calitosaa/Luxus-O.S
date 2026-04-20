@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Reasoning-Mathematical', version: '1.0.0', skills: ['symbolic-math','equation-solving','proof-verification'] };

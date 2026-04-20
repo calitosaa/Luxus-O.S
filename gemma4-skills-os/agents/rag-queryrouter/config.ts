@@ -1,0 +1,1 @@
+﻿export const config = { name: 'RAG-QueryRouter', version: '1.0.0', skills: ['query-classification','intent-detection','strategy-selection'] };

@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Context-WindowManager', version: '1.0.0', skills: ['token-counting','priority-allocation','window-packing'] };

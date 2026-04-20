@@ -1,0 +1,1 @@
+﻿export const config = { name: 'StructuredOutput-Table', version: '1.0.0', skills: ['table-formatting','column-detection','data-alignment'] };

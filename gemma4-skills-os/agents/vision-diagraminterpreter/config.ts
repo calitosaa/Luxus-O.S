@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Vision-DiagramInterpreter', version: '1.0.0', skills: ['shape-detection','relation-extraction','flow-analysis'] };

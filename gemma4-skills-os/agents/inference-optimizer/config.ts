@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Inference-Optimizer', version: '1.0.0', skills: ['batching','caching','quantization'] };

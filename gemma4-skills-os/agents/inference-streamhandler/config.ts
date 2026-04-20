@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Inference-StreamHandler', version: '1.0.0', skills: ['token-streaming','backpressure','chunked-output'] };

@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Cohere-API', version: '1.0.0', type: 'mcp-provider' };

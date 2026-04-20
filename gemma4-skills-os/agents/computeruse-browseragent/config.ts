@@ -1,0 +1,1 @@
+﻿export const config = { name: 'ComputerUse-BrowserAgent', version: '1.0.0', skills: ['navigation','form-filling','data-extraction'] };

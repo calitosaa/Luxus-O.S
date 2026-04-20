@@ -1,0 +1,1 @@
+﻿export const config = { name: 'RAG-Reranker', version: '1.0.0', skills: ['cross-encoder','relevance-scoring','diversity-ranking'] };

@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Spanish-Translator', version: '1.0.0', skills: ['translation','localization','cultural-adaptation'] };

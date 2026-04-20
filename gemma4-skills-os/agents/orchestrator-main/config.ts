@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Orchestrator-Main', version: '1.0.0', skills: ['agent-routing','task-decomposition','result-aggregation'] };

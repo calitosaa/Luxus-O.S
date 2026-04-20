@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Domain-Technical-Writer', version: '1.0.0', skills: ['api-docs','user-guides','specifications'] };

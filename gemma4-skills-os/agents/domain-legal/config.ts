@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Domain-Legal', version: '1.0.0', skills: ['contract-analysis','case-law','regulatory-compliance'] };

@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Context-ChunkRouter', version: '1.0.0', skills: ['relevance-scoring','recency-weighting','diversity-selection'] };

@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Context-Summarizer', version: '1.0.0', skills: ['extractive-summary','abstractive-summary','key-points'] };

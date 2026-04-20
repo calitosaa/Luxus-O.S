@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Domain-Medical', version: '1.0.0', skills: ['clinical-guidelines','drug-interactions','diagnosis-support'] };

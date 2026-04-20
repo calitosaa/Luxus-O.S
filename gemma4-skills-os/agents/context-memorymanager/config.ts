@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Context-MemoryManager', version: '1.0.0', skills: ['episodic-memory','semantic-memory','memory-retrieval'] };

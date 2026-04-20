@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Safety-RefusalCalibrator', version: '1.0.0', skills: ['intent-analysis','risk-assessment','nuanced-refusal'] };

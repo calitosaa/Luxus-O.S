@@ -1,0 +1,1 @@
+﻿export const config = { name: 'CreativeWriting-Author', version: '1.0.0', skills: ['storytelling','character-development','prose-style'] };

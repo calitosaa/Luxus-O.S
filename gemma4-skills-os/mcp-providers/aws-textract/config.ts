@@ -1,0 +1,1 @@
+﻿export const config = { name: 'AWS-Textract', version: '1.0.0', type: 'mcp-provider' };

@@ -1,0 +1,1 @@
+﻿export const config = { name: 'RAG-Evaluator', version: '1.0.0', skills: ['faithfulness','relevancy','context-precision'] };

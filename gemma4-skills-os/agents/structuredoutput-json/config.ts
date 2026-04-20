@@ -1,0 +1,1 @@
+﻿export const config = { name: 'StructuredOutput-JSON', version: '1.0.0', skills: ['schema-validation','json-formatting','type-coercion'] };

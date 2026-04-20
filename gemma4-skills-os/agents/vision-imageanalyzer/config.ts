@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Vision-ImageAnalyzer', version: '1.0.0', skills: ['image-classification','object-detection','scene-understanding'] };

@@ -1,0 +1,1 @@
+﻿export const config = { name: 'CodeExecution-Validator', version: '1.0.0', skills: ['syntax-check','unit-testing','security-scan'] };

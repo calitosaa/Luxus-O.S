@@ -1,0 +1,1 @@
+﻿export const config = { name: 'RAG-ContextBuilder', version: '1.0.0', skills: ['context-window','priority-scoring','dedup'] };

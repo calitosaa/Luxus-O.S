@@ -1,0 +1,1 @@
+﻿export const config = { name: 'StructuredOutput-Code', version: '1.0.0', skills: ['syntax-validation','formatting','documentation'] };

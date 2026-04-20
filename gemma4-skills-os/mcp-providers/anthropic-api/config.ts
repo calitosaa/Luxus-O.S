@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Anthropic-API', version: '1.0.0', type: 'mcp-provider' };

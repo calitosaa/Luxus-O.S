@@ -1,0 +1,1 @@
+﻿export const config = { name: 'CreativeWriting-Editor', version: '1.0.0', skills: ['grammar-check','style-improvement','tone-adjustment'] };

@@ -1,0 +1,1 @@
+﻿export const config = { name: 'SendGrid', version: '1.0.0', type: 'mcp-provider' };

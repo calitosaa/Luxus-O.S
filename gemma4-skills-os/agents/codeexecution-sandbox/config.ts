@@ -1,0 +1,1 @@
+﻿export const config = { name: 'CodeExecution-Sandbox', version: '1.0.0', skills: ['python-execution','safety-checks','output-capture'] };

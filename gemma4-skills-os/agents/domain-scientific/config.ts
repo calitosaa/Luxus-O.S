@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Domain-Scientific', version: '1.0.0', skills: ['research-methodology','statistical-analysis','peer-review'] };

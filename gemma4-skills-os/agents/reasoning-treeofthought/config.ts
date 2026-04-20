@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Reasoning-TreeOfThought', version: '1.0.0', skills: ['tree-search','branch-evaluation','pruning'] };

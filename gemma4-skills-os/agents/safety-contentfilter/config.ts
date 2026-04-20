@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Safety-ContentFilter', version: '1.0.0', skills: ['toxicity-detection','bias-check','harm-prevention'] };

@@ -1,0 +1,1 @@
+﻿export const config = { name: 'RAG-Pipeline', version: '1.0.0', skills: ['rag-retrieval','vector-search','embedding','chunk-processing'] };

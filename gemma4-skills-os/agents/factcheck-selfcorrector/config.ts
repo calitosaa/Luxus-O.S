@@ -1,0 +1,1 @@
+﻿export const config = { name: 'FactCheck-SelfCorrector', version: '1.0.0', skills: ['contradiction-detection','revision-generation','quality-check'] };

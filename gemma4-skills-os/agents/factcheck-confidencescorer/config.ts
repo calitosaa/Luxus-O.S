@@ -1,0 +1,1 @@
+﻿export const config = { name: 'FactCheck-ConfidenceScorer', version: '1.0.0', skills: ['uncertainty-quantification','calibration','hedge-detection'] };

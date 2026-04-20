@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Vision-ChartReader', version: '1.0.0', skills: ['chart-classification','data-extraction','trend-analysis'] };

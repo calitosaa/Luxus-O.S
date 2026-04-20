@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Reasoning-LogicValidator', version: '1.0.0', skills: ['formal-logic','fallacy-detection','argument-analysis'] };

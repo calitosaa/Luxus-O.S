@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Safety-JailbreakDetector', version: '1.0.0', skills: ['prompt-injection','adversarial-detection','constraint-enforcement'] };

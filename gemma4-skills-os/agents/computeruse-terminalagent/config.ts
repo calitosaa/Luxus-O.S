@@ -1,0 +1,1 @@
+﻿export const config = { name: 'ComputerUse-TerminalAgent', version: '1.0.0', skills: ['command-generation','output-parsing','error-recovery'] };

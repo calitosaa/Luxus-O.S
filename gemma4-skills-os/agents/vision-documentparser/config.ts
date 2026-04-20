@@ -1,0 +1,1 @@
+﻿export const config = { name: 'Vision-DocumentParser', version: '1.0.0', skills: ['layout-detection','table-extraction','form-parsing'] };
