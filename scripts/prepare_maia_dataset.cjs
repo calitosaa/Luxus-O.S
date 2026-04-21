@@ -18,50 +18,64 @@ function getFilesRecursive(dir, extension) {
 
 async function prepareDataset() {
     const basePath = path.join('C:', 'Users', 'Carlos', 'Documents', 'New folder', 'Luxus-O.S', 'gemma4-skills-os');
-    const skillsPath = path.join(basePath, 'skills');
-    const agentsPath = path.join(basePath, 'agents');
     const outputFile = path.join('C:', 'Users', 'Carlos', 'Documents', 'New folder', 'Luxus-O.S', 'Maia', 'training_data.jsonl');
+    
+    // Folders to include and their labels
+    const categoryMap = {
+        'agents': 'Agent Architecture',
+        'skills': 'System Skill',
+        'workflows': 'Process Workflow',
+        'logic': 'System Logic',
+        'plugins': 'Core Plugin',
+        'mcp-providers': 'MCP Provider',
+        'conectores-mcp': 'MCP Connector',
+        'training-prompts': 'Training Prompt Template'
+    };
 
     if (!fs.existsSync(path.dirname(outputFile))) {
         fs.mkdirSync(path.dirname(outputFile), { recursive: true });
     }
 
     const writeStream = fs.createWriteStream(outputFile, { encoding: 'utf8' });
+    let totalSamples = 0;
 
-    console.log("Processing skills...");
-    if (fs.existsSync(skillsPath)) {
-        const skillFiles = getFilesRecursive(skillsPath, '.md');
-        console.log(`Found ${skillFiles.length} skill files.`);
-        for (const filePath of skillFiles) {
-            const content = fs.readFileSync(filePath, 'utf8');
-            const file = path.basename(filePath);
-            const entry = {
-                instruction: `Explain the Luxus O.S skill: ${file.split('__')[1]?.replace('.md', '') || file}`,
-                input: "",
-                output: content
-            };
-            writeStream.write(JSON.stringify(entry) + '\n');
-        }
-    }
-
-    console.log("Processing agents...");
-    if (fs.existsSync(agentsPath)) {
-        const agentFiles = getFilesRecursive(agentsPath, '.ts');
-        console.log(`Found ${agentFiles.length} agent files.`);
-        for (const filePath of agentFiles) {
-            const content = fs.readFileSync(filePath, 'utf8');
-            const file = path.basename(filePath);
-            const entry = {
-                instruction: `Show the architecture for the ${file.replace('.ts', '')} agent in Luxus O.S`,
-                input: "",
-                output: `\`\`\`typescript\n${content}\n\`\`\``
-            };
-            writeStream.write(JSON.stringify(entry) + '\n');
+    for (const [folder, label] of Object.entries(categoryMap)) {
+        const folderPath = path.join(basePath, folder);
+        if (fs.existsSync(folderPath)) {
+            console.log(`Processing ${folder} (${label})...`);
+            
+            // Be more inclusive with extensions
+            const extensions = ['.md', '.ts', '.json', '.txt', '.js'];
+            let files = [];
+            extensions.forEach(ext => {
+                files = files.concat(getFilesRecursive(folderPath, ext));
+            });
+            
+            // Remove duplicates (if any)
+            files = [...new Set(files)];
+            
+            console.log(`Found ${files.length} items in ${folder}.`);
+            
+            for (const filePath of files) {
+                const content = fs.readFileSync(filePath, 'utf8');
+                const name = path.basename(filePath).replace(/\.(md|ts|txt|json|js)$/, '').split('__').pop();
+                
+                const entry = {
+                    instruction: `Explain and provide the implementation for the Luxus O.S ${label}: ${name}`,
+                    input: `Category: ${label}, Path: ${path.relative(basePath, filePath)}`,
+                    output: filePath.endsWith('.ts') || filePath.endsWith('.js') || filePath.endsWith('.json') ? 
+                            `# ${label}: ${name}\n\n\`\`\`${path.extname(filePath).slice(1)}\n${content}\n\`\`\`` : 
+                            content
+                };
+                writeStream.write(JSON.stringify(entry) + '\n');
+                totalSamples++;
+            }
         }
     }
 
     writeStream.end();
-    console.log(`Dataset generation complete. Saved to ${outputFile}`);
+    console.log(`Deep Crawl complete. Generated ${totalSamples} training samples.`);
+    console.log(`Saved to ${outputFile}`);
 }
 
 prepareDataset().catch(console.error);
