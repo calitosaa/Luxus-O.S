@@ -11,8 +11,8 @@ class LuxusOS {
     private agentsPath: string;
 
     constructor() {
-        this.skillsPath = path.join(process.cwd(), 'skills');
-        this.agentsPath = path.join(process.cwd(), 'agents');
+        this.skillsPath = path.join(process.cwd(), 'gemma4-skills-os', 'skills');
+        this.agentsPath = path.join(process.cwd(), 'gemma4-skills-os', 'agents');
     }
 
     async boot() {

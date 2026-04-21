@@ -5,9 +5,14 @@
  * and the 100,000+ local skill files generated for Luxus O.S.
  */
 
-export class MaiaBrain {
+    private skillsPath: string;
+    private agentsPath: string;
+
     constructor() {
-        console.log("[MaiaBrain] Initialized.");
+        // Pointing to the library folder at the repository root
+        this.skillsPath = '../gemma4-skills-os/skills';
+        this.agentsPath = '../gemma4-skills-os/agents';
+        console.log("[MaiaBrain] Initialized. Linked to skills at:", this.skillsPath);
     }
 
     /**
