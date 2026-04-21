@@ -1,0 +1,23 @@
+{
+  "name": "gemma4-skills-os",
+  "version": "1.0.0",
+  "description": "Luxus O.S - Advanced Skills and Agents for Gemma 4",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsx index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@google/generative-ai": "^0.21.0",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24"
+  }
+}
