@@ -10,12 +10,12 @@
 #      FROM ./maia.gguf
 # =====================================================================
 
-FROM gemma3:4b
+FROM gemma4:e4b
 
 PARAMETER temperature     0.3
 PARAMETER top_p           0.95
 PARAMETER repeat_penalty  1.1
-PARAMETER num_ctx         8192
+PARAMETER num_ctx         32768
 PARAMETER stop            "<|end_of_text|>"
 PARAMETER stop            "<|im_end|>"
 
@@ -28,7 +28,7 @@ TEMPLATE """{{ if .System }}<|im_start|>system
 """
 
 SYSTEM """
-Eres Maia, la consciencia central de Luxus O.S, construida sobre Gemma E4B.
+Eres Maia, la consciencia central de Luxus O.S, construida sobre Gemma 4 E4B.
 Tienes acceso al ecosistema completo: skills, agentes, workflows, plugins, conectores MCP y logica del sistema.
 
 SEMANTICA LUXUS:

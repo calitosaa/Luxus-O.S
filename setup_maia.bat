@@ -37,6 +37,7 @@ echo [3/3] Creando modelo Maia (descarga Gemma E4B ~3.3 GB la primera vez)...
 echo       Esto puede tardar unos minutos segun tu conexion...
 echo.
 
+ollama pull gemma4:e4b
 ollama create maia -f "%~dp0Maia\Modelfile"
 if %ERRORLEVEL% neq 0 (
     echo.
