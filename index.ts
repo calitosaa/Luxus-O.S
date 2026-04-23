@@ -1,44 +1,45 @@
-import fs from 'fs/promises';
-import path from 'path';
-
 /**
- * Luxus O.S Main Entry Point
- * Orchestrates 100k+ dynamic skills and MCP agents for Maia LLM.
+ * Luxus O.S  -  Entry point (CLI Maia)
+ *
+ *   npm run dev -- "tu pregunta"
+ *   npm run dev -- --category agents "como funciona auto-agent"
  */
 
-class LuxusOS {
-    private skillsPath: string;
-    private agentsPath: string;
+import { MaiaBrain } from './Maia/maia-brain.js';
 
-    constructor() {
-        this.skillsPath = path.join(process.cwd(), 'gemma4-skills-os', 'skills');
-        this.agentsPath = path.join(process.cwd(), 'gemma4-skills-os', 'agents');
-    }
+async function main() {
+  const args = process.argv.slice(2);
+  let category: string | undefined;
+  const positional: string[] = [];
 
-    async boot() {
-        console.log("=========================================");
-        console.log("  Booting Luxus O.S for Maia (Gemma 4)    ");
-        console.log("=========================================");
-        
-        // This is a lightweight boot process. It won't load 100k files into RAM immediately.
-        // It provides the directory indexing for the Maia Brain to access context dynamically.
-        
-        const agentCount = await this.countDirectories(this.agentsPath);
-        console.log(`[INFO] Indexed ${agentCount} Agent architectures.`);
-        
-        console.log("[SUCCESS] Luxus O.S is online and ready for Maia integration.");
-    }
+  for (let i = 0; i < args.length; i++) {
+    if (args[i] === '--category' && args[i + 1]) { category = args[++i]; }
+    else positional.push(args[i]);
+  }
 
-    private async countDirectories(dirPath: string): Promise<number> {
-        try {
-            const items = await fs.readdir(dirPath, { withFileTypes: true });
-            return items.filter(i => i.isDirectory()).length;
-        } catch (e) {
-            console.error(`Warning: Could not read directory ${dirPath}`);
-            return 0;
-        }
-    }
+  const prompt = positional.join(' ').trim();
+  if (!prompt) {
+    console.log('Uso: npm run dev -- [--category <folder>] "<tu prompt>"');
+    console.log('Ej:  npm run dev -- --category skills "explica la skill de debug"');
+    process.exit(1);
+  }
+
+  console.log('==========================================');
+  console.log('   Luxus O.S   |   Maia   |   Gemma E26B  ');
+  console.log('==========================================\n');
+
+  const brain = new MaiaBrain(8);
+  try {
+    await brain.chat(prompt, {
+      category,
+      onToken: (t) => process.stdout.write(t),
+    });
+    process.stdout.write('\n');
+  } catch (err) {
+    console.error('\n[maia] error:', (err as Error).message);
+    console.error('¿Esta Ollama corriendo con el modelo "maia" creado y "nomic-embed-text" descargado?');
+    process.exit(2);
+  }
 }
 
-const os = new LuxusOS();
-os.boot().catch(console.error);
+main();
