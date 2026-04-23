@@ -1,0 +1,18 @@
+# Artefactos pesados generados por el pipeline Maia
+Maia/training_data.jsonl
+Maia/rag_manifest.jsonl
+Maia/dataset_stats.json
+Maia/vectordb/
+Maia/maia.gguf
+Maia/maia-lora.zip
+Maia/maia-lora/
+Maia/unsloth.Q4_K_M.gguf
+
+# Node
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
