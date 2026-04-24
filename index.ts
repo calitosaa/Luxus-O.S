@@ -25,7 +25,7 @@ async function main() {
   }
 
   console.log('==========================================');
-  console.log('   Luxus O.S   |   Maia   |   Gemma E26B  ');
+  console.log('   Luxus O.S   |   Maia   |   Gemma 4 E4B ');
   console.log('==========================================\n');
 
   const brain = new MaiaBrain(8);
