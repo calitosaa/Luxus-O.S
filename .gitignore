@@ -8,6 +8,10 @@ Maia/maia-lora.zip
 Maia/maia-lora/
 Maia/unsloth.Q4_K_M.gguf
 
+# Dataset — JSONL de entrenamiento (generados localmente, demasiado grandes para git)
+dataset/maia_train.jsonl
+dataset/maia_val.jsonl
+
 # Node
 node_modules/
 dist/
