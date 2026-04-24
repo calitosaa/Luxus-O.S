@@ -3,7 +3,9 @@
  *
  *  Pipeline:
  *     user prompt
- *        -> retriever (ChromaDB via HTTP del script Python de RAG)
+ *        -> retriever:
+ *             1) HTTP a scripts/rag_server.py   (si esta arriba: ~30 ms/query)
+ *             2) fallback: spawn scripts/rag_query.py --json   (~1-2 s/query)
  *        -> construye <luxus_context>
  *        -> Ollama /api/chat con modelo "maia"
  *        -> stream de tokens
@@ -12,7 +14,7 @@
  *     - Ollama corriendo en :11434 con el modelo "maia" creado (ver Modelfile)
  *     - Ollama con "nomic-embed-text" descargado
  *     - scripts/rag_ingest.py ya ejecutado (Maia/vectordb existe)
- *     - Un pequeño servidor de RAG (scripts/rag_server.py) o usar rag_query.py por CLI
+ *     - (Opcional) scripts/rag_server.py corriendo en :8765 para retrieval rapido
  */
 
 import { spawn } from 'node:child_process';
@@ -26,15 +28,38 @@ type Hit = {
   snippet: string;
 };
 
-const OLLAMA_URL = process.env.OLLAMA_URL ?? 'http://localhost:11434';
-const MAIA_MODEL = process.env.MAIA_MODEL ?? 'maia';
-const REPO_ROOT = path.resolve(__dirname, '..');
+const OLLAMA_URL    = process.env.OLLAMA_URL    ?? 'http://localhost:11434';
+const MAIA_MODEL    = process.env.MAIA_MODEL    ?? 'maia';
+const RAG_SERVER    = process.env.MAIA_RAG_URL  ?? 'http://localhost:8765';
+const RAG_TIMEOUT_MS = Number(process.env.MAIA_RAG_TIMEOUT_MS ?? 1500);
+const REPO_ROOT     = path.resolve(__dirname, '..');
 
 export class MaiaBrain {
+  /** ha funcionado el servidor HTTP en algun intento? (evita reintentar si esta caido) */
+  private httpAlive: boolean | null = null;
+
   constructor(public readonly topK: number = 8) {}
 
-  /** Llama al script Python rag_query.py y parsea los resultados JSON. */
-  async retrieve(query: string, category?: string): Promise<Hit[]> {
+  /** Pide los hits via HTTP al rag_server.py. Timeout corto para fallback rapido. */
+  private async retrieveViaHttp(query: string, category?: string): Promise<Hit[]> {
+    const url = new URL('/search', RAG_SERVER);
+    url.searchParams.set('q', query);
+    url.searchParams.set('k', String(this.topK));
+    if (category) url.searchParams.set('category', category);
+
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), RAG_TIMEOUT_MS);
+    try {
+      const r = await fetch(url, { signal: ctrl.signal });
+      if (!r.ok) throw new Error(`rag_server HTTP ${r.status}`);
+      return (await r.json()) as Hit[];
+    } finally {
+      clearTimeout(t);
+    }
+  }
+
+  /** Fallback: llama al script Python rag_query.py y parsea JSON. Mas lento (~1-2s). */
+  private retrieveViaSubprocess(query: string, category?: string): Promise<Hit[]> {
     return new Promise((resolve, reject) => {
       const args = [
         path.join(REPO_ROOT, 'scripts', 'rag_query.py'),
@@ -53,7 +78,23 @@ export class MaiaBrain {
         try { resolve(JSON.parse(out) as Hit[]); }
         catch (e) { reject(e); }
       });
+      py.on('error', reject);
     });
+  }
+
+  /** Obtiene los hits probando primero HTTP y cayendo a subprocess si falla. */
+  async retrieve(query: string, category?: string): Promise<Hit[]> {
+    if (this.httpAlive !== false) {
+      try {
+        const hits = await this.retrieveViaHttp(query, category);
+        this.httpAlive = true;
+        return hits;
+      } catch {
+        // silencioso: marcamos el servidor como no disponible y seguimos con el fallback
+        this.httpAlive = false;
+      }
+    }
+    return this.retrieveViaSubprocess(query, category);
   }
 
   /** Construye el bloque de contexto que se inyecta al system/user prompt. */
@@ -67,8 +108,14 @@ export class MaiaBrain {
 
   /** Llama a Ollama /api/chat en modo stream y devuelve la respuesta completa. */
   async chat(prompt: string, opts: { category?: string; onToken?: (t: string) => void } = {}): Promise<string> {
-    const hits = await this.retrieve(prompt, opts.category);
-    const ctx = this.buildContext(hits);
+    let ctx = '';
+    try {
+      const hits = await this.retrieve(prompt, opts.category);
+      ctx = this.buildContext(hits);
+    } catch (e) {
+      // Sin RAG aun podemos responder con el modelo base: avisamos por stderr y seguimos.
+      console.error('[maia] RAG no disponible, respondo solo con el modelo:', (e as Error).message);
+    }
 
     const body = {
       model: MAIA_MODEL,
