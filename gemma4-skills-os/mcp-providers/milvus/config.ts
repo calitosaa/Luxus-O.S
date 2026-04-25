@@ -1,1 +1,0 @@
-﻿export const config = { name: 'Milvus', version: '1.0.0', type: 'mcp-provider' };

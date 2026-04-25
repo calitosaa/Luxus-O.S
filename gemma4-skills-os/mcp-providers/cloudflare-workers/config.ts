@@ -1,1 +1,0 @@
-﻿export const config = { name: 'Cloudflare-Workers', version: '1.0.0', type: 'mcp-provider' };
