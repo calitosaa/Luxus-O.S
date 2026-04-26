@@ -5,7 +5,7 @@ from pathlib import Path
 
 SKILLS_DIR = Path("/home/user/Maia/gemma4-skills-os/skills")
 OUTPUT = Path("/home/user/Maia/finetuning/skills_data/skills_dataset.jsonl")
-MAX_PER_CATEGORY = 500
+MAX_PER_CATEGORY = 100000  # process all files
 MAX_FILE_BYTES = 4096
 
 def process_skills():

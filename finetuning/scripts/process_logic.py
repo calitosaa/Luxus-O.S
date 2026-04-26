@@ -14,7 +14,7 @@ def process_logic():
     for f in LOGIC_DIR.rglob("*"):
         if not f.is_file():
             continue
-        if f.suffix not in (".md", ".json", ".py", ".ts", ".js", ".yaml"):
+        if f.suffix not in (".md", ".json", ".py", ".ts", ".js", ".yaml", ".yml", ".txt", ".sh", ".rs", ".go"):
             continue
         try:
             content = f.read_text(encoding='utf-8', errors='ignore')[:MAX_FILE_BYTES]
