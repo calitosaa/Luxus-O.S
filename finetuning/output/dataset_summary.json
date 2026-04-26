@@ -1,0 +1,30 @@
+{
+  "total_examples": 98766,
+  "by_category": {
+    "system_prompt_conversation": 43790,
+    "system_behavior_conversation": 43790,
+    "workflow_execution": 2417,
+    "workflow_explanation": 2417,
+    "logic_reasoning": 1120,
+    "skill_coding": 500,
+    "skill_design": 500,
+    "skill_expansion": 500,
+    "skill_general": 500,
+    "skill_memory": 500,
+    "skill_reasoning": 500,
+    "skill_web-search": 500,
+    "agent_code": 364,
+    "skill_voice": 304,
+    "skill_files": 292,
+    "system_prompt_system-base": 250,
+    "system_behavior_system-base": 250,
+    "agent_code_python": 160,
+    "agent_description": 49,
+    "agent_usage": 49,
+    "reasoning_agent_pattern": 8,
+    "reasoning_pattern": 6
+  },
+  "output_file": "/home/user/Maia/finetuning/output/maia_gemma4_finetune.jsonl",
+  "format": "gemma_chat_messages",
+  "model_target": "google/gemma-4-e4b"
+}
