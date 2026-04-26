@@ -1,0 +1,13 @@
+{
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": ["colab-mcp", "hf-mcp-server", "github"],
+  "permissions": {
+    "allow": [
+      "mcp__colab-mcp__*",
+      "mcp__hf-mcp-server__*",
+      "Bash(uvx *)",
+      "Bash(uv *)",
+      "Bash(pip install *)"
+    ]
+  }
+}
