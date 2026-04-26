@@ -296,6 +296,41 @@ Si eres una IA leyendo esto:
 ### Próximo paso concreto
 Ejecutar el notebook `finetuning/colab/maia_finetune_colab.ipynb` en Google Colab T4. El notebook hace TODO el resto automáticamente: descarga modelo, entrena, mergea, convierte a GGUF, sube a HF Hub.
 
+## 🔌 MCPs configurados (`.mcp.json`)
+
+Listos para activar tras reiniciar Claude Code:
+
+1. **colab-mcp** (`git+https://github.com/googlecolab/colab-mcp`)
+   - Bridge local ↔ Google Colab session
+   - Permite a Claude Code controlar notebooks Colab desde aquí
+   - Instalado vía `uvx`
+
+2. **hf-mcp-server** (`https://huggingface.co/mcp`)
+   - HTTP MCP oficial de HuggingFace
+   - Requiere `HF_TOKEN` en env (ya configurado en `.claude/settings.local.json`)
+   - Permite: search models/datasets, manage Spaces, semantic search docs
+
+### Activación
+
+```bash
+# 1. Sal y vuelve a entrar a Claude Code en el repo:
+cd /home/user/Maia
+exit
+claude
+
+# 2. Cuando pregunte si confía en los MCPs del proyecto: yes
+# 3. Aprueba colab-mcp y hf-mcp-server
+# 4. Verifica con: /mcp
+```
+
+Tras activarlos, Claude podrá:
+- Crear/lanzar notebooks Colab automáticamente (`mcp__colab-mcp__*`)
+- Subir dataset a HF, crear repo Maia, push modelo (`mcp__hf-mcp-server__*`)
+
+### Limitación restante (manual)
+Aceptar licencia Gemma 4 en HF UI: https://huggingface.co/google/gemma-4-E4B-it
+Ningún MCP puede automatizar esto — es una aceptación legal de términos que requiere UI humana (confirmado en [HF docs](https://huggingface.co/docs/hub/models-gated)).
+
 ---
 
 ## 📊 Métricas de éxito
