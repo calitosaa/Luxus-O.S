@@ -1,0 +1,78 @@
+{
+  "workflow": "maia-finetuning-2026",
+  "steps": [
+    {
+      "name": "colab-create-notebook",
+      "tool": "colab-mcp",
+      "action": "create_notebook",
+      "params": {
+        "notebook": "/home/user/Maia/finetuning/colab/maia_finetune_automated_2026.ipynb",
+        "runtime": "gpu_t4",
+        "project": "Maia-2026-Finetuning"
+      }
+    },
+    {
+      "name": "colab-set-secrets",
+      "tool": "colab-mcp",
+      "action": "set_secret",
+      "params": {
+        "name": "HF_TOKEN",
+        "value": "${HF_TOKEN}",
+        "note": "HuggingFace token with write permissions"
+      }
+    },
+    {
+      "name": "colab-execute-cells",
+      "tool": "colab-mcp",
+      "action": "run_all",
+      "params": {
+        "timeout": 43200,
+        "monitor": true,
+        "checkpoints": "drive/maia_checkpoints_2026"
+      }
+    },
+    {
+      "name": "hf-verify-upload",
+      "tool": "hf-mcp-server",
+      "action": "get_model_info",
+      "params": {
+        "repo_id": "${USERNAME}/maia-gemma4-e4b-2026",
+        "verify_files": [
+          "config.json",
+          "model.safetensors",
+          "tokenizer.json"
+        ]
+      }
+    },
+    {
+      "name": "hf-create-card",
+      "tool": "hf-mcp-server",
+      "action": "create_model_card",
+      "params": {
+        "repo_id": "${USERNAME}/maia-gemma4-e4b-2026",
+        "template": "gemma",
+        "tags": [
+          "gemma4",
+          "lora",
+          "fine-tune",
+          "agents",
+          "maia",
+          "2026"
+        ],
+        "description": "Maia: Gemma 4 E4B fine-tuned with 55+ agents, 39K+ skills, 128K context"
+      }
+    }
+  ],
+  "environment": {
+    "HF_TOKEN": "required",
+    "COLAB_NOTEBOOK_IMPORT": "maia_finetune_automated_2026.ipynb",
+    "COLAB_RUNTIME": "gpu_t4_free"
+  },
+  "notes": [
+    "1. User must accept Gemma 4 license at https://huggingface.co/google/gemma-4-E4B-it",
+    "2. MCPs must be activated in Claude Code (restart to trigger)",
+    "3. Training takes ~10-12 hours on free T4",
+    "4. Final models auto-upload to HF Hub",
+    "5. GGUF format auto-generated for Ollama/llama.cpp"
+  ]
+}
