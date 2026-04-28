@@ -1,0 +1,26 @@
+{
+  "model": {
+    "base_model": "google/gemma-2-4b",
+    "quantization": "4bit",
+    "device_map": "auto"
+  },
+  "stage_1_sft": {
+    "name": "Supervised Fine-Tuning",
+    "data_file": "maia_training_merged_sft.jsonl",
+    "epochs": 1,
+    "batch_size": 4,
+    "learning_rate": 0.0002,
+    "max_seq_length": 2048,
+    "gradient_checkpointing": true,
+    "expected_duration": "10-12h GPU"
+  },
+  "stage_2_dpo": {
+    "name": "Direct Preference Optimization",
+    "data_file": "preference_pairs_dpo.jsonl",
+    "epochs": 1,
+    "batch_size": 4,
+    "learning_rate": 5e-05,
+    "beta": 0.1,
+    "expected_duration": "4-6h GPU"
+  }
+}
