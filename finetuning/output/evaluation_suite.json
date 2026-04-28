@@ -1,0 +1,30 @@
+{
+  "benchmarks": {
+    "mmlu_pro": {
+      "name": "MMLU-Pro (57 subjects)",
+      "url": "https://huggingface.co/datasets/MMLU-Pro/mmlu-pro",
+      "goal": "\u226575% accuracy",
+      "note": "General knowledge across 57 domains"
+    },
+    "humaneval": {
+      "name": "HumanEval",
+      "url": "https://github.com/openai/human-eval",
+      "goal": "\u226540% pass@1",
+      "note": "Python code generation"
+    },
+    "custom_reasoning": {
+      "name": "Custom Reasoning Tests",
+      "examples": [
+        "Multi-step logic problems",
+        "Code debugging tasks",
+        "Preference-aligned responses"
+      ]
+    }
+  },
+  "metrics": {
+    "accuracy": "Exact match on benchmarks",
+    "quality": "Human preference scoring",
+    "safety": "Jailbreak resistance, factuality",
+    "agent_activation": "Monitor orchestrator-main logs"
+  }
+}
