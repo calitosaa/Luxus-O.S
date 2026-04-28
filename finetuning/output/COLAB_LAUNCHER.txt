@@ -1,0 +1,28 @@
+
+# MAIA 2026 COLAB TRAINING LAUNCHER
+# Copy this to Google Colab and run cell by cell
+
+# Cell 1: Setup
+!pip install -q unsloth torch transformers datasets peft bitsandbytes
+!git clone https://github.com/calitosaa/maia.git 2>/dev/null || true
+
+# Cell 2: Load configuration
+import json
+config = json.load(open('/content/maia/finetuning/output/training_config_multistage.json'))
+
+# Cell 3: Set HF token
+from google.colab import userdata
+hf_token = userdata.get('HF_TOKEN')
+
+# Cell 4: Stage 1 - SFT Training
+print("Starting Stage 1: SFT Training...")
+exec(open('/content/maia/finetuning/maia_finetuning_unsloth_4bit.py').read())
+
+# Cell 5: Stage 2 - DPO Training
+print("Starting Stage 2: DPO Training...")
+# Load SFT model and run DPO training
+
+# Cell 6: Upload to Hub
+from huggingface_hub import HfApi
+api = HfApi()
+print("Model uploaded to HF Hub")
