@@ -1,0 +1,27 @@
+{
+  "project": "MAIA 2026",
+  "base_model": "google/gemma-2-4b",
+  "training_type": "multi-stage",
+  "stages": [
+    {
+      "name": "SFT",
+      "duration": "10-12h GPU",
+      "description": "Supervised fine-tuning on 130K+ examples"
+    },
+    {
+      "name": "DPO",
+      "duration": "4-6h GPU",
+      "description": "Direct preference optimization on 550+ pairs"
+    }
+  ],
+  "available_agents": {
+    "count": 0,
+    "types": []
+  },
+  "expected_improvements": {
+    "mmlu_pro": "71% \u2192 75-77%",
+    "code_quality": "+15-30%",
+    "preference_alignment": "+20-30%",
+    "hallucination_reduction": "5% \u2192 2-3%"
+  }
+}
