@@ -1,0 +1,159 @@
+{
+  "manifest_version": "2026.04.29",
+  "framework": "Gemma4 Skills OS - MAIA 2026",
+  "base_model": "google/gemma-2-4b",
+  "agents_root": "/home/user/Maia/gemma4-skills-os/agents",
+  "total_agents": 55,
+  "activation_order": [
+    {
+      "phase": 1,
+      "name": "ORCHESTRATION_BOOT",
+      "priority": "CRITICAL",
+      "agents": [
+        "orchestrator-main",
+        "orchestrator-multiagent",
+        "orchestrator-fallback",
+        "orchestrator"
+      ]
+    },
+    {
+      "phase": 2,
+      "name": "INFERENCE_OPTIMIZATION",
+      "priority": "HIGH",
+      "agents": [
+        "inference-optimizer",
+        "inference-streamhandler",
+        "context-windowmanager",
+        "context-summarizer",
+        "context-chunkrouter",
+        "context-memorymanager"
+      ]
+    },
+    {
+      "phase": 3,
+      "name": "REASONING_LAYER",
+      "priority": "HIGH",
+      "agents": [
+        "reasoning-cot",
+        "reasoning-planner",
+        "reasoning-treeofthought",
+        "reasoning-logicvalidator",
+        "reasoning-mathematical"
+      ]
+    },
+    {
+      "phase": 4,
+      "name": "RAG_AND_KNOWLEDGE",
+      "priority": "MEDIUM",
+      "agents": [
+        "rag-pipeline",
+        "rag-queryrouter",
+        "rag-contextbuilder",
+        "rag-reranker",
+        "rag-evaluator"
+      ]
+    },
+    {
+      "phase": 5,
+      "name": "SAFETY_AND_FACT",
+      "priority": "CRITICAL",
+      "agents": [
+        "safety-contentfilter",
+        "safety-jailbreakdetector",
+        "safety-refusalcalibrator",
+        "factcheck-claimverifier",
+        "factcheck-confidencescorer",
+        "factcheck-selfcorrector"
+      ]
+    },
+    {
+      "phase": 6,
+      "name": "CODE_EXECUTION",
+      "priority": "MEDIUM",
+      "agents": [
+        "codeexecution-sandbox",
+        "codeexecution-validator",
+        "structuredoutput-code",
+        "structuredoutput-json",
+        "structuredoutput-table"
+      ]
+    },
+    {
+      "phase": 7,
+      "name": "VISION_MODULE",
+      "priority": "MEDIUM",
+      "agents": [
+        "vision-imageanalyzer",
+        "vision-chartreader",
+        "vision-ocr",
+        "vision-diagraminterpreter",
+        "vision-documentparser"
+      ]
+    },
+    {
+      "phase": 8,
+      "name": "LANGUAGE_AND_CONTENT",
+      "priority": "HIGH",
+      "agents": [
+        "spanish-languageexpert",
+        "spanish-translator",
+        "spanish-codeswitcher",
+        "creativewriting-author",
+        "creativewriting-editor",
+        "domain-technical-writer"
+      ]
+    },
+    {
+      "phase": 9,
+      "name": "DOMAIN_SPECIALISTS",
+      "priority": "ON_DEMAND",
+      "agents": [
+        "domain-financial",
+        "domain-legal",
+        "domain-medical",
+        "domain-scientific",
+        "design"
+      ]
+    },
+    {
+      "phase": 10,
+      "name": "REALTIME_AND_UTILITIES",
+      "priority": "ON_DEMAND",
+      "agents": [
+        "realtimedata-websearch",
+        "realtimedata-apiintegrator",
+        "computeruse-browseragent",
+        "computeruse-terminalagent",
+        "automation",
+        "pc-control",
+        "general",
+        "research"
+      ]
+    }
+  ],
+  "auto_activation_rules": {
+    "default_always_on": [
+      "orchestrator-main",
+      "inference-optimizer",
+      "context-windowmanager",
+      "reasoning-cot",
+      "safety-contentfilter"
+    ],
+    "task_routing": {
+      "coding": ["orchestrator-main", "reasoning-cot", "codeexecution-sandbox", "codeexecution-validator", "structuredoutput-code", "factcheck-selfcorrector", "rag-pipeline"],
+      "research": ["rag-pipeline", "rag-evaluator", "factcheck-claimverifier", "reasoning-treeofthought", "domain-scientific", "realtimedata-websearch", "context-summarizer"],
+      "writing": ["creativewriting-author", "creativewriting-editor", "domain-technical-writer", "spanish-languageexpert", "reasoning-planner", "context-summarizer"],
+      "security": ["safety-contentfilter", "safety-jailbreakdetector", "factcheck-claimverifier", "codeexecution-validator", "domain-legal"],
+      "data_analysis": ["vision-imageanalyzer", "vision-chartreader", "structuredoutput-json", "structuredoutput-table", "reasoning-mathematical", "domain-financial"]
+    }
+  },
+  "swarm_config": {
+    "topology": "dynamic-mesh",
+    "max_concurrent_agents": 8,
+    "fallback_chain": ["orchestrator-main", "orchestrator-fallback", "general"],
+    "monitor": "swarm-monitor",
+    "executor": "direct-executor"
+  },
+  "verified_at": "2026-04-29",
+  "status": "READY"
+}

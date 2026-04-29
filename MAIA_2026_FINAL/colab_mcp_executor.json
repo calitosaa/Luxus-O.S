@@ -1,0 +1,76 @@
+{
+  "executor_version": "2026.04.29",
+  "mcp_target": "colab-mcp",
+  "notebook": {
+    "name": "MAIA_2026_Gemma2_4B_SFT_DPO_Final.ipynb",
+    "drive_path": "/content/drive/MyDrive/MAIA_2026/notebooks/MAIA_2026_Gemma2_4B_SFT_DPO_Final.ipynb",
+    "runtime": {
+      "accelerator": "GPU",
+      "gpu_type": "T4",
+      "high_ram": true,
+      "context_window": 131072,
+      "max_runtime_hours": 14,
+      "auto_reconnect": true
+    }
+  },
+  "mcp_calls_sequence": [
+    {
+      "step": 1,
+      "tool": "colab-mcp.create_notebook",
+      "args": {
+        "name": "MAIA_2026_Gemma2_4B_SFT_DPO_Final",
+        "runtime_type": "gpu",
+        "accelerator": "T4"
+      }
+    },
+    {
+      "step": 2,
+      "tool": "colab-mcp.set_secret",
+      "args": [
+        {"name": "HF_TOKEN", "value_env": "HF_TOKEN"},
+        {"name": "WANDB_API_KEY", "value_env": "WANDB_API_KEY"}
+      ]
+    },
+    {
+      "step": 3,
+      "tool": "colab-mcp.upload_file",
+      "args": [
+        {"local": "/home/user/Maia/finetuning/output/maia_training_merged_sft.jsonl", "remote": "/content/data/sft.jsonl"},
+        {"local": "/home/user/Maia/finetuning/output/preference_pairs_dpo.jsonl", "remote": "/content/data/dpo_pairs.jsonl"},
+        {"local": "/home/user/Maia/finetuning/output/maia_training_merged_dpo.jsonl", "remote": "/content/data/dpo_full.jsonl"},
+        {"local": "/home/user/Maia/MAIA_2026_FINAL/training_executor_final.py", "remote": "/content/training_executor_final.py"},
+        {"local": "/home/user/Maia/MAIA_2026_FINAL/system_prompt_maia_2026.md", "remote": "/content/system_prompt_maia_2026.md"}
+      ]
+    },
+    {
+      "step": 4,
+      "tool": "colab-mcp.add_cell",
+      "cells": [
+        {"type": "code", "content": "!pip install -q transformers==4.46.0 trl==0.11.0 peft==0.13.0 bitsandbytes accelerate datasets huggingface_hub wandb"},
+        {"type": "code", "content": "from huggingface_hub import login; import os; login(token=os.environ['HF_TOKEN'])"},
+        {"type": "code", "content": "from google.colab import drive; drive.mount('/content/drive')"},
+        {"type": "code", "content": "!mkdir -p /content/drive/MyDrive/MAIA_2026/checkpoints/sft /content/drive/MyDrive/MAIA_2026/checkpoints/dpo"},
+        {"type": "code", "content": "exec(open('/content/training_executor_final.py').read())"}
+      ]
+    },
+    {
+      "step": 5,
+      "tool": "colab-mcp.run_notebook",
+      "args": {
+        "headless": true,
+        "timeout_minutes": 840
+      }
+    }
+  ],
+  "monitoring": {
+    "tool": "colab-mcp.get_run_status",
+    "poll_interval_seconds": 300,
+    "alerts": ["oom", "disconnect", "error"]
+  },
+  "outputs": {
+    "checkpoints_drive": "/content/drive/MyDrive/MAIA_2026/checkpoints/",
+    "final_model_hf": "Maia-AI/maia-2026-gemma2-4b-sft-dpo",
+    "logs_drive": "/content/drive/MyDrive/MAIA_2026/logs/"
+  },
+  "status": "READY_TO_INVOKE"
+}

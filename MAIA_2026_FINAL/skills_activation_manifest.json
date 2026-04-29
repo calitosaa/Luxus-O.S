@@ -1,0 +1,95 @@
+{
+  "manifest_version": "2026.04.29",
+  "skills_root": "/home/user/Maia/gemma4-skills-os/skills",
+  "total_skills_indexed": 44724,
+  "categories": {
+    "expansion": {
+      "path": "/home/user/Maia/gemma4-skills-os/skills/expansion",
+      "count": 15000,
+      "subcategories": ["reasoning", "rag", "agent", "safety", "vision"],
+      "priority": 1
+    },
+    "general": {
+      "path": "/home/user/Maia/gemma4-skills-os/skills/general",
+      "count": 11479,
+      "subcategories": ["safety-alignment", "domain-specialists", "spanish-multilingual"],
+      "priority": 1
+    },
+    "coding": {
+      "path": "/home/user/Maia/gemma4-skills-os/skills/coding",
+      "count": 10516,
+      "subcategories": ["sandbox-execution", "code-validation", "structured-code"],
+      "priority": 1
+    },
+    "design": {
+      "path": "/home/user/Maia/gemma4-skills-os/skills/design",
+      "count": 2474,
+      "subcategories": ["ux", "visual", "system-design"],
+      "priority": 2
+    },
+    "memory": {
+      "path": "/home/user/Maia/gemma4-skills-os/skills/memory",
+      "count": 1958,
+      "subcategories": ["rag", "context-management"],
+      "priority": 2
+    },
+    "web-search": {
+      "path": "/home/user/Maia/gemma4-skills-os/skills/web-search",
+      "count": 1225,
+      "subcategories": ["vision/image-understanding", "vision/ocr-techniques"],
+      "priority": 3
+    },
+    "reasoning": {
+      "path": "/home/user/Maia/gemma4-skills-os/skills/reasoning",
+      "count": 1045,
+      "subcategories": ["fact-checking", "multi-step"],
+      "priority": 1
+    },
+    "files": {
+      "path": "/home/user/Maia/gemma4-skills-os/skills/files",
+      "count": 683,
+      "subcategories": ["parsing", "io"],
+      "priority": 3
+    },
+    "voice": {
+      "path": "/home/user/Maia/gemma4-skills-os/skills/voice",
+      "count": 344,
+      "subcategories": ["tts", "stt"],
+      "priority": 3
+    }
+  },
+  "category_breakdown_actual": {
+    "expansion": 15000,
+    "general": 11479,
+    "coding": 10516,
+    "design": 2474,
+    "memory": 1958,
+    "web-search": 1225,
+    "reasoning": 1045,
+    "files": 683,
+    "voice": 344
+  },
+  "integrity": {
+    "method": "directory-walk",
+    "all_subdirs_present": true,
+    "metadata_dirs_present": true,
+    "checksum_strategy": "deterministic-find-count",
+    "verified_total": 44724
+  },
+  "indexing_strategy": {
+    "approach": "lazy-load-by-category",
+    "cache_top_n_per_category": 200,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "vector_store": "in-memory FAISS at runtime"
+  },
+  "training_inclusion": {
+    "skills_dataset_jsonl": "/home/user/Maia/finetuning/skills_data/skills_dataset.jsonl",
+    "agents_dataset_jsonl": "/home/user/Maia/finetuning/agents_data/agents_dataset.jsonl",
+    "reasoning_dataset_jsonl": "/home/user/Maia/finetuning/reasoning_patterns/reasoning_dataset.jsonl",
+    "logic_dataset_jsonl": "/home/user/Maia/finetuning/logic_examples/logic_dataset.jsonl",
+    "workflows_dataset_jsonl": "/home/user/Maia/finetuning/workflow_examples/workflows_dataset.jsonl",
+    "merged_sft": "/home/user/Maia/finetuning/output/maia_training_merged_sft.jsonl",
+    "dpo_pairs": "/home/user/Maia/finetuning/output/maia_training_merged_dpo.jsonl"
+  },
+  "status": "INDEXED_READY"
+}
