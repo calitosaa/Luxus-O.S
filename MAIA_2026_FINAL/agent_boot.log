@@ -1,0 +1,396 @@
+{
+  "manifest_path": "/home/user/Maia/MAIA_2026_FINAL/agent_activation_manifest.json",
+  "agents_root": "/home/user/Maia/gemma4-skills-os/agents",
+  "agents_discovered_on_disk": 55,
+  "agents_activated": 55,
+  "boot_phases": 10,
+  "boot_log": [
+    {
+      "phase": "ORCHESTRATION_BOOT",
+      "priority": "CRITICAL",
+      "agent": "orchestrator-main",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/orchestrator-main"
+    },
+    {
+      "phase": "ORCHESTRATION_BOOT",
+      "priority": "CRITICAL",
+      "agent": "orchestrator-multiagent",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/orchestrator-multiagent"
+    },
+    {
+      "phase": "ORCHESTRATION_BOOT",
+      "priority": "CRITICAL",
+      "agent": "orchestrator-fallback",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/orchestrator-fallback"
+    },
+    {
+      "phase": "ORCHESTRATION_BOOT",
+      "priority": "CRITICAL",
+      "agent": "orchestrator",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/orchestrator"
+    },
+    {
+      "phase": "INFERENCE_OPTIMIZATION",
+      "priority": "HIGH",
+      "agent": "inference-optimizer",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/inference-optimizer"
+    },
+    {
+      "phase": "INFERENCE_OPTIMIZATION",
+      "priority": "HIGH",
+      "agent": "inference-streamhandler",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/inference-streamhandler"
+    },
+    {
+      "phase": "INFERENCE_OPTIMIZATION",
+      "priority": "HIGH",
+      "agent": "context-windowmanager",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/context-windowmanager"
+    },
+    {
+      "phase": "INFERENCE_OPTIMIZATION",
+      "priority": "HIGH",
+      "agent": "context-summarizer",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/context-summarizer"
+    },
+    {
+      "phase": "INFERENCE_OPTIMIZATION",
+      "priority": "HIGH",
+      "agent": "context-chunkrouter",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/context-chunkrouter"
+    },
+    {
+      "phase": "INFERENCE_OPTIMIZATION",
+      "priority": "HIGH",
+      "agent": "context-memorymanager",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/context-memorymanager"
+    },
+    {
+      "phase": "REASONING_LAYER",
+      "priority": "HIGH",
+      "agent": "reasoning-cot",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/reasoning-cot"
+    },
+    {
+      "phase": "REASONING_LAYER",
+      "priority": "HIGH",
+      "agent": "reasoning-planner",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/reasoning-planner"
+    },
+    {
+      "phase": "REASONING_LAYER",
+      "priority": "HIGH",
+      "agent": "reasoning-treeofthought",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/reasoning-treeofthought"
+    },
+    {
+      "phase": "REASONING_LAYER",
+      "priority": "HIGH",
+      "agent": "reasoning-logicvalidator",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/reasoning-logicvalidator"
+    },
+    {
+      "phase": "REASONING_LAYER",
+      "priority": "HIGH",
+      "agent": "reasoning-mathematical",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/reasoning-mathematical"
+    },
+    {
+      "phase": "RAG_AND_KNOWLEDGE",
+      "priority": "MEDIUM",
+      "agent": "rag-pipeline",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/rag-pipeline"
+    },
+    {
+      "phase": "RAG_AND_KNOWLEDGE",
+      "priority": "MEDIUM",
+      "agent": "rag-queryrouter",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/rag-queryrouter"
+    },
+    {
+      "phase": "RAG_AND_KNOWLEDGE",
+      "priority": "MEDIUM",
+      "agent": "rag-contextbuilder",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/rag-contextbuilder"
+    },
+    {
+      "phase": "RAG_AND_KNOWLEDGE",
+      "priority": "MEDIUM",
+      "agent": "rag-reranker",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/rag-reranker"
+    },
+    {
+      "phase": "RAG_AND_KNOWLEDGE",
+      "priority": "MEDIUM",
+      "agent": "rag-evaluator",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/rag-evaluator"
+    },
+    {
+      "phase": "SAFETY_AND_FACT",
+      "priority": "CRITICAL",
+      "agent": "safety-contentfilter",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/safety-contentfilter"
+    },
+    {
+      "phase": "SAFETY_AND_FACT",
+      "priority": "CRITICAL",
+      "agent": "safety-jailbreakdetector",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/safety-jailbreakdetector"
+    },
+    {
+      "phase": "SAFETY_AND_FACT",
+      "priority": "CRITICAL",
+      "agent": "safety-refusalcalibrator",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/safety-refusalcalibrator"
+    },
+    {
+      "phase": "SAFETY_AND_FACT",
+      "priority": "CRITICAL",
+      "agent": "factcheck-claimverifier",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/factcheck-claimverifier"
+    },
+    {
+      "phase": "SAFETY_AND_FACT",
+      "priority": "CRITICAL",
+      "agent": "factcheck-confidencescorer",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/factcheck-confidencescorer"
+    },
+    {
+      "phase": "SAFETY_AND_FACT",
+      "priority": "CRITICAL",
+      "agent": "factcheck-selfcorrector",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/factcheck-selfcorrector"
+    },
+    {
+      "phase": "CODE_EXECUTION",
+      "priority": "MEDIUM",
+      "agent": "codeexecution-sandbox",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/codeexecution-sandbox"
+    },
+    {
+      "phase": "CODE_EXECUTION",
+      "priority": "MEDIUM",
+      "agent": "codeexecution-validator",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/codeexecution-validator"
+    },
+    {
+      "phase": "CODE_EXECUTION",
+      "priority": "MEDIUM",
+      "agent": "structuredoutput-code",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/structuredoutput-code"
+    },
+    {
+      "phase": "CODE_EXECUTION",
+      "priority": "MEDIUM",
+      "agent": "structuredoutput-json",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/structuredoutput-json"
+    },
+    {
+      "phase": "CODE_EXECUTION",
+      "priority": "MEDIUM",
+      "agent": "structuredoutput-table",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/structuredoutput-table"
+    },
+    {
+      "phase": "VISION_MODULE",
+      "priority": "MEDIUM",
+      "agent": "vision-imageanalyzer",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/vision-imageanalyzer"
+    },
+    {
+      "phase": "VISION_MODULE",
+      "priority": "MEDIUM",
+      "agent": "vision-chartreader",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/vision-chartreader"
+    },
+    {
+      "phase": "VISION_MODULE",
+      "priority": "MEDIUM",
+      "agent": "vision-ocr",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/vision-ocr"
+    },
+    {
+      "phase": "VISION_MODULE",
+      "priority": "MEDIUM",
+      "agent": "vision-diagraminterpreter",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/vision-diagraminterpreter"
+    },
+    {
+      "phase": "VISION_MODULE",
+      "priority": "MEDIUM",
+      "agent": "vision-documentparser",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/vision-documentparser"
+    },
+    {
+      "phase": "LANGUAGE_AND_CONTENT",
+      "priority": "HIGH",
+      "agent": "spanish-languageexpert",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/spanish-languageexpert"
+    },
+    {
+      "phase": "LANGUAGE_AND_CONTENT",
+      "priority": "HIGH",
+      "agent": "spanish-translator",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/spanish-translator"
+    },
+    {
+      "phase": "LANGUAGE_AND_CONTENT",
+      "priority": "HIGH",
+      "agent": "spanish-codeswitcher",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/spanish-codeswitcher"
+    },
+    {
+      "phase": "LANGUAGE_AND_CONTENT",
+      "priority": "HIGH",
+      "agent": "creativewriting-author",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/creativewriting-author"
+    },
+    {
+      "phase": "LANGUAGE_AND_CONTENT",
+      "priority": "HIGH",
+      "agent": "creativewriting-editor",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/creativewriting-editor"
+    },
+    {
+      "phase": "LANGUAGE_AND_CONTENT",
+      "priority": "HIGH",
+      "agent": "domain-technical-writer",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/domain-technical-writer"
+    },
+    {
+      "phase": "DOMAIN_SPECIALISTS",
+      "priority": "ON_DEMAND",
+      "agent": "domain-financial",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/domain-financial"
+    },
+    {
+      "phase": "DOMAIN_SPECIALISTS",
+      "priority": "ON_DEMAND",
+      "agent": "domain-legal",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/domain-legal"
+    },
+    {
+      "phase": "DOMAIN_SPECIALISTS",
+      "priority": "ON_DEMAND",
+      "agent": "domain-medical",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/domain-medical"
+    },
+    {
+      "phase": "DOMAIN_SPECIALISTS",
+      "priority": "ON_DEMAND",
+      "agent": "domain-scientific",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/domain-scientific"
+    },
+    {
+      "phase": "DOMAIN_SPECIALISTS",
+      "priority": "ON_DEMAND",
+      "agent": "design",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/design"
+    },
+    {
+      "phase": "REALTIME_AND_UTILITIES",
+      "priority": "ON_DEMAND",
+      "agent": "realtimedata-websearch",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/realtimedata-websearch"
+    },
+    {
+      "phase": "REALTIME_AND_UTILITIES",
+      "priority": "ON_DEMAND",
+      "agent": "realtimedata-apiintegrator",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/realtimedata-apiintegrator"
+    },
+    {
+      "phase": "REALTIME_AND_UTILITIES",
+      "priority": "ON_DEMAND",
+      "agent": "computeruse-browseragent",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/computeruse-browseragent"
+    },
+    {
+      "phase": "REALTIME_AND_UTILITIES",
+      "priority": "ON_DEMAND",
+      "agent": "computeruse-terminalagent",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/computeruse-terminalagent"
+    },
+    {
+      "phase": "REALTIME_AND_UTILITIES",
+      "priority": "ON_DEMAND",
+      "agent": "automation",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/automation"
+    },
+    {
+      "phase": "REALTIME_AND_UTILITIES",
+      "priority": "ON_DEMAND",
+      "agent": "pc-control",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/pc-control"
+    },
+    {
+      "phase": "REALTIME_AND_UTILITIES",
+      "priority": "ON_DEMAND",
+      "agent": "general",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/general"
+    },
+    {
+      "phase": "REALTIME_AND_UTILITIES",
+      "priority": "ON_DEMAND",
+      "agent": "research",
+      "status": "ACTIVATED",
+      "path": "/home/user/Maia/gemma4-skills-os/agents/research"
+    }
+  ],
+  "ts": 1777471153,
+  "status": "READY"
+}

@@ -3,7 +3,16 @@
   "framework": "Gemma4 Skills OS - MAIA 2026",
   "base_model": "google/gemma-2-4b",
   "agents_root": "/home/user/Maia/gemma4-skills-os/agents",
-  "total_agents": 55,
+  "total_agents_filesystem": 55,
+  "total_agents_logical": 57,
+  "corpus_agents_extra": [
+    "swarm-monitor",
+    "topology-manager",
+    "direct-executor",
+    "factcheck-corpus",
+    "rag-corpus",
+    "reasoning-corpus"
+  ],
   "activation_order": [
     {
       "phase": 1,
@@ -154,6 +163,7 @@
     "monitor": "swarm-monitor",
     "executor": "direct-executor"
   },
+  "boot_script": "/home/user/Maia/MAIA_2026_FINAL/activate_agents.py",
   "verified_at": "2026-04-29",
   "status": "READY"
 }

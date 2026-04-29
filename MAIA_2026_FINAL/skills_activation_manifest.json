@@ -87,9 +87,15 @@
     "agents_dataset_jsonl": "/home/user/Maia/finetuning/agents_data/agents_dataset.jsonl",
     "reasoning_dataset_jsonl": "/home/user/Maia/finetuning/reasoning_patterns/reasoning_dataset.jsonl",
     "logic_dataset_jsonl": "/home/user/Maia/finetuning/logic_examples/logic_dataset.jsonl",
+    "instructions_dataset_jsonl": "/home/user/Maia/finetuning/instructions/training_prompts_dataset.jsonl",
     "workflows_dataset_jsonl": "/home/user/Maia/finetuning/workflow_examples/workflows_dataset.jsonl",
     "merged_sft": "/home/user/Maia/finetuning/output/maia_training_merged_sft.jsonl",
-    "dpo_pairs": "/home/user/Maia/finetuning/output/maia_training_merged_dpo.jsonl"
+    "merged_sft_rows": 133864,
+    "dpo_pairs_full": "/home/user/Maia/finetuning/output/maia_training_merged_dpo.jsonl",
+    "dpo_pairs_full_rows": 550,
+    "dpo_pairs_high_quality": "/home/user/Maia/finetuning/output/preference_pairs_dpo.jsonl",
+    "dpo_pairs_high_quality_rows": 50
   },
+  "consolidation_script": "/home/user/Maia/MAIA_2026_FINAL/consolidate_skills.py",
   "status": "INDEXED_READY"
 }
