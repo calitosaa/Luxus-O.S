@@ -22,7 +22,7 @@
     },
     "filesystem": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/home/user/Maia"],
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "."],
       "timeout": 15000,
       "description": "Filesystem access — read/write finetuning data and configs"
     }

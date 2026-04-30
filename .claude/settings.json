@@ -15,7 +15,7 @@
       "Bash(wc -l *)",
       "Bash(python3 *)",
       "Bash(git *)",
-      "Bash(find /home/user/Maia *)",
+      "Bash(find . *)",
       "Bash(ls *)",
       "Bash(mkdir *)"
     ]

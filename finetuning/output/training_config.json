@@ -1,4 +1,5 @@
 {
+  "_note_model": "Gemma 4 was released by Google at Google I/O May 2025. Accept the license at https://huggingface.co/google/gemma-4-E4B-it before training.",
   "model": {
     "base_model": "unsloth/gemma-4-E4B-it",
     "hf_model_id": "google/gemma-4-E4B-it",
