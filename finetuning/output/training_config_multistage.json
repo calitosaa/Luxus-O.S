@@ -1,33 +1,45 @@
 {
   "overall": {
-    "model_id": "google/gemma-2-4b",
-    "base_model_path": "google/gemma-2-4b",
-    "output_dir": "/home/user/Maia/finetuning/output/models",
-    "hf_token": "SET_IN_COLAB_SECRETS"
+    "model_id": "unsloth/gemma-4-E4B-it",
+    "base_model_path": "unsloth/gemma-4-E4B-it",
+    "hf_model_id": "google/gemma-4-E4B-it",
+    "_model_note": "Gemma 4 released April/May 2025. Requires accepting license at https://huggingface.co/google/gemma-4-E4B-it",
+    "output_dir": "${MAIA_OUTPUT_DIR}",
+    "_output_dir_note": "Set env var MAIA_OUTPUT_DIR before training. Colab default: /content/drive/MyDrive/Maia_Training_2026",
+    "hf_repo_sft": "calitosaa/Maia-SFT",
+    "hf_repo_final": "calitosaa/Maia",
+    "hf_repo_gguf": "calitosaa/Maia-GGUF",
+    "hf_token": "SET_IN_COLAB_SECRETS_AS_HF_TOKEN"
   },
   "stage_1_sft": {
     "name": "Supervised Fine-Tuning",
     "enabled": true,
-    "data_file": "/home/user/Maia/finetuning/output/maia_training_merged_sft.jsonl",
+    "data_file": "finetuning/output/maia_gemma4_finetune.jsonl",
     "epochs": 1,
-    "batch_size": 4,
-    "learning_rate": 0.0002,
-    "max_seq_length": 2048,
+    "batch_size": 2,
+    "gradient_accumulation": 4,
+    "learning_rate": 2e-4,
+    "max_seq_length": 8192,
+    "lr_scheduler": "cosine",
+    "warmup_ratio": 0.03,
+    "optimizer": "adamw_8bit",
     "gradient_checkpointing": true,
+    "fp16": true,
     "packing": false,
-    "expected_duration": "10-12h",
-    "output_model": "maia-2026-sft"
+    "expected_duration": "10-12h GPU T4",
+    "output_model": "maia-sft"
   },
   "stage_2_dpo": {
     "name": "Direct Preference Optimization",
     "enabled": true,
-    "data_file": "/home/user/Maia/finetuning/output/maia_training_merged_dpo.jsonl",
+    "data_file": "finetuning/output/preference_pairs_dpo.jsonl",
     "epochs": 1,
-    "batch_size": 4,
-    "learning_rate": 5e-05,
+    "batch_size": 2,
+    "gradient_accumulation": 4,
+    "learning_rate": 5e-06,
     "dpo_beta": 0.1,
-    "expected_duration": "4-6h",
-    "output_model": "maia-2026-dpo"
+    "expected_duration": "4-6h GPU T4",
+    "output_model": "maia-dpo"
   },
   "stage_3_optional_grpo": {
     "name": "Group Relative Policy Optimization (FUTURE)",
@@ -37,12 +49,8 @@
   "evaluation": {
     "run_after_sft": true,
     "run_after_dpo": true,
-    "benchmarks": [
-      "mmlu-pro",
-      "humaneval",
-      "custom_reasoning"
-    ],
+    "benchmarks": ["mmlu-pro", "humaneval", "custom_reasoning"],
     "upload_to_hub": true,
-    "repo_name": "calitosaa/maia-2026"
+    "repo_name": "calitosaa/Maia"
   }
 }

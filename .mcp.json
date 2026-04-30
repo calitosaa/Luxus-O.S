@@ -3,18 +3,28 @@
     "colab-mcp": {
       "command": "uvx",
       "args": ["git+https://github.com/googlecolab/colab-mcp"],
-      "timeout": 30000
+      "timeout": 60000,
+      "description": "Google Colab notebook automation — execute training cells remotely"
     },
     "hf-mcp-server": {
       "type": "http",
       "url": "https://huggingface.co/mcp",
       "headers": {
         "Authorization": "Bearer ${HF_TOKEN}"
-      }
+      },
+      "timeout": 30000,
+      "description": "HuggingFace Hub — push models, manage repos, model cards"
     },
     "github": {
       "type": "http",
-      "url": "https://api.githubcopilot.com/mcp/"
+      "url": "https://api.githubcopilot.com/mcp/",
+      "description": "GitHub — manage repo calitosaa/Maia"
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "."],
+      "timeout": 15000,
+      "description": "Filesystem access — read/write finetuning data and configs"
     }
   }
 }

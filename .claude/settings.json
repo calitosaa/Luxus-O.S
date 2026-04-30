@@ -1,13 +1,26 @@
 {
   "enableAllProjectMcpServers": true,
-  "enabledMcpjsonServers": ["colab-mcp", "hf-mcp-server", "github"],
+  "enabledMcpjsonServers": ["colab-mcp", "hf-mcp-server", "github", "filesystem"],
   "permissions": {
     "allow": [
       "mcp__colab-mcp__*",
       "mcp__hf-mcp-server__*",
+      "mcp__filesystem__*",
       "Bash(uvx *)",
       "Bash(uv *)",
-      "Bash(pip install *)"
+      "Bash(pip install *)",
+      "Bash(pip install -q *)",
+      "Bash(npx *)",
+      "Bash(cat *)",
+      "Bash(wc -l *)",
+      "Bash(python3 *)",
+      "Bash(git *)",
+      "Bash(find . *)",
+      "Bash(ls *)",
+      "Bash(mkdir *)"
     ]
+  },
+  "env": {
+    "HF_TOKEN": "${HF_TOKEN}"
   }
 }
