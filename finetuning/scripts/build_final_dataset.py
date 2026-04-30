@@ -14,10 +14,16 @@ SOURCES = [
     FT_DIR / "logic_examples" / "logic_dataset.jsonl",
     FT_DIR / "instructions" / "training_prompts_dataset.jsonl",
     FT_DIR / "reasoning_patterns" / "reasoning_dataset.jsonl",
+    FT_DIR / "identity_data" / "maia_identity.jsonl",   # identidad de Maia
 ]
 
 def to_gemma_format(ex):
-    """Convert to Gemma chat format."""
+    """Convert to Gemma chat format. Handles both alpaca and messages formats."""
+    if "messages" in ex:
+        return {
+            "messages": ex["messages"],
+            "metadata": {"category": ex.get("category", "general"), "source": ex.get("source", "messages")}
+        }
     user_msg = ex["instruction"]
     if ex.get("input"):
         user_msg += "\n\n" + ex["input"]
@@ -62,7 +68,8 @@ def main():
         "by_category": dict(sorted(by_category.items(), key=lambda x: -x[1])),
         "output_file": str(OUTPUT),
         "format": "gemma_chat_messages",
-        "model_target": "google/gemma-4-e4b"
+        "model_target": "unsloth/gemma-4-E4B-it",
+        "output_llm": "calitosaa/Maia"
     }
     SUMMARY.write_text(json.dumps(summary, indent=2, ensure_ascii=False))
     print(f"\nTOTAL: {total} examples -> {OUTPUT}")

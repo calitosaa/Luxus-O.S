@@ -1,9 +1,13 @@
 {
   "overall": {
-    "model_id": "google/gemma-2-4b",
-    "base_model_path": "google/gemma-2-4b",
-    "output_dir": "/home/user/Maia/finetuning/output/models",
-    "hf_token": "SET_IN_COLAB_SECRETS"
+    "model_id": "unsloth/gemma-4-E4B-it",
+    "base_model_path": "unsloth/gemma-4-E4B-it",
+    "hf_model_id": "google/gemma-4-E4B-it",
+    "output_dir": "/content/drive/MyDrive/maia_final_2026",
+    "hf_repo_sft": "calitosaa/Maia-SFT",
+    "hf_repo_final": "calitosaa/Maia",
+    "hf_repo_gguf": "calitosaa/Maia-GGUF",
+    "hf_token": "SET_IN_COLAB_SECRETS_AS_HF_TOKEN"
   },
   "stage_1_sft": {
     "name": "Supervised Fine-Tuning",

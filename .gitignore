@@ -4,3 +4,13 @@ __pycache__/
 *.pyc
 .DS_Store
 *.jsonl
+.env
+.env.local
+secrets.env
+*.env
+*.log
+wandb/
+runs/
+output_model/maia-final/
+output_model/maia-lora-adapter/
+finetuning/output/models/

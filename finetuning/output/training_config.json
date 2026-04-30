@@ -1,26 +1,53 @@
 {
   "model": {
-    "base_model": "google/gemma-2-4b",
-    "quantization": "4bit",
-    "device_map": "auto"
+    "base_model": "unsloth/gemma-4-E4B-it",
+    "hf_model_id": "google/gemma-4-E4B-it",
+    "quantization": "4bit_nf4",
+    "device_map": "auto",
+    "context_train": 8192,
+    "context_inference": 131072,
+    "params": "4B_effective",
+    "architecture": "Gemma4_MoE",
+    "multimodal": true
+  },
+  "lora": {
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "bias": "none",
+    "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
+    "use_gradient_checkpointing": "unsloth"
   },
   "stage_1_sft": {
     "name": "Supervised Fine-Tuning",
-    "data_file": "maia_training_merged_sft.jsonl",
+    "data_file": "maia_gemma4_finetune.jsonl",
     "epochs": 1,
-    "batch_size": 4,
-    "learning_rate": 0.0002,
-    "max_seq_length": 2048,
+    "batch_size": 2,
+    "gradient_accumulation": 4,
+    "learning_rate": 2e-4,
+    "max_seq_length": 8192,
+    "lr_scheduler": "cosine",
+    "warmup_ratio": 0.03,
+    "optimizer": "adamw_8bit",
     "gradient_checkpointing": true,
-    "expected_duration": "10-12h GPU"
+    "fp16": true,
+    "expected_duration": "10-12h GPU T4"
   },
   "stage_2_dpo": {
     "name": "Direct Preference Optimization",
     "data_file": "preference_pairs_dpo.jsonl",
     "epochs": 1,
-    "batch_size": 4,
-    "learning_rate": 5e-05,
+    "batch_size": 2,
+    "gradient_accumulation": 4,
+    "learning_rate": 5e-06,
     "beta": 0.1,
-    "expected_duration": "4-6h GPU"
+    "optimizer": "adamw_8bit",
+    "expected_duration": "4-6h GPU T4"
+  },
+  "output": {
+    "hf_repo": "calitosaa/Maia",
+    "hf_repo_gguf": "calitosaa/Maia-GGUF",
+    "gguf_quantization": "q4_k_m",
+    "save_method": "merged_16bit"
   }
 }
