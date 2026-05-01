@@ -1,10 +1,28 @@
 # Maia Fine-tuning Pipeline
 
-Fine-tunea **Gemma 4 E4B** (`google/gemma-4-E4B-it`) con todo el framework Gemma4-Skills-OS para crear **Maia**.
+Fine-tunea **Gemma 4 E4B** (`unsloth/gemma-4-E4B-it`) con todo el framework Gemma4-Skills-OS para crear **Maia**.
+
+## ⚡ Entrenamiento rápido (un clic, GRATIS)
+
+**Notebook definitivo listo para Google Colab T4 (gratis):**
+
+👉 [`finetuning/colab/MAIA_TRAIN_FINAL.ipynb`](colab/MAIA_TRAIN_FINAL.ipynb)
+
+**Pasos:**
+1. Abre el notebook en Google Colab
+2. Activa GPU T4: `Entorno de ejecución → Cambiar tipo → T4`
+3. Añade tu HF token en Secrets: nombre = `HF_TOKEN`
+4. `Entorno de ejecución → Ejecutar todo`
+5. Al final el modelo aparece en tu HuggingFace Hub listo para descargar
+
+**Tiempo:** ~14-18h | **Coste:** $0
+
+---
 
 ## Stats del Dataset
 
-- **Total ejemplos:** 133,864
+- **Total ejemplos:** 133,878 (133,864 base + 8 knowledge + ~6 extras)
+- **Datos válidos:** >99.99% (verificado)
 - **Tamaño:** 217 MB (split en 3 partes para GitHub)
 - **Formato:** JSONL con messages (Gemma chat template)
 - **Distribución:**
@@ -14,23 +32,22 @@ Fine-tunea **Gemma 4 E4B** (`google/gemma-4-E4B-it`) con todo el framework Gemma
   - Logic patterns: 1,138
   - Agents (55+ agentes): 622
   - Reasoning patterns: 14
+  - Knowledge expansion 2025-2026: 8
 
 ## Cómo entrenar
 
-### Opción 1: Cloud GPU (recomendado)
+### Opción 1: Google Colab T4 GRATIS (recomendado)
 
-**Requisitos:** 24GB+ VRAM (RTX 4090 / A100 / H100).
+Usa el notebook `finetuning/colab/MAIA_TRAIN_FINAL.ipynb` (ver instrucciones arriba).
+
+### Opción 2: Cloud GPU dedicada (RunPod / Lambda Labs / A100)
+
+**Requisitos:** 24GB+ VRAM.
 
 ```bash
-# 1. Acepta licencia Gemma 4 en HuggingFace
-# 2. Clona el repo en una máquina con GPU
 git clone https://github.com/calitosaa/Maia
 cd Maia/finetuning
-
-# 3. Login HF
 huggingface-cli login
-
-# 4. Run pipeline
 bash scripts/train_runpod.sh
 ```
 
@@ -38,21 +55,13 @@ Output:
 - `output_model/maia-final/` → Modelo HF mergeado (safetensors)
 - `output_model/maia.gguf` → Modelo cuantizado Q4_K_M para Ollama
 
-### Opción 2: Google Colab Pro+ (A100 40GB)
+### Opción 3: Script directo
 
-```python
-!git clone https://github.com/calitosaa/Maia
-%cd Maia/finetuning
-!bash scripts/train_runpod.sh
-```
-
-### Opción 3: Modal / RunPod / Lambda Labs
-
-Usar `scripts/finetune_maia.py` directamente con su infraestructura.
+Usar `scripts/finetune_maia.py` con cualquier infraestructura GPU.
 
 ## Configuración
 
-- **Base model:** `google/gemma-4-E4B-it`
+- **Base model:** `unsloth/gemma-4-E4B-it`
 - **Method:** QLoRA (4-bit + LoRA r=16, α=32)
 - **Target modules:** q,k,v,o,gate,up,down projections
 - **Optimizer:** paged_adamw_8bit
