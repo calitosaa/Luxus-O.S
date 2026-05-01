@@ -15,7 +15,8 @@ Fine-tunea **Gemma 4 E4B** (`unsloth/gemma-4-E4B-it`) con todo el framework Gemm
 4. `Entorno de ejecución → Ejecutar todo`
 5. Al final el modelo aparece en tu HuggingFace Hub listo para descargar
 
-**Tiempo:** ~14-18h | **Coste:** $0
+**Tiempo:** ~14-18h (puede requerir **Colab Pro** — límite 12h en versión gratuita) | **Coste:** $0  
+**Modo prueba rápida:** pon `SAMPLE_SIZE = 5000` en la celda de config para un run corto
 
 ---
 
