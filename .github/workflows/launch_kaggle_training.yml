@@ -1,0 +1,76 @@
+name: Launch MAIA Training on Kaggle
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Escribe "train" para lanzar'
+        required: true
+        default: ''
+
+jobs:
+  launch:
+    if: github.event.inputs.confirm == 'train'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Kaggle CLI
+        run: pip install kaggle
+
+      - name: Configure Kaggle credentials
+        env:
+          KAGGLE_TOKEN: ${{ secrets.KAGGLE_TOKEN }}
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+        run: |
+          mkdir -p ~/.kaggle
+          echo "{\"username\":\"${KAGGLE_USERNAME}\",\"key\":\"${KAGGLE_TOKEN}\"}" > ~/.kaggle/kaggle.json
+          chmod 600 ~/.kaggle/kaggle.json
+
+      - name: Add HF_TOKEN secret to Kaggle
+        env:
+          KAGGLE_TOKEN: ${{ secrets.KAGGLE_TOKEN }}
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          # Crear secret HF_TOKEN en Kaggle via API
+          curl -s -X POST "https://www.kaggle.com/api/v1/users/${KAGGLE_USERNAME}/secrets" \
+            -u "${KAGGLE_USERNAME}:${KAGGLE_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d "{\"label\": \"HF_TOKEN\", \"value\": \"${HF_TOKEN}\"}" \
+            || echo "Secret ya existe o error — continuando"
+
+      - name: Update kernel metadata with username
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+        run: |
+          sed -i "s/KAGGLE_USERNAME/${KAGGLE_USERNAME}/g" finetuning/kaggle/kernel-metadata.json
+          cat finetuning/kaggle/kernel-metadata.json
+
+      - name: Push kernel to Kaggle
+        working-directory: finetuning/kaggle
+        run: |
+          kaggle kernels push -p .
+          echo "✓ Kernel subido a Kaggle"
+
+      - name: Start kernel execution
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_TOKEN: ${{ secrets.KAGGLE_TOKEN }}
+        run: |
+          sleep 10
+          # Trigger run via API
+          curl -s -X POST \
+            "https://www.kaggle.com/api/v1/kernels/${KAGGLE_USERNAME}/maia-gemma4-training/run" \
+            -u "${KAGGLE_USERNAME}:${KAGGLE_TOKEN}" \
+            -H "Content-Type: application/json"
+          echo "✓ Entrenamiento lanzado en Kaggle"
+          echo ""
+          echo "Monitorea en: https://www.kaggle.com/${KAGGLE_USERNAME}/maia-gemma4-training"
+          echo "El modelo aparecerá en HuggingFace Hub al terminar (~12-16h)"

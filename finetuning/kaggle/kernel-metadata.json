@@ -1,0 +1,14 @@
+{
+  "id": "KAGGLE_USERNAME/maia-gemma4-training",
+  "title": "MAIA Gemma4 E4B Training",
+  "code_file": "train_maia.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}
