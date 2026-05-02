@@ -4,7 +4,10 @@
 2. agent .md files beyond README.md (ruflo docs, cookbook content)
 """
 import json
+import logging
 from pathlib import Path
+
+logging.basicConfig(level=logging.INFO)
 
 BASE = Path(__file__).resolve().parents[2] / "gemma4-skills-os"
 OUTPUT = Path(__file__).resolve().parents[1] / "output" / "maia_gemma4_finetune.jsonl.part_03"
@@ -53,7 +56,7 @@ for f in TP_DIR.rglob("*.txt"):
             f"system_behavior_{cat}", f.stem
         ))
     except Exception as e:
-        print(f"Error processing {f}: {e}")
+        logging.error(f"Error processing {f}: {e}")
         continue
 
 print(f"training-prompts .txt: {len(examples)//2} files → {len(examples)} examples")
@@ -82,7 +85,7 @@ for agent_dir in sorted(AGENTS_DIR.iterdir()):
             ))
             agent_md_count += 1
         except Exception as e:
-            print(f"Error processing {f}: {e}")
+            logging.error(f"Error processing {f}: {e}")
             continue
 
 print(f"agents non-README .md: {agent_md_count} files → {agent_md_count} examples")
