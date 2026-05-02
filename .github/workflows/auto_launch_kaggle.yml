@@ -26,8 +26,7 @@ jobs:
           KAGGLE_TOKEN_B64: S0dBVF8xMTIzZWFjNTlkMzllM2E2YzMyNTJhZTFlM2U5NWU1MQ==
         run: |
           KAGGLE_TOKEN=$(echo "${KAGGLE_TOKEN_B64}" | base64 -d)
-          # Kaggle username assumed same as GitHub repo owner
-          KAGGLE_USERNAME="${{ github.repository_owner }}"
+          KAGGLE_USERNAME="litospitos"
 
           echo "KAGGLE_TOKEN=${KAGGLE_TOKEN}" >> $GITHUB_ENV
           echo "KAGGLE_USERNAME=${KAGGLE_USERNAME}" >> $GITHUB_ENV
