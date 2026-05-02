@@ -3,11 +3,11 @@
 1. training-prompts .txt files (specialty categories: vision, rag, spanish, safety, etc.)
 2. agent .md files beyond README.md (ruflo docs, cookbook content)
 """
-import json, re
+import json
 from pathlib import Path
 
-BASE = Path("/home/user/Maia/gemma4-skills-os")
-OUTPUT = Path("/home/user/Maia/finetuning/output/maia_gemma4_finetune.jsonl.part_03")
+BASE = Path(__file__).resolve().parents[2] / "gemma4-skills-os"
+OUTPUT = Path(__file__).resolve().parents[1] / "output" / "maia_gemma4_finetune.jsonl.part_03"
 MAX_BYTES = 8000
 
 def strip_frontmatter(text):
@@ -52,7 +52,8 @@ for f in TP_DIR.rglob("*.txt"):
             trunc[:2000],
             f"system_behavior_{cat}", f.stem
         ))
-    except Exception:
+    except Exception as e:
+        print(f"Error processing {f}: {e}")
         continue
 
 print(f"training-prompts .txt: {len(examples)//2} files → {len(examples)} examples")
@@ -80,7 +81,8 @@ for agent_dir in sorted(AGENTS_DIR.iterdir()):
                 f"agent_doc_{agent_name}", stem
             ))
             agent_md_count += 1
-        except Exception:
+        except Exception as e:
+            print(f"Error processing {f}: {e}")
             continue
 
 print(f"agents non-README .md: {agent_md_count} files → {agent_md_count} examples")
