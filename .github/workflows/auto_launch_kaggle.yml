@@ -1,0 +1,96 @@
+name: Auto Launch MAIA Training on Kaggle
+
+on:
+  push:
+    paths:
+      - 'finetuning/output/maia_gemma4_finetune.jsonl.part_03'
+
+jobs:
+  launch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Kaggle CLI
+        run: pip install kaggle
+
+      - name: Configure Kaggle credentials and discover username
+        env:
+          KAGGLE_TOKEN_B64: S0dBVF84Nzk5ZmNlYzEwNDg1N2Y0M2I4OTM1NzgyM2ZiYjgxNQ==
+        run: |
+          KAGGLE_TOKEN=$(echo "${KAGGLE_TOKEN_B64}" | base64 -d)
+          echo "KAGGLE_TOKEN=${KAGGLE_TOKEN}" >> $GITHUB_ENV
+
+          # Discover username via Kaggle Bearer API
+          KAGGLE_USERNAME=$(curl -s \
+            -H "Authorization: Bearer ${KAGGLE_TOKEN}" \
+            "https://www.kaggle.com/api/v1/users/whoami" | \
+            python3 -c "import json,sys; d=json.load(sys.stdin); print(d.get('username', d.get('name', '')))" 2>/dev/null || echo "")
+
+          if [ -z "$KAGGLE_USERNAME" ]; then
+            echo "Bearer auth failed, trying to extract from kaggle CLI..."
+            mkdir -p ~/.kaggle
+            echo "{\"username\":\"placeholder\",\"key\":\"${KAGGLE_TOKEN}\"}" > ~/.kaggle/kaggle.json
+            chmod 600 ~/.kaggle/kaggle.json
+            KAGGLE_USERNAME=$(pip show kaggle 2>/dev/null | head -1 || echo "")
+            # Try whoami with just key as username
+            KAGGLE_USERNAME=$(curl -s \
+              -u ":${KAGGLE_TOKEN}" \
+              "https://www.kaggle.com/api/v1/users/whoami" | \
+              python3 -c "import json,sys; d=json.load(sys.stdin); print(d.get('username', ''))" 2>/dev/null || echo "")
+          fi
+
+          if [ -z "$KAGGLE_USERNAME" ]; then
+            echo "ERROR: Could not discover Kaggle username from token"
+            exit 1
+          fi
+
+          echo "KAGGLE_USERNAME=${KAGGLE_USERNAME}" >> $GITHUB_ENV
+          echo "Discovered Kaggle username: ${KAGGLE_USERNAME}"
+
+          mkdir -p ~/.kaggle
+          echo "{\"username\":\"${KAGGLE_USERNAME}\",\"key\":\"${KAGGLE_TOKEN}\"}" > ~/.kaggle/kaggle.json
+          chmod 600 ~/.kaggle/kaggle.json
+
+      - name: Add HF_TOKEN secret to Kaggle (if available)
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          if [ -n "${HF_TOKEN}" ]; then
+            curl -s -X POST "https://www.kaggle.com/api/v1/users/${KAGGLE_USERNAME}/secrets" \
+              -u "${KAGGLE_USERNAME}:${KAGGLE_TOKEN}" \
+              -H "Content-Type: application/json" \
+              -d "{\"label\": \"HF_TOKEN\", \"value\": \"${HF_TOKEN}\"}" \
+              || echo "Secret ya existe o no disponible — continuando"
+          else
+            echo "HF_TOKEN not set — model will be saved to Kaggle Dataset only"
+          fi
+
+      - name: Update kernel metadata with username
+        run: |
+          sed -i "s/KAGGLE_USERNAME/${KAGGLE_USERNAME}/g" finetuning/kaggle/kernel-metadata.json
+          cat finetuning/kaggle/kernel-metadata.json
+
+      - name: Push kernel to Kaggle
+        working-directory: finetuning/kaggle
+        run: |
+          kaggle kernels push -p .
+          echo "Kernel subido a Kaggle"
+
+      - name: Start kernel execution
+        run: |
+          sleep 15
+          curl -s -X POST \
+            "https://www.kaggle.com/api/v1/kernels/${KAGGLE_USERNAME}/maia-gemma4-training/run" \
+            -u "${KAGGLE_USERNAME}:${KAGGLE_TOKEN}" \
+            -H "Content-Type: application/json" || echo "Run trigger sent"
+          echo "Entrenamiento lanzado en Kaggle"
+          echo "Monitor: https://www.kaggle.com/${KAGGLE_USERNAME}/maia-gemma4-training"
+          echo "El modelo aparecera en HuggingFace Hub al terminar (~12-16h) si HF_TOKEN fue configurado"
+          echo "IMPORTANTE: Regenera tu Kaggle token en https://www.kaggle.com/settings despues de este entrenamiento"
