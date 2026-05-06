@@ -33,6 +33,7 @@ Agent categories:
 - **Domain**: `domain-financial`, `domain-legal`, `domain-medical`, `domain-scientific`, `domain-technical-writer`
 - **Safety**: `safety-contentfilter`, `safety-jailbreakdetector`, `safety-refusalcalibrator`
 - **Structured Output**: `structuredoutput-code`, `structuredoutput-json`, `structuredoutput-table`
+- **Automation**: `automation`
 - **Other**: `context-*`, `factcheck-*`, `spanish-*`, `creativewriting-*`, `computeruse-*`, `realtimedata-*`, `inference-*`, `codeexecution-*`, `pc-control`, `design`, `research`, `general`
 
 ### Skills (`skills/`)
@@ -61,7 +62,7 @@ Implementation modules:
 
 ## Adding or Modifying Agents
 
-Each new agent follows the same pattern as existing ones. The `config.ts` skills list must reference skill names that exist under `skills/`. The `agent.ts` class name should be `{AgentName}Agent` but currently all use `AgentNameAgent` as a template artifact — keep consistent with the file's existing class name when editing.
+Each new agent follows the same pattern as existing ones. The `config.ts` skills list must reference skill names that exist under `skills/`. The `agent.ts` class name should be `{AgentName}Agent` (e.g., `VisionAgent`, `OrchestratorAgent`); avoid the generic `AgentNameAgent` template artifact for new agents.
 
 ## File Naming Conventions
 
