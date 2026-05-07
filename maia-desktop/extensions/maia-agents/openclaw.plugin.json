@@ -1,0 +1,34 @@
+{
+  "id": "maia-agents",
+  "activation": {
+    "onStartup": true
+  },
+  "enabledByDefault": true,
+  "name": "MAIA Agents",
+  "description": "Pipeline jerárquico de los 55 agentes MAIA siempre activos (safety → planner → orchestrator → sub-agentes → factcheck → memory).",
+  "contracts": {
+    "tools": ["maia.broadcast", "maia.skills.search", "maia.skills.list"],
+    "events": ["maia.tick"]
+  },
+  "configContracts": {
+    "compatibilityMigrationPaths": ["maiaAgents"]
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "alwaysOn": { "type": "boolean", "default": true },
+      "skillsRagEnabled": { "type": "boolean", "default": true },
+      "model": {
+        "type": "object",
+        "properties": {
+          "family":  { "const": "gemma-4" },
+          "variant": { "type": "string", "enum": ["e4b", "e2b", "e1b"], "default": "e4b" },
+          "quant":   { "type": "string", "enum": ["F16", "Q5_K_M", "Q4_K_M", "Q3_K_M"], "default": "Q4_K_M" }
+        },
+        "required": ["family", "variant"],
+        "additionalProperties": false
+      }
+    }
+  }
+}

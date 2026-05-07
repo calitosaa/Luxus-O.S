@@ -1,0 +1,32 @@
+/* MAIA — Material 3 Expressive shapes (35 shape family + morphing)
+   Uses CSS clip-path with named shapes. Morphing via CSS transitions. */
+
+:root {
+  --md-sys-shape-corner-none: 0;
+  --md-sys-shape-corner-extra-small: 4px;
+  --md-sys-shape-corner-small: 8px;
+  --md-sys-shape-corner-medium: 12px;
+  --md-sys-shape-corner-large: 16px;
+  --md-sys-shape-corner-large-increased: 20px;
+  --md-sys-shape-corner-extra-large: 28px;
+  --md-sys-shape-corner-extra-large-increased: 32px;
+  --md-sys-shape-corner-extra-extra-large: 48px;
+  --md-sys-shape-corner-full: 9999px;
+}
+
+.shape-square     { border-radius: var(--md-sys-shape-corner-none); }
+.shape-rounded    { border-radius: var(--md-sys-shape-corner-medium); }
+.shape-pill       { border-radius: var(--md-sys-shape-corner-full); }
+.shape-cookie     { clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 95%, 50% 100%, 20% 95%, 0% 70%, 0% 35%, 20% 10%); }
+.shape-flower     { clip-path: polygon(50% 0%, 65% 20%, 100% 25%, 80% 50%, 100% 75%, 65% 80%, 50% 100%, 35% 80%, 0% 75%, 20% 50%, 0% 25%, 35% 20%); }
+.shape-blob       { border-radius: 30% 70% 70% 30% / 50% 50% 50% 50%; }
+
+.shape-morph {
+  border-radius: var(--md-sys-shape-corner-large);
+  transition:
+    border-radius var(--md-sys-motion-duration-medium2, 300ms) var(--md-sys-motion-spring-default, ease),
+    transform     var(--md-sys-motion-duration-medium2, 300ms) var(--md-sys-motion-spring-default, ease),
+    background    var(--md-sys-motion-duration-medium2, 300ms) var(--md-sys-motion-spring-default, ease);
+}
+.shape-morph:hover  { border-radius: 30% 70% 70% 30% / 50% 50% 50% 50%; transform: scale(1.02); }
+.shape-morph:active { border-radius: var(--md-sys-shape-corner-extra-small); transform: scale(0.97); }

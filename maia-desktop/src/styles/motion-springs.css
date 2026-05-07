@@ -1,0 +1,51 @@
+/* MAIA — Material 3 Expressive motion (springs)
+   Approximated via cubic-bezier curves tuned to feel spring-like.
+   Real CSS spring() lands in 2026; until then, expressive-tuned beziers. */
+
+:root {
+  --md-sys-motion-spring-fast: cubic-bezier(0.05, 0.7, 0.1, 1.0);
+  --md-sys-motion-spring-default: cubic-bezier(0.2, 0.0, 0.0, 1.0);
+  --md-sys-motion-spring-slow: cubic-bezier(0.05, 0.7, 0.1, 1.0);
+
+  --md-sys-motion-duration-short1: 50ms;
+  --md-sys-motion-duration-short2: 100ms;
+  --md-sys-motion-duration-short3: 150ms;
+  --md-sys-motion-duration-short4: 200ms;
+  --md-sys-motion-duration-medium1: 250ms;
+  --md-sys-motion-duration-medium2: 300ms;
+  --md-sys-motion-duration-medium3: 350ms;
+  --md-sys-motion-duration-medium4: 400ms;
+  --md-sys-motion-duration-long1: 450ms;
+  --md-sys-motion-duration-long2: 500ms;
+  --md-sys-motion-duration-long3: 550ms;
+  --md-sys-motion-duration-long4: 600ms;
+}
+
+.spring-enter { animation: spring-in var(--md-sys-motion-duration-medium2) var(--md-sys-motion-spring-default) both; }
+.spring-exit  { animation: spring-out var(--md-sys-motion-duration-short4) var(--md-sys-motion-spring-fast) both; }
+
+@keyframes spring-in {
+  0%   { transform: scale(0.92) translateY(8px); opacity: 0; }
+  60%  { transform: scale(1.02) translateY(0);  opacity: 1; }
+  100% { transform: scale(1.00) translateY(0); }
+}
+@keyframes spring-out {
+  0%   { transform: scale(1.00); opacity: 1; }
+  100% { transform: scale(0.96); opacity: 0; }
+}
+
+.press-spring { transition: transform var(--md-sys-motion-duration-short3) var(--md-sys-motion-spring-default); }
+.press-spring:active { transform: scale(0.96); }
+
+.expressive-loading {
+  display: inline-block;
+  width: 24px; height: 24px;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, var(--md-sys-color-primary), transparent 75%);
+  animation: spin 1.2s var(--md-sys-motion-spring-default) infinite, morph 2.4s ease-in-out infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes morph {
+  0%, 100% { border-radius: 50%; }
+  50%      { border-radius: 30% 70% 70% 30% / 50% 50% 50% 50%; }
+}

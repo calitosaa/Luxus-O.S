@@ -1,0 +1,31 @@
+{
+  "name": "maia-desktop",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "MAIA — OpenClaw GUI con Material 3 Expressive y Gemma 4 E4B",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
+    "skills:materialize": "tsx scripts/materialize-skills.ts",
+    "skills:index": "tsx scripts/index-skills.ts",
+    "skills:bootstrap": "npm run skills:materialize && npm run skills:index"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.1.1",
+    "beercss": "^3.7.11",
+    "lit": "^3.3.0",
+    "material-dynamic-colors": "^1.1.2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.1.0",
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
+  }
+}

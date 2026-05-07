@@ -1,0 +1,30 @@
+# Vendored OpenClaw repo (cloned locally, not committed)
+vendor/
+
+# Node
+node_modules/
+dist/
+build/
+*.log
+.npm/
+.pnpm-store/
+
+# Rust / Tauri
+target/
+Cargo.lock
+src-tauri/target/
+src-tauri/gen/
+
+# Local data
+.maia-cache/
+*.lance/
+*.gguf
+data/
+.openclaw/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
