@@ -2,13 +2,14 @@ import { LitElement, html, css } from "lit";
 import { customElement, property } from "lit/decorators.js";
 
 const ITEMS = [
-  { id: "oficina",   icon: "domain",        label: "Oficina"   },
-  { id: "procesos",  icon: "memory",        label: "Procesos"  },
-  { id: "skills",    icon: "extension",     label: "Skills"    },
-  { id: "canales",   icon: "forum",         label: "Canales"   },
-  { id: "modelo",    icon: "neurology",     label: "Modelo"    },
-  { id: "workflows", icon: "account_tree",  label: "Flujos"    },
-  { id: "perfil",    icon: "person",        label: "Perfil"    },
+  { id: "oficina",   icon: "domain",         label: "Oficina"   },
+  { id: "procesos",  icon: "memory",         label: "Procesos"  },
+  { id: "skills",    icon: "extension",      label: "Skills"    },
+  { id: "notebook",  icon: "auto_stories",   label: "Notebook"  },
+  { id: "canales",   icon: "forum",          label: "Canales"   },
+  { id: "modelo",    icon: "neurology",      label: "Modelo"    },
+  { id: "workflows", icon: "account_tree",   label: "Flujos"    },
+  { id: "perfil",    icon: "person",         label: "Perfil"    },
 ];
 
 @customElement("m3-nav-rail")

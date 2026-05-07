@@ -12,4 +12,5 @@ import "./pages/skills-agentes.ts";
 import "./pages/canales.ts";
 import "./pages/modelo.ts";
 import "./pages/workflows.ts";
+import "./pages/notebook.ts";
 import "./pages/perfil.ts";

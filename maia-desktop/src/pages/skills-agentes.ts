@@ -11,7 +11,6 @@ export class PageSkillsAgentes extends LitElement {
   @state() private tab: "skills" | "agents" = "skills";
   @state() private skills: Skill[] = [];
   @state() private agents: Agent[] = [];
-  @state() private query = "";
   @state() private hits: SkillHit[] = [];
 
   static styles = css`
@@ -40,7 +39,6 @@ export class PageSkillsAgentes extends LitElement {
   }
 
   private async runSearch(q: string) {
-    this.query = q;
     if (!q.trim()) { this.hits = []; return; }
     this.hits = await searchSkills(q);
   }

@@ -28,6 +28,12 @@ export class PageOficina extends LitElement {
       overflow: hidden;
       position: relative;
       box-shadow: var(--md-sys-elevation-2);
+      transition: outline-color var(--md-sys-motion-duration-short3) var(--md-sys-motion-spring-default), background var(--md-sys-motion-duration-short3) var(--md-sys-motion-spring-default);
+      outline: 2px dashed transparent;
+    }
+    .canvas[data-drop-over="true"] {
+      outline-color: var(--md-sys-color-primary);
+      background: var(--md-sys-color-primary-container);
     }
     iframe { width: 100%; height: 100%; border: 0; background: var(--md-sys-color-surface-container); }
     .empty {
@@ -35,12 +41,35 @@ export class PageOficina extends LitElement {
       color: var(--md-sys-color-on-surface-variant);
       text-align: center; padding: 24px;
     }
+    .drop-hint {
+      position: absolute; left: 16px; bottom: 16px;
+      padding: 8px 14px; border-radius: 999px;
+      background: var(--md-sys-color-secondary-container); color: var(--md-sys-color-on-secondary-container);
+      font: var(--md-sys-typescale-label-large-emphasized);
+      pointer-events: none; opacity: 0;
+      transition: opacity var(--md-sys-motion-duration-short3) ease;
+    }
+    .canvas[data-drop-over="true"] .drop-hint { opacity: 1; }
   `;
 
   connectedCallback() {
     super.connectedCallback();
     invoke<typeof this.channels>("list_channels").then((c) => (this.channels = c));
     invoke<{ skills: string[] }>("active_skills").then((r) => (this.activeSkills = r.skills ?? []));
+  }
+
+  private async onDrop(e: DragEvent) {
+    e.preventDefault();
+    (e.currentTarget as HTMLElement).dataset.dropOver = "false";
+    const files = Array.from(e.dataTransfer?.files ?? []);
+    for (const f of files) {
+      const path = (f as any).path ?? f.name;
+      try {
+        await invoke("ingest_file", { path });
+      } catch (err) {
+        console.warn("ingest_file failed", err);
+      }
+    }
   }
 
   render() {
@@ -58,11 +87,13 @@ export class PageOficina extends LitElement {
         `)}
       </aside>
 
-      <div class="canvas">
+      <div class="canvas"
+           @dragover=${(e: DragEvent) => { e.preventDefault(); (e.currentTarget as HTMLElement).dataset.dropOver = "true"; }}
+           @dragleave=${(e: DragEvent) => { (e.currentTarget as HTMLElement).dataset.dropOver = "false"; }}
+           @drop=${this.onDrop}>
         <iframe src=${this.canvasUrl} title="Canvas OpenClaw"></iframe>
-        <div class="empty" hidden>
-          Esperando al Canvas A2UI…
-        </div>
+        <div class="empty" hidden>Esperando al Canvas A2UI…</div>
+        <div class="drop-hint">Suelta para que MAIA lea el archivo</div>
       </div>
 
       <aside>

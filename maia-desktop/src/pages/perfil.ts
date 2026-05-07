@@ -6,7 +6,7 @@ import { invoke } from "../services/ipc.ts";
 export class PagePerfil extends LitElement {
   @state() private name = "";
   @state() private theme: "auto" | "light" | "dark" = "auto";
-  @state() private lang: "es" | "en" = "es";
+  @state() private userLang: "es" | "en" = "es";
   @state() private dynamicColor = true;
 
   static styles = css`
@@ -23,12 +23,12 @@ export class PagePerfil extends LitElement {
   connectedCallback() {
     super.connectedCallback();
     invoke<{ name: string; theme: "auto" | "light" | "dark"; lang: "es" | "en"; dynamicColor: boolean }>("profile_get")
-      .then((p) => { this.name = p.name; this.theme = p.theme; this.lang = p.lang; this.dynamicColor = p.dynamicColor; })
+      .then((p) => { this.name = p.name; this.theme = p.theme; this.userLang = p.lang; this.dynamicColor = p.dynamicColor; })
       .catch(() => {});
   }
 
   private save() {
-    invoke("profile_set", { name: this.name, theme: this.theme, lang: this.lang, dynamicColor: this.dynamicColor });
+    invoke("profile_set", { name: this.name, theme: this.theme, lang: this.userLang, dynamicColor: this.dynamicColor });
   }
 
   render() {
@@ -66,8 +66,8 @@ export class PagePerfil extends LitElement {
           <m3-button-group
             style="margin-top:12px"
             .options=${[{ id: "es", label: "Español" }, { id: "en", label: "English" }]}
-            .selected=${this.lang}
-            @change=${(e: CustomEvent) => { this.lang = e.detail as any; this.save(); }}
+            .selected=${this.userLang}
+            @change=${(e: CustomEvent) => { this.userLang = e.detail as any; this.save(); }}
           ></m3-button-group>
         </m3-card-morphing>
 

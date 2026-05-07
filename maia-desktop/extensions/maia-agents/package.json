@@ -1,0 +1,17 @@
+{
+  "name": "@maia/agents-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Plugin OpenClaw para MAIA: 55 agentes siempre activos + RAG de skills.",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@openclaw/plugin-sdk": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

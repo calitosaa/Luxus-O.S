@@ -1,7 +1,7 @@
 import { LitElement, html, css } from "lit";
 import { customElement, state } from "lit/decorators.js";
 
-type Page = "oficina" | "procesos" | "skills" | "canales" | "modelo" | "workflows" | "perfil";
+type Page = "oficina" | "procesos" | "skills" | "notebook" | "canales" | "modelo" | "workflows" | "perfil";
 
 @customElement("maia-shell")
 export class MaiaShell extends LitElement {
@@ -50,6 +50,7 @@ export class MaiaShell extends LitElement {
       case "oficina":   return html`<page-oficina></page-oficina>`;
       case "procesos":  return html`<page-procesos></page-procesos>`;
       case "skills":    return html`<page-skills-agentes></page-skills-agentes>`;
+      case "notebook":  return html`<page-notebook></page-notebook>`;
       case "canales":   return html`<page-canales></page-canales>`;
       case "modelo":    return html`<page-modelo></page-modelo>`;
       case "workflows": return html`<page-workflows></page-workflows>`;

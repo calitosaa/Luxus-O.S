@@ -33,6 +33,12 @@ pub async fn start(handle: AppHandle) {
             info!(?pid, "openclaw daemon arrancado");
             *state.openclaw_pid.write() = pid;
             *state.openclaw_started_at.write() = Some(std::time::Instant::now());
+            // No bloqueamos el setup de Tauri esperando al child; el supervisor
+            // solo lanza el proceso. Una tarea separada se encarga del watchdog.
+            tokio::spawn(async move {
+                let _ = child.wait_with_output().await;
+                tracing::warn!("openclaw daemon terminó");
+            });
         }
         Err(e) => warn!(?e, "no se pudo arrancar openclaw — modo mock"),
     }
@@ -48,10 +54,8 @@ pub struct ClawStatus {
 
 #[tauri::command]
 pub async fn openclaw_status(state: tauri::State<'_, Arc<AppState>>) -> Result<ClawStatus, String> {
-    let pid = state.openclaw_pid.read().unwrap_or(0);
-    let uptime = state
-        .openclaw_started_at
-        .read()
+    let pid = (*state.openclaw_pid.read()).unwrap_or(0);
+    let uptime = (*state.openclaw_started_at.read())
         .map(|t| t.elapsed().as_secs())
         .unwrap_or(0);
     Ok(ClawStatus { running: pid != 0, pid, uptime_sec: uptime })

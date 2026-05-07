@@ -5,11 +5,13 @@
 //! runtime del modelo Gemma 4 E4B (vía llama.cpp/ollama HTTP).
 
 mod supervisor;
+mod embed;
 mod rag;
 mod agents;
 mod channels;
 mod model;
 mod ingest;
+mod notebook;
 mod state;
 
 use tauri::Manager;
@@ -68,6 +70,11 @@ pub fn run() {
             state::workspace_export,
             // ingest
             ingest::ingest_file,
+            // notebook
+            notebook::notebook_sources,
+            notebook::notebook_add_source,
+            notebook::notebook_ask,
+            notebook::notebook_audio_overview,
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
