@@ -1,6 +1,6 @@
 # MAIA — Configuración de Agentes y Skills
 
-Repositorio: `calitosaa/maia` | Branch de desarrollo: `claude/setup-skills-agents-rRKXg`
+Repositorio: `calitosaa/maia` | Branch de desarrollo: `main` (o rama actual)
 
 Todos los agentes y skills de `gemma4-skills-os/` están disponibles y deben usarse automáticamente según el tipo de tarea solicitada.
 
@@ -12,7 +12,7 @@ Para **cada tarea** que el usuario solicite:
 1. Identificar qué agentes y skills aplican según la tabla de abajo.
 2. Activar el agente orquestador correspondiente como coordinador.
 3. Usar los sub-agentes y skills especializados para ejecutar la tarea.
-4. Responder en el idioma del usuario (español/inglés según contexto).
+4. Responder siempre en español (idioma del usuario), salvo instrucción contraria.
 
 ---
 
@@ -221,7 +221,7 @@ RESPUESTA AL USUARIO
 
 ## CONFIGURACIÓN DEL PROYECTO
 
-- **Branch activo:** `claude/setup-skills-agents-rRKXg`
+- **Branch activo:** (rama de trabajo actual)
 - **Repositorio GitHub:** `calitosaa/maia`
 - **Directorio de skills y agentes:** `gemma4-skills-os/`
 - **Idioma del usuario:** español (responder siempre en español salvo instrucción contraria)
@@ -230,7 +230,7 @@ RESPUESTA AL USUARIO
 
 ## NOTAS OPERATIVAS
 
-- Siempre hacer commit y push al branch `claude/setup-skills-agents-rRKXg` al completar cambios
+- Siempre hacer commit y push a la rama de trabajo actual al completar cambios
 - Crear PR como draft después de cada push
 - Los agentes de seguridad (`safety-*`) están SIEMPRE activos en segundo plano
 - El agente `spanish-codeswitcher` está SIEMPRE activo (usuario habla español)

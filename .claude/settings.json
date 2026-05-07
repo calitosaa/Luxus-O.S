@@ -29,7 +29,9 @@
       "Bash(export:*)",
       "Bash(env:*)",
       "Bash(which:*)",
-      "Bash(type:*)"
+      "Bash(type:*)",
+      "Bash(sed:*)",
+      "Bash(awk:*)"
     ],
     "deny": []
   },
