@@ -224,6 +224,8 @@ RESPUESTA AL USUARIO
 - **Branch activo:** (rama de trabajo actual)
 - **Repositorio GitHub:** `calitosaa/maia`
 - **Directorio de skills y agentes:** `gemma4-skills-os/`
+- **App de escritorio (Tauri + M3 Expressive + Gemma 4 E4B):** `maia-desktop/`
+- **OpenClaw vendoring (no commiteado, en `.gitignore`):** `vendor/openclaw/`
 - **Idioma del usuario:** español (responder siempre en español salvo instrucción contraria)
 
 ---

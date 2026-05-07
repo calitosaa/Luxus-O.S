@@ -1,0 +1,101 @@
+/* MAIA — Material 3 Expressive design tokens */
+
+:root {
+  /* Color (seed: oficina deep terracotta) */
+  --md-sys-color-primary: #ad3a16;
+  --md-sys-color-on-primary: #ffffff;
+  --md-sys-color-primary-container: #ffdbcd;
+  --md-sys-color-on-primary-container: #3a0a00;
+
+  --md-sys-color-secondary: #76574c;
+  --md-sys-color-on-secondary: #ffffff;
+  --md-sys-color-secondary-container: #ffdbcd;
+  --md-sys-color-on-secondary-container: #2c160e;
+
+  --md-sys-color-tertiary: #685e2f;
+  --md-sys-color-on-tertiary: #ffffff;
+  --md-sys-color-tertiary-container: #f1e2a7;
+  --md-sys-color-on-tertiary-container: #211b00;
+
+  --md-sys-color-error: #ba1a1a;
+  --md-sys-color-on-error: #ffffff;
+  --md-sys-color-error-container: #ffdad6;
+  --md-sys-color-on-error-container: #410002;
+
+  --md-sys-color-surface: #fff8f6;
+  --md-sys-color-surface-dim: #e8d6cf;
+  --md-sys-color-surface-bright: #fff8f6;
+  --md-sys-color-surface-container-lowest: #ffffff;
+  --md-sys-color-surface-container-low: #fff1ec;
+  --md-sys-color-surface-container: #fceae3;
+  --md-sys-color-surface-container-high: #f7e4dd;
+  --md-sys-color-surface-container-highest: #f1ded8;
+  --md-sys-color-on-surface: #231915;
+  --md-sys-color-on-surface-variant: #53433d;
+  --md-sys-color-outline: #85736b;
+  --md-sys-color-outline-variant: #d8c2b9;
+
+  /* Typography (Roboto Flex variable) */
+  --md-sys-typescale-font: "Roboto Flex", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --md-sys-typescale-display-large: 700 57px / 64px var(--md-sys-typescale-font);
+  --md-sys-typescale-display-medium: 700 45px / 52px var(--md-sys-typescale-font);
+  --md-sys-typescale-headline-large: 600 32px / 40px var(--md-sys-typescale-font);
+  --md-sys-typescale-headline-medium: 600 28px / 36px var(--md-sys-typescale-font);
+  --md-sys-typescale-title-large: 500 22px / 28px var(--md-sys-typescale-font);
+  --md-sys-typescale-title-medium: 500 16px / 24px var(--md-sys-typescale-font);
+  --md-sys-typescale-body-large: 400 16px / 24px var(--md-sys-typescale-font);
+  --md-sys-typescale-body-medium: 400 14px / 20px var(--md-sys-typescale-font);
+  --md-sys-typescale-label-large-emphasized: 700 14px / 20px var(--md-sys-typescale-font);
+
+  /* Elevation (M3 expressive: subtle tonal not shadow-heavy) */
+  --md-sys-elevation-0: none;
+  --md-sys-elevation-1: 0 1px 2px rgba(0, 0, 0, 0.08);
+  --md-sys-elevation-2: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --md-sys-elevation-3: 0 4px 8px rgba(0, 0, 0, 0.14);
+
+  /* State layers */
+  --md-sys-state-hover-opacity: 0.08;
+  --md-sys-state-focus-opacity: 0.12;
+  --md-sys-state-pressed-opacity: 0.12;
+}
+
+.dark {
+  --md-sys-color-primary: #ffb59a;
+  --md-sys-color-on-primary: #5d1700;
+  --md-sys-color-primary-container: #862704;
+  --md-sys-color-on-primary-container: #ffdbcd;
+
+  --md-sys-color-secondary: #e7bdaf;
+  --md-sys-color-on-secondary: #442a20;
+  --md-sys-color-secondary-container: #5c4035;
+  --md-sys-color-on-secondary-container: #ffdbcd;
+
+  --md-sys-color-tertiary: #d4c68d;
+  --md-sys-color-on-tertiary: #393005;
+  --md-sys-color-tertiary-container: #50461a;
+  --md-sys-color-on-tertiary-container: #f1e2a7;
+
+  --md-sys-color-surface: #1a110d;
+  --md-sys-color-surface-dim: #1a110d;
+  --md-sys-color-surface-bright: #43302a;
+  --md-sys-color-surface-container-lowest: #140b08;
+  --md-sys-color-surface-container-low: #231915;
+  --md-sys-color-surface-container: #271d19;
+  --md-sys-color-surface-container-high: #322723;
+  --md-sys-color-surface-container-highest: #3d322d;
+  --md-sys-color-on-surface: #f1ded8;
+  --md-sys-color-on-surface-variant: #d8c2b9;
+  --md-sys-color-outline: #a08d84;
+  --md-sys-color-outline-variant: #53433d;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--md-sys-typescale-font);
+  background: var(--md-sys-color-surface);
+  color: var(--md-sys-color-on-surface);
+  font-feature-settings: "ss02", "ss03";
+}
+
+* { box-sizing: border-box; }

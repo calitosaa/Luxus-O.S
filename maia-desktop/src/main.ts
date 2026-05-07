@@ -1,0 +1,15 @@
+import "beercss";
+import "./components/maia-shell.ts";
+import "./components/m3-nav-rail.ts";
+import "./components/m3-fab-menu.ts";
+import "./components/m3-button-group.ts";
+import "./components/m3-card-morphing.ts";
+import "./components/m3-loading-expressive.ts";
+import "./components/agent-status-strip.ts";
+import "./pages/oficina.ts";
+import "./pages/procesos.ts";
+import "./pages/skills-agentes.ts";
+import "./pages/canales.ts";
+import "./pages/modelo.ts";
+import "./pages/workflows.ts";
+import "./pages/perfil.ts";
